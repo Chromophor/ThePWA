@@ -15,7 +15,7 @@
 <b>Projektseite</b><br>
   Auf unserer Projektseite wird unsere Wetterstation erklärt und bewertet.<br><br>
 <b>Website</b><br>
-  Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> werden die von der Wetterstation gemessenen Daten gespeichert und können eingesehen werden.</p><br>
+  Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> werden die von der Wetterstation gemessenen Daten gespeichert und können eingesehen werden.</p>
 
 <h2 id="contributors">contributors:</h2>
 <b>@Obeliks003</b> alias Henrik Bormann<br>
