@@ -23,6 +23,5 @@
 
 <h2 id="languages">languages</h2>
 
-<li>
 
 <h2 id="quotes">quotes:</h2>
