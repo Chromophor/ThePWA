@@ -70,8 +70,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> we
   <li><a href="#Stunde44">Samstag 04.12.2021</a></li>
 </details>
 
-<p id="Stunde1"><b>Dienstag 15.12.2021</b><br>
+<p id="Stunde1"><b>Dienstag 14.12.2021</b><br>
   Heute haben wir erstmals damit begonnen, eine Idee für unser zweites Projekt zu entwickeln. Dabei zeigte sich, dass wir nicht die gleichen Gruppen wie beim ersten Projekt haben werden. Gernot hat sich entschieden, einen Roboter zu bauen, worauf Thorben und Henrik aber nicht so viel Lust hatten, weil sie mit einer anderen Software arbeiten wollten. WEITERE IDEEN im Word-Dok.<br></p>
+  
+<p id="Stunde2"><b>Mittwoch 15.12.2021</b><br>
+  Unsere Ideen konzentrierten sich bereits um das Thema PWA also Progressive-Web-App. Wir haben dafür weitergehende Recherchen betrieben um die Umsetzbarkeit zu prüfen. Interessant fanden wir hierbei die Information, dass eine PWA betreibssystemübergreifend opperieren kann und das Gefühl einer nativen App simulieren kann. So kann eine PWA auf Sensoren der Smartphones zugreifen.</p>
   
 
 
