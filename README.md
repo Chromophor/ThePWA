@@ -1,4 +1,4 @@
-# -->ThePWA<--
+# --> ThePWA <--
 
 <h1>PWA -- Ein Projekt im Informatikunterricht Q2 der Stormarnschule</h1>
 
