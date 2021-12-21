@@ -9,10 +9,7 @@
 <li><a href="#kapitel4">4. Quellen</a></h2></li>
 <br>
 <h2 id="kapitell">1. Einleitung</h2>
-<p>Für viele Menschen gehört es zu der Morgenroutine, nach dem Aufstehen aus dem Fenster zu gucken und die Temperatur zu schätzen, damit man sich passend anziehen kann. Oftmals verschätzt man sich und es kommt zu ungewolltem und unnötigen Stress am frühen Morgen, da es überraschend doch wärmer oder kälter ist.<br>
-Für genau dieses Problem lässt sich einfache Abhilfe schaffen. Eine Wetterstation, die die Temperatur übermittelt, wäre hierfür ideal. Ein kurzer Blick auf eine Webseite im Internet genügt, um Gewissheit über die Temperatur zu haben. Dieser Blick kann auch einfach über das sowieso am Bett liegende Smartphone geschehen. Zudem ist jeder Wetterinteressierte dazu eingeladen sich seine eigene Wetterprognose für den Tag zu machen, da die Wetterstation neben der Temperatur auch Daten zur Luftfeuchtigkeit, dem Luftdruck und der Lichtintensität liefert. 
-Mit einem schönen Design stört die Wetterstation auch nicht beim Blick aus dem Fenster.
-Unsere Wetterstation ist eine hervorragende Art das Aufstehen zu erleichtern und überflüssigen Stress zu vermeiden - so steht man gerne auf!<br></p>
+<p>//////------NEUE EINLEITUNG NOTWENDIG------//////<br></p>
 <b>contributors:<br>
 @Obeliks003<br>
 @TheMoonlandingV2<br></b>
