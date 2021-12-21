@@ -77,7 +77,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> we
   Unsere Ideen konzentrierten sich bereits um das Thema PWA also Progressive-Web-App. Wir haben dafür weitergehende Recherchen betrieben um die Umsetzbarkeit zu prüfen. Interessant fanden wir hierbei die Information, dass eine PWA betreibssystemübergreifend opperieren kann und das Gefühl einer nativen App simulieren kann. So kann eine PWA auf Sensoren der Smartphones zugreifen.</p>
   
 <p id="Stunde3"><b>Dienstag 21.12.2021</b><br>
-  Für unser Projekt ist einige Software nötig. Wir haben dafür beide die Programme Visual Studio Code für die Programmierumgebung und XAMPP heruntergeladen, um für Testzwecke einen lokalen Server zu erstellen. Wir haben uns heute mit den Programmen auseinandergesetzt und heute schon einen kleinen Timer von 5 Minuten programmiert. Dazu passend haben wir versucht, unsere PWA einzurichten. Dafür benötigen wir ein Webmanifest und einen Service-Worker. Beides haben wir experimentell entwickelt.</p>
+  Für unser Projekt ist einige Software nötig. Wir haben dafür beide die Programme Visual Studio Code für die Programmierumgebung und XAMPP heruntergeladen, um für Testzwecke einen lokalen Server zu erstellen. Wir haben uns heute mit den Programmen auseinandergesetzt und heute schon einen kleinen Timer von 5 Minuten programmiert. Der Timer, der mit JavaScript entwickelt wurde, arbeitet noch sehr einfach, er wird über einen Button gestartet und ist noch ausbaufähig. Dazu passend haben wir versucht, unsere PWA einzurichten. Dafür benötigen wir ein Webmanifest und einen Service-Worker. Beides haben wir experimentell entwickelt.</p>
   
 <details><summary>Screenshots vom 21.12.2021</summary>
   
