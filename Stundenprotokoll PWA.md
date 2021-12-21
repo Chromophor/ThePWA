@@ -79,5 +79,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> we
 <p id="Stunde3"><b>Dienstag 21.12.2021</b><br>
   Für unser Projekt ist einige Software nötig. Wir haben dafür beide die Programme Visual Studio Code für die Programmierumgebung und XAMPP heruntergeladen, um für Testzwecke einen lokalen Server zu erstellen. Wir haben uns heute mit den Programmen auseinandergesetzt und heute schon einen kleinen Timer von 5 Minuten programmiert. Dazu passend haben wir versucht, unsere PWA einzurichten. Dafür benötigen wir ein Webmanifest und einen Service-Worker. Beides haben wir experimentell entwickelt.</p>
   
+<details><summary>Screenshots vom 21.12.2021</summary>
+  
+![Timer](https://user-images.githubusercontent.com/88386049/146926398-4069232c-815d-4a55-8dee-03127f00fc8d.JPG)
+
+</details>
+  
 
 
