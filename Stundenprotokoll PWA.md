@@ -81,10 +81,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> we
   
 <details><summary>Screenshots vom 21.12.2021</summary>
   
-![Timer](https://user-images.githubusercontent.com/88386049/146926398-4069232c-815d-4a55-8dee-03127f00fc8d.JPG)
+![Timer](https://user-images.githubusercontent.com/88386049/146931344-9e98d939-a15f-4ce9-9bf0-94868d03a03b.JPG)
 ![timer1](https://user-images.githubusercontent.com/88386049/146931108-9733f2fa-6979-4fb6-8ff3-fa69638e092c.JPG)
 
 </details>
+
 
   
 
