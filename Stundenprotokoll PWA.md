@@ -74,7 +74,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   Unsere Ideen konzentrierten sich bereits um das Thema PWA also Progressive-Web-App. Wir haben dafür weitergehende Recherchen betrieben um die Umsetzbarkeit zu prüfen. Interessant fanden wir hierbei die Information, dass eine PWA betreibssystemübergreifend opperieren kann und das Gefühl einer nativen App simulieren kann. So kann eine PWA auf Sensoren der Smartphones zugreifen.</p>
   
 <p id="Stunde3"><b>Dienstag 21.12.2021</b><br>
-  Für unser Projekt ist einige Software nötig. Wir haben dafür beide die Programme Visual Studio Code für die Programmierumgebung und XAMPP heruntergeladen, um für Testzwecke einen lokalen Server zu erstellen. Wir haben uns heute mit den Programmen auseinandergesetzt und heute schon einen kleinen Timer von 5 Minuten programmiert. Der Timer, der mit JavaScript entwickelt wurde, arbeitet noch sehr einfach, er wird über einen Button gestartet und ist noch ausbaufähig. Dazu passend haben wir versucht, unsere PWA einzurichten. Dafür benötigen wir ein Webmanifest und einen Service-Worker. Beides haben wir experimentell entwickelt.</p>
+  Für unser Projekt ist einige Software nötig. Wir haben dafür beide die Programme Visual Studio Code für die Programmierumgebung und XAMPP heruntergeladen, um für Testzwecke einen lokalen Server zu erstellen. Ein lokaler Server ist für unsere Testzwecke notwendig, damit wir die App nicht im Betrieb einschränken, bzw keine fatalen Fehler in die offen zugängliche App einbauen und Änderungen erst lokal ausprobieren können. Wir haben uns heute mit den Programmen auseinandergesetzt und heute schon einen kleinen Timer von 5 Minuten programmiert. Der Timer, der mit JavaScript entwickelt wurde, arbeitet noch sehr einfach, er wird über einen Button gestartet und ist noch ausbaufähig. Dazu passend haben wir versucht, unsere PWA einzurichten. Dafür benötigen wir ein Webmanifest und einen Service-Worker. Beides haben wir experimentell entwickelt.</p>
   
 <details><summary>Screenshots vom 21.12.2021</summary>
   
@@ -82,7 +82,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 ![timer1](https://user-images.githubusercontent.com/88386049/146932904-16bd600f-5c54-4e30-a593-3594f02f3df5.JPG)
 ![XAMPP](https://user-images.githubusercontent.com/88386049/146932912-a01627c9-731c-44c0-ad66-f10ade826cbc.JPG)
   
-<p>Mit dem oben abgebildeten Schaltpanel für die Anwendung XAMPP kann man einen lokalen Server starten. In unserem Beispiel nutzen wir das Betriebssystem Apache für unseren lokalen Server. Mit https://localhost/ThePWA/ kann man unsere PWA aufrufen. Ein lokaler Server ist für unsere Testzwecke notwendig, damit wir die App nicht im Betrieb einschränken, bzw keine fatalen Fehler in die offen zugängliche App einbauen und erst lokal Dinge ausprobieren können.</p>
+<p>Mit dem oben abgebildeten Schaltpanel für die Anwendung XAMPP kann man einen lokalen Server starten. In unserem Beispiel nutzen wir das Betriebssystem Apache für unseren lokalen Server. Mit https://localhost/ThePWA/ kann man unsere PWA aufrufen.</p>
   
 
 ![URL](https://user-images.githubusercontent.com/88386049/146933036-c6851ac0-566e-4637-b127-fd1a2bac5f78.JPG)
