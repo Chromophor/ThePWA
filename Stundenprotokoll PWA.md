@@ -92,6 +92,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <p id="Stunde4"><b>Dienstag 11.01.2022</b><br>
   In der ersten Stunde nach den Ferien haben wir unseren gemeinsamen Wissenstand abgeglichen. Noch in den Ferien haben wir uns weiter mit der Test-PWA auseinandergesetzt und versucht diese zumindest auf einem Desktop-PC zu installieren. Als dies nicht gelang, stand ein Problem mit dem Code im Raume oder ein Problem mit dem Browser. Nach einiger Rechersche war das Problem gefunden: Der Browser Firefox kann im Moment nicht mit PWAs umgehen. Da Firefox nicht mehr in Frage kam, sind wir auf den Browser Chrome und Edge umgestiegen. Vor Allem bei Edge ließ sich unsere PWA auf einem Desktop-PC installieren. Anschließend haben wir die Test-PWA, die am <a href="#Stunde3">21.12.2021</a> noch zu Testzwecken auf einem lokalen Server getestet wurde auf unseren Server hochgeladen. Dies war notwendig, um herauszufinden, ob die App auch auf Mobilgeräten tatsächlich installierbar ist. Wie erhofft hat dies funktioniert und es war uns möglich die PWA auf einem IOS und Andorid Smartphone zu installieren. Leider stießen wir hier auf ein Problem: die PWA funktioniert mit dem aktuellen
+
 ```Service-Worker```
 
 
