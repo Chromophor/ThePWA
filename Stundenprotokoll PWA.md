@@ -100,3 +100,6 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 
 <h2 id="kapitel3">3. Materialien</h2>
+<h2 id="kapitel4">4. Quellen</h2>
+
+<li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
