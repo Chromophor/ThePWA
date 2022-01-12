@@ -98,10 +98,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   
   ![Screenshot_20220112-161149_Samsung Experience Home](https://user-images.githubusercontent.com/88386049/149168236-37d845f0-4944-48bc-b93b-0307593b93ae.jpg)
-  <p>App auf dem Homebildschirm</p>
+  <p>App auf dem Homebildschirm sichtbar, noch kein Logo implementiert.</p>
   
   ![Screenshot_20220112-161247_Samsung Internet](https://user-images.githubusercontent.com/88386049/149168244-4637442f-07d2-41e7-b1fa-7aabd0990d55.jpg)
-  <p>Die geöffnete App zeigt kein URL an und die Statusleiste des Smartphones ist sichtbar.</p>
+  <p>Die geöffnete App zeigt kein URL an und die Statusleiste des Smartphones ist in der Hintergrundfarbe der App sichtbar.</p>
 
 </details>
   
