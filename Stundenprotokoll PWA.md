@@ -140,11 +140,15 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
       }]
 ```
 
-<p>Anschließend haben wir den Service-Worker überarbeitet, sodass die PWA auch offline nutzbar ist.
+<p>Bei der Einbindung der Logos hatten wir einige Probleme, da die Logos zuerst nicht gefunden werden konnten, was bedeutete, dass unsere Website zu diesem zeitpunkt nicht installierbar war. Der Grund lag anscheinend in der falschen Benennung einens Ordners, den wir "Icons" genannt hatten. Nachdem wir den Ordner in "Bilder" benannt haben, konnten alle Logos geladen werden und unsere PWA war installierbar. Anschließend haben wir den Service-Worker überarbeitet, sodass die PWA auch offline nutzbar ist. <b>EVT. KONZEPT ERLÄUTERN</b></p>
 
 <details><summary>Screenshots vom 18.01.2021</summary>
   
 ![Screenshot 2022-01-18 191958](https://user-images.githubusercontent.com/88386049/149996198-a23f42c9-23cc-4871-b27e-7792323fe6e0.jpg)
+<p>Hier ist die beispielhafte URL-Leiste im Browser mit dem Hinweis auf die Installierbarkeit zu sehen</p>
+
+![icon512](https://user-images.githubusercontent.com/88386049/150006074-4f5bbd34-08cd-4e8f-a5bd-585be6954d64.png)
+<p>Dies ist das Logo in der Größe 512x512px</p>
 
 </details>
 
