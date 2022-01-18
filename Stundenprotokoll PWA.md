@@ -148,7 +148,16 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <p>Hier ist die beispielhafte URL-Leiste im Browser mit dem Hinweis auf die Installierbarkeit zu sehen</p>
 
 ![icon512](https://user-images.githubusercontent.com/88386049/150006074-4f5bbd34-08cd-4e8f-a5bd-585be6954d64.png)
-<p>Dies ist das Logo in der Größe 512x512px</p>
+<p>Dies ist das ertse testweise Logo in der Größe 512x512px</p>
+  
+![icon192](https://user-images.githubusercontent.com/88386049/150006323-1f0fce6a-0b90-472d-8ecc-7528a28a8acf.png)
+  <p>Größe: 192x192</p>
+
+![icon120](https://user-images.githubusercontent.com/88386049/150006328-5bc0a714-5435-4bcc-8476-eda6c079d2be.png)
+![icon60](https://user-images.githubusercontent.com/88386049/150006335-3c27169a-f7c7-477a-9d54-1d9d3a5fff5d.png)
+
+![icon57](https://user-images.githubusercontent.com/88386049/150006337-6eae52c5-aa7e-483e-b862-5449bb0481d6.png)
+![icon32](https://user-images.githubusercontent.com/88386049/150006340-f01b7b98-20ef-4d91-9aa2-1dab5f11d4ac.png)
 
 </details>
 
