@@ -113,7 +113,31 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   
 ```
-
+ "icons": [{
+      "src": "Bilder/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"     
+    },
+    {
+      "src": "Bilder/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"     
+    },
+    {
+      "src": "Bilder/icon120.png",
+      "sizes": "120x120",
+      "type": "image/png"     
+    },
+    {
+      "src": "Bilder/icon60.png",
+      "sizes": "60x60",
+      "type": "image/png"     
+    },
+    {
+        "src": "Bilder/icon57.png",
+        "sizes": "57x57",
+        "type": "image/png"     
+      }]
 ```
 
   
