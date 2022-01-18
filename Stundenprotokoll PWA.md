@@ -161,6 +161,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 ![icon57](https://user-images.githubusercontent.com/88386049/150006337-6eae52c5-aa7e-483e-b862-5449bb0481d6.png)
   <p>Größe: 57x57px</p>
+  
 ![icon32](https://user-images.githubusercontent.com/88386049/150006340-f01b7b98-20ef-4d91-9aa2-1dab5f11d4ac.png)
 <p>Größe: 32x32px</p>
 
