@@ -140,7 +140,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
       }]
 ```
 
-<p></p>
+<p>Anschließend haben wir den Service-Worker überarbeitet, sodass die PWA auch offline nutzbar ist.
 
 <details><summary>Screenshots vom 18.01.2021</summary>
   
