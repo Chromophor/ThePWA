@@ -140,7 +140,15 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
       }]
 ```
 
+<p></p>
+
+<details><summary>Screenshots vom 18.01.2021</summary>
   
+![Screenshot 2022-01-18 191958](https://user-images.githubusercontent.com/88386049/149995957-f1a2207f-b61f-406e-93f0-3427e55bdc5a.jpg)
+
+</details>
+
+
 
 
 
