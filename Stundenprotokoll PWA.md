@@ -108,6 +108,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <p id="Stunde5"><b>Mittwoch 12.01.2022</b><br>
   Heute haben wir weiter bezüglich des Sevice-Workers und eines Webmanifestes recherchiert. Das Webmanifest brauchen wir z.B., um ein Logo auf dem Homebildschirm einzubinden. Dazu haben wir uns heute ein einfaches Beispielbild mit einem abgebildetem EKG ausgesuch, das wir in der nächsten Stunde in einem Bilder-Ordner speichern und so ein Icon auf dem Homebildschirm anzeigen können. Bei unserer ersten Testversion haben wir im Webmanifest noch keine Bilder für Icons implementiert.</p>
 
+<p id="Stunde6"><b>Dienstag 18.01.2021</b><br>
 
   
 
