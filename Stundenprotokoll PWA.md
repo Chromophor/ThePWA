@@ -171,6 +171,17 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
   In der letzten Stunde gab es in der Entwicklungskonsole im Browser noch einen Fehler, der besagte, dass ein "Favicon" noch nicht gefunden werden konnte. Das "Favicon ist ein Icon, das vom Browser in der Tab-Liste verwendet wird. Es hat dabei anders als alle anderen Logos nicht das Dateiformat ```.png```, sondern das Format ```.ico```, was bedeutet, dass es sich um ein Icon handelt. Die Größe des Logos beträgt 32x32px. Wir hatten aber Schwierigkeiten mit der Verwendung des Icons, da wir es wie unsere anderen Logos in dem Ordner Bilder gespeichert hatten. Der Browser liest das Logo aber nur aus, wenn sich das ```Favicon.ico``` im Root-Ordner befindet, also auf der Ebene der HTML- und JavaScript-Dokumente. Seit dem wir das ``Favicon.ico`` auch im Root-Ordner gespeichert haben, wird in der Tab-Liste des Browsers unser Logo angezeigt (siehe Screenshots). 
 
+<details><summary>Screenshots vom 19.01.2022</summary>
+
+![icon32](https://user-images.githubusercontent.com/88386049/150184288-230065f2-ca2f-4875-8772-24561687856c.png)
+  <p>Favicon.ico mit der Größe 32x32px</p>
+
+![Screenshot 2022-01-19 182932](https://user-images.githubusercontent.com/88386049/150184295-5f8dc74d-b399-49e5-b42f-bee9029d406e.jpg)
+  <p>Unser Logo wird in der Tab-Liste angezeigt.</p>
+
+</details>
+
+
 
 
 <h2 id="kapitel3">3. Materialien</h2>
