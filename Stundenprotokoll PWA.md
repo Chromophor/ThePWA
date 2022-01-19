@@ -169,7 +169,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <p id="Stunde7"><b>Mittwoch 19.01.2022</b><br></p>
 
-  In der letzten Stunde gab es in der Entwicklungskonsole im Browser noch einen Fehler, der besagte, dass ein "Favicon" noch nicht gefunden werden konnte. Das "Favicon ist ein Icon, das vom Browser in der Tab-Liste verwendet wird. Es hat dabei anders als alle anderen Logos nicht das Dateiformat ```.png```, sondern das Format ```.ico```, was bedeutet, dass es sich um ein Icon handelt. Die Größe des Logos beträgt 32x32px
+  In der letzten Stunde gab es in der Entwicklungskonsole im Browser noch einen Fehler, der besagte, dass ein "Favicon" noch nicht gefunden werden konnte. Das "Favicon ist ein Icon, das vom Browser in der Tab-Liste verwendet wird. Es hat dabei anders als alle anderen Logos nicht das Dateiformat ```.png```, sondern das Format ```.ico```, was bedeutet, dass es sich um ein Icon handelt. Die Größe des Logos beträgt 32x32px. Nun wird in der Tab-Liste des Browsers unser Logo gezeigt (siehe Screenshots). 
 
 
 
