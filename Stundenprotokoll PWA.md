@@ -193,3 +193,4 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
 <li>https://developers.google.com/web/fundamentals/codelabs/push-notifications</li>
 <li>https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications</li>
+<li>https://w3c.github.io/sensors/#sensor-onreading</li>
