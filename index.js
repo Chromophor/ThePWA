@@ -8,6 +8,21 @@ if ("serviceWorker" in navigator) {
     });
 }
 
+//NEW!!
+Notification.requestPermission(function(status) {
+    console.log('Notification permission status:', status);
+});
+
+//NEW!!
+function displayNotification(argument) {
+    if (Notification.permission == 'granted') {
+      navigator.serviceWorker.getRegistration().then(function(reg) {
+        reg.showNotification(argument);
+      });
+    }
+}
+
+
 
 let timerStarted = false;
 
@@ -34,9 +49,7 @@ let timerStarted = false;
                 } else {
                     timer.innerHTML = '00 : 00';
                 }
-            }, 1000);
-            timerStarted = true;
-        }
+        }, 1000);
+        timerStarted = true;
     }
-
-    
+}
