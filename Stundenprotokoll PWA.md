@@ -191,3 +191,5 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <h2 id="kapitel4">4. Quellen</h2>
 
 <li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
+<li>https://developers.google.com/web/fundamentals/codelabs/push-notifications</li>
+<li>https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications</li>
