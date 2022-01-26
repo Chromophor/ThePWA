@@ -197,7 +197,7 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
   
 ![Screenshot_20220125-195507_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206579-04eb11ec-b82f-4a1b-b252-8a321a0f5e15.jpg)
 ![Screenshot_20220125-195522_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206594-a65ae6f6-956e-4b9b-af5f-ebc5d0d358d7.jpg)
-<p>Die Zahlen unter dem Button "Timer starten" sind die aktuellen Ergebnisse des Accelerometers (Beschleunigungssensor). Die Daten werden alle 60 Sekunden generiert.</p>
+<p>Die Zahlen unter dem Button "Timer starten" sind die aktuellen Ergebnisse des Accelerometers (Beschleunigungssensor). Die Daten werden alle 60 Sekunden generiert. Oben befindet sich das Handy in Ruhelage und auf dem zweiten Bild in Bewegung.</p>
   
   
 ![Screenshot_20220126-172747_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206611-d93eb722-20bd-48c5-a633-19eb55fe5e61.jpg)
