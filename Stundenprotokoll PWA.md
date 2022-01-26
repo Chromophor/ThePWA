@@ -191,7 +191,10 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
 
 <details><summary>Screenshots vom 25.01.2022</summary>
   
-![Screenshot_20220125-152437_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206569-893f0139-f99e-45c8-ba77-3089fed969b2.jpg)
+![Screenshot_20220125-152437_Samsung Internet](https://user-images.githubusercontent.com/88386049/151207070-2c603d83-7b10-4efe-a797-f06afa6d6bec.jpg)
+<p>Hier ist die Push-Notifikation der App zu sehen. Zu Test-Zwecken wurde die Benachrichtigung "Willkommen zurück!" beim Öffnen der App gesendet.</p>
+  
+  
 ![Screenshot_20220125-195507_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206579-04eb11ec-b82f-4a1b-b252-8a321a0f5e15.jpg)
 ![Screenshot_20220125-195522_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206594-a65ae6f6-956e-4b9b-af5f-ebc5d0d358d7.jpg)
 ![Screenshot_20220126-172747_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206611-d93eb722-20bd-48c5-a633-19eb55fe5e61.jpg)
