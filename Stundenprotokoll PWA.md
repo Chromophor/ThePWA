@@ -102,6 +102,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   ![Screenshot_20220112-161247_Samsung Internet](https://user-images.githubusercontent.com/88386049/149168244-4637442f-07d2-41e7-b1fa-7aabd0990d55.jpg)
   <p>Die geöffnete App zeigt kein URL an und die Statusleiste des Smartphones ist in der Hintergrundfarbe der App sichtbar.</p>
+  
+  ![Screenshot_20220125-152335_Samsung Internet](https://user-images.githubusercontent.com/88386049/151205493-b8b2d880-ecac-440d-8e27-65476c1a9ed1.jpg)
+  <p>Unter Android kommt beim Besuch der Website diese Protokollfenster, dass zum Herunterladen der PWA einlädt.</p>
 
 </details>
   
