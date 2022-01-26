@@ -202,6 +202,7 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
   
 ![Screenshot_20220126-172747_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206611-d93eb722-20bd-48c5-a633-19eb55fe5e61.jpg)
 ![Screenshot_20220126-172757_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206627-b0dc4354-77a4-482a-8d86-ed770eff03af.jpg)
+<p>Das Menü der App in auf- und zugeklappter Ansicht.</p>
 
   
 </details>
