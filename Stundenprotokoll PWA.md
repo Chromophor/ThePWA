@@ -185,7 +185,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhause an unserem Projekt weitergearbeitet und weitere Erfolge erzielt. Thorben hat versucht die Geschwindigkeitssensoren ``accelerometer`` auf dem Handy zu verwenden, um damit einen Schrittzähler oder eine Geschwindigkeitsanzeige zu programmieren. Dies hat am Ende auf einem Androidhandy auch funktioniert. Leider unterstützt Apple den Zugriff auf die Sensoren jedoch nicht. Währenddessen hat sich Henrik weiter mit dem Aussehen in der App beschäftigt. Hierbei wollten wir ein Menü haben, das man von der Seite aufklappen kann und darüber zu unterschiedlichen Bereichen der App gelangt. A Im Browser am PC funktioniert das Menü auch durch darüber hovern mit dem Cursor. Ob das auch durch klicken auf dem Touchscreen funktioniert müssen wir im weiteren Verlauf unseres Projekts noch ausprobieren. Zusätzlich habe wir noch einige Probleme im Serviceworker behoben und somit keine Schwierigkeiten mehr mit dem Installieren der App. Da der Service-Worker sich die Dateien "fetcht" aslo quasi herunterlädt, wird bei geänderter Datei trotzdem teilweise die alte Datei angezeigt. Um dieses Problem zu umgehen, muss man die Registrierung des Service-Workers aufheben und die Seite neu laden.
 
-
+<p id="Stunde9"><b>Mittwoch 26.01.2022</b><br>
 
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
