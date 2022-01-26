@@ -188,6 +188,18 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhause an unserem Projekt weitergearbeitet und weitere Erfolge erzielt. Thorben hat versucht die Geschwindigkeitssensoren ``accelerometer`` auf dem Handy zu verwenden, um damit einen Schrittzähler oder eine Geschwindigkeitsanzeige zu programmieren. Dies hat am Ende auf einem Androidhandy auch funktioniert. Leider unterstützt Apple den Zugriff auf die Sensoren jedoch nicht. Währenddessen hat sich Henrik weiter mit dem Aussehen in der App beschäftigt. Hierbei wollten wir ein Menü haben, das man von der Seite aufklappen kann und darüber zu unterschiedlichen Bereichen der App gelangt. A Im Browser am PC funktioniert das Menü auch durch darüber hovern mit dem Cursor. Ob das auch durch klicken auf dem Touchscreen funktioniert müssen wir im weiteren Verlauf unseres Projekts noch ausprobieren. Zusätzlich habe wir noch einige Probleme im Serviceworker behoben und somit keine Schwierigkeiten mehr mit dem Installieren der App. Da der Service-Worker sich die Dateien "fetcht" aslo quasi herunterlädt, wird bei geänderter Datei trotzdem teilweise die alte Datei angezeigt. Um dieses Problem zu umgehen, muss man die Registrierung des Service-Workers aufheben und die Seite neu laden.
 
+
+<details><summary>Screenshots vom 25.01.2022</summary>
+  
+![Screenshot_20220125-152437_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206569-893f0139-f99e-45c8-ba77-3089fed969b2.jpg)
+![Screenshot_20220125-195507_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206579-04eb11ec-b82f-4a1b-b252-8a321a0f5e15.jpg)
+![Screenshot_20220125-195522_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206594-a65ae6f6-956e-4b9b-af5f-ebc5d0d358d7.jpg)
+![Screenshot_20220126-172747_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206611-d93eb722-20bd-48c5-a633-19eb55fe5e61.jpg)
+![Screenshot_20220126-172757_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206627-b0dc4354-77a4-482a-8d86-ed770eff03af.jpg)
+
+  
+</details>
+
 <p id="Stunde9"><b>Mittwoch 26.01.2022</b><br>
 
 <h2 id="kapitel3">3. Materialien</h2>
