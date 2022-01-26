@@ -207,7 +207,8 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
   
 </details>
 
-<p id="Stunde9"><b>Mittwoch 26.01.2022</b><br>
+<p id="Stunde9"><b>Mittwoch 26.01.2022</b><br></p>
+Wir haben auch heute wieder die Zeit genutzt, um die PWA weiter zu entwickeln. Um in unserer App auch Push-Notifications möglich zu machen, haben wir heute an einer Push-API gearbeitet. Diese kann auch über ein Event und einen Eventlistener eingebaut werden. Testweise soll die App bei jedem Öffnen die Benachrichtigung ``Willkommen zurück!`` senden. Dies hat nach einiger Zeit auch funktioniert (siehe Screenshots) wurde aber auch schnell nervig, weshalb wir die Funktion schnell wieder entfernt haben. Außerdem haben wir heute heute den Feinschliff von dem gestrigen Code-Marathon erledigt. So haben wir die Frequenz der Datenmessung auf 5 Messungen die Sekunde heruntergesetzt. Das soll das Betrachten der Werte vereinfachen, und Schlüsse auf die Deutung der gemessenen Daten erlauben. Dazu haben wir die Daten größer dargestellt und die Hintergrundfarbe verändert. Henrik hat heute 
 
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
