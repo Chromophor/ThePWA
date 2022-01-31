@@ -215,6 +215,7 @@ Wir haben auch heute wieder die Zeit genutzt, um die PWA weiter zu entwickeln. U
 </details>
 
 <p id="Stunde10"><b>Dienstag 01.02.2022</b><br>
+  In der letzten Arbeitsstunde haben wir die Messfrequenz auf 5 Messungen die Sekunde herabgesetzt, um die Bedeutung der angezeigten Messwerte besser deuten zu können. Dies hat mehr oder weniger funktioniert, da sich die Zahlen trotzdem noch schnell änderten. Wir haben aber trotzdem erkannt, welche Daten für welche Achsen des Smartphones stehen. Eine Skizze zu der Achsenanordnung ist unter den Screenshots zu finden. 
 
 
 
