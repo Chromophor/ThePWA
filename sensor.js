@@ -20,6 +20,29 @@ navigator.permissions.query({ name: 'accelerometer' })
 });
 
 
+let aMax = 0;
+let aMin = 0;
+
+function checkX(){
+  if(acl.x > aMax){
+    aMax = acl.x;
+    amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
+  }
+
+  if(acl.x < aMin){
+    aMin = acl.x;
+    aminX.innerHTML = "Minimale Beschleunigung: " + aMin;
+  }
+}
+
+
+
+function resetA(){
+  aMax = 0;
+  aMin = 0;
+  amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
+  aminX.innerHTML = "Minimale Beschleunigung: " + aMin;
+}
 
 
 
