@@ -190,11 +190,7 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
 
 
 <details><summary>Screenshots vom 25.01.2022</summary>
-  
-![Screenshot_20220125-152437_Samsung Internet](https://user-images.githubusercontent.com/88386049/151207070-2c603d83-7b10-4efe-a797-f06afa6d6bec.jpg)
-<p>Hier ist die Push-Notifikation der App zu sehen. Zu Test-Zwecken wurde die Benachrichtigung "Willkommen zurück!" beim Öffnen der App gesendet.</p>
-  
-  
+   
 ![Screenshot_20220125-195507_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206579-04eb11ec-b82f-4a1b-b252-8a321a0f5e15.jpg)
 ![Screenshot_20220125-195522_Samsung Internet](https://user-images.githubusercontent.com/88386049/151206594-a65ae6f6-956e-4b9b-af5f-ebc5d0d358d7.jpg)
 <p>Die Zahlen unter dem Button "Timer starten" sind die aktuellen Ergebnisse des Accelerometers (Beschleunigungssensor). Die Daten werden alle 60 Sekunden generiert. Oben befindet sich das Handy in Ruhelage und auf dem zweiten Bild in Bewegung.</p>
@@ -210,6 +206,13 @@ Die heutige Stunde ist zwar ausgefallen, allerdings haben wir stattdessen zuhaus
 <p id="Stunde9"><b>Mittwoch 26.01.2022</b><br>
 Wir haben auch heute wieder die Zeit genutzt, um die PWA weiter zu entwickeln. Um in unserer App auch Push-Notifications möglich zu machen, haben wir heute an einer Push-API gearbeitet. Diese kann auch über ein Event und einen Eventlistener eingebaut werden. Testweise soll die App bei jedem Öffnen die Benachrichtigung ``Willkommen zurück!`` senden. Dies hat nach einiger Zeit auch funktioniert (siehe Screenshots) wurde aber auch schnell nervig, weshalb wir die Funktion schnell wieder entfernt haben. Außerdem haben wir heute heute den Feinschliff von dem gestrigen Code-Marathon erledigt. So haben wir die Frequenz der Datenmessung auf 5 Messungen die Sekunde heruntergesetzt. Das soll das Betrachten der Werte vereinfachen, und Schlüsse auf die Deutung der gemessenen Daten erlauben. Dazu haben wir die Daten größer dargestellt und die Hintergrundfarbe verändert. Henrik hat heute weiter versucht, die Menüleiste auf das mobile Format anzupassen.</p>
 
+<details><summary>Screenshots vom 26.01.2022</summary>
+  
+
+![Screenshot_20220125-152437_Samsung Internet](https://user-images.githubusercontent.com/88386049/151207070-2c603d83-7b10-4efe-a797-f06afa6d6bec.jpg)
+<p>Hier ist die Push-Notifikation der App zu sehen. Zu Test-Zwecken wurde die Benachrichtigung "Willkommen zurück!" beim Öffnen der App gesendet.</p>
+  
+</details>
 
 <p id="Stunde10"><b>Dienstag 01.02.2022</b><br>
 
