@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="webmanifest.json">
     <script src="index.js"></script>
+    <script src="sensor.js"></script>
     <script>
         navigator.serviceWorker.register("sw.js");
-        //NEW!!
-        displayNotification("Willkommen zurück!")
     </script>
     <title>ThePWA</title>
 </head>
-<body class="background-dark">
 
-<div class="timer center margine-top" id="timer">
-    05 : 00
-</div>
+<body class="body">
 
-<div class="timer button" onclick="startTimer()">
-    Timer starten
-</div>
+    <nav class="menu">
+        <ul>
+            <li class="drop"><a href="index.html">Startseite</a></li>
+            <li class="drop"><a href="timer.html">Timer</a></li>
+        </ul>
+    </nav>
+    
+    <section class="start">
+        <h1 class="title">Willkommen bei ThePWA<br>Fitnessapp</h1>
+    </section>
+
+
+    <section class="werte">
+        <div id="amaxX">
+        
+        Maximale Beschleunigung: 0
+            
+        </div>
+            
+        <div id="aminX">
+
+        Minimale Beschleunigung: 0
+                
+        </div>
+    
+        <section class="button">
+            <div onclick="resetA()">
+            Beschleunigung zurücksetzen
+            </div>
+        </section>
+
+    </section>
+
+
+
+    <footer class="menu-neu">
+        <ul class="navi">
+            <li class="link active"><a class="ref" href="index.html">Startseite</a></li>
+            <li class="link"><a class="ref" href="timer.html">Timer</a></li>
+        </ul>
+    </footer>
 
 </body>
+
 </html>
