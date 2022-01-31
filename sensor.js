@@ -22,6 +22,8 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 let aMax = 0;
 let aMin = 0;
+let acl = new Accelerometer({frequency: 5});
+
 
 function checkX(){
   if(acl.x > aMax){
@@ -43,23 +45,3 @@ function resetA(){
   amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
   aminX.innerHTML = "Minimale Beschleunigung: " + aMin;
 }
-
-
-
-/*navigator.permissions.query({ name: 'gyroscope' })
-.then(result => {
-  if (result.state === 'denied') {
-    console.log('Permission to use gyroscope sensor is denied.');
-    return;
-  }
-    let gyroscope = new Gyroscope({frequency: 60});
-
-    gyroscope.addEventListener('reading', e => {
-    console.log("Lage in X-Achse: " + gyroscope.x);
-    console.log("Lage in Y-Achse: " + gyroscope.y);
-    console.log("Lage in Z-Achse: " + gyroscope.z);
-    });
-    gyroscope.start();
-});*/
-
-
