@@ -214,6 +214,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <p>Hier ist die Push-Notifikation der App zu sehen. Zu Test-Zwecken wurde die Benachrichtigung "Willkommen zurück!" beim Öffnen der App gesendet.</p>
   
+![Screenshot_20220125](https://user-images.githubusercontent.com/88386049/151929753-fd9893ad-8061-4ce3-8fa0-7c6757e0c37e.JPG)
+<p>Dies ist die Navigationsleiste, die auf das mobile Format angepasst ist.</p>
+  
 </details>
 
 <p id="Stunde10"><b>Dienstag 01.02.2022</b><br>
