@@ -11,9 +11,9 @@
 <li><a href="#quotes">5. quotes</a></h2></li><br>
 
 <p><b>Stundenprotokoll</b><br>
-  In unserem Stundenprotokoll haben wir jede Stunde protokolliert. Anhand des Protokolls kann man die Entwicklung unserer Wetterstation von der Idee bis zum fertigen Projekt ablesen.<br><br>
+  In unserem Stundenprotokoll haben wir jede Stunde protokolliert. Anhand des Protokolls kann man die Entwicklung unserer APP von der Idee bis zum fertigen Projekt ablesen.<br><br>
 <b>Projektseite</b><br>
-  Auf unserer Projektseite wird unsere Wetterstation erklärt und bewertet.<br><br>
+  Auf unserer Projektseite wird unsere APP erklärt und bewertet.<br><br>
 <b>Website</b><br>
   Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p>
 
