@@ -115,7 +115,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   Normalerweise soll bei einer PWA im Browser Chrome oder Edge in der URL-Leiste ein Symbol angezeigt werden, unter welchem man die PWA installieren kann. Bisher wurde uns dieses Symbol aber noch nicht angezeigt und wir haben Nachforschungen angestellt, um herauszufinden, woran dies liegt. Die Lösung scheint zu sein, dass wir wie <a href="#Stunde5">hier</a> berichtet, noch keine Icons implementiert haben. Eine PWA braucht aber verschiedene Icons, um die Eigenschaft der Installierbarkeit zu erhalten. Zu diesem Zweck haben wir Icons mit den (Pixel-) Größen <b>57x57px</b>, <b>60x60px</b>, <b>120x120px</b>, <b>192x192px</b> und <b>512x512px</b> mit dem Bild-Bearbeitungsprogramm Affinity Photo kreiert. Die erzeugten Icons werden im Webmanifest wie folgt eingebunden:</p>
   
   
-```
+```css
  "icons": [{
       "src": "Bilder/icon512.png",
       "sizes": "512x512",
