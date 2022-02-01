@@ -216,7 +216,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <p id="Stunde10"><b>Dienstag 01.02.2022</b><br>
   In der letzten Arbeitsstunde haben wir die Messfrequenz auf 5 Messungen die Sekunde herabgesetzt, um die Bedeutung der angezeigten Messwerte besser deuten zu können. Dies hat mehr oder weniger funktioniert, da sich die Zahlen trotzdem noch schnell änderten. Wir haben aber trotzdem erkannt, welche Daten für welche Achsen des Smartphones stehen. Eine Skizze zu der Achsenanordnung ist unter den Screenshots zu finden. Wir haben aber erkannt, dass die X-Achse wohl ausschlaggebend für die Definition eines Schrittes ist. Dafür haben wir die Beschleunigungsanzeige für die Y- und Z-Achse entfernt und versucht eine Funktion zu schreiben, die uns die maximale Beschleunigung in X-Achsenrichtung und die minimale Beschleunigung in X-Achsenrichtung anzeigt. Dabei haben wir aber zuerst einen Fehler gemacht, weil wir die Funktion nur einmal beim Laden der Website ausführen lassen haben. So schnell wie die Funktion ausgeführt wurde, kann die Sensor-API nicht gestartet werden, weshalb kein Wert für die maximale und minimale Beschleunigung angezeigt werden kann.
-Die Funktion musste nur im Script in die ONREADING-Funktion verschoben werden, damit sie funktioniert.</p>
+Die Funktion musste nur im Script in die ONREADING-Funktion verschoben werden, damit sie funktioniert. Zusätzlich haben wir einen Button hinzugefügt, der die angezeigte Beschleunigung zurücksetzt, damit wir bei jedem Schritt die Werte zurücksetzen können.</p>
 
 
 <details><summary>Screenshots vom 01.02.2022</summary>
