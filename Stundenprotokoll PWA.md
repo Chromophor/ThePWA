@@ -203,8 +203,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
 </details>
 
-<p id="Stunde9"><b>Mittwoch 26.01.2022</b><br>
-  Wir haben auch heute wieder die Zeit genutzt, um die PWA weiter zu entwickeln. Um in unserer App auch Push-Notifications möglich zu machen, haben wir heute an einer Push-API gearbeitet. Diese kann auch über ein Event und einen Eventlistener eingebaut werden. Testweise soll die App bei jedem Öffnen die Benachrichtigung ``Willkommen zurück!`` senden. Dies hat nach einiger Zeit auch funktioniert (siehe Screenshots) wurde aber auch schnell nervig, weshalb wir die Funktion schnell wieder entfernt haben. Außerdem haben wir heute heute den Feinschliff von dem gestrigen Code-Marathon erledigt. So haben wir die Frequenz der Datenmessung auf 5 Messungen die Sekunde heruntergesetzt. Das soll das Betrachten der Werte vereinfachen, und Schlüsse auf die Deutung der gemessenen Daten erlauben. Dazu haben wir die Daten größer dargestellt und die Hintergrundfarbe verändert. Henrik hat heute weiter versucht, die Menüleiste auf das mobile Format anzupassen.</p>
+<p id="Stunde9"><b>Mittwoch 26.01.2022</b><br></p>
+
+
+  Wir haben auch heute wieder die Zeit genutzt, um die PWA weiter zu entwickeln. Um in unserer App auch Push-Notifications möglich zu machen, haben wir heute an einer Push-API gearbeitet. Diese kann auch über ein Event und einen Eventlistener eingebaut werden. Testweise soll die App bei jedem Öffnen die Benachrichtigung ``Willkommen zurück!`` senden. Dies hat nach einiger Zeit auch funktioniert (siehe Screenshots) wurde aber auch schnell nervig, weshalb wir die Funktion schnell wieder entfernt haben. Außerdem haben wir heute heute den Feinschliff von dem gestrigen Code-Marathon erledigt. So haben wir die Frequenz der Datenmessung auf 5 Messungen die Sekunde heruntergesetzt. Das soll das Betrachten der Werte vereinfachen, und Schlüsse auf die Deutung der gemessenen Daten erlauben. Dazu haben wir die Daten größer dargestellt und die Hintergrundfarbe verändert. Henrik hat heute weiter versucht, die Menüleiste auf das mobile Format anzupassen.
 
 <details><summary>Screenshots vom 26.01.2022</summary>
 
