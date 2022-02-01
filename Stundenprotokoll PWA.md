@@ -240,3 +240,4 @@ Die Funktion musste nur im Script in die ONREADING-Funktion verschoben werden, d
 <li>https://developers.google.com/web/fundamentals/codelabs/push-notifications</li>
 <li>https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications</li>
 <li>https://w3c.github.io/sensors/#sensor-onreading</li>
+<li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</li>
