@@ -219,6 +219,12 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 Die Funktion musste nur im Script in die ONREADING-Funktion verschoben werden, damit sie funktioniert.</p>
 
 
+<details><summary>Screenshots vom 01.02.2022</summary>
+  
+![Screenshot_20220201](https://user-images.githubusercontent.com/88386049/151929151-3d1ee209-f121-4fd8-a764-45b766ce9a07.JPG)
+  
+</details>
+
 
 
 
