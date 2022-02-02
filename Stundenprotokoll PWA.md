@@ -242,3 +242,4 @@ Des Weiteren haben wir in dieser Stunde das Menü unserer App weiterentwickelt. 
 <li>https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications</li>
 <li>https://w3c.github.io/sensors/#sensor-onreading</li>
 <li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</li>
+<li>https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates-speed</li>
