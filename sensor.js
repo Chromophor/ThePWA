@@ -48,25 +48,29 @@ navigator.permissions.query({ name: 'accelerometer' })
     acl.start();
 });
 
+const successCallback = (position) => {
+  speed.innerHTML = position;
+};
+
+const errorCallback = (error) => {
+  speed.innerHTML = error;
+};
+
+
+navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 
 
 
 
+
+/*
 function getLocation() {
 
-  var speed = event.coords.speed;
+  let speed = geolocationCoordinatesInstance.speed
 
   if (navigator.geolocation) {
-    navigator.geolocation.watchposition(
-      geosuccess,
-      geofailure,
-      {
-          enablehighaccuracy:true,
-          maximumage:30000,
-          timeout:20000
-      }
-  );
+    
 
   var operator = true;
   speed.innerHTML = "Aktuelle Geschwindigkeit: " + speed + "km/h";
@@ -85,14 +89,7 @@ function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude +
   "<br>Longitude: " + position.coords.longitude;
 }
-
-
-  
-
-
-
-
-
+*/
 
 /*navigator.permissions.query({ name: 'gyroscope' })
 .then(result => {
