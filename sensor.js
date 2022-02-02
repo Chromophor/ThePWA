@@ -49,11 +49,11 @@ navigator.permissions.query({ name: 'accelerometer' })
 });
 
 const successCallback = (position) => {
-  speed.innerHTML = position;
+  console.log(position);
 };
 
 const errorCallback = (error) => {
-  speed.innerHTML = error;
+  console.error(error);
 };
 
 
