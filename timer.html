@@ -10,7 +10,7 @@
     <script src="index.js"></script>
     <script src="sensor.js"></script>
     <script>
-        navigator.serviceWorker.register("sw.js");
+        
     </script>
     <title>ThePWA</title>
 </head>
@@ -20,8 +20,8 @@
     <nav class="menu">
         <ul>
             <p class="listtitle">ThePWA</p>
-            <li class="drop momentan"><a href="index.html">Startseite</a></li>
-            <li class="drop"><a href="timer.html">Timer</a></li>
+            <li class="drop"><a href="index.html">Startseite</a></li>
+            <li class="drop momentan"><a href="timer.html">Timer</a></li>
             <li class="drop"><a href="#">Platzhalter</a></li>
             <li class="drop"><a href="#">Platzhalter</a></li>
             <li class="drop"><a href="#">Platzhalter</a></li>
@@ -40,49 +40,35 @@
     </script>
 
     <section class="start">
-        <h1 class="title">Willkommen bei ThePWA<br>Fitnessapp</h1>
+        <h1 class="title">Timer</h1>
     </section>
 
-    <section class="werte">
-        <div id="amaxX">
-
-            Maximale Beschleunigung: 0
-
+    <section class="timer-box">
+        <div class="timer" id="timer">
+            05 : 00
         </div>
-
-        <div id="aminX">
-
-            Minimale Beschleunigung: 0
-
+    
+        <div class="button" onclick="startTimer()">
+            Timer starten
         </div>
-
-        <div id="Schritte">
-            Anzahl der Schritte: 0
-        </div>
-
-        <section class="button">
-            <div onclick="resetA()">
-                Beschleunigung zurücksetzen
-            </div>
-        </section>
-
     </section>
 
-
-
+    
     <footer class="menu-neu">
         <ul class="navi">
             <section class="test2">
-                <li class="link"><a class="ref" href="#">Platzhalter</a></li>
+            <li class="link"><a class="ref" href="#">Platzhalter</a></li>
             </section>
             <section class="test2">
-                <li class="link momentan"><a class="ref" href="index.html">Startseite</a></li>
+            <li class="link"><a class="ref" href="index.html">Startseite</a></li>
             </section>
             <section class="test2">
-                <li class="link"><a class="ref" href="timer.html">Timer</a></li>
+            <li class="link momentan"><a class="ref" href="timer.html">Timer</a></li>
             </section>
         </ul>
     </footer>
+
+    
 
 </body>
 
