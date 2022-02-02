@@ -48,16 +48,14 @@ navigator.permissions.query({ name: 'accelerometer' })
     acl.start();
 });
 
-const successCallback = (position) => {
-  console.log(position);
-};
-
-const errorCallback = (error) => {
-  console.error(error);
-};
 
 
-navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
+if("geolocation" in navigator) {
+navigator.geolocation.getCurrentPosition(function(position) {
+  console.log(position.coords.speed);
+  });
+}
 
 
 
