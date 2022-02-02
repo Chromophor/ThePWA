@@ -19,50 +19,46 @@
 
     <nav class="menu">
         <ul>
-            <p class="listtitle">ThePWA</p>
-            <li class="drop momentan"><a href="index.html">Startseite</a></li>
+            <li class="drop"><a href="index.html">Startseite</a></li>
             <li class="drop"><a href="timer.html">Timer</a></li>
-            <li class="drop"><a href="#">Platzhalter</a></li>
-            <li class="drop"><a href="#">Platzhalter</a></li>
-            <li class="drop"><a href="#">Platzhalter</a></li>
         </ul>
     </nav>
-
-    <section class="clap">
-        <p class="opener">☰</p>
-    </section>
-
-    <script>
-        var change = document.querySelector(".opener")
-        change.addEventListener("click", function() {
-            document.querySelector(".menu").classList.toggle("active");
-        })
-    </script>
-
+    
     <section class="start">
-        <h1 class="title">Willkommen bei ThePWA<br>Fitnessapp</h1>
+        <h1 class="title">ThePWA<br>Die Fitnessapp</h1>
     </section>
+
 
     <section class="werte">
         <div id="amaxX">
-
-            Maximale Beschleunigung: 0
-
+        
+        Maximale Beschleunigung: 0
+            
         </div>
-
+            
         <div id="aminX">
 
-            Minimale Beschleunigung: 0
-
+        Minimale Beschleunigung: 0
+                
         </div>
 
         <div id="Schritte">
             Anzahl der Schritte: 0
         </div>
 
+        <div id="speed">
+            Aktuelle Geschwindigkeit: 0 km/h
+        </div>
+
+        <section class="button">
+            <div onclick="getLocation()">
+                Geschwindigkeit anzeigen
+            </div>
+        </section>
+    
         <section class="button">
             <div onclick="resetA()">
-                Beschleunigung zurücksetzen
+            Beschleunigung zurücksetzen
             </div>
         </section>
 
@@ -72,15 +68,8 @@
 
     <footer class="menu-neu">
         <ul class="navi">
-            <section class="test2">
-                <li class="link"><a class="ref" href="#">Platzhalter</a></li>
-            </section>
-            <section class="test2">
-                <li class="link momentan"><a class="ref" href="index.html">Startseite</a></li>
-            </section>
-            <section class="test2">
-                <li class="link"><a class="ref" href="timer.html">Timer</a></li>
-            </section>
+            <li class="link active"><a class="ref" href="index.html">Startseite</a></li>
+            <li class="link"><a class="ref" href="timer.html">Timer</a></li>
         </ul>
     </footer>
 

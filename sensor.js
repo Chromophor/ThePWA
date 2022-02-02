@@ -50,6 +50,43 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 
 
+
+
+
+function getLocation() {
+
+  var speed = event.coords.speed;
+
+  if (navigator.geolocation) {
+    navigator.geolocation.watchposition(
+      geosuccess,
+      geofailure,
+      {
+          enablehighaccuracy:true,
+          maximumage:30000,
+          timeout:20000
+      }
+  );
+
+  var operator = true;
+  speed.innerHTML = "Aktuelle Geschwindigkeit: " + speed + "km/h";
+
+  } else {
+    speed.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+while(operator = true) {
+  getLocation();
+}
+
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+
   
 
 
