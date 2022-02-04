@@ -69,7 +69,7 @@ nav ul a:after {
     border-bottom-right-radius: 5px;
 }
 
-.active {
+.menu.open {
     left: 0;
     transition: left 0.25s ease-in 0s;
     /*padding-left: 43.4667px;*/
