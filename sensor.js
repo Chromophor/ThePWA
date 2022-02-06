@@ -50,13 +50,16 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 
 
+//new
+if('geolocation' in navigator) {
 
-if("geolocation" in navigator) {
+console.log("Geolokation verfügbar!");
 navigator.geolocation.getCurrentPosition(function(position) {
-  console.log(position.coords.speed);
+  const speed = position.coords.speed;
+  document.getElementById('speed').textContent = speed;
+  console.log(speed);
   });
 }
-
 
 
 
