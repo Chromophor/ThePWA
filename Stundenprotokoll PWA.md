@@ -244,7 +244,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 <p>In der Konsole sind alle gefetchten Dokumente und Dateien, zusätzlich zu der geloggten Geolocation.</p>
   
 ![Konsole1](https://user-images.githubusercontent.com/88386049/152693552-4c7df6da-45f2-4edf-8c85-0a2dde785083.JPG)
-  <p>Dies ist die ausgeklappte Geolocation-Information. Aspekte sind
+  <p>Dies ist die ausgeklappte Geolocation-Information. Aspekte sind z.B.
     
 
     ``latitude: 53.6756
@@ -252,6 +252,9 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   angegeben.
   </p>
 
+  ![maps](https://user-images.githubusercontent.com/88386049/152693793-626f59fc-d9bd-48e5-8e2f-1a5c8e18a9a4.JPG)
+  <p></p>
+  
 </details>
 
 <h2 id="kapitel3">3. Materialien</h2>
