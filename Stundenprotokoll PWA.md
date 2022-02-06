@@ -244,7 +244,13 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 <p>In der Konsole sind alle gefetchten Dokumente und Dateien, zusätzlich zu der geloggten Geolocation.</p>
   
 ![Konsole1](https://user-images.githubusercontent.com/88386049/152693552-4c7df6da-45f2-4edf-8c85-0a2dde785083.JPG)
-  <p></p>
+  <p>Dies ist die ausgeklappte Geolocation-Information. Aspekte sind
+    
+
+    ``latitude: 53.6756
+      longitude: 10.2405``
+  angegeben.
+  </p>
 
 </details>
 
