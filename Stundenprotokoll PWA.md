@@ -244,3 +244,4 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 <li>https://w3c.github.io/sensors/#sensor-onreading</li>
 <li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</li>
 <li>https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates-speed</li>
+<li>https://web.dev/add-manifest/#icons</li>
