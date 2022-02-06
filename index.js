@@ -8,12 +8,10 @@ if ("serviceWorker" in navigator) {
     });
 }
 
-//NEW!!
 Notification.requestPermission(function(status) {
     console.log('Notification permission status:', status);
 });
 
-//NEW!!
 function displayNotification(argument) {
     if (Notification.permission == 'granted') {
       navigator.serviceWorker.getRegistration().then(function(reg) {
@@ -22,6 +20,24 @@ function displayNotification(argument) {
     }
 }
 
+
+function installApp() {
+    // Show the prompt
+    deferredPrompt.prompt();
+    installButton.disabled = true;
+  
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then(choiceResult => {
+      if (choiceResult.outcome === "accepted") {
+        console.log("PWA setup accepted");
+        installButton.hidden = true;
+      } else {
+        console.log("PWA setup rejected");
+      }
+      installButton.disabled = false;
+      deferredPrompt = null;
+    });
+}
 
 
 let timerStarted = false;
@@ -32,6 +48,7 @@ let timerStarted = false;
             let startTime = new Date().getTime();
             let fiveMinutes = 1000 * 60 * 5;
             let endTime = startTime + fiveMinutes;
+            let i = 0;
 
 
             setInterval(function() {
@@ -45,7 +62,9 @@ let timerStarted = false;
                     seconds = Math.round(seconds);
                     seconds = ('0' + seconds).slice(-2);
                     let text = '0'  +  minutes  +  ' : '  +  seconds;
+                    let schritt = i++;
                     timer.innerHTML = text;
+                    schritteZahl.innerHTML = schritt;
                 } else {
                     timer.innerHTML = '00 : 00';
                 }
