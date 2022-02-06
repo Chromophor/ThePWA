@@ -253,7 +253,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   </p>
 
   ![maps](https://user-images.githubusercontent.com/88386049/152693793-626f59fc-d9bd-48e5-8e2f-1a5c8e18a9a4.JPG)
-  <p></p>
+  <p>Die ausgegebenen Koordinaten sind wie man der Karte entnehmen kann nicht sehr genau, weil wir uns nicht ansatzweise in der Nähe der angegebenen Koordinaten befinden. Die Genauigkeit der Geolocation müssen wir im nächsten Schritt noch verbessern.</p>
   
 </details>
 
