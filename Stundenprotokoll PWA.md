@@ -235,6 +235,19 @@ Des Weiteren haben wir in dieser Stunde das Menü unserer App weiterentwickelt. 
 Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel unterschiedliches Tempo oder auf der Stelle, es aber auch Bewegungen für das Handy gibt die keine Schritte sind, müssen wir uns für einen fertigen Schrittzähler noch genauere Bedingungen überlegen. Zu den genaueren bedingungen zählt die Geschwindigkeit. Mithilfe der Geolocation-API kann sowohl die Geschwindikeit als auch die Längen- und Breitengrade ausgegeben werden. In dieser Stunde sind wir bisher nur dazu gekommen, die Koordinaten auszugeben (siehe Screenshots). Außerdem haben wir unser Menü noch weiter gestaltet und Kleinigkeiten geändert damit das Menü auf allen Bildschirmen gleich aussieht. Bisher waren hier kleine Verschiebungen zu erkennen.</p>
 
 
+<details><summary>Screenshots vom 02.02.2022</summary>
+  
+![menü](https://user-images.githubusercontent.com/88386049/152693472-bf854e4d-7583-486a-9469-b7962b2f76ec.JPG)
+  <p>Dies ist das neue Menü, das ausklappbar ist.</p>
+  
+![Konsole](https://user-images.githubusercontent.com/88386049/152693507-d0212bdd-05d9-4c0a-996b-2f391cd2ec8c.JPG)
+<p>In der Konsole sind alle gefetchten Dokumente und Dateien, zusätzlich zu der geloggten Geolocation.</p>
+  
+![Konsole1](https://user-images.githubusercontent.com/88386049/152693552-4c7df6da-45f2-4edf-8c85-0a2dde785083.JPG)
+  <p></p>
+
+</details>
+
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
