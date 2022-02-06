@@ -238,7 +238,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 <details><summary>Screenshots vom 02.02.2022</summary>
   
 ![menü](https://user-images.githubusercontent.com/88386049/152693472-bf854e4d-7583-486a-9469-b7962b2f76ec.JPG)
-  <p>Dies ist das neue Menü, das ausklappbar ist.</p>
+  <p>Dies ist das neue Menü, das ausklappbar ist und unten ist die fertige Navigationsleiste. Hier sind zu Testzwecken noch Platzhalter eingebunden.</p>
   
 ![Konsole](https://user-images.githubusercontent.com/88386049/152693507-d0212bdd-05d9-4c0a-996b-2f391cd2ec8c.JPG)
 <p>In der Konsole sind alle gefetchten Dokumente und Dateien, zusätzlich zu der geloggten Geolocation.</p>
