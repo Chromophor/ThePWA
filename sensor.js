@@ -19,7 +19,10 @@ navigator.permissions.query({ name: 'accelerometer' })
     //BeschleunigungZ.innerHTML = acl.z;
     var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
     
-    if(aGesamt > aMax){
+
+    amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
+
+    /*if(aGesamt > aMax){
       aMax = aGesamt;
       amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
     }
@@ -32,7 +35,7 @@ navigator.permissions.query({ name: 'accelerometer' })
     if(aGesamt > 1 && aGesamt < 2){
       anzahlSchritte = anzahlSchritte + 1;
       Schritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
-    }
+    }*/
 
     function resetA(){
       aMax = 0;
