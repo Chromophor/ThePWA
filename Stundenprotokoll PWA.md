@@ -264,8 +264,12 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```javascript
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
   ```
-  Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``
-
+  Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``. Behoben haben wir diesen Fehler, indem wir ``9.5`` eingesetzt haben. Anschließend hat unsere Berechnung funktioniert und wurde auf der Website angezeigt. In Absprache mit Ihnen haben sie uns zu der Formel ``Wurzel aus der Beschleunigung der Achsen zum Quadrat`` geraten. Dies ergibt den Betrag bzw. die Länge des Beschleunigungsvektors. In Javascript ausgedrückt ergibt dies:
+  
+  ```javascript
+  var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
+  ```
+  
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
