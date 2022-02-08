@@ -20,7 +20,7 @@ navigator.permissions.query({ name: 'accelerometer' })
     var aGesamt = ((acl.x + acl.y + acl.z) - 9.5);
     
 
-    amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
+    //amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
 
     if(aGesamt > aMax){
       aMax = aGesamt;
@@ -59,10 +59,9 @@ if('geolocation' in navigator) {
 
 console.log("Geolokation verfügbar!");
 navigator.geolocation.getCurrentPosition(function(position) {
-  const speed = position.coords.speed;
-  document.getElementById('speed').textContent = speed;
-  console.log(speed);
-  speed.innerHTML = "Aktuelle Geschwindigkeit: " + speed;
+  const gesch = position.coords.speed;
+  console.log(gesch);
+  speed.innerHTML = "Aktuelle Geschwindigkeit: " + gesch;
   });
 }
 
