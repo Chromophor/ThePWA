@@ -262,9 +262,9 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt.
   
   ```javascript
-  
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
   ```
+  Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``
 
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
