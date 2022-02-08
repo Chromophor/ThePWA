@@ -23,46 +23,9 @@
         <h1 class="title">Willkommen bei ThePWA<br>Fitnessapp</h1>
     </section>
 
-    <section class="werte">
-        <div id="amaxX">
+    <p>https://www.w3schools.com/js/js_api_web_storage.asp</p>
 
-            Maximale Beschleunigung: 0
-
-        </div>
-
-        <div id="aminX">
-
-            Minimale Beschleunigung: 0
-
-        </div>
-
-        <div id="Schritte">
-            Anzahl der Schritte: 0
-        </div>
-
-        <div id="speed">
-            Aktuelle Geschwindigkeit: 0 km/h
-        </div>
-
-        <section class="button">
-            <div onclick="getLocation()">
-                Geschwindigkeit anzeigen
-            </div>
-        </section>
-
-        <section class="button">
-            <div onclick="resetA()">
-                Beschleunigung zurücksetzen
-            </div>
-        </section>
-
-    </section>
-
-
-
-<?php 
-$active = "irgendwas";
-require('allgemein/footer.php'); ?>
+<?php require('allgemein/footer.php'); ?>
 
 </body>
 
