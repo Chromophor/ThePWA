@@ -269,7 +269,9 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```javascript
   var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
   ```
-  Mit ```javascript Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```javascript Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.  
+  Mit ```javascript 
+  Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```javascript
+  Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.  
   
   
   
