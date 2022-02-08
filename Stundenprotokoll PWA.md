@@ -259,7 +259,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 
 <p id="Stunde12"><b>Dienstag 08.02.2020</b></p>
 
-  Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt.
+  Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt:
   
   ```javascript
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
@@ -269,6 +269,10 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```javascript
   var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
   ```
+  Mit ``Math.sqrt()`` wird die Wurzel aus einem Wert gezogen und mit ``Math.pow(acl.x, 2)`` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.  
+  
+  
+  
   
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
