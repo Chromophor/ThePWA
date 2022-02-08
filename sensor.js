@@ -17,15 +17,18 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungX = acl.x;
     const BeschleunigungY = acl.y;
     const BeschleunigungZ = acl.z;
-    var aGesamt = ((acl.x + acl.y + acl.z) - 9.5);
+    var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2) );
+    
+    
+   // ((acl.x + acl.y + acl.z) - 9.5)
     
 
-    //amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
+    amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
 
-    if(aGesamt > aMax){
+    /*if(aGesamt > aMax){
       aMax = aGesamt;
       amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
-    }
+    }*/
   
     if(aGesamt < aMin){
       aMin = aGesamt;
