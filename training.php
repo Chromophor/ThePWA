@@ -28,7 +28,8 @@
 <script>
 
     let timerhenrikStarted = false;
-    let trainingover = false;
+    let training = false;
+    let pause = false;
 
     function starthenrikTimer() {
         if (!timerhenrikStarted) {
@@ -39,22 +40,32 @@
             let endpause = startTime + pausezeit + trainingszeit;
 
 
-            setInterval(function() {
-                let timelefttraining = endtraining - new Date().getTime();
+            let training = true;
 
 
-                if (timelefttraining > 0) {
-                    let trainingseconds = (timelefttraining / 1000) % 60;
-                    trainingseconds = Math.round(trainingseconds);
-                    timerhenrik.innerHTML = trainingseconds;
-                } 
-                else {
-                    let trainingover = true;
+            while (training === true) {
+
+                setInterval(function() {
+                    let timelefttraining = endtraining - new Date().getTime();
+
+
+                    if (timelefttraining > 0) {
+                        let trainingseconds = (timelefttraining / 1000) % 60;
+                        trainingseconds = Math.round(trainingseconds);
+                        timerhenrik.innerHTML = trainingseconds;
+                    } 
+                    else {
+                        var training = false;
+                        var pause = true;
                     
 
-                }
+                    }
+                }, 1000);
+            }
+            
+            while (pause === true) {
 
-                if (trainingover === true) {
+                setInterval(function() {
                     let timeleftpause = endpause - new Date().getTime();
 
 
@@ -67,12 +78,10 @@
                         timerhenrik.innerHTML = 'finished';
                         
                     }
-                }
+                }, 1000);
+            }
                 
-            }, 1000);
-
-
-            
+                            
             timerhenrikStarted = true;
             
         }
