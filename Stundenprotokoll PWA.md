@@ -271,8 +271,9 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
   
-<p id="Stunde13"><b>Mittwoch 09.02.2022</b><br>
-  
+<p id="Stunde13"><b>Mittwoch 09.02.2022</b><br></p>
+
+  Heute haben wir uns erneut mit der Formel zur Berechnung der Beschleunigung beschäftigt. Die Formel der letzten Stunde hat uns leider noch nicht zum Erfolg geführt, weshalb wir die Formel noch einmal abgeändert haben. Dabei mussten wir die Erdbeschleunigung vom totalen Beschleunigungsvektor abziehen. Unsere neue Formel lautet daher:  
   
   
   
