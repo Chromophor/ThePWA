@@ -275,6 +275,9 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 
   Heute haben wir uns erneut mit der Formel zur Berechnung der Beschleunigung beschäftigt. Die Formel der letzten Stunde hat uns leider noch nicht zum Erfolg geführt, weshalb wir die Formel noch einmal abgeändert haben. Dabei mussten wir die Erdbeschleunigung vom totalen Beschleunigungsvektor abziehen. Unsere neue Formel lautet daher:  
   
+```javascript
+var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z) -9.5 , 2));
+```
   
   
 <h2 id="kapitel3">3. Materialien</h2>
