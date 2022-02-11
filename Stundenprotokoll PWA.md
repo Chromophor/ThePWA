@@ -269,6 +269,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
 Zusätzlich haben wir heute versucht, das Problem mit der Geolocation API zu beheben. Dazu haben wir die Elemente des Datensatzes, der durch die Geolocation API zurückgegeben wird, einer ``Alert()`` Funktion übergeben. Die Elemente Längen- und Breitengrade, und deren Genauigkeit werden inklusive der Höhe in einem Pop-Up-Feld angezeigt.
+Außerdem haben wir uns darum gekümmert, dass unsere App weitere Funktionen erhält. Hierzu war unsere Idee den Timer den wir bisher hatten durch einen Timer für Intervalltraining zu ersetzen. Hier soll sich ein Timer für das Training mit einem Timer für Pausen abwechseln. Wie lang die jeweiligen Abschnitte sein sollen, kann der Anwender vorher selber auswählen. Am Ende der Doppelstunde funktionnierte der Timer allerdings noch nicht so wie geplant und gab verschiedene Fehlermeldungen (z. B. Function is not defined).
 
 <details><summary>Screenshots vom 08.02.2022</summary>
   
