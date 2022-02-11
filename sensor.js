@@ -86,9 +86,7 @@ function showPosition(position) {
       'Die geographische Position dieses Geräts ist (Stand: ' + new Date(position.timestamp).toLocaleTimeString() + '):\n'+
       'Breitengrad: ' + position.coords.latitude + '° \n'+
       'Längengrad: ' + position.coords.longitude + '° \n'+
-      '  Genauigkeit: ' + position.coords.accuracy + 'm\n' +
-      (position.coords.altitude ? ('Höhe: ' + position.coords.altitude + 'm\n' +
-                                  '  Genauigkeit: ' + position.coords.altitudeAccuracy + 'm') : "")
+      'Geschwindigkeit: ' + position.coords.speed + 'm\s'
   ) ;
 };
 
