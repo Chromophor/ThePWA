@@ -280,7 +280,8 @@ Nach kurzer Überlegeung haben wir uns aber für eine andere Formel entschieden,
 var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) + Math.pow(9.5 , 2));
 ```
 Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird. Das bedeutet aber leider auch, dass der Schrittzähler nicht sehr genau arbeitet, da es bereits genügt, das Smartphone mit der richtigen Beschleunigung (also zwischen 1 und 2) anzuheben, um einen weiteren Schritt in die Statistik aufzunehmen. Dennoch funktioniert der Schrittzähler und wir werden uns einem anderen Modul der APP widmen. Falls wir später noch Zeit haben, können wir den Schrittzähler nocheinmal überarbeiten.
-Mit einem neuen Modul haben wir in dieser Stunde bereits angefangen: einem Trainingprogramm 
+Mit einem neuen Modul haben wir in dieser Stunde bereits angefangen: ein Trainingprogramm, das über Trainingszeit und Pausenzeit gesteuert wird.
+<b>Hier Henrik deinen Beitrag</b>
   
   
 <h2 id="kapitel3">3. Materialien</h2>
