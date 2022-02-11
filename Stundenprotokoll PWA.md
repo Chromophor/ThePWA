@@ -268,7 +268,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
   ```
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
-Zusätzlich haben wir heute versucht, das Problem mit der Geolocation API zu beheben. Dazu haben wir die Elemente des Datensatzes, der durch die Geolocation API zurückgegeben wird, einer ``Alert()`` Funktion übergeben. Dabei soll das Element ``coords.speed`` ausgegeben werden.
+Zusätzlich haben wir heute versucht, das Problem mit der Geolocation API zu beheben. Dazu haben wir die Elemente des Datensatzes, der durch die Geolocation API zurückgegeben wird, einer ``Alert()`` Funktion übergeben. Die Elemente Längen- und Breitengrade, und deren Genauigkeit werden inklusive der Höhe in einem Pop-Up-Feld angezeigt.
 
 <details><summary>Screenshots vom 08.02.2022</summary>
   
