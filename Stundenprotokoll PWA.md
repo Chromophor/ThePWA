@@ -258,6 +258,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 </details>
 
 <p id="Stunde12"><b>Dienstag 08.02.2020</b></p>
+
   Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt:
   ```javascript
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
@@ -269,6 +270,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
   
 <p id="Stunde13"><b>Mittwoch 09.02.2022</b><br></p>
+
   Heute haben wir uns erneut mit der Formel zur Berechnung der Beschleunigung beschäftigt. Die Formel der letzten Stunde hat uns leider noch nicht zum Erfolg geführt, weshalb wir die Formel noch einmal abgeändert haben. Dabei mussten wir die Erdbeschleunigung vom totalen Beschleunigungsvektor abziehen. Unsere neue Formel lautet daher:  
 ```javascript
 var aGesamt =  (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
