@@ -257,7 +257,7 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   
 </details>
 
-<p id="Stunde12"><b>Dienstag 08.02.2020</b></p>
+<p id="Stunde12"><b>Dienstag 08.02.2022</b></p>
 
   Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt:
   ```javascript
@@ -270,6 +270,14 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
 Zusätzlich haben wir heute versucht, das Problem mit der Geolocation API zu beheben. Dazu haben wir die Elemente des Datensatzes, der durch die Geolocation API zurückgegeben wird, einer ``Alert()`` Funktion übergeben. Dabei soll das Element ``coords.speed`` ausgegeben werden.
 
+<details><summary>Screenshots vom 08.02.2022</summary>
+  
+![Screenshot_20220209-145835_Samsung Internet](https://user-images.githubusercontent.com/88386049/153597454-faadf218-d5e9-4c3f-ad2e-728518f4362a.jpg)
+
+![Screenshot_20220209-135414_Samsung Internet](https://user-images.githubusercontent.com/88386049/153597471-21addd6d-8641-4f35-a5c0-a7f422e05c46.jpg)
+<p>Beide Abbildungen zeigen das Alert-Feld, mit dem die Inhalte der Geolocation API ausgegeben werden.</p>
+
+</details>
   
 <p id="Stunde13"><b>Mittwoch 09.02.2022</b><br></p>
 
