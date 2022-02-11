@@ -279,9 +279,12 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 var aGesamt =  (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
 ```
 
+Nach kurzer Überlegeung haben wir uns aber für eine andere Formel entschieden, da ansonsten noch keinen korrekten Betrag gebildet haben. Wir haben die Formel daher noch einmal umgeformt und haben diese Formel abschließend hochgeladen:
+
 ```javascript
 var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) + Math.pow(9.5 , 2));
 ```
+Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird.
   
   
 <h2 id="kapitel3">3. Materialien</h2>
