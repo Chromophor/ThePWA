@@ -258,14 +258,11 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 </details>
 
 <p id="Stunde12"><b>Dienstag 08.02.2020</b></p>
-
   Wir haben heute den Fehler in unserem Code gefunden, weshalb die Gesamtbeschleunigung als 5 ausgegeben wird. Wir haben fälschlicherweise dies im Code stehen gehabt:
-  
   ```javascript
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
   ```
   Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``. Behoben haben wir diesen Fehler, indem wir ``9.5`` eingesetzt haben. Anschließend hat unsere Berechnung funktioniert und wurde auf der Website angezeigt. In Absprache mit Ihnen haben sie uns zu der Formel ``Wurzel aus der Beschleunigung der Achsen zum Quadrat`` geraten. Dies ergibt den Betrag bzw. die Länge des Beschleunigungsvektors. In Javascript ausgedrückt ergibt dies:
-  
   ```javascript
   var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
   ```
@@ -277,7 +274,6 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
 var aGesamt =  (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
 ```
 Nach kurzer Überlegeung haben wir uns aber für eine andere Formel entschieden, da ansonsten noch keinen korrekten Betrag gebildet haben. Wir haben die Formel daher noch einmal umgeformt und haben diese Formel abschließend hochgeladen:
-
 ```javascript
 var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) + Math.pow(9.5 , 2));
 ```
