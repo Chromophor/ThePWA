@@ -279,7 +279,7 @@ Nach kurzer Überlegeung haben wir uns aber für eine andere Formel entschieden,
 ```javascript
 var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) + Math.pow(9.5 , 2));
 ```
-Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird.
+Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird. Das bedeutet aber leider auch, dass der Schrittzähler nicht sehr genau arbeitet, da es bereits genügt, das Smartphone mit der richtigen Beschleunigung (also zwischen 1 und 2) anzuheben, um einen weiteren Schritt in die Statistik aufzunehmen. Dennoch funktioniert der Schritt
   
   
 <h2 id="kapitel3">3. Materialien</h2>
