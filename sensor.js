@@ -18,7 +18,7 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungX = acl.x;
     const BeschleunigungY = acl.y;
     const BeschleunigungZ = acl.z;
-    var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) - 9.5);
+    var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5;
     //var aGesamt = (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
     
     
@@ -87,7 +87,7 @@ function showPosition(position) {
       'Die geographische Position dieses Geräts ist (Stand: ' + new Date(position.timestamp).toLocaleTimeString() + '):\n'+
       'Breitengrad: ' + position.coords.latitude + '° \n'+
       'Längengrad: ' + position.coords.longitude + '° \n'+
-      'Geschwindigkeit: ' + position.coords.speed * 3,6 + ' m\s '
+      'Geschwindigkeit: ' + position.coords.speed * 3.6 + ' km/h'
   );
 };
 
