@@ -18,7 +18,7 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungX = acl.x;
     const BeschleunigungY = acl.y;
     const BeschleunigungZ = acl.z;
-    var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5;
+    var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5 , 2));
     //var aGesamt = (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
     
     
