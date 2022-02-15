@@ -90,7 +90,7 @@ function showPosition(position) {
       'Geschwindigkeit: ' + position.coords.speed * 3.6 + ' km/h'
   );*/
   
-  speed.innerHTML = "Aktuelle Geschwindigkeit: " + position.coords.speed * 3.6;
+  speed.innerHTML = "Aktuelle Geschwindigkeit: " + position.coords.speed * 3.6 + " km/h";
 
 };
 
