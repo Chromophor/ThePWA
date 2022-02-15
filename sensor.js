@@ -64,7 +64,7 @@ if('geolocation' in navigator) {
 
 console.log("Geolokation verfügbar!");
 navigator.geolocation.getCurrentPosition(function(position) {
-  const gesch = position.coords.speed;
+  let gesch = position.coords.speed;
   console.log(gesch);
   speed.innerHTML = "Aktuelle Geschwindigkeit: " + gesch;
   });
@@ -83,12 +83,15 @@ if (navigator.geolocation) {
 
 
 function showPosition(position) {
-  alert(
+  /*alert(
       'Die geographische Position dieses Geräts ist (Stand: ' + new Date(position.timestamp).toLocaleTimeString() + '):\n'+
       'Breitengrad: ' + position.coords.latitude + '° \n'+
       'Längengrad: ' + position.coords.longitude + '° \n'+
       'Geschwindigkeit: ' + position.coords.speed * 3.6 + ' km/h'
-  );
+  );*/
+  
+  speed.innerHTML = "Aktuelle Geschwindigkeit: " + position.coords.speed * 3.6;
+
 };
 
 function showError(error) {
