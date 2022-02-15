@@ -1,5 +1,6 @@
 navigator.permissions.query({ name: 'accelerometer' })
 .then(result => {
+  
   if (result.state === 'denied') {
     console.log('Permission to use accelerometer sensor is denied.');
     return;
@@ -17,11 +18,11 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungX = acl.x;
     const BeschleunigungY = acl.y;
     const BeschleunigungZ = acl.z;
-    var aGesamt = Math.sqrt(Math.pow((Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) - 9.5), 2));
+    var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2) - 9.5);
     //var aGesamt = (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
     
     
-    // ((acl.x + acl.y + acl.z) - 9.5)
+    //var aGesamt = ((acl.x + acl.y + acl.z) - 9.5)
     
 
     amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
@@ -73,7 +74,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
 
 if (navigator.geolocation) {
   var options = {
-    enableHighAccuracy: true,
+    enableHighAccuracy: true
   }
   navigator.geolocation.watchPosition(showPosition, showError, options);
 } else {
@@ -86,7 +87,7 @@ function showPosition(position) {
       'Die geographische Position dieses Geräts ist (Stand: ' + new Date(position.timestamp).toLocaleTimeString() + '):\n'+
       'Breitengrad: ' + position.coords.latitude + '° \n'+
       'Längengrad: ' + position.coords.longitude + '° \n'+
-      'Geschwindigkeit: ' + position.coords.speed + 'm\s'
+      'Geschwindigkeit: ' + position.coords.speed * 3,6 + ' m\s '
   );
 };
 
@@ -106,6 +107,7 @@ function showError(error) {
           break;
   }
 };
+
 
 
 /*
