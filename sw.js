@@ -16,7 +16,6 @@ self.addEventListener("install", e => {
     );
 });
  
-//NEW!!
 
 self.addEventListener('fetch', e => {
   console.log(`Intercepting fetch request for: ${e.request.url}`);
@@ -28,7 +27,6 @@ self.addEventListener('fetch', e => {
 });
 
 
-//NEW!!
 self.addEventListener('push', event => {
   event.waitUntil(
     self.registration.showNotification('Sehen Sie sich Ihre Statistiken an!', {  
@@ -37,4 +35,15 @@ self.addEventListener('push', event => {
       tag: 'notification'
     })
   );
+});
+
+
+//New
+
+navigator.serviceWorker.ready.then(registration => {
+  if (registration.sync) {
+      alert("Background Sync IST unterstützt!")
+  } else {
+      alert("Background Sync ist nicht unterstützt!")
+  }
 });
