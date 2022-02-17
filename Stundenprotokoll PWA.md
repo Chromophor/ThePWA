@@ -34,7 +34,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li><a href="#Stunde11">Mittwoch 02.02.2022</a></li>
   <li><a href="#Stunde12">Dienstag 08.02.2020</a></li>
   <li><a href="#Stunde13">Mittwoch 09.02.2022</a></li>
-  <li><a href="#Stunde14">Mittwoch 22.09.2022</a></li>
+  <li><a href="#Stunde14">Dienstag 15.02.2022</a></li>
   <li><a href="#Stunde15">Dienstag 28.09.2022</a></li>
   <li><a href="#Stunde16">Mittwoch 29.09.2022</a></li>
   <li><a href="#Stunde17">Samstag 02.10.2022</a></li>
@@ -293,11 +293,11 @@ var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y
 Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2 ist. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird. Das bedeutet aber leider auch, dass der Schrittzähler nicht sehr genau arbeitet, da es bereits genügt, das Smartphone mit der richtigen Beschleunigung (also zwischen 1 und 2) anzuheben, um einen weiteren Schritt in die Statistik aufzunehmen. Dennoch funktioniert der Schrittzähler und wir werden uns einem anderen Modul der APP widmen. Falls wir später noch Zeit haben, können wir den Schrittzähler nocheinmal überarbeiten.
 Außerdem haben wir den Timer für das Intervalltraining weiter verbessert. Allerdings gibt es immernoch verschiedene Feheler, vor allem die Timer richtig nacheinander auszuführen. So läuft der zweite Timer schon während der erste läuft und es muss im richtigen Moment der andere eingeblendet werden. Ein Problem war hier auch die verschiedenen Funktionformen von Javascript mit synchronem und asynchronem Code. Aus diesem Grund mussten wir auch eine erste Lösung wieder verwerfen, die wir mit zwei while-schleifen programmiert haben, da in dieser Schleife erst Werte zurückgegeben werden, wenn die Schleife fertig durchgelaufen ist. Am Ende der Stunde wurde aber schon immerhin Start und Ende richtig angezeigt.
 
-<p id="Stunde 14"><b>Dienstag 15.02.2022</b><br></p>
+<p id="Stunde14"><b>Dienstag 15.02.2022</b><br></p>
 
 Zwischen der letzten und der heutigen Stunde haben wir uns auch zuhause weiter mit unserem Projekt beschäftigt. So ist der Timer nun soweit, dass er richtig nacheinander durchläuft und dies auch solange, bis man ihn stoppt. Hierfür haben wir zwei Möglichkeiten eingebaut. Es gibt einen "Anhalten" Button mit dem der Timer stoppt, man ihn aber wieder starten kann. Außerdem gibt es einen "Beenden" Button der den Timer auch beendet und einen zur Startseite weiterleitet. In der heutigen Stunde haben wir weiter am generellen Styling des Timers programmiert und die Buttons die normalerweise nebeneinander angezeigt werden, so bearbeitet, dass sie auf schmalen Geräten übereinander angezeigt werden, da sie sonst auf diesen Geräten über den Bildschirmrand hinausragen würden. Außerdem haben wir eine Funktion eingefügt, die die Anzahl der Runden zählt und anzeigt, die der Benutzer bereits trainiert hat. Hierbei zählt eine Runde, wenn beide Timer einmal durchgelaufen sind. Parallel arbeiten wir auch noch an einer Möglichkeit die Trainingsfortschritte zu speichern.
 
-<p id="Stunde 15"><b>Mittwoch 16.02.2022</b><br></p>
+<p id="Stunde15"><b>Mittwoch 16.02.2022</b><br></p>
 
 Heute haben wir weitere Verbesserungen an der App vorgenommen. Außerdem haben wir ein neues Feature angefangen mit dem wir eine Übersicht über verschiedene Trainingsfortschritte und Infos auf der Startseite einblenden wollen. Allerdings hat die Internetfreigabe nicht funktioniert, weswegen wir in unserer Arbeit etwas eingeschränkt waren. Trotzdem konnten wir die Stunde relativ gut nutzen und müssen die Änderungen, die wir z. B. am Code der Sensoren vorgenommen haben in der nächsten Stunde testen, da wir hierfür eine Internetverbindung brauchen, um die Dateien auf den Server hochzuladen.
   
