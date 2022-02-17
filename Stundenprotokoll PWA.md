@@ -299,7 +299,7 @@ Zwischen der letzten und der heutigen Stunde haben wir uns auch zuhause weiter m
 
 <p id="Stunde15"><b>Mittwoch 16.02.2022</b><br></p>
 
-Heute haben wir weitere Verbesserungen an der App vorgenommen. Außerdem haben wir ein neues Feature angefangen mit dem wir eine Übersicht über verschiedene Trainingsfortschritte und Infos auf der Startseite einblenden wollen. Allerdings hat die Internetfreigabe nicht funktioniert, weswegen wir in unserer Arbeit etwas eingeschränkt waren. Trotzdem konnten wir die Stunde relativ gut nutzen und müssen die Änderungen, die wir z. B. am Code der Sensoren vorgenommen haben in der nächsten Stunde testen, da wir hierfür eine Internetverbindung brauchen, um die Dateien auf den Server hochzuladen.
+Heute haben wir weitere Verbesserungen an der App vorgenommen. So haben wir heute an der Geolocation API weitergearbeitet. Es gibt hier zwei Methoden, um Daten abzufragen. Die ``navigator.geolocation.watchPosition(showPosition, showError, options);`` Methode fragt die Position und weitere enthaltene Bausteine nur einmal ab. Dies bietet sich zwar für eine reine Standortabfrage an, aber ist bei einer Geschwindigkeitsanzeige nicht sinnvoll. Daher haben wir uns für die  Außerdem haben wir ein neues Feature angefangen mit dem wir eine Übersicht über verschiedene Trainingsfortschritte und Infos auf der Startseite einblenden wollen. Allerdings hat die Internetfreigabe nicht funktioniert, weswegen wir in unserer Arbeit etwas eingeschränkt waren. Trotzdem konnten wir die Stunde gut nutzen, müssen aber die Änderungen, die wir z. B. am Code der Sensoren vorgenommen haben, in der nächsten Stunde testen, da wir hierfür eine Internetverbindung brauchen, um die Dateien auf den Server hochzuladen.
   
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
@@ -311,3 +311,4 @@ Heute haben wir weitere Verbesserungen an der App vorgenommen. Außerdem haben w
 <li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</li>
 <li>https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates-speed</li>
 <li>https://web.dev/add-manifest/#icons</li>
+<li>https://www.w3.org/TR/geolocation/</li>
