@@ -8,11 +8,11 @@ self.addEventListener("install", e => {
                "./sensor.js", 
                "./sensor.php",
                "./webmanifest.json",
-               "./Bilder/icon57.png",
-               "./Bilder/icon60.png",
-               "./Bilder/icon120.png",
-               "./Bilder/icon192.png",
-               "./Bilder/icon512.png",
+               "./bilder/icon57.png",
+               "./bilder/icon60.png",
+               "./bilder/icon120.png",
+               "./bilder/icon192.png",
+               "./bilder/icon512.png",
              ]);
          })
     );
