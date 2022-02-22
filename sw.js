@@ -70,6 +70,9 @@ if ('serviceWorker' in navigator) {
 
 self.addEventListener('sync', event => {
   if (event.tag === 'IDSchrittzähler') {
-      event.waitUntil(alert("Funktioniert!"));
+
+    alert("Funktioniert!");
+
+      event.waitUntil();
   }
 });
