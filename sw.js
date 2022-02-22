@@ -41,7 +41,7 @@ self.addEventListener('push', e => {
 
 //New
 
-navigator.serviceWorker.ready.then(registration => {
+navigator.serviceWorker.then(registration => {
   if (registration.sync) {
     alert("Background Sync IST unterstützt!");
       
