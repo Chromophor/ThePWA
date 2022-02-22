@@ -41,7 +41,7 @@ self.addEventListener('push', e => {
 
 
 //New
-
+/*
 navigator.serviceWorker.ready.then(registration => {
   if (registration.sync) {
     alert("Funktioniert!");
@@ -55,7 +55,17 @@ navigator.serviceWorker.ready.then(registration => {
     alert("Funktioniert nicht!");
   }
 });      
+*/
 
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+  navigator.serviceWorker.ready.then(registration => {
+    if ('SyncManager' in window) {
+      registration.sync.register('IDSchrittzähler');
+    }
+  });
+}
 
 
 self.addEventListener('sync', event => {
