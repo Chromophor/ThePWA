@@ -29,7 +29,7 @@ self.addEventListener('fetch', e => {
 
 //Im Moment nur über das Dev-Tool steuerbar
 self.addEventListener('push', e => {
-  event.waitUntil(
+  e.waitUntil(
     self.registration.showNotification('Sehen Sie sich Ihre Statistiken an!', {  
       body: 'Sie waren die letzten Tage aktiv, hier sind Ihre Ergebnisse.',  
       icon: '/Bilder/icon120.png',
@@ -41,7 +41,7 @@ self.addEventListener('push', e => {
 
 //New
 
-navigator.serviceWorker.then(registration => {
+navigator.serviceWorker.ready.then(registration => {
   if (registration.sync) {
     alert("Background Sync IST unterstützt!");
       
@@ -55,7 +55,7 @@ navigator.serviceWorker.then(registration => {
 });
 
 self.addEventListener('sync', e => {
-  if(event.tag === 'IDSchrittzähler'){
-    event.waitUntil(doTheWork());
+  if(e.tag === 'IDSchrittzähler'){
+    e.waitUntil(doTheWork());
   }
 });
