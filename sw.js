@@ -42,15 +42,24 @@ self.addEventListener('push', e => {
 
 //New
 
-      
-async function requestBackgroundSync() {
-  await self.registration.sync.register('IDSchrittzähler');
-};
-  
+navigator.serviceWorker.ready.then(registration => {
+  if (registration.sync) {
+    alert("Funktioniert!");
+    
+    async function requestBackgroundSync() {
+      await self.registration.sync.register('IDSchrittzähler');
+    };
+
+
+  } else {
+    alert("Funktioniert nicht!");
+  }
+});      
+
 
 
 self.addEventListener('sync', event => {
-  if (event.tag === 'bg-load-tip') {
+  if (event.tag === 'IDSchrittzähler') {
       event.waitUntil(alert("Funktioniert!"));
   }
 });
