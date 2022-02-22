@@ -4,7 +4,8 @@ self.addEventListener("install", e => {
              return cache.addAll([
                "./", 
                "./index.js", 
-               "./master.css", 
+               "./master.css",
+               "./sensor.js", 
                "./webmanifest.json",
                "./Bilder/icon57.png",
                "./Bilder/icon60.png",
@@ -26,8 +27,8 @@ self.addEventListener('fetch', e => {
   );
 });
 
-
-self.addEventListener('push', event => {
+//Im Moment nur über das Dev-Tool steuerbar
+self.addEventListener('push', e => {
   event.waitUntil(
     self.registration.showNotification('Sehen Sie sich Ihre Statistiken an!', {  
       body: 'Sie waren die letzten Tage aktiv, hier sind Ihre Ergebnisse.',  
@@ -42,8 +43,19 @@ self.addEventListener('push', event => {
 
 navigator.serviceWorker.ready.then(registration => {
   if (registration.sync) {
-      alert("Background Sync IST unterstützt!")
+    alert("Background Sync IST unterstützt!");
+      
+    async function requestBackgroundSync() {
+      await self.registration.sync.register('IDSchrittzähler');
+    };
+  
   } else {
-      alert("Background Sync ist nicht unterstützt!")
+    alert("Background Sync ist nicht unterstützt!");
+  }
+});
+
+self.addEventListener('sync', e => {
+  if(event.tag === 'IDSchrittzähler'){
+    event.waitUntil(doTheWork());
   }
 });
