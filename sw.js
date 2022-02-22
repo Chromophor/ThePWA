@@ -4,8 +4,9 @@ self.addEventListener("install", e => {
              return cache.addAll([
                "./", 
                "./index.js", 
-               "./master.css",
+               "./style.css",
                "./sensor.js", 
+               "./sensor.php",
                "./webmanifest.json",
                "./Bilder/icon57.png",
                "./Bilder/icon60.png",
@@ -42,9 +43,9 @@ self.addEventListener('push', e => {
 //New
 
       
-    async function requestBackgroundSync() {
-      await self.registration.sync.register('IDSchrittzähler');
-    };
+async function requestBackgroundSync() {
+  await self.registration.sync.register('IDSchrittzähler');
+};
   
 
 
