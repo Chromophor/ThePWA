@@ -41,21 +41,15 @@ self.addEventListener('push', e => {
 
 //New
 
-navigator.serviceWorker.ready.then(registration => {
-  if (registration.sync) {
-    alert("Background Sync IST unterstützt!");
       
     async function requestBackgroundSync() {
       await self.registration.sync.register('IDSchrittzähler');
     };
   
-  } else {
-    alert("Background Sync ist nicht unterstützt!");
-  }
-});
 
-self.addEventListener('sync', e => {
-  if(e.tag === 'IDSchrittzähler'){
-    e.waitUntil(doTheWork());
+
+self.addEventListener('sync', event => {
+  if (event.tag === 'bg-load-tip') {
+      event.waitUntil(alert("Funktioniert!"));
   }
 });
