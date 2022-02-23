@@ -328,3 +328,4 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <li>https://www.w3.org/TR/geolocation/</li>
 <li>https://wicg.github.io/background-fetch/#background-fetch-event</li>
 <li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-2-Background-Fetch-API-4681556.html</li>
+<li>https://docs.microsoft.com/de-de/microsoft-edge/progressive-web-apps-chromium/how-to/background-syncs</li>
