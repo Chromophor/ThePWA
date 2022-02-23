@@ -327,3 +327,4 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <li>https://web.dev/add-manifest/#icons</li>
 <li>https://www.w3.org/TR/geolocation/</li>
 <li>https://wicg.github.io/background-fetch/#background-fetch-event</li>
+<li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-2-Background-Fetch-API-4681556.html</li>
