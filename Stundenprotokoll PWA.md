@@ -329,3 +329,4 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <li>https://wicg.github.io/background-fetch/#background-fetch-event</li>
 <li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-2-Background-Fetch-API-4681556.html</li>
 <li>https://docs.microsoft.com/de-de/microsoft-edge/progressive-web-apps-chromium/how-to/background-syncs</li>
+<li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-1-Background-Sync-API-4676538.html#:~:text=Die%20Background%20Sync%20API%20m%C3%B6chte%20Progressive%20Web%20Apps,Nachricht%20verfassen%2C%20absenden%20und%20das%20Smartphone%20wieder%20wegpacken.</li>
