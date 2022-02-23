@@ -331,3 +331,4 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <li>https://docs.microsoft.com/de-de/microsoft-edge/progressive-web-apps-chromium/how-to/background-syncs</li>
 <li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-1-Background-Sync-API-4676538.html#:~:text=Die%20Background%20Sync%20API%20m%C3%B6chte%20Progressive%20Web%20Apps,Nachricht%20verfassen%2C%20absenden%20und%20das%20Smartphone%20wieder%20wegpacken.</li>
 <li>https://developers.google.com/web/updates/2015/12/background-sync#progressive_enhancement</li>
+<li>https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/</li>
