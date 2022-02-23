@@ -326,3 +326,4 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <li>https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates-speed</li>
 <li>https://web.dev/add-manifest/#icons</li>
 <li>https://www.w3.org/TR/geolocation/</li>
+<li>https://wicg.github.io/background-fetch/#background-fetch-event</li>
