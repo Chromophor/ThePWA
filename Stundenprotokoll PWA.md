@@ -314,6 +314,14 @@ Heute haben wir weitere Verbesserungen an der App vorgenommen. So haben wir heut
 <p id="Stunde16"><b>Dienstag 22.02.2022</b><br></p>
 
 In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben wir die Übersicht auf der Startseite weiterentwickelt. Allerdings geht es hier hauptsächlich um das Design und wir haben uns dazu entschieden, die Designs der verschiedenen Funktionen mit einem Grafikprogramm zu gestalten und danach erst im Code umzusetzen. Dementsprechend haben wir diese Funktion erstmal beiseite gelegt und uns überlegt was wir noch für Funktionen in unserer App haben wollen. Hier haben wir uns überlegt, dass besonders wenn man Sport macht, es sehr wichtig ist genug zu trinken. Deswegen haben wir uns dazu entschieden eine Art Erinnerung zu implementieren, die einen erinnert zu trinken und wo man eintragen wie viel man schon getrunken hat, um das für das eigenen Körpergewicht berechnete Ziel zu erreichen. Mit der Vorgabe eines Ziels fällt es einem oft leichter diese Ziele zu erreichen, besonders wenn man seinen eigenen Fortschritt sehen kann.
+
+<details><summary>Screenshots</summary>
+  
+![App-Design](https://user-images.githubusercontent.com/88386049/155553347-b4007cdf-fc64-48cc-99c0-2adc5fac6395.jpg)
+![Affinity-Design](https://user-images.githubusercontent.com/88386049/155553361-5a3ae93b-19aa-43d4-a48a-140f3df7bee0.jpg)
+
+  
+</details>
   
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
