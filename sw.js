@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
   );
 });
 
-//Im Moment nur über das Dev-Tool steuerbar
+//Im Moment nur über das Dev-Tool steuerbar!
 self.addEventListener('push', e => {
   e.waitUntil(
     self.registration.showNotification('Sehen Sie sich Ihre Statistiken an!', {  
@@ -40,23 +40,35 @@ self.addEventListener('push', e => {
 });
 
 
-//New
-/*
+
+if ('serviceWorker' in navigator) {
 navigator.serviceWorker.ready.then(registration => {
-  if (registration.sync) {
-    alert("Funktioniert!");
-    
-    async function requestBackgroundSync() {
-      await self.registration.sync.register('IDSchrittzähler');
-    };
+  if ('BackgroundFetchManager' in window) {
+    registration.backgroundFetch.fetch('schritte',
+    [''],
+    {title: 'Schritte zählen'}
+     );
+    }
+  });
+}
 
 
-  } else {
-    alert("Funktioniert nicht!");
+navigator.serviceWorker.ready.then(registration => {
+  if ('BackgroundFetchManager' in window) {
+    registration.backgroundFetch.fetch('offline-songs', [
+      'songs/Katy_Perry/Firework.mp3',
+      'songs/Hilltop_Hoods/1955.mp3',
+      'songs/The_Script/Nothing.mp3'
+    ], {
+      title: 'Songs für Offlinewiedergabe speichern…'
+    });
   }
-});      
-*/
+});
 
+
+
+
+/*  Hintergrund-sync-API
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js');
@@ -71,8 +83,9 @@ if ('serviceWorker' in navigator) {
 self.addEventListener('sync', event => {
   if (event.tag === 'IDSchrittzähler') {
 
-    alert("Funktioniert!");
+    console.log("Funktioniert!");
 
       event.waitUntil();
   }
 });
+*/
