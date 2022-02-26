@@ -333,7 +333,8 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
   
 </details>
 
-<p id="Stunde18"><b>stag 26.02.2022</b>
+<p id="Stunde18"><b>Samstag 26.02.2022</b><br>
+  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam a ob 
   
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
