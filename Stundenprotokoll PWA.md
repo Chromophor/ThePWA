@@ -336,6 +336,16 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <p id="Stunde18"><b>Samstag 26.02.2022</b><br>
   Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können.</p>
   
+<details><summary>Screenshots vom 26.02.2022</summary>
+  
+![Wasser](https://user-images.githubusercontent.com/88386049/155844299-8f4e0f14-da00-4eb2-9297-9534935e308f.jpg)
+  <p>Dies ist die neu designte Übersicht des Wassers.</p>
+  
+![Training + Space](https://user-images.githubusercontent.com/88386049/155844305-8c98abeb-e9d7-462c-a281-40404a8d8464.jpg)
+![Übersicht](https://user-images.githubusercontent.com/88386049/155844308-83ec40cf-18cf-487c-b72e-38e8bd53b897.jpg)
+
+</details>
+  
 <h2 id="kapitel3">3. Materialien</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
