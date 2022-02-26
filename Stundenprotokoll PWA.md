@@ -346,7 +346,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 
 </details>
   
-<h2 id="kapitel3">3. Materialien</h2>
+<h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
 <li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
