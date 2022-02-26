@@ -334,7 +334,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 </details>
 
 <p id="Stunde18"><b>Samstag 26.02.2022</b><br>
-  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können.</p>
+  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können. Besonders viel zeit nahm heute das Design des Wasserglases (siehe Screen-Shots) in Anspruch.</p>
   
 <details><summary>Screenshots vom 26.02.2022</summary>
   
