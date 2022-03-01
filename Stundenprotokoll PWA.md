@@ -345,6 +345,12 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 ![Übersicht](https://user-images.githubusercontent.com/88386049/155844308-83ec40cf-18cf-487c-b72e-38e8bd53b897.jpg)
 
 </details>
+
+<detials><summary>Neues Design</summary>
+  
+  
+  
+</details>
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
