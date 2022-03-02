@@ -346,7 +346,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 
 </details>
 
-<detials><summary>Neues Design</summary>
+<details><summary>Neues Design</summary>
   
   ![Screenshot 2022-03-01 092204](https://user-images.githubusercontent.com/88386049/156131993-5765bdaa-2248-4fec-b4ff-ba97268364ab.jpg)
 
@@ -355,6 +355,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
   ![Screenshot 2022-03-01 092249](https://user-images.githubusercontent.com/88386049/156132010-001732c3-58e6-4a9e-8267-0b88f80cd606.jpg)
 
 </details>
+
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
