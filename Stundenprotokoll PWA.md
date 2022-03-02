@@ -356,6 +356,8 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 
 </details>
 
+<p id="Stunde19"><b>Dienstag 01.03.2022</b><br>
+  Wir haben uns heute mit dem am Samstag erstellten Design beschäftig und dies zu Beginn der Stunde gemeinsam besprochen. Dabei haben wir uns darauf geeinigt, dass wir dies Design so wie vorgeschlagen umsetzen. An den Farben und den Formen können wir im Nachhinnein immer noch arbeiten. Dafür haben wir mit CSS viele neue Klassen erstellt. Außerdem haben wir uns mit der Storage-API weiter beschäftigt.
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
