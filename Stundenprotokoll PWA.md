@@ -364,7 +364,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt.
 
 <p id="Stunde20"><b>Mittwoch 02.03.2022</b><br></p>
-Dafür muss nicht nur ein Input-Feld erstellen, sondern auch dieses Input-Feld auslesen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen.
+Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentiell und auch das auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert, ausgelöst per Java-Script. Dafür muss nicht nur ein Input-Feld erstellen, sondern auch dieses Input-Feld auslesen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen.
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
