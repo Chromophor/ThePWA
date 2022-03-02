@@ -369,13 +369,14 @@ Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihr
 ```HTML
 <input type="text" id="test" placeholder="Dein Name...">
 ```
-Um das Feld auszulesen, nutzen wir die JSQuery
+Um das Feld auszulesen, nutzen wir die JSQuery. Bisher 
 
 ```javascript
 let name = document.querySelector("#test").value;
   
 testausgabe.innerHTML = name;
 ```
+
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
