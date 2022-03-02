@@ -365,7 +365,11 @@ Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue 
 
 <p id="Stunde20"><b>Mittwoch 02.03.2022</b><br></p>
 Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentiell und auch das auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert und ausgelöst per Java-Script. Auch ein Input-Feld haben wir bereits auf dem Pop-Up eingebaut. Wir wollen den Namen aber auch speichern, weshalb wir dieses Input-Feld auch auslesen müssen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen. Das Input-Feld hat daher den folgenden Code:
-  
+ 
+``html
+<input type="text" id="test" placeholder="Dein Name...">
+``
+
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
