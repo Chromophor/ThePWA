@@ -39,7 +39,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li><a href="#Stunde16">Dienstag 22.02.2022</a></li>
   <li><a href="#Stunde17">Mittwoch 23.02.2022</a></li>
   <li><a href="#Stunde18">Samstag 26.02.2022</a></li>
-  <li><a href="#Stunde19">Samstag 09.10.2022</a></li>
+  <li><a href="#Stunde19">Dienstag 01.03.2022</a></li>
   <li><a href="#Stunde20">Sonntag 10.10.2022</a></li>
   <li><a href="#Stunde21">Montag 11.10.2022</a></li>
   <li><a href="#Stunde22">Dienstag 12.10.2022</a></li>
@@ -362,6 +362,9 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <b>!!! HENRIK, Hier Bilder des Dreh-Reglers + Code ;) !!!</b>
 
 Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt.
+
+<p id="Stunde20"><b>Mittwoch 02.03.2022</b><br></p>
+Dafür muss nicht nur ein Input-Feld erstellen, sondern auch dieses Input-Feld auslesen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen.
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
