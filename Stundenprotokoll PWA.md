@@ -361,7 +361,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
   
 <b>!!! HENRIK, Hier Bilder des Dreh-Reglers + Code ;) !!!</b>
 
-Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt. Dafür muss nicht nur ein Input-Feld erstellen, sondern auch dieses Input-Feld auslesen. Dabei haben wir uns 
+Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt.
   
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
