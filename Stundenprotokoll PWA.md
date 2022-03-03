@@ -357,9 +357,15 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 </details>
 
 <p id="Stunde19"><b>Dienstag 01.03.2022</b><br></p>
-  Wir haben uns heute mit dem am Samstag erstellten Design beschäftigt und dies zu Beginn der Stunde gemeinsam besprochen. Dabei haben wir uns darauf geeinigt, dass wir dies Design so wie vorgeschlagen umsetzen. An den Farben und den Formen können wir im Nachhinnein immer noch arbeiten. Dafür haben wir mit CSS viele neue Klassen erstellt. Z.B. haben wir den Timer bzw. das  Trainingsprogramm überarbeitet. Anstatt eines Eingabefeldes für Zahlen, was bisher für die User-Interaktion eingesetzt wurde, aber wenig intuitiv ist, durch ein Schiebe-Regler ersetzt. Dies ist ein Input-Feld, welches wie folgt aussieht. Wir möchten die eingegebene Zahl aber auch anzeigen, weshalb wir dies mit einer Query auslesen.
+  Wir haben uns heute mit dem am Samstag erstellten Design beschäftigt und dies zu Beginn der Stunde gemeinsam besprochen. Dabei haben wir uns darauf geeinigt, dass wir dies Design so wie vorgeschlagen umsetzen. An den Farben und den Formen können wir im Nachhinnein immer noch arbeiten. Dafür haben wir mit CSS viele neue Klassen erstellt. Z.B. haben wir den Timer bzw. das  Trainingsprogramm überarbeitet. Anstatt eines Eingabefeldes für Zahlen, was bisher für die User-Interaktion eingesetzt wurde, aber wenig intuitiv ist, durch ein Schiebe-Regler ersetzt. Dieser funktioniert bisher allerdings nur für den Trainingswert. Es ist ein Input-Feld, welches wie folgt aussieht. Wir möchten die eingegebene Zahl aber auch anzeigen, weshalb wir dies mit einer Query auslesen.
   
-<b>!!! HENRIK, Hier Bilder des Dreh-Reglers + Code ;) !!!</b>
+<details><summary>Neues Eingabefeld</summary>
+  
+  ![Schiebe-regler](https://user-images.githubusercontent.com/88386045/156606677-1d1ab0b3-c573-4f70-8c6e-fb9350f1d152.PNG)
+
+  ![Schiebe-regler-Code](https://user-images.githubusercontent.com/88386045/156606705-99f7b761-61d1-405f-add5-f4cafd698295.PNG)
+
+</details>
 
 Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt.
 
