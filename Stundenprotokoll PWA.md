@@ -378,9 +378,8 @@ Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihr
 Um das Feld auszulesen, nutzen wir die JSQuery. Bisher 
 
 ```javascript
-let name = document.querySelector("#test").value;
-  
-testausgabe.innerHTML = name;
+ name = document.querySelector("#name").value;
+ testausgabe.innerHTML = name;
 ```
 
 
