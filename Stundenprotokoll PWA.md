@@ -407,12 +407,16 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 <details><summary>Screenshots vom 07.03.2022</summary>
   
 ![07 03 2022](https://user-images.githubusercontent.com/88386049/156999286-43b66617-76f9-43a5-9fc8-023c6ae52d00.JPG)
+  <p>Modal zu Beginn, ohne Storage-API</p>
 
 ![Screenshot (122)](https://user-images.githubusercontent.com/88386049/156999304-e9b09f94-a402-4a22-82a4-ed91f4ec019f.png)
+  <p>Im Input-Feld kann ein Text (es soll natürlich eigentlich ein Name eingegeben werden) eingegeben werden.</p>
   
 ![Screenshot (123)](https://user-images.githubusercontent.com/88386049/156999318-553cbf1c-8856-4106-aa4b-ba40e7406329.png)
+  <p>Hier wurde die Eingabe mit der Query ausgelesen und ausgegeben und zeitgleich mit der Local-Storage-API gespeichert.</p>
   
 ![Screenshot (124)](https://user-images.githubusercontent.com/88386049/156999327-88e6b792-e4ea-4aad-b3a4-aa53833e9db7.png)
+  <p>
 
 </details>
 
