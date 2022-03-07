@@ -383,6 +383,7 @@ Um das Feld auszulesen, nutzen wir die JSQuery. Bisher sah dies wie folgt aus.
 ```
 
 <p id="Stunde21"><b>Montag 07.03.2022<b><br></p>
+  Heute war SET-Frei und deshalb sahen wir die Möglichkeit, weiter an unserem Projekt zu arbeiten. Dabei haben wir uns weiter mit dem Modal beschäftigt. In der letzten Stunde haben wir es nur hingekriegt, ein Inputfeld auszulesen. Diesen ausgelesenen Wert haben wir heute weiter verarbeitet, indem er in einer lokalen Datenbank auf dem jeweiligen Gerät gespeichert wird. Dazu mussten wir noch einen weiteren Button hinzufügen, der den gespeicherten Wert zur Überprüfung, ob dies auch wirklich funktioniert, ausgibt. Und wie gewünscht hat dies funktioniert.
 
 
 <h2 id="kapitel3">3. APIs</h2>
