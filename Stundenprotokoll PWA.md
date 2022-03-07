@@ -334,7 +334,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 </details>
 
 <p id="Stunde18"><b>Samstag 26.02.2022</b><br>
-  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können. Besonders viel Zeit nahm heute das Design des Wasserglases (siehe Screen-Shots) in Anspruch.</p>
+  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können. Besonders viel Zeit nahm heute das Design des Wasserglases (siehe Screenshots) in Anspruch.</p>
   
 <details><summary>Screenshots vom 26.02.2022</summary>
   
@@ -367,7 +367,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 
 </details>
 
-<p>Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Fed beim Starten zu öffnen, in welches man seinen Namen einträgt.</p>
+<p>Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Feld beim Starten zu öffnen, in welches man seinen Namen einträgt.</p>
 
 <p id="Stunde20"><b>Mittwoch 02.03.2022</b><br></p>
 Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen, die bei ihrem Projekt auch mit php arbeiten, wo wir durch unser letztes Projekt schon einige Erfahrungen haben. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentiell und auch das auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert und ausgelöst per Java-Script. Auch ein Input-Feld haben wir bereits auf dem Pop-Up eingebaut. Wir wollen den Namen aber auch speichern, weshalb wir dieses Input-Feld auch auslesen müssen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen. Das Input-Feld hat daher den folgenden Code:</p>
