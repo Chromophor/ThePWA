@@ -384,6 +384,11 @@ Um das Feld auszulesen, nutzen wir die JSQuery. Bisher sah dies wie folgt aus.
 
 <p id="Stunde21"><b>Montag 07.03.2022<b><br></p>
   Heute war SET-Frei und deshalb sahen wir die Möglichkeit, weiter an unserem Projekt zu arbeiten. Dabei haben wir uns weiter mit dem Modal beschäftigt. In der letzten Stunde haben wir es nur hingekriegt, ein Inputfeld auszulesen. Diesen ausgelesenen Wert haben wir heute weiter verarbeitet, indem er in einer lokalen Datenbank auf dem jeweiligen Gerät gespeichert wird. Dazu mussten wir noch einen weiteren Button hinzufügen, der den gespeicherten Wert zur Überprüfung, ob dies auch wirklich funktioniert, ausgibt. Und wie gewünscht hat dies auch funktioniert. Man kann die Website nach der Eingabe neu laden und der Name ist noch immer gespeichert. Man kann sogar den Browser schließen und der eingegebene Wert (bzw. Name) bleibt gespeichert (siehe Screenshots). Dies ermöglicht es uns, den Namen für direkte User-Interaktion zu verwenden.
+Dafür haben wir zu Beginn in der Funktion, die das Input-Feld ausliest den Namen lokal gespeichert:
+  
+```javascript
+localStorage.setItem("name", name);
+```
 
 
 <h2 id="kapitel3">3. APIs</h2>
