@@ -41,7 +41,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li><a href="#Stunde18">Samstag 26.02.2022</a></li>
   <li><a href="#Stunde19">Dienstag 01.03.2022</a></li>
   <li><a href="#Stunde20">Mittwoch 02.03.2022</a></li>
-  <li><a href="#Stunde21">Montag 11.10.2022</a></li>
+  <li><a href="#Stunde21">Montag 07.03.2022</a></li>
   <li><a href="#Stunde22">Dienstag 12.10.2022</a></li>
   <li><a href="#Stunde23">Mittwoch 13.10.2022</a></li>
   <li><a href="#Stunde24">Donnerstag 14.10.2022</a></li>
@@ -381,6 +381,8 @@ Um das Feld auszulesen, nutzen wir die JSQuery. Bisher sah dies wie folgt aus.
  name = document.querySelector("#name").value;
  testausgabe.innerHTML = name;
 ```
+
+<p id="Stunde21"><b>Montag 07.03.2022<b><br></p>
 
 
 <h2 id="kapitel3">3. APIs</h2>
