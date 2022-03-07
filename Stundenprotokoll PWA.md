@@ -373,9 +373,9 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen, die bei ihrem Projekt auch mit php arbeiten, wo wir durch unser letztes Projekt schon einige Erfahrungen haben. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentiell und auch das auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert und ausgelöst per Java-Script. Auch ein Input-Feld haben wir bereits auf dem Pop-Up eingebaut. Wir wollen den Namen aber auch speichern, weshalb wir dieses Input-Feld auch auslesen müssen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen. Das Input-Feld hat daher den folgenden Code:</p>
  
 ```HTML
-<input type="text" id="test" placeholder="Dein Name...">
+<p>Dein Name:  <input type="text" name="name" id="name" placeholder="Dein Name..."></p>
 ```
-Um das Feld auszulesen, nutzen wir die JSQuery. Bisher 
+Um das Feld auszulesen, nutzen wir die JSQuery. Bisher sah dies wie folgt aus.
 
 ```javascript
  name = document.querySelector("#name").value;
