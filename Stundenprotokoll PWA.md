@@ -402,6 +402,7 @@ function ausgeben(){
   testausgabe.innerHTML = localStorage.getItem("name");
 } 
 ```
+Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst und die Button gestylt un die Größe des Modals ebenfalls angepasst. Dazu soll das Modal sich nicht am Bildschirmrand öffnen, sondern sich in der Mitte befinden. Dies ist auf jede Geräte-Größe automatisch anpassbar.
 
 
 <h2 id="kapitel3">3. APIs</h2>
