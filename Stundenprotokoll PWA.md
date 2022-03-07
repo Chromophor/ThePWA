@@ -404,6 +404,17 @@ function ausgeben(){
 ```
 Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst und die Button gestylt un die Größe des Modals ebenfalls angepasst. Dazu soll das Modal sich nicht am Bildschirmrand öffnen, sondern sich in der Mitte befinden. Dies ist auf jede Geräte-Größe automatisch anpassbar.
 
+<details><summary>Screenshots vom 07.03.2022</summary>
+  
+![07 03 2022](https://user-images.githubusercontent.com/88386049/156999286-43b66617-76f9-43a5-9fc8-023c6ae52d00.JPG)
+
+![Screenshot (122)](https://user-images.githubusercontent.com/88386049/156999304-e9b09f94-a402-4a22-82a4-ed91f4ec019f.png)
+  
+![Screenshot (123)](https://user-images.githubusercontent.com/88386049/156999318-553cbf1c-8856-4106-aa4b-ba40e7406329.png)
+  
+![Screenshot (124)](https://user-images.githubusercontent.com/88386049/156999327-88e6b792-e4ea-4aad-b3a4-aa53833e9db7.png)
+
+</details>
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
