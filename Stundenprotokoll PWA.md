@@ -416,7 +416,7 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
   <p>Hier wurde die Eingabe mit der Query ausgelesen und ausgegeben und zeitgleich mit der Local-Storage-API gespeichert.</p>
   
 ![Screenshot (124)](https://user-images.githubusercontent.com/88386049/156999327-88e6b792-e4ea-4aad-b3a4-aa53833e9db7.png)
-  <p>
+  <p>Hier wird der eingegebene Name nach dem Schließen des Browsers durch die Local-Storage-API ausgegeben</p>
 
 </details>
 
