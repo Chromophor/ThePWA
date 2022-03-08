@@ -420,6 +420,11 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 
 </details>
 
+<p id="Stunde22"><b>Dienstag 08.03.2022</b><br>
+  Heute waren wir als Klasse auf einem Schulausflug zum Schlittschuhlaufen. Trotzdem haben wir am Nachmittag und Abend noch Zeit gefunden, uns unserem Projekt zu widmen.
+
+
+
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
