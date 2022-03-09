@@ -423,7 +423,7 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 <p id="Stunde22"><b>Dienstag 08.03.2022</b><br>
   Heute waren wir als Klasse auf einem Schulausflug zum Schlittschuhlaufen. Trotzdem haben wir am Nachmittag und Abend noch Zeit gefunden, uns unserem Projekt zu widmen. Die Namens Eingabe hat wie im letzten Eintrag bereits beschrieben schon funktioniert, weshalb wir uns heute auf die Animation des Pup-Up-Feldes konzentriert haben. über den Button "Anmelden" wird das Pop-Up-Feld im moment experimentell gestartet, es soll aber über den Button "Speichern" wieder geschlossen werden. Dafür wäre es notwenid, Kenntnis darüber zu haben, wie man mit JavaScript CSS-Classen ändert. Hier haben wir viel zeit reingesteckt, bis uns eingefallen ist, dass wir auch einfach die Seite neu laden können.</p>
 
-<p>
+<p id="Stunde23"><b>Mittwoch 09.03.2022</b><br>
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
