@@ -423,7 +423,7 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 <p id="Stunde22"><b>Dienstag 08.03.2022</b><br>
   Heute waren wir als Klasse auf einem Schulausflug zum Schlittschuhlaufen. Trotzdem haben wir am Nachmittag und Abend noch Zeit gefunden, uns unserem Projekt zu widmen. Die Namens Eingabe hat wie im letzten Eintrag bereits beschrieben schon funktioniert, weshalb wir uns heute auf die Animation des Pup-Up-Feldes konzentriert haben. über den Button "Anmelden" wird das Pop-Up-Feld im moment experimentell gestartet, es soll aber über den Button "Speichern" wieder geschlossen werden. Dafür wäre es notwenid, Kenntnis darüber zu haben, wie man mit JavaScript CSS-Classen ändert. Hier haben wir viel zeit reingesteckt, bis uns eingefallen ist, dass wir auch einfach die Seite neu laden können.</p>
 
-
+<p>
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
@@ -442,3 +442,4 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 <li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-1-Background-Sync-API-4676538.html#:~:text=Die%20Background%20Sync%20API%20m%C3%B6chte%20Progressive%20Web%20Apps,Nachricht%20verfassen%2C%20absenden%20und%20das%20Smartphone%20wieder%20wegpacken.</li>
 <li>https://developers.google.com/web/updates/2015/12/background-sync#progressive_enhancement</li>
 <li>https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/</li>
+<li>https://coolors.co/388659-52aa5e-52aa8a-3aaed8-2bd9fe</li>
