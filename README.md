@@ -26,5 +26,3 @@
 
 <h2 id="quotes">quotes:</h2>
 
-
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_localstorage2
