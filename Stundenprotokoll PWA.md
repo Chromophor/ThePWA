@@ -425,6 +425,16 @@ Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst
 
 <p id="Stunde23"><b>Mittwoch 09.03.2022</b><br>
   Heute haben wir uns weiter mit dem Pop-Up beschäftigt. Uns ist es gelangen, das Pup-Up automatisch beim Laden der Seite zu öffnen. Man könnte also jedes Mal bei Laden der Seite seinen Namen eingeben und musste das Pup-Up nicht per Button auslösen. Dies ist ein großer Fortschritt gewesen. Trotzdem wollen wir das Pop-Up nur einmalig beim ersten Einrichten öffnen. Dies hinzubekommen hat viel Zeit gekostet. Zuerst haben wir einen Ansatz vervolgt, bei dem eine Variable lokal auf dem Gerät gespeichert wird, die beinhaltet, ob der User sich bereits angemeldet hat. Dies hat aber nicht funktioniert, weil das Script bei jedem Laden im Browser erneut ausgeführt wurde und die Variable immer wieder überschrieben wurde. Letztenendes haben wir das Problem über eine Funktion gelöst, die immer beim Laden der Seite ausgeführt wird. In der Funktion wird überprüft, ob bereits ein Name eingegeben wurde. Sollte dies nicht der Fall sein, wird das Pup-Up geöffnet. Außerdem haben wir uns in dieser Stunde auch weiter um das Design der APP gekümmert und nebenbei David und Simon bei ihrem Projekt geholfen.</p>
+  
+```javascript
+function checkFirstUse(){
+  if(!namE){
+    modal.style.display = "block";
+  }else{
+    modal.style.display = "none";
+  }
+}
+```
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
