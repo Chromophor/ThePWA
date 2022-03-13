@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2O</title>
+
+
+<script>
+var anzahlGl = 0;
+
+
+function wasserGetrunken(){
+    anzahlGl = anzahlGl + 1;
+    localStorage.setItem("Glas", anzahlGl);
+    anzahlGläser.innerHTML = localStorage.getItem("Glas");    
+}
+
+function anzeigen(){
+    anzahlGläser.innerHTML = localStorage.getItem("Glas");
+}
+
+</script>
+
+<style>
+.center{
+    left: 50%;
+}
+
+.überschrift{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid red;
+}
+
+.wasserÜbersicht{
+    text-align: center;
+    border: 1px solid red;
+}
+
+.button {
+    font-size: 60px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: #33cc99;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin-top: 25px;
+}
+</style>
+
+</head>
+<body onload="anzeigen()">
+
+    <section>
+        <p class="überschrift">H<sub>2</sub>O ist lebensnotwendig.<br> Trinke deshalb genug!</p>
+    </section>
+    <section>
+        <p class="wasserÜbersicht">Heute hast du schon <b><spa id="anzahlGläser">0</spa> Gläser</b> Wasser getrunken.</p>
+    </section>
+    <section class="center">
+        <button class="button" onclick="wasserGetrunken()">Wasser getrunken!</button>
+    </section>
+</body>
+</html>
