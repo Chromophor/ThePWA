@@ -8,7 +8,8 @@
 
 
 <script>
-var anzahlGl = 0;
+var anzahlGl = Number(localStorage.getItem("Glas"));
+console.log(anzahlGl);
 
 
 function wasserGetrunken(){
@@ -18,7 +19,7 @@ function wasserGetrunken(){
 }
 
 function anzeigen(){
-    anzahlGläser.innerHTML = localStorage.getItem("Glas");
+    anzahlGläser.innerHTML = Number(localStorage.getItem("Glas"));
 }
 
 </script>
@@ -65,7 +66,7 @@ function anzeigen(){
         <p class="überschrift">H<sub>2</sub>O ist lebensnotwendig.<br> Trinke deshalb genug!</p>
     </section>
     <section>
-        <p class="wasserÜbersicht">Heute hast du schon <b><spa id="anzahlGläser">0</spa> Gläser</b> Wasser getrunken.</p>
+        <p class="wasserÜbersicht">Heute hast du schon <b><span id="anzahlGläser">0</span> Gläser</b> Wasser getrunken.</p>
     </section>
     <section class="center">
         <button class="button" onclick="wasserGetrunken()">Wasser getrunken!</button>
