@@ -26,3 +26,4 @@
 
 <h2 id="quotes">quotes:</h2>
 
+https://www.coder-welten.de/javascript/ladebalken-mit-fortschrittsanzeige.htm
