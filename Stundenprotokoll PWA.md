@@ -441,8 +441,8 @@ function checkFirstUse(){
 ![Screenshot 2022-03-13 144402](https://user-images.githubusercontent.com/88386049/158062408-6d5d1d88-527f-42bb-9269-6f35dc1a6174.jpg)
 
 
-<p id="Stunde24"><b>Dienstag 15.03.2022</b><br>
-  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Glas getrunken``` gedrückt hat. Dafür müssenw ir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Hier ergab sich ein Problem: 
+<p id="Stunde24"><b>Dienstag 15.03.2022</b><br></p>
+  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Glas getrunken``` gedrückt hat. Dafür müssen wir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Hier ergab sich folgendes Problem: Um eine Variable addieren zu können, muss diese Variable definiert werden. Man kann dies per ``var glas = 0;`` oder ``var glas;`` machen. Da die Seite aber neu geladen wird, wird die Variable jedesmal beim Laden wieder auch 0 gesetzt.
 Dienstag: Seite für Wasser trinken problem gelöst; Schrittzähler begonnen
 Mittwoch: 
 
