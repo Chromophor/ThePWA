@@ -442,9 +442,23 @@ function checkFirstUse(){
 
 
 <p id="Stunde24"><b>Dienstag 15.03.2022</b><br></p>
-  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Glas getrunken``` gedrückt hat. Dafür müssen wir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Um die Variable zu hinterlegen haben wir wie beim Pop-Up die ``localStorage.setItem();`` Funktion verwendet. Hier ergab sich folgendes Problem: Um eine Variable addieren zu können, muss diese Variable definiert werden. Man kann dies per ``var glas = 0;`` oder ``var glas;`` machen. Da die Seite aber neu geladen wird, wird die Variable jedesmal beim Laden wieder auch 0 gesetzt.
-Dienstag: Seite für Wasser trinken problem gelöst; Schrittzähler begonnen
-Mittwoch: 
+  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Glas getrunken``` gedrückt hat. Dafür müssen wir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Um die Variable zu hinterlegen haben wir wie beim Pop-Up die ``localStorage.setItem();`` Funktion verwendet. Hier ergab sich folgendes Problem: Um eine Variable addieren zu können, muss diese Variable definiert werden. Man kann dies per ``var glas = 0;`` oder ``var glas;`` machen. Da die Seite aber neu geladen wird, wird die Variable jedesmal beim Laden wieder auch 0 gesetzt. Daher haben wir versucht die Variable Glas direkt mit der localStorage Funktion zu definieren. Dies hat aber am Anfang nicht funktioniert, da dies den Wert NaN zurückgab. Dieses Problem entstand, da die Funktion weder einen String, noch eine Zahl zurückgab. Deshalb mussten wir die Variable wie folgt definieren: 
+```javascript
+var anzahlGl = Number(localStorage.getItem("Glas"));
+console.log(anzahlGl);
+
+function wasserGetrunken(){
+    anzahlGl = anzahlGl + 1;
+    localStorage.setItem("Glas", anzahlGl);
+    anzahlGläser.innerHTML = localStorage.getItem("Glas");    
+}
+
+```
+Über diesen Weg haben wir die ``localStorage.getItem("Glas")`` zu einer Zahl mit der Funktion ``Number()`` umgewandelt. Diese zahl kann nun wieder angezeigt und addiert werden. Domit haben wir dieses Problem gelöst und unser Wasserzähler funktioniert. Desweiteren haben wir noch weiter am Design der PWA gearbeitet.
+
+
+
+Mittwoch: Design und Schritte weiter
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
