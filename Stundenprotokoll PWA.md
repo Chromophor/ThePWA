@@ -440,6 +440,9 @@ function checkFirstUse(){
 ![Screenshot 2022-03-13 144335](https://user-images.githubusercontent.com/88386049/158062407-c65f2c4e-0de9-464c-b8ef-4a4a99a6c35a.jpg)
 ![Screenshot 2022-03-13 144402](https://user-images.githubusercontent.com/88386049/158062408-6d5d1d88-527f-42bb-9269-6f35dc1a6174.jpg)
 
+
+<p id="Stunde24"><b>Dienstag 15.03.2022</b><br>
+  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ``Glas getrunken`` gedrückt hat. Dafür müssenw ir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Hier ergab sich ein Problem: 
 Dienstag: Seite für Wasser trinken problem gelöst; Schrittzähler begonnen
 Mittwoch: 
 
