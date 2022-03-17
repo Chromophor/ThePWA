@@ -442,7 +442,7 @@ function checkFirstUse(){
 
 
 <p id="Stunde24"><b>Dienstag 15.03.2022</b><br>
-  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ``Glas getrunken`` gedrückt hat. Dafür müssenw ir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Hier ergab sich ein Problem: 
+  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Glas getrunken``` gedrückt hat. Dafür müssenw ir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Hier ergab sich ein Problem: 
 Dienstag: Seite für Wasser trinken problem gelöst; Schrittzähler begonnen
 Mittwoch: 
 
