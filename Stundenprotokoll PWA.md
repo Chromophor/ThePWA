@@ -458,6 +458,12 @@ function wasserGetrunken(){
 ```
 Über diesen Weg haben wir die ``localStorage.getItem("Glas")`` zu einer Zahl mit der Funktion ``Number()`` umgewandelt. Zusammen ergibt dies ``Number(localStorage.getItem("Glas"))``. Diese Zahl kann nun angezeigt und addiert werden. Somit haben wir dieses Problem gelöst und unser Wasserzähler funktioniert. Des Weiteren haben wir noch weiter am Design der PWA gearbeitet.
 
+<details><summary>Screenshots vom 17.03.2022</summary>
+
+![Screenshot 2022-03-17 083149](https://user-images.githubusercontent.com/88386049/158759258-3e0eae3a-7eb8-4964-ada7-f123a560df3f.jpg)
+  
+<details>
+
 
 
 Mittwoch: Design und Schritte weiter
