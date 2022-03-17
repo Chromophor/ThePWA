@@ -443,7 +443,7 @@ function checkFirstUse(){
 
 <p id="Stunde24"><b>Dienstag 15.03.2022</b><br></p>
 
-  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Wasser getrunken``` gedrückt hat. Dafür müssen wir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Um die Variable zu hinterlegen haben wir wie beim Pop-Up die ``localStorage.setItem();`` Funktion verwendet. Hier ergab sich folgendes Problem: Um eine Variable addieren zu können, muss diese Variable definiert werden. Man kann dies per ``var glas = 0;`` oder ``var glas;`` machen. Da die Seite aber neu geladen wird, wird die Variable jedesmal beim Laden wieder auch 0 gesetzt. Daher haben wir versucht die Variable Glas direkt mit der localStorage Funktion zu definieren. Dies hat aber am Anfang nicht funktioniert, da dies den Wert NaN zurückgab. Dieses Problem entstand, da die Funktion weder einen String, noch eine Zahl zurückgab. Deshalb mussten wir die Variable wie folgt definieren: 
+  Wir wollten heute die Seite für das Trink-Modul erstellen. Dafür soll in die eigene Übersicht der Wert 1 immer dann addiert werden, wenn man einen Button ```Wasser getrunken``` gedrückt hat. Dafür müssen wir den Wert der getrunkenen Gläser auch lokal hinterlegen, damit beim Laden oder schließen des Browsers die Werte erhalten beleiben. Um die Variable zu hinterlegen haben wir wie beim Pop-Up die ``localStorage.setItem();`` Funktion verwendet. Hier ergab sich folgendes Problem: Um eine Variable addieren zu können, muss diese Variable definiert werden. Man kann dies per ``var anzahlGl  = 0;`` oder ``var anzahlGl ;`` machen. Da die Seite aber neu geladen wird, wird die Variable jedesmal beim Laden wieder auch 0 gesetzt. Daher haben wir versucht die Variable Glas direkt mit der localStorage Funktion zu definieren. Dies hat aber am Anfang nicht funktioniert, da dies den Wert NaN zurückgab. Dieses Problem entstand, da die Funktion weder einen String, noch eine Zahl zurückgab. Deshalb mussten wir die Variable wie folgt definieren: 
   
 ```javascript
 var anzahlGl = Number(localStorage.getItem("Glas"));
@@ -456,7 +456,7 @@ function wasserGetrunken(){
 }
 
 ```
-Über diesen Weg haben wir die ``localStorage.getItem("Glas")`` zu einer Zahl mit der Funktion ``Number()`` umgewandelt. Diese Zahl kann nun angezeigt und addiert werden. Somit haben wir dieses Problem gelöst und unser Wasserzähler funktioniert. Des Weiteren haben wir noch weiter am Design der PWA gearbeitet.
+Über diesen Weg haben wir die ``localStorage.getItem("Glas")`` zu einer Zahl mit der Funktion ``Number()`` umgewandelt. Zusammen ergibt dies ``Number(localStorage.getItem("Glas"))`` Diese Zahl kann nun angezeigt und addiert werden. Somit haben wir dieses Problem gelöst und unser Wasserzähler funktioniert. Des Weiteren haben wir noch weiter am Design der PWA gearbeitet.
 
 
 
