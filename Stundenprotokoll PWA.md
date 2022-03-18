@@ -467,7 +467,7 @@ function wasserGetrunken(){
 <details>
 
 <p id="Stunde25"><b>Mittwoch 16.03.2022</b><br>
-  Nachdem wir in der vergangenen Stunde das Problem mit der Übersicht zum Trinken gelöst haben, haben wir uns heute weiter um das Design der PWA gekümmert. So haben wir einzellne CSS-Elemente aus anderen Scripten in unser Haupt-CSS-Dokument übertragen und dabei feststellen müssen, dass manche CSS-Klassen doppelt verwendet wurden und sich somit ausschlossen bzw. überschrieben. Daher haben wir die CSS-Klassen vereinheitlicht und dabei elementare Dinge, wie die Schriftart und die Farbe der Button verallgemeinert und geändert, sodass die Schrift und Buttons in der gesammten PWA ersteinmal gleich aussehen. Anpassungen können immer noch bei Bedarf vorgenommen werden.</p>
+  Nachdem wir in der vergangenen Stunde das Problem mit der Übersicht zum Trinken gelöst haben, haben wir uns heute weiter um das Design der PWA gekümmert. So haben wir einzellne CSS-Elemente aus anderen Scripten in unser Haupt-CSS-Dokument übertragen und dabei feststellen müssen, dass manche CSS-Klassen doppelt verwendet wurden und sich somit ausschlossen bzw. überschrieben. Daher haben wir die CSS-Klassen vereinheitlicht und dabei elementare Dinge, wie die Schriftart und die Farbe der Button verallgemeinert und geändert, sodass die Schrift und Buttons in der gesammten PWA ersteinmal gleich aussehen. Anpassungen können immer noch bei Bedarf vorgenommen werden. Im Übrigen haben wir weiter am Schrittzähler gearbeitet und hier für den User unwichtige Informationen wie etwa die Beschleunigung des Smartphones von der Übersicht entfernt, die uns nur beim Entwickeln der Funktion des Schrittzählers geholfen haben.</p>
 
 Mittwoch: Design und Schritte weiter
 
