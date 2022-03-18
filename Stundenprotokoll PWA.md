@@ -466,7 +466,8 @@ function wasserGetrunken(){
   
 <details>
 
-
+<p id="Stunde25"><b>Dienstag 16.03.2022</b><br>
+  Nachdem wir in der vergangenen Stunde das Problem mit der Übersicht zum Trinken gelöst haben, haben wir uns heute weiter um das Design der PWA gekümmert. So haben wir einzellne CSS-Elemente aus anderen Scripten in unser Haupt-CSS-Dokument übertragen und dabei feststellen müssen, dass manche CSS-Klassen doppelt verwendet wurden und sich somit ausschlossen bzw. überschrieben. Daher haben wir die CSS-Klassen vereinheitlicht und dabei 
 
 Mittwoch: Design und Schritte weiter
 
