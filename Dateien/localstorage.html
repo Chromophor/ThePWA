@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script>
+        function checkFirstUse() {
+            if (!namE) {
+                modal.style.display = "block";
+            } else {
+                modal.style.display = "none";
+            }
+
+        }
+
+
+        function speichern() {
+            //Namen aus Input-Feld auslesen
+            name = document.querySelector("#name").value;
+
+            //jetzt Namen lokal speichern
+
+            localStorage.setItem("name", name);
+
+            localStorage.setItem("firstUse", "1");
+
+            setTimeout(function() {
+                window.location.reload(true);
+            }, 400);
+        }
+
+        function namenZeigen() {
+            namE = localStorage.getItem("name");
+            begrueßung.innerHTML = namE;
+
+        }
+    </script>
+
+
+</head>
+
+<body onload="namenZeigen(), checkFirstUse()">
+
+
+    <!--Pupup öffnen-->
+    <button id="myBtn">Anmelden!</button>
+
+    <!-- Popup -->
+    <div id="popup" class="modal">
+
+        <!-- Inhalt -->
+        <div class="modalcontent" id="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Du bist neu hier, wie heißt du?</h2>
+            </div>
+            <div class="modal-body">
+
+                <p>Dein Name: <input type="text" name="name" id="name" placeholder="Dein Name..." class="input"></p>
+
+                <button class="buttontest" onclick="speichern()">Speichern</button>
+
+            </div>
+            <div class="modal-footer">
+                <h3>Wir möchten Dich auf unsere <a href="https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de">Cookies</a> hinweisen. Bitte lies unsere <a href="https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs">AGB</a> und die
+                    Datenschutzbestimmungen
+                </h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="display:inline;">
+        <p>Moin <span id="begrueßung"></span>, hier ist deine Übersicht!</p>
+    </div>
+
+
+    <!-- Popup-js -->
+    <script>
+        // get Popup
+        var modal = document.getElementById("popup");
+
+        // Get the button that opens the Popup
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the Popup
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the Popup 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the Popup
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the Popup, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <script>
+        var change = document.querySelector(".buttontest")
+        change.addEventListener("click", function() {
+            document.querySelector(".modalcontent").classList.toggle("fadeaway");
+        })
+    </script>
+
+
+
+</body>
+
+</html>
