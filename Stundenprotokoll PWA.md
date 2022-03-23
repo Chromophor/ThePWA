@@ -468,8 +468,11 @@ function wasserGetrunken(){
 
 <p id="Stunde25"><b>Mittwoch 16.03.2022</b><br>
   Nachdem wir in der vergangenen Stunde das Problem mit der Übersicht zum Trinken gelöst haben, haben wir uns heute weiter um das Design der PWA gekümmert. So haben wir einzellne CSS-Elemente aus anderen Scripten in unser Haupt-CSS-Dokument übertragen und dabei feststellen müssen, dass manche CSS-Klassen doppelt verwendet wurden und sich somit ausschlossen bzw. überschrieben. Daher haben wir die CSS-Klassen vereinheitlicht und dabei elementare Dinge, wie die Schriftart und die Farbe der Button verallgemeinert und geändert, sodass die Schrift und Buttons in der gesammten PWA ersteinmal gleich aussehen. Anpassungen können immer noch bei Bedarf vorgenommen werden. Im Übrigen haben wir weiter am Schrittzähler gearbeitet und hier für den User unwichtige Informationen wie etwa die Beschleunigung des Smartphones von der Übersicht entfernt, die uns nur beim Entwickeln der Funktion des Schrittzählers geholfen haben. Dabei haben wir uns auch überlegt, wie wir die Schritte in der GUI am Besten darstellen und hatten die Idee die Schritte in Form der reinen Zahl und einers Status-Balkens anzuzeigen, weshalb wir uns den Rest der Stunde mit einer animierten Statusleiste beschäftigt haben, die nach ersten Ergebnissen wohl am Besten mit JavaScript umzusetzen ist.</p>
+
+  <p id="Stunde26"><b>Dienstag 22.03.2022</b><br>
+    Wir haben heute unsere Übersicht auf der Startseite überarbeitet und interaktiver gemacht. Zu diesem Zweck haben wir das Pop-Up von unserer Testdatei (localStorage.html) in unsere Index.php Hauptseite verschoben, damit der User sich beim ersten Betreten unserer Applikation anmelden kann. Gleichzeitig haben wir die Übersicht nun auch interaktiver gemacht, indem hier die lokal gespeicherten Elemente, wie der Name oder die Anzahl der getrunkenen
   
-Dienstag: PHP Header, Übersicht mit localStorage, Schritte mit localStorage + Pup-Up
+Dienstag: PHP Header, Übersic.ht mit localStorage, Schritte mit localStorage + Pup-Up
 
 
 <h2 id="kapitel3">3. APIs</h2>
