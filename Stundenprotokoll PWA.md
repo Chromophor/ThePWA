@@ -460,11 +460,13 @@ function wasserGetrunken(){
 ```
 Über diesen Weg haben wir die ``localStorage.getItem("Glas")`` zu einer Zahl mit der Funktion ``Number()`` umgewandelt. Zusammen ergibt dies ``Number(localStorage.getItem("Glas"))``. Diese Zahl kann nun angezeigt und addiert werden. Somit haben wir dieses Problem gelöst und unser Wasserzähler funktioniert. Des Weiteren haben wir noch weiter am Design der PWA gearbeitet.
 
-<details><summary>Screenshots vom 17.03.2022</summary>
+
+<details><summary>Screenshots vom 15.03.2022</summary>
 
 ![Screenshot 2022-03-17 083149](https://user-images.githubusercontent.com/88386049/158759258-3e0eae3a-7eb8-4964-ada7-f123a560df3f.jpg)
   
 <details>
+  
 
 <p id="Stunde25"><b>Mittwoch 16.03.2022</b><br>
   Nachdem wir in der vergangenen Stunde das Problem mit der Übersicht zum Trinken gelöst haben, haben wir uns heute weiter um das Design der PWA gekümmert. So haben wir einzellne CSS-Elemente aus anderen Scripten in unser Haupt-CSS-Dokument übertragen und dabei feststellen müssen, dass manche CSS-Klassen doppelt verwendet wurden und sich somit ausschlossen bzw. überschrieben. Daher haben wir die CSS-Klassen vereinheitlicht und dabei elementare Dinge, wie die Schriftart und die Farbe der Button verallgemeinert und geändert, sodass die Schrift und Buttons in der gesammten PWA ersteinmal gleich aussehen. Anpassungen können immer noch bei Bedarf vorgenommen werden. Im Übrigen haben wir weiter am Schrittzähler gearbeitet und hier für den User unwichtige Informationen wie etwa die Beschleunigung des Smartphones von der Übersicht entfernt, die uns nur beim Entwickeln der Funktion des Schrittzählers geholfen haben. Dabei haben wir uns auch überlegt, wie wir die Schritte in der GUI am Besten darstellen und hatten die Idee die Schritte in Form der reinen Zahl und einers Status-Balkens anzuzeigen, weshalb wir uns den Rest der Stunde mit einer animierten Statusleiste beschäftigt haben, die nach ersten Ergebnissen wohl am Besten mit JavaScript umzusetzen ist.</p>
