@@ -500,3 +500,4 @@ function wasserGetrunken(){
 <li>https://developers.google.com/web/updates/2015/12/background-sync#progressive_enhancement</li>
 <li>https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/</li>
 <li>https://coolors.co/388659-52aa5e-52aa8a-3aaed8-2bd9fe</li>
+<li>https://www.coder-welten.de/javascript/ladebalken-mit-fortschrittsanzeige.htm</li>
