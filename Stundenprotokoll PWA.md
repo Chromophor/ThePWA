@@ -465,7 +465,7 @@ function wasserGetrunken(){
 
 ![Screenshot 2022-03-17 083149](https://user-images.githubusercontent.com/88386049/158759258-3e0eae3a-7eb8-4964-ada7-f123a560df3f.jpg)
   
-<details>
+</details>
   
 
 <p id="Stunde25"><b>Mittwoch 16.03.2022</b><br>
