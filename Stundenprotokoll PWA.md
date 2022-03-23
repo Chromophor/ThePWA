@@ -476,11 +476,11 @@ function wasserGetrunken(){
   
 <details><summary>Screenshots vom 15.03.2022</summary>
   
-  
+![Leiste](https://user-images.githubusercontent.com/88386049/159662517-326bf9a9-a7c0-41c5-8f76-f3b0d35be4e2.PNG) 
   
 </details>
 
-![Leiste](https://user-images.githubusercontent.com/88386049/159662517-326bf9a9-a7c0-41c5-8f76-f3b0d35be4e2.PNG)
+
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
