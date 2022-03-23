@@ -476,9 +476,11 @@ function wasserGetrunken(){
   
 <details><summary>Screenshots vom 15.03.2022</summary>
   
-![Leiste](https://user-images.githubusercontent.com/88386049/159662517-326bf9a9-a7c0-41c5-8f76-f3b0d35be4e2.PNG) 
+![Leiste](https://user-images.githubusercontent.com/88386049/159662517-326bf9a9-a7c0-41c5-8f76-f3b0d35be4e2.PNG)
+![Pup-Up](https://user-images.githubusercontent.com/88386049/159733435-96c8bfb2-4d57-495b-8430-a8b977d84cc2.PNG)
   
 </details>
+
 
 
 
