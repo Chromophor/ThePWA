@@ -484,7 +484,12 @@ function wasserGetrunken(){
 <p id="Stunde27"><b>Donnerstag 24.03.2022</b><br>
   Sowohl gestern als auch heute waren mündliche Abitur-Prüfung im Fach Englisch, weshalb wir beide Tage nicht in der Schule waren. Trotzdem haben wir die Zeit genutzt, um weiter an unserem Projekt zu arbeiten. Dafür haben wir weiter an der Übersicht gearbeitet und die Werte Rundenanzahl, und Schrittanzahl, sowie das Schrittziel auszugeben. Auch haben wir den Schrittzähler so überarbeitet, dass sich nun bei einem Schritt (im Moment noch per Button ausgelöst) die Statusleiste in Zehnerschritte von der momentanen Breite 380px füllt, also ein Fortschritt zu erkennen ist (siehe Screenshots).</p>
   
-<details><summary>
+<details><summary>Screenshots vom 24.03.2022</summary>
+
+![Ladebalken](https://user-images.githubusercontent.com/88386049/159947527-705c30a5-d486-48e6-affe-4bbbe2e6f399.PNG)
+![Übersicht](https://user-images.githubusercontent.com/88386049/159948153-1478801a-1693-4e12-8078-58515558d5cc.PNG)
+ 
+</details>
 
 
 <h2 id="kapitel3">3. APIs</h2>
