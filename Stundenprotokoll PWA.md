@@ -474,7 +474,7 @@ function wasserGetrunken(){
   <p id="Stunde26"><b>Dienstag 22.03.2022</b><br>
     Wir haben heute unsere Übersicht auf der Startseite überarbeitet und interaktiver gemacht. Zu diesem Zweck haben wir das Pop-Up von unserer Testdatei (localStorage.html) in unsere Index.php Hauptseite verschoben, damit der User sich beim ersten Betreten unserer Applikation anmelden kann. Gleichzeitig haben wir die Übersicht nun auch interaktiver gemacht, indem hier die lokal gespeicherten Elemente, wie der Name, die Anzahl der gezählten Schritte oder die Anzahl der getrunkenen Gläser, angezeigt werden. Dies ist möglich, da eine Variable unter einer bestimmten ID lokal gespeichert wird unt jederzeit auch abrufbar ist. Wir haben daher auf fast jeder Seite eine Funktion, die jedesmal beim Laden der Seite die Variablen abruft und uns anzeigt. Auch haben wir uns heute weiter mit dem Schrittzähler beschäftigt, welcher die Schritte nicht nur lokal speichern soll, sondern auch eine Statusleiste füllen soll. Wir haben uns hier dazu entschieden, ein weiteres Pup-Up einzusetzen, mit welchem wir den Nutzer fragen, welches Schrittziel er täglich erreichen möchte. Während dieser Stunde haben wir auch weiter an der Vereinheitlichung der Dokumente gearbeitet. Dafür setzen wir jetzt in jedem Dokument statt einem normalen HTML-Header auf ein PHP-Dokument, das geladen wird uns die Elemente des HTML-Headers enthält. Dieses ist dann für alle Dokumente gleich. Sollten besondere Dokumente für die Seite benötigt werden, so können diese noch immer eingefügt werden, wie dies zum Beispiel beim Schrittzähler ist, der ein besonderes JS-Dokument braucht.</p>
   
-<details><summary>Screenshots vom 15.03.2022</summary>
+<details><summary>Screenshots vom 22.03.2022</summary>
   
 ![Leiste](https://user-images.githubusercontent.com/88386049/159662517-326bf9a9-a7c0-41c5-8f76-f3b0d35be4e2.PNG)
 ![Pup-Up](https://user-images.githubusercontent.com/88386049/159733435-96c8bfb2-4d57-495b-8430-a8b977d84cc2.PNG)
@@ -483,6 +483,8 @@ function wasserGetrunken(){
 
 <p id="Stunde27"><b>Donnerstag 24.03.2022</b><br>
   Sowohl gestern als auch heute waren mündliche Abitur-Prüfung im Fach Englisch, weshalb wir beide Tage nicht in der Schule waren. Trotzdem haben wir die Zeit genutzt, um weiter an unserem Projekt zu arbeiten. Dafür haben wir weiter an der Übersicht gearbeitet und die Werte Rundenanzahl, und Schrittanzahl, sowie das Schrittziel auszugeben. Auch haben wir den Schrittzähler so überarbeitet, dass sich nun bei einem Schritt (im Moment noch per Button ausgelöst) die Statusleiste in Zehnerschritte von der momentanen Breite 380px füllt, also ein Fortschritt zu erkennen ist (siehe Screenshots).</p>
+  
+<details><summary>
 
 
 <h2 id="kapitel3">3. APIs</h2>
