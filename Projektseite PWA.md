@@ -28,7 +28,7 @@
   <tr><th>APIs</th><th>Chrome</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
   <tr><td>HTML Geolocation API</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
   <tr><td>HTML Web Storage API</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
-  <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
+  <tr><td>Generic Sensor API</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Nein</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
