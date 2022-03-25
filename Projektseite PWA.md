@@ -25,7 +25,7 @@
   <p>Leider waren die von uns eingesetzten APIs nicht in allen Browser kompatibel, daher folgt hier eine Übersicht, welche Browser welche vno uns verwendete API unterstützen.</p>
   
 <table>
-  <tr><th>APIs</th><th>Zweck</th><th>Chrome</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
+  <tr><th>APIs</th> <th>Zweck</th>  <th>Chrome</th> <th>Edge</th> <th>Safari</th> <th>FireFox</th></tr>
   <tr><td>HTML Geolocation API</td><td></td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
   <tr><td>HTML Web Storage API</td><td></td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
   <tr><td>Generic Sensor API</td><td></td><td>Ja</td><td>Ja</td><td>Nein!</td><td>Nein!</td></tr>
