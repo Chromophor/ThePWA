@@ -12,7 +12,8 @@
   
 <table>
   <tr><th>APIs</th><th>Chromme</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
-  <tr><td>  
+  <tr><td></tr>
+</table>
 
 <li><a href="#kapitel7">7. Kritik</a></li>
 <li><a href="#kapitel8">8. Fazit</a></li>
