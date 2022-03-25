@@ -26,7 +26,9 @@
   
 <table>
   <tr><th>APIs</th>                 <th>Zweck</th>  <th>Chrome</th> <th>Edge</th> <th>Safari</th> <th>Firefox</th></tr>
-  <tr><td>HTML Geolocation API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Ja</td>     <td>Ja</td> </tr>
+  <tr><td>HTML Geolocation API</td> <td>
+    Die API wird bei uns genutzt, um mit der Position des Users die Geschwindigkeit bestimmen zu können.
+                                        </td>       <td>Ja</td>     <td>Ja</td>   <td>Ja</td>     <td>Ja</td> </tr>
   <tr><td>HTML Web Storage API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Ja</td>     <td>Ja</td> </tr>
   <tr><td>Generic Sensor API</td>   <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td>  </tr>
   <tr><td>Push API</td>             <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td>  </tr>
