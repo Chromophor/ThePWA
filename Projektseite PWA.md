@@ -10,6 +10,9 @@
 <li><a href="#kapitel5">5. Der Code</a></li>
 <li><a href="#kapitel6">6. Die APIs</a></li>
   
+<table>
+  <tr><th>APIs</th><th>Chromme</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
+  <tr><td>  
 
 <li><a href="#kapitel7">7. Kritik</a></li>
 <li><a href="#kapitel8">8. Fazit</a></li>
