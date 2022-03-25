@@ -28,7 +28,7 @@
   <tr><th>APIs</th><th>Chrome</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
   <tr><td>HTML Geolocation API</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
   <tr><td>HTML Web Storage API</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
-  <tr><td>Generic Sensor API</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Nein</td></tr>
+  <tr><td>Generic Sensor API</td><td>Ja</td><td>Ja</td><td>Nein!</td><td>Nein!</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
   <tr><td>XX</td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
@@ -38,6 +38,7 @@
   <h2 id="kapitel8">8. Fazit</h2>
   <h2 id="kapitel9">9. Quellen</h2>
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
+  <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   
   
   <h2 id="kapitel10">10. Eigenständigkeitserklärung</h2>
