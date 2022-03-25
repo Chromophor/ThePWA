@@ -37,6 +37,9 @@
   <h2 id="kapitel7">7. Kritik</h2>
   <h2 id="kapitel8">8. Fazit</h2>
   <h2 id="kapitel9">9. Quellen</h2>
+  <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
+  
+  
   <h2 id="kapitel10">10. Eigenständigkeitserklärung</h2>
   
 <p>Wir erklären, dass wir die vorliegende Arbeit selbstständig und ohne Benutzung anderer als den angegebenen Hilfsmittel angefertigt und alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder unveröffentlichten Schriften entnommen wurden, als solche kenntlich gemacht habe.
