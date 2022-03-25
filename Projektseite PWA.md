@@ -28,10 +28,12 @@
   <tr><th>APIs</th> <th>Zweck</th>  <th>Chrome</th> <th>Edge</th> <th>Safari</th> <th>Firefox</th></tr>
   <tr><td>HTML Geolocation API</td> <td></td> <td>Ja</td> <td>Ja</td> <td>Ja</td> <td>Ja</td> </tr>
   <tr><td>HTML Web Storage API</td> <td></td> <td>Ja</td> <td>Ja</td> <td>Ja</td> <td>Ja</td> </tr>
-  <tr><td>Generic Sensor API</td><td></td><td>Ja</td><td>Ja</td><td>Nein!</td><td>Nein!</td></tr>
-  <tr><td>Push API</td><td></td><td>Ja</td><td>Ja</td><td>Nein!</td><td>Nein!</td></tr>
-  <tr><td>XX</td><td></td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
-  <tr><td>XX</td><td></td><td>XX</td><td>XX</td><td>XX</td><td>XX</td></tr>
+  <tr><td>Generic Sensor API</td>   <td></td> <td>Ja</td> <td>Ja</td> <td>Nein!</td>  <td>Nein!</td>  </tr>
+  <tr><td>Push API</td>             <td></td> <td>Ja</td> <td>Ja</td> <td>Nein!</td>  <td>Nein!</td>  </tr>
+  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td> <td>XX</td> </tr>
+  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td> <td>XX</td> </tr>
+  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td> <td>XX</td> </tr>
+  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td> <td>XX</td> </tr>
 </table>
   
   <h2 id="kapitel7">7. Kritik</h2>
