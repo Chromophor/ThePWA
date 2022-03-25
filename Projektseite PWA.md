@@ -9,6 +9,8 @@
 <li><a href="#kapitel4">4. Vorstellung des Projekts</a></li>
 <li><a href="#kapitel5">5. Der Code</a></li>
 <li><a href="#kapitel6">6. Die APIs</a></li>
+  
+
 <li><a href="#kapitel7">7. Kritik</a></li>
 <li><a href="#kapitel8">8. Fazit</a></li>
 <li><a href="#kapitel9">9. Quellen</a></li>
