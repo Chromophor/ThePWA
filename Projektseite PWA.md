@@ -32,7 +32,7 @@
   <tr><td>Push API</td>             <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td>  </tr>
   <tr><td>Background Fetch API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
   <tr><td>Background Fetch API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
-  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
+  <tr><td>Service Worker API</td>   <td></td>       <td>XX</td>     <td>XX</td>   <td>XX</td>     <td>XX</td> </tr>
   <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
   
@@ -41,6 +41,7 @@
   <h2 id="kapitel9">9. Quellen</h2>
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
+  <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
   
   
   <h2 id="kapitel10">10. Eigenständigkeitserklärung</h2>
