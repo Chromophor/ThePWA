@@ -11,8 +11,8 @@
 <li><a href="#kapitel6">6. Die APIs</a></li>
   
 <table>
-  <tr><th>APIs</th><th>Chromme</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
-  <tr><td></tr>
+  <tr><th>APIs</th><th>Chrome</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
+  <tr><td>HTML Geolocation API</td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <li><a href="#kapitel7">7. Kritik</a></li>
