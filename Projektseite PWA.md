@@ -20,6 +20,8 @@
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   <h2 id="kapitel5">5. Der Code</h2>
   <h2 id="kapitel6">6. Die APIs</h2>
+  -->Konzept der API erklären <--
+  <p>Leider waren die von uns eingesetzten APIs nicht in allen Browser kompatibel, daher folgt hier eine Übersicht, welche Browser welche vno uns verwendete API unterstützen.</p>
   
 <table>
   <tr><th>APIs</th><th>Chrome</th><th>Edge</th><th>Safari</th><th>FireFox</th></tr>
