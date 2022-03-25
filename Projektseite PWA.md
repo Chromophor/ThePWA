@@ -1,4 +1,4 @@
-# --> TheWeather <--
+# --> ThePWA <--
 <h1>Wetterstation auf Basis des Arduino -- Projektseite</h1>
 
 <h2> Inhalt </h2>
