@@ -29,7 +29,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   <h2 id="kapitel5">5. Der Code</h2>
   <h2 id="kapitel6">6. Der Service-Worker</h2>
-  <h2 id="kapitel6">6. Die APIs</h2>
+  <h2 id="kapitel7">7. Die APIs</h2>
   <p>Die Abkürzung API steht für „Application Programming Interface“ und ist eine Programmierschnittstelle. Mit dieser API-Schnittstelle zur Anwendungsprogrammierung können zwei Anwendungen, die voneinander unabhängig sind, problemlos interagieren und Daten austauschen. Anders ausgedrückt: Eine Programmierschnittstelle dient als „Brücke“ zwischen zwei Programmen, über die Daten hin und her gesendet werden. Wir haben bei unserem Projekt vor allem Web-APIs verwendet, die eine Schnittstelle zwischen dem Browser und z.B. den Sensoren des Handys ermöglicht.</p>
                                   
   <p>Leider waren die von uns eingesetzten APIs nicht in allen Browser kompatibel, daher folgt hier eine Übersicht, welche Browser welche vno uns verwendete API unterstützen.</p>
@@ -54,15 +54,15 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
   
-  <h2 id="kapitel7">7. Kritik</h2>
-  <h2 id="kapitel8">8. Fazit</h2>
-  <h2 id="kapitel9">9. Quellen</h2>
+  <h2 id="kapitel8">8. Kritik</h2>
+  <h2 id="kapitel9">9. Fazit</h2>
+  <h2 id="kapitel10">10. Quellen</h2>
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
   
   
-  <h2 id="kapitel10">10. Eigenständigkeitserklärung</h2>
+  <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
   
 <p>Wir erklären, dass wir die vorliegende Arbeit selbstständig und ohne Benutzung anderer als den angegebenen Hilfsmittel angefertigt und alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder unveröffentlichten Schriften entnommen wurden, als solche kenntlich gemacht habe.
   Diese Arbeit wurde nicht, auch nicht auszugsweise, bereits für eine andere Prüfung angefertigt.</p>
