@@ -60,6 +60,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
+  <li>https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
