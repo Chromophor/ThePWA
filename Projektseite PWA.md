@@ -57,6 +57,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <h2 id="kapitel8">8. Kritik</h2>
   <h2 id="kapitel9">9. Fazit</h2>
   <h2 id="kapitel10">10. Quellen</h2>
+  
+  <h3>Quellen für Inhalte der Projektseite</3>
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
@@ -68,6 +70,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://www.w3.org/TR/push-api/</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
+  
+  <h3>Quellen während der Projektphase</h3>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
