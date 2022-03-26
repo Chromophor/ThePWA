@@ -66,6 +66,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Push_API</li>
   <li>https://www.w3.org/TR/push-api/</li>
+  <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
