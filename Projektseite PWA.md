@@ -61,6 +61,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
   <li>https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
+  <li>https://www.w3schools.com/html/html5_geolocation.asp</li>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
