@@ -8,11 +8,12 @@
 <li><a href="#kapitel3">3. Projektentwicklung</a></li>
 <li><a href="#kapitel4">4. Vorstellung des Projekts</a></li>
 <li><a href="#kapitel5">5. Der Code</a></li>
-<li><a href="#kapitel6">6. Die APIs</a></li>
-<li><a href="#kapitel7">7. Kritik</a></li>
-<li><a href="#kapitel8">8. Fazit</a></li>
-<li><a href="#kapitel9">9. Quellen</a></li>
-<li><a href="#kapitel10">10. Eigenständigkeitserklärung</a></li>
+<li><a href="#kapitel6">6. Der Service-Worker</a></li>
+<li><a href="#kapitel7">7. Die APIs</a></li>
+<li><a href="#kapitel8">8. Kritik</a></li>
+<li><a href="#kapitel9">9. Fazit</a></li>
+<li><a href="#kapitel10">10. Quellen</a></li>
+<li><a href="#kapitel11">11. Eigenständigkeitserklärung</a></li>
 <br>
   <h2 id="kapitell">1. Einleitung</h2>
   
@@ -27,6 +28,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <h2 id="kapitel3">3.Projektentwicklung</h2>
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   <h2 id="kapitel5">5. Der Code</h2>
+  
   <h2 id="kapitel6">6. Die APIs</h2>
   <p>Die Abkürzung API steht für „Application Programming Interface“ und ist eine Programmierschnittstelle. Mit dieser API-Schnittstelle zur Anwendungsprogrammierung können zwei Anwendungen, die voneinander unabhängig sind, problemlos interagieren und Daten austauschen. Anders ausgedrückt: Eine Programmierschnittstelle dient als „Brücke“ zwischen zwei Programmen, über die Daten hin und her gesendet werden. Wir haben bei unserem Projekt vor allem Web-APIs verwendet, die eine Schnittstelle zwischen dem Browser und z.B. den Sensoren des Handys ermöglicht.</p>
                                   
