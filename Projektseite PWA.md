@@ -49,7 +49,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   Mit dieser API können wir dem User Push-Benachrichtigungen sende. Dies funktioniert im Moment vor allem über das Dev-Tool.  
                                         </td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td>  </tr>
   <tr><td>Background Fetch API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
-  <tr><td>Background Fetch API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
+  <tr><td>Background Sync API</td> <td></td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
   <tr><td>Service Worker API</td>   <td></td>       <td>Ja</td>     <td>Ja</td>   <td>(Ja) </td>  <td>(Ja) </td> </tr>
   <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
@@ -67,6 +67,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://developer.mozilla.org/de/docs/Web/API/Push_API</li>
   <li>https://www.w3.org/TR/push-api/</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
+  <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
