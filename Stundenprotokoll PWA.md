@@ -513,3 +513,4 @@ function wasserGetrunken(){
 <li>https://www.coder-welten.de/javascript/ladebalken-mit-fortschrittsanzeige.htm</li>
 <li>https://www.farb-tabelle.de/de/rgb2hex.htm?q=SteelBlue3</li>
 <li>https://www.html-seminar.de/css-flexbox.htm</li>
+<li>https://t3n.de/news/css-geometrische-figuren-reinem-358616/</li>
