@@ -491,6 +491,11 @@ function wasserGetrunken(){
  
 </details>
 
+<p id="Stunde28"><b>Montag 04.04.2022</b><br>
+  Wir haben heute weiter am Schrittzähler, genauer an der Statusleiste, gearbeitet. Diese funktioniert nun auch, da wie ein Verhältnis zwischen Breite (380px) und dem angestrebten Schrittziel gebildet haben, welches dann einen Schritt darstellt. Nach und nach kann sich die Statusleiste füllen. Auch das Design des Schrittzählers haben wir überarbeitet, wobei wir vor allem auf CSS-Design gesetzt haben.</p> 
+
+
+
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
