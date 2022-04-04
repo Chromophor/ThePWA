@@ -21,7 +21,7 @@
 <p>Das Projekt haben wir in unserem <a href="Stundenprotokoll PWA.md">Stundenprotokoll</a> dokumentiert. Hier ist jede Unterrichtsstunde mit einem Beitrag und einer dazugehörigen Erläuterung aufgeführt.<br><br>Zur besseren Übersicht gelangt man hier zum <a href="README.md">README.md</a>, wo alle Projektbeiträge zentral verknüpft sind.<br><br>
 Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p><br>
   
-  <h3 id="#guide">Installations-Guide</h3>
+  <h3 id="guide">Installations-Guide</h3>
   <p>Hier ein Guide für Android, Win und IOS!!</p>
 
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
