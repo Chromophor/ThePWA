@@ -36,7 +36,7 @@ navigator.permissions.query({ name: 'accelerometer' })
       anzahlSchritte = anzahlSchritte + 1;
       localStorage.setItem("Schritte", anzahlSchritte);
       ladeBalken();
-      //Schritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
+      anzahlSchritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
     }
   });
 
