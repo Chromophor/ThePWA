@@ -42,12 +42,13 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
 
   
-<li><b>Verfügbarkeit:</b> Statt für Android, IOS, Windows, Mac-OS und das Web eine APP zu entwickeln und implementieren, mussten wir nur unsere eine PWA entwickeln. Sie funktioniert in Grundsätzen unter allen Betriebssystemen (Android, IOS, Windows und Mac-OS, auch wenn diese das Konzept PWA unterschiedlich gut unterstützen). Einschränkungen gibt es vor allem beim Betreibssystem IOS und bei bestimmten Browser. Mehr zur Verfügbarkeit gibt es unter dem Punkt <a href="#kapitel7">API</a></li>
+<li><b>Verfügbarkeit:</b> Statt für Android, IOS, Windows, Mac-OS und das Web eine APP zu entwickeln und implementieren, mussten wir nur unsere eine PWA entwickeln. Sie funktioniert in Grundsätzen unter allen Betriebssystemen (Android, IOS, Windows und Mac-OS, auch wenn diese das Konzept PWA unterschiedlich gut unterstützen). Einschränkungen gibt es vor allem beim Betreibssystem IOS und bei bestimmten Browser. Mehr zur Verfügbarkeit gibt es unter dem Punkt <a href="#kapitel7">API</a>.</li>
 
 <li><b>Hardwarezugriff:</b> PWAs bieten die Möglichkeit, verschiedene Funktionen zu implementieren, die eigentlich auch nur naiven APPs vorbehalten sind. Es kann auf Sensorikdaten und Kameras zugegriffen werden oder Pushnotifications erstellt werden.</li>
-Vereinfachte Veröffentlichung
+  
+<li><b>Veröffentlichung:</b> PWAs können im Google Play Store und Microsoft Store relativ einfach veröffentlicht werden. Möchte man die PWA in eine native APP umformen, so bieten zb. die Dienstleister APP-Maker an, die PWA in eine APK umzuwandeln.</li>
 
-PWAs können zwar in den Google Play Store, müssen aber nicht den langwierigen Veröffentlichungsprozess von Google Play, Windows Phone Apps oder Apples App Store durchlaufen.[8]
+[8]
 Offline-Modus
 
 Mithilfe von Service Workers funktioniert eine PWA offline, was zu einer potenziellen Erhöhung der Kundenbindungs- und -bindungsraten führen kann.[8]
@@ -111,6 +112,7 @@ Web-Traffic kann genutzt werden.
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
   <li>https://androidmag.de/report/10-trends-der-app-entwicklung-die-man-2022-im-auge-behalten-sollte/</li>
+  <li>https://www.pwabuilder.com/</li>
   
   <h3>Quellen während der Projektphase</h3>
   
