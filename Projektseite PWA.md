@@ -99,6 +99,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
   <li>https://androidmag.de/report/10-trends-der-app-entwicklung-die-man-2022-im-auge-behalten-sollte/</li>
   <li>https://www.pwabuilder.com/</li>
+  <li>https://de.wikipedia.org/wiki/Progressive_Web_App</li>
   
   <h3>Quellen während der Projektphase</h3>
   
