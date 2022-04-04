@@ -33,9 +33,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 
 <li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheit eine Funktion zum Installieren (siehe <a href="guide">Installations-Guide</a>).</li>
-Push Notifications
 
-Push Notifications sind ebenfalls von nativen Apps bekannt. Betreiber der Progressive Web App können Nutzer damit beispielsweise auf Aktionen, Rabatte oder Events aufmerksam machen und so die Interaktionsrate steigern.
+
+<li><b>Push Notifications:</b> Push Notifications sind ebenfalls von nativen Apps bekannt. Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
+  
 Offline-Funktionalität
 
 Mittels der Caching-Funktion der Service Worker stehen einmal abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen. Progressive Web Apps verfolgen konsequent einen Offline-first-Ansatz.
