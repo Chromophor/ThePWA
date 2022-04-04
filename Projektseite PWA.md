@@ -30,9 +30,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <p>Vorteile der PWA</p>
   
-Add-To-Homescreen/Installierbarkeit
 
-<li><b>Add-To-Homescreen</b>-- Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon.</li>
+
+<li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon.</li>
 
 Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile eine Funktion zum Installieren.
 Push Notifications
