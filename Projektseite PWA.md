@@ -48,13 +48,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
 <li><b>Veröffentlichung:</b> PWAs können im Google Play Store und Microsoft Store relativ einfach veröffentlicht werden. Möchte man die PWA in eine native APP umformen, so bieten zb. die Dienstleister <a href="https://appmaker.xyz/pwa-to-apk">APP-Maker</a> an, die PWA in eine APK umzuwandeln.</li>
 
-[8]
-Offline-Modus
-
-Mithilfe von Service Workers funktioniert eine PWA offline, was zu einer potenziellen Erhöhung der Kundenbindungs- und -bindungsraten führen kann.[8]
-Verbesserte Performance
-
-PWAs sind schneller als übliche Web-Apps. Davon profitieren Conversions, User Experience und Retention Rates.[8]
+<li><b>Performance:</b> PWAs sind schneller als übliche Web-Apps und benötigen meistens weniger Speicherplatz als native APPs. Davon profitieren Conversions, User Experience und Retention Rates.[8]
 Web-Traffic kann genutzt werden.  
   
   
