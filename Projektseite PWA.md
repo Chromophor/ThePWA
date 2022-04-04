@@ -38,13 +38,13 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <li><b>Push Notifications:</b> Push Notifications sind ebenfalls von nativen Apps bekannt. Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
   
 
-<li><b>Offline-Funktionalität:</b> Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen.<Li>
+<li><b>Offline-Funktionalität:</b> Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen.</li>
   
-Vorteile von Progressive Web Apps</li>
-  
-Kostenreduktion
 
-Statt für Android, iOS, Windows und das Web zu implementieren, muss nur die PWA entwickelt werden. An In-App-Käufen verdienen im Gegensatz zu Apps Google und Apple nicht mit.[8]
+  
+<li><b>Verfügbarkeit:</b> Statt für Android, iOS, Windows, Mac-OS und das Web eine APP zu entwickeln und implementieren, mussten wir nur unsere eine PWA entwickeln. Sie funktioniert in Grundsätzen unter allen Betriebssystemen (Android, auch wenn diese das Konzept PWA unterschiedlich gut unterstützen). Einschränkungen gibt es vor allem beim Betreibssystem IOS.</li>
+
+[8]
 App-like Design
 
 Die User Experience und die Interaktionsmuster einer PWA können anhand von nativen Apps nachgebaut werden und erzeugen so eine gleiche User Experience.[8]
