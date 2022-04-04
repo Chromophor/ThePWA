@@ -497,6 +497,8 @@ function wasserGetrunken(){
 <details><summary>Screenshots vom Montag 04.04.2022</summary>
   
 ![Ladebalken1](https://user-images.githubusercontent.com/88386049/161488269-175e17a6-8420-44dc-a252-5cbbaa1eeecc.PNG)
+![Ladebalken2](https://user-images.githubusercontent.com/88386049/161494389-bd848534-1b69-4782-926e-d3aa1e2d5dc8.PNG)
+
   
 </details>
 
