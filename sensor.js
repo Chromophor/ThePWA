@@ -1,3 +1,5 @@
+
+
 navigator.permissions.query({ name: 'accelerometer' })
 .then(result => {
   
@@ -19,37 +21,22 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungY = acl.y;
     const BeschleunigungZ = acl.z;
     var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5 , 2));
-    //var aGesamt = (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
     
     
-    //var aGesamt = ((acl.x + acl.y + acl.z) - 9.5)
     
 
-    amaxX.innerHTML = "Gesamtbeschleunigung = " + aGesamt;
 
-    /*if(aGesamt > aMax){
-      aMax = aGesamt;
-      amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
-    }*/
+    
   
-    if(aGesamt < aMin){
+    /*if(aGesamt < aMin){
       aMin = aGesamt;
-      aminX.innerHTML = "Minimale Beschleunigung: " + aMin;
-    }
+    }*/
 
     if(aGesamt > 1 && aGesamt < 2){
       anzahlSchritte = anzahlSchritte + 1;
-      Schritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
-    }
-
-    function resetA() {
-      aMax = 0;
-      aMin = 0;
-      aGesamt = 0;
-      anzahlSchritte = 0;
-      amaxX.innerHTML = "Maximale Beschleunigung: " + aMax;
-      aminX.innerHTML = "Minimale Beschleunigung: " + aMin;
-      Schritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
+      localStorage.setItem("Schritte", anzahlSchritte);
+      ladeBalken();
+      //Schritte.innerHTML = "Anzahl der Schritte: " + anzahlSchritte;
     }
   });
 
@@ -60,18 +47,6 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 
 /*
-if('geolocation' in navigator) {
-
-console.log("Geolokation verfügbar!");
-navigator.geolocation.getCurrentPosition(function(position) {
-  let gesch = position.coords.speed;
-  console.log(gesch);
-  speed.innerHTML = "Aktuelle Geschwindigkeit: " + gesch;
-  });
-}
-*/
-
-
 if (navigator.geolocation) {
   var options = {
     enableHighAccuracy: true
@@ -82,16 +57,8 @@ if (navigator.geolocation) {
 }
 
 
-function showPosition(position) {
-  /*alert(
-      'Die geographische Position dieses Geräts ist (Stand: ' + new Date(position.timestamp).toLocaleTimeString() + '):\n'+
-      'Breitengrad: ' + position.coords.latitude + '° \n'+
-      'Längengrad: ' + position.coords.longitude + '° \n'+
-      'Geschwindigkeit: ' + position.coords.speed * 3.6 + ' km/h'
-  );*/
-  
+function showPosition(position) {  
   speed.innerHTML = "Aktuelle Geschwindigkeit: " + position.coords.speed * 3.6 + " km/h";
-
 };
 
 function showError(error) {
@@ -110,7 +77,7 @@ function showError(error) {
           break;
   }
 };
-
+*/
 
 
 /*

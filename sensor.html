@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="manifest" href="webmanifest.json"> -->
+    <!-- <script src="index.js"></script> -->
+    <!-- <script src="sensor.js"></script> -->
+    
+
+
+
+
+<title>Schrittzähler</title>
+
+<style>
+
+    .ladebalken {
+    height:33px;
+    width:380px;
+    border:3px solid white;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 250px;
+    }
+
+    .fortschritt {
+    height:33px;
+    width:1px; 
+    background-color:rgb(26, 221, 0);
+    border-radius: 10px; 
+    border:none;
+    }
+
+    .buttonCenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+    .oval {
+    width: 100%;
+    height: 550px;
+    border-radius: 300px / 100px;
+    background-color: 	#4f94cd;
+    margin-top: -120px;
+    display: flex;
+    }
+
+    .oval1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 300px / 100px;
+    background: linear-gradient(to bottom, 	#4f94cd, #4f94cd 50%, white);
+    opacity: 0.3;
+    margin-top: -300px;
+    display: flex;
+    }
+    
+    .hbox {
+    width: 100%;
+    height: 150px;
+    margin-top: -110px;
+    background-color: 	#4f94cd;
+    }
+
+    .headline {
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    margin-top: -400px;
+    }
+
+
+    .underline {
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    }
+
+    
+
+
+
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  justify-content: center;
+  bottom: 10%;
+  background-color: #52AA8A;
+  border-radius: 10px;
+  width: 60%;
+  left: 20%;
+  right: 20%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #52aa5e;
+  color: black;
+  border-radius: 10px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #52AA8A;
+  color: black;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 10px 30px;
+  color: black;
+  background-color: #3AAED8;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input {
+  border-radius: 8px;
+  background-color: lightblue;
+  width: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 10%; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 10%; opacity: 1}
+}
+
+@-webkit-keyframes slideOut {
+  from {bottom: 10%; opacity: 1} 
+  to {bottom: -300px; opacity: 0}
+}
+
+@keyframes slideOut {
+  from {bottom: 10%; opacity: 1}
+  to {bottom: -300px; opacity: 0}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+</style>
+
+</head>
+
+<body class="body" onload="anzeigen(), checkFirstUse()">
+
+<?php require('allgemein/sidemenu.php'); ?>
+
+
+<!--Pupup öffnen-->
+<button id="myBtn">Schrittziel</button>
+
+  <!-- Popup -->
+<div id="popup" class="modal">
+
+  <!-- Inhalt -->
+  <div class="modal-content" id="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Wie viele Meilen möchtest du laufen? Lege hier dein Schrittziel fest!</h2>
+    </div>
+    <div class="modal-body">
+
+      <p>Dein Ziel:  <br><input type="range" name="EingabeschrittZiel" max="100" step="10" id="EingabeschrittZiel" class="input"> <span id="Zielausgabe"> 0 </span> Schritte</p>
+
+      <button class="button" onclick="speichern()">Speichern</button>
+
+    </div>
+    <div class="modal-footer">
+      <h3>Wir möchten Dich auf unsere <a href="https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de">Cookies</a> hinweisen. Bitte lies unsere <a href="https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs">AGB</a> und die Datenschutzbestimmungen</h3>
+    </div>
+  </div>
+
+</div>
+
+
+
+<section class="start">
+    <h1 class="title">Training</h1>
+</section>
+<div class="hbox"></div>
+<div class="oval"></div>
+<div class="oval1"></div>
+
+
+<div id="Schritte">
+        <b><span id="anzahlSchritte" class="headline"></span></b><br><span class="underline">Schritte</span>
+</div>
+
+<div id="ladebalken" class="ladebalken">
+    <div id="fortschritt" class="fortschritt"></div>
+</div>
+    
+<section class="buttonCenter">
+    <input type="button" onclick="addschritt()" value=" Schritt ">
+</section>
+
+    
+<script>
+
+  var erhoehe_pixel = 0;
+  var ladevorgang = 0;
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var ziel = Number(localStorage.getItem("schrittZiel"));
+  var pixel = Number(localStorage.getItem("Pixel"));
+  console.log(schritte);
+  console.log(ziel);
+
+
+function checkFirstUse(){
+if(!ziel){
+modal.style.display = "block";
+}else{
+modal.style.display = "none";
+}
+
+}
+
+
+function speichern(){
+//Ziel aus Input-Feld auslesen
+ziel = document.querySelector("#EingabeschrittZiel").value;
+
+//jetzt Ziel lokal speichern
+
+localStorage.setItem("schrittZiel", ziel);
+
+
+window.location.reload(true);
+
+}
+
+
+function anzeigen(){
+ziel = localStorage.getItem("schrittZiel");
+anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
+}
+
+
+
+if (window.addEventListener) {
+  window.addEventListener("load", ladeBalken, false); // für alle anderen Browser
+}
+else if (window.attachEvent) {
+  window.attachEvent("onload", ladeBalken);           // für ältere IE
+}
+
+
+function ladeBalken() {
+var schrittZiel = Number(localStorage.getItem("schrittZiel"));
+var schritte = Number(localStorage.getItem("Schritte")); 
+var einSchritt = 380 / schrittZiel;
+var schritt = document.getElementById("fortschritt");
+
+erhoehe_pixel = schritte * einSchritt;
+
+if (erhoehe_pixel <= 380) {
+schritt.style.width = erhoehe_pixel + "px"; 
+}else {
+schritt.style.width = 380 + "px";
+}
+}
+
+function addschritt() {
+schritte = schritte + 1;
+localStorage.setItem("Schritte", schritte);
+anzahlSchritte.innerHTML = localStorage.getItem("Schritte");
+ladeBalken();    
+}
+
+
+
+
+function ausgabe() {    
+  let zielAusgabe = document.querySelector("#EingabeschrittZiel").value;
+  Zielausgabe.innerHTML = zielAusgabe;
+}
+
+const jetzt = setInterval(function() {
+    ausgabe();
+}, 100);
+
+
+</script>
+
+
+
+
+  <!-- Popup-js -->
+<script>
+    // get Popup
+    var modal = document.getElementById("popup");
+
+    // Get the button that opens the Popup
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the Popup
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the Popup 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the Popup
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the Popup, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+
+
+    
+<?php require('allgemein/footer.php'); ?>
+
+    
+
+</body>
+
+</html>
