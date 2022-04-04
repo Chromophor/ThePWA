@@ -21,7 +21,7 @@
 <p>Das Projekt haben wir in unserem <a href="Stundenprotokoll PWA.md">Stundenprotokoll</a> dokumentiert. Hier ist jede Unterrichtsstunde mit einem Beitrag und einer dazugehörigen Erläuterung aufgeführt.<br><br>Zur besseren Übersicht gelangt man hier zum <a href="README.md">README.md</a>, wo alle Projektbeiträge zentral verknüpft sind.<br><br>
 Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p><br>
   
-  <h3>Installations-Guide</h3>
+  <h3 id="#guide">Installations-Guide</h3>
   <p>Hier ein Guide für Android, Win und IOS!!</p>
 
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
@@ -32,9 +32,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
 
 
-<li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon.</li>
-
-Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile eine Funktion zum Installieren.
+<li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheit eine Funktion zum Installieren (siehe <a href="guide">Installations-Guide</a>).</li>
 Push Notifications
 
 Push Notifications sind ebenfalls von nativen Apps bekannt. Betreiber der Progressive Web App können Nutzer damit beispielsweise auf Aktionen, Rabatte oder Events aufmerksam machen und so die Interaktionsrate steigern.
