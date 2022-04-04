@@ -46,7 +46,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 <li><b>Hardwarezugriff:</b> PWAs bieten die Möglichkeit, verschiedene Funktionen zu implementieren, die eigentlich auch nur naiven APPs vorbehalten sind. Es kann auf Sensorikdaten und Kameras zugegriffen werden oder Pushnotifications erstellt werden.</li>
   
-<li><b>Veröffentlichung:</b> PWAs können im Google Play Store und Microsoft Store relativ einfach veröffentlicht werden. Möchte man die PWA in eine native APP umformen, so bieten zb. die Dienstleister APP-Maker an, die PWA in eine APK umzuwandeln.</li>
+<li><b>Veröffentlichung:</b> PWAs können im Google Play Store und Microsoft Store relativ einfach veröffentlicht werden. Möchte man die PWA in eine native APP umformen, so bieten zb. die Dienstleister <a href="https://appmaker.xyz/pwa-to-apk">APP-Maker</a> an, die PWA in eine APK umzuwandeln.</li>
 
 [8]
 Offline-Modus
