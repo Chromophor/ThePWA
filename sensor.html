@@ -242,7 +242,7 @@
 
 
 <div id="Schritte">
-        <b><span id="Anzahlschritte" class="headline"></span></b><br><span class="underline">Schritte</span>
+        <b><span id="anzahlSchritte" class="headline"></span></b><br><span class="underline">Schritte</span>
 </div>
 
 <div id="ladebalken" class="ladebalken">
@@ -291,7 +291,7 @@ window.location.reload(true);
 
 function anzeigen(){
 ziel = localStorage.getItem("schrittZiel");
-Anzahlschritte.innerHTML = Number(localStorage.getItem("Schritte"));
+anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
 }
 
 
@@ -322,7 +322,7 @@ schritt.style.width = 380 + "px";
 function addschritt() {
 schritte = schritte + 1;
 localStorage.setItem("Schritte", schritte);
-Anzahlschritte.innerHTML = localStorage.getItem("Schritte");
+anzahlSchritte.innerHTML = localStorage.getItem("Schritte");
 ladeBalken();    
 }
 
