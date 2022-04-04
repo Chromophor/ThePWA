@@ -25,7 +25,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <p>Hier ein Guide für Android, Win und IOS!!</p>
 
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
-  <p>Eine Progressive Web App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Symbiose aus einer responsiven Webseite und einer App beschrieben werden. Progressive Web Apps können wie eine Webseite mit HTML5, CSS3 und JavaScript erstellt werden. Zusätzlich dienen sogenannte Service Worker durch optimiertes Caching den Offline-Funktionalitäten. Zur Kommunikation zwischen Webclient und Webserver ist das HTTPS-Protokoll vorgeschrieben.
+  <p>Eine Progressive-Web-App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Symbiose aus einer responsiven Webseite und einer App beschrieben werden. Progressive Web Apps können mit HTML/PHP, CSS und JavaScript erstellt werden, ähnlich wie "normale" Websites. Zur Kommunikation zwischen User (Webclient) und Webserver ist das HTTPS-Protokoll vorgeschrieben, weshalb das Testen der PWA bei uns immer unter Simulation eines lokalen Servers geschehen musste, der das HTTPS-Protokoll verwendet.
 
 Mehr und mehr Menschen nutzen das Smartphone, um auf das Internet zuzugreifen. In Deutschland betraf der Anteil der Internetnutzer via Smartphone schon im Jahr 2014 etwa 69 % </p>
   
