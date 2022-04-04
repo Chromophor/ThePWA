@@ -38,7 +38,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 <li><b>Push Notifications:</b> Push Notifications sind ebenfalls von nativen Apps bekannt. Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
   
 
-<li><b>Offline-Funktionalität:</b> Mittels der Caching-Funktion der Service Worker stehen einmal abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen. Progressive Web Apps verfolgen konsequent einen Offline-first-Ansatz.
+<li><b>Offline-Funktionalität:</b> Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen.<Li>
+  
 Vorteile von Progressive Web Apps</li>
   
 Kostenreduktion
