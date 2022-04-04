@@ -104,9 +104,6 @@ Web-Traffic kann genutzt werden.
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
   <li>https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
-  
-  
-  <h3>Quellen während der Projektphase</h3>
   <li>https://www.w3schools.com/html/html5_geolocation.asp</li>
   <li>https://www.w3schools.com/html/html5_webstorage.asp</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs</li>
@@ -116,6 +113,9 @@ Web-Traffic kann genutzt werden.
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
   <li>https://androidmag.de/report/10-trends-der-app-entwicklung-die-man-2022-im-auge-behalten-sollte/</li>
   <li>https://www.pwabuilder.com/</li>
+  
+  <h3>Quellen während der Projektphase</h3>
+  
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
