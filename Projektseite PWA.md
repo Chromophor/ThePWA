@@ -27,6 +27,46 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
   <p>Eine Progressive-Web-App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Symbiose aus einer responsiven Webseite und einer App beschrieben werden. Progressive Web Apps können mit HTML/PHP, CSS und JavaScript erstellt werden, ähnlich wie "normale" Websites. Zur Kommunikation zwischen User (Webclient) und Webserver ist das HTTPS-Protokoll vorgeschrieben, weshalb das Testen der PWA bei uns immer unter Simulation eines lokalen Servers geschehen musste, der das HTTPS-Protokoll verwendet.</p>
   
+
+<p>Vorteile der PWA</p>
+  
+Add-To-Homescreen/Installierbarkeit
+
+<li><b>Add-To-Homescreen</b>-- Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon.</li>
+
+Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile eine Funktion zum Installieren.
+Push Notifications
+
+Push Notifications sind ebenfalls von nativen Apps bekannt. Betreiber der Progressive Web App können Nutzer damit beispielsweise auf Aktionen, Rabatte oder Events aufmerksam machen und so die Interaktionsrate steigern.
+Offline-Funktionalität
+
+Mittels der Caching-Funktion der Service Worker stehen einmal abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen. Progressive Web Apps verfolgen konsequent einen Offline-first-Ansatz.
+Vorteile von Progressive Web Apps
+Kostenreduktion
+
+Statt für Android, iOS, Windows und das Web zu implementieren, muss nur die PWA entwickelt werden. An In-App-Käufen verdienen im Gegensatz zu Apps Google und Apple nicht mit.[8]
+App-like Design
+
+Die User Experience und die Interaktionsmuster einer PWA können anhand von nativen Apps nachgebaut werden und erzeugen so eine gleiche User Experience.[8]
+Hardwarezugriff
+
+PWAs bieten ebenfalls die Möglichkeit, verschiedene native Funktionen zu implementieren. Es kann auf Sensorikdaten und Kameras zugegriffen werden oder Pushnotifications erstellt werden.[8]
+Vereinfachte Veröffentlichung
+
+PWAs können zwar in den Google Play Store, müssen aber nicht den langwierigen Veröffentlichungsprozess von Google Play, Windows Phone Apps oder Apples App Store durchlaufen.[8]
+Offline-Modus
+
+Mithilfe von Service Workers funktioniert eine PWA offline, was zu einer potenziellen Erhöhung der Kundenbindungs- und -bindungsraten führen kann.[8]
+Verbesserte Performance
+
+PWAs sind schneller als übliche Web-Apps. Davon profitieren Conversions, User Experience und Retention Rates.[8]
+Web-Traffic kann genutzt werden.  
+  
+  
+  
+  
+  
+  
   <h2 id="kapitel3">3.Projektentwicklung</h2>
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   <h2 id="kapitel5">5. Der Code</h2>
