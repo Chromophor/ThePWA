@@ -34,6 +34,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   <li><a href="https://www.instagram.com/">Instagram Lite</a></li>
   <li><a href="https://www.bmw.com/en/index.html">BMW</a></li>
   <li><a href="https://code.nasa.gov/">NASA</a></li>
+  <li><a href="https://web.telegram.org/z/">Telegram</a></li>
   
 
 <h3>Vorteile der PWA</h3>
