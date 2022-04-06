@@ -102,6 +102,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li>https://www.pwabuilder.com/</li>
   <li>https://de.wikipedia.org/wiki/Progressive_Web_App</li>
   <li>https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
+  <li>https://www.quora.com/What-are-progressive-web-applications-PWAs</li>
   
   <h3>Quellen während der Projektphase</h3>
   
