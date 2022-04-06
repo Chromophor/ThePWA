@@ -36,6 +36,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   <li><a href="https://code.nasa.gov/">NASA</a></li>
   <li><a href="https://web.telegram.org/z/">Telegram</a></li>
   <li><a href="https://m.facebook.com/">Facebook</a></li>
+<p>Diese PWAs können über die URL aufgerufen und in bestimmten Browser auch installiert werden. Mehr dazu unter dem Punkt <a href="#kapitel7">Kompatiblität</a>.
   
 
 <h3>Vorteile der PWA</h3>
