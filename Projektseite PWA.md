@@ -36,7 +36,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   <li><a href="https://code.nasa.gov/">NASA</a></li>
   <li><a href="https://web.telegram.org/z/">Telegram</a></li>
   <li><a href="https://m.facebook.com/">Facebook</a></li><br>
-<p>Diese PWAs können über die URL aufgerufen und in bestimmten Browser auch installiert werden. Mehr dazu unter dem Punkt <a href="#kapitel7">Kompatiblität</a>.
+<p>Diese PWAs können über die URL aufgerufen und in bestimmten Browser auch installiert werden. Mehr dazu unter dem Punkt <a href="#Kompatibilität">Kompatibilität</a>.
   
 
 <h3>Vorteile von Progressive-Web-Apps</h3>
