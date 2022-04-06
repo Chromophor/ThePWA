@@ -39,7 +39,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
 <p>Diese PWAs können über die URL aufgerufen und in bestimmten Browser auch installiert werden. Mehr dazu unter dem Punkt <a href="#kapitel7">Kompatiblität</a>.
   
 
-<h3>Vorteile der PWA</h3>
+<h3>Vorteile von Progressive-Web-Apps</h3>
 
 <li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheit eine Funktion zum Installieren (siehe <a href="#guide">Installations-Guide</a>).</li>
 
