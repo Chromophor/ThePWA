@@ -503,6 +503,16 @@ function wasserGetrunken(){
   
 </details>
 
+<p id="Stunde29"><b>Mittwoch 06.04.2022</b><br>
+  Da der Abgabetermin immer näher ruckt, arbeiten wir inzwischen auch viel daran, letzte Funktionsfehler zu beheben und die App auch vom Aussehen und der Bedienung auf den Endenutzer anzupassen. Am Ende soll die App ja nicht nur funktionieren sondern auch schön anzusehen sein. Hierfür haben wir noch einige Bilder und Icons getauscht und verschiedene Stylings im Stylesheet angepasst. Außerdem hatte Thorben in letzter Zeit viel am Schrittzähler weitergearbeitet und diesen haben wir heute in die Hauptapp integriert. Außerdem haben wir in Zuge dessen die Datenabfrage an den Benutzer am Anfang angepasst und fragen nun nicht nur den Namen sondern auch Gewicht, Schrittlänge und Schrittziel ab. Mit diesen Daten wollen wir mit dem Schrittzähler auch die gelaufene Distanz berechnen und berechnen wie viel Wasser die Person an einem Tag trinken muss.</p>
+  
+<details><summary>Screenshots vom Mittwoch 06.04.2022</summary>
+  
+  ![Neue Anmeldeseite](https://user-images.githubusercontent.com/88386045/161998024-4c4c7628-a7dd-4a13-98c7-0efa98994c81.png)
+
+  
+</details>
+
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
