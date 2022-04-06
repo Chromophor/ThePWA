@@ -509,6 +509,7 @@ function wasserGetrunken(){
 <details><summary>Screenshots vom Mittwoch 06.04.2022</summary>
   
   ![Neue Anmeldeseite](https://user-images.githubusercontent.com/88386045/161998024-4c4c7628-a7dd-4a13-98c7-0efa98994c81.png)
+  <p>Neue Anmeldeseite</p>
 
   
 </details>
