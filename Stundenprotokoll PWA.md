@@ -527,3 +527,4 @@ function wasserGetrunken(){
 <li>https://www.html-seminar.de/css-flexbox.htm</li>
 <li>https://t3n.de/news/css-geometrische-figuren-reinem-358616/</li>
 <li>https://codepen.io/jensgro/pen/gagXQo</li>
+<li>https://www.w3schools.com/charsets/ref_emoji.asp</li>
