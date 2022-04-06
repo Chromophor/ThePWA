@@ -60,6 +60,10 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   
   
   <h2 id="kapitel3">3. Projektentwicklung</h2>
+<p>In der ersten Stunde unseres Projektes haben wir uns überlegt, welches Projekt für uns geeignet sein könnte. Wir wollten ein Projekt beginnen, dass unsere Programmier-Kenntnis fordert und fördert. Zu Beginn standen mehrere Ideen im Raum. So standen wir vor der Auswahl zwischen Programmen zur Erstellung eines Sittplanes, für schulische Zwecke, einer Einkaufliste, eines Kalenders, verschiedener Minispiele und der Entwicklung einer Lern-App. Wir haben uns abschließend dafür entschieden, eine Fitness-App zu entwickeln. Anschließend 
+  
+  
+  
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   <h2 id="kapitel5">5. Der Code</h2>
   <h2 id="kapitel6">6. Der Service-Worker</h2>
