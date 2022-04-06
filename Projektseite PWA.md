@@ -106,6 +106,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   <li>https://de.wikipedia.org/wiki/Progressive_Web_App</li>
   <li>https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
   <li>https://www.quora.com/What-are-progressive-web-applications-PWAs</li>
+  <li>https://pwa.bar/</li>
   
   <h3>Quellen während der Projektphase</h3>
   
