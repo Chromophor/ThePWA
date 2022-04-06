@@ -24,12 +24,14 @@
             name = document.querySelector("#name").value;
             gewicht = document.querySelector("#Eingabegewicht").value;
             ziel = document.querySelector("#EingabeschrittZiel").value;
+            schrittLange = document.querySelector("#EingabeschrittLange").value;
 
             //jetzt Daten lokal speichern
 
             localStorage.setItem("name", name);
             localStorage.setItem("gewicht", gewicht)
             localStorage.setItem("schrittZiel", ziel);
+            localStorage.setItem("schrittLange", schrittLange)
 
 
             setTimeout(function() {
@@ -60,8 +62,11 @@
         function ausgabe() {    
         let zielAusgabe = document.querySelector("#EingabeschrittZiel").value;
         let gewichtAusgabe = document.querySelector("#Eingabegewicht").value;
+        let schrittlangeAusgabe = document.querySelector("#EingabeschrittLange");
+
         Zielausgabe.innerHTML = zielAusgabe;
         Gewichtausgabe.innerHTML = gewichtAusgabe;
+        Schrittlangeausgabe.innerHTML = schrittlangeAusgabe;
         }
 
         const jetzt = setInterval(function() {
@@ -88,8 +93,9 @@
             <div class="modal-body">
 
                 <p>Dein Name:              <input type="text" name="name" id="name" placeholder="Dein Name..." class="input"></p><br>
-                <p>Dein Gewicht:           <br><input type="range" name="Eingabegewicht" max="200" step="5" id="Eingabegewicht" class="input"> <span id="Gewichtausgabe"> 0 </span> kg</p><br>
-                <p>Tägliches Schrittziel:  <br><input type="range" name="EingabeschrittZiel" max="10000" step="10" id="EingabeschrittZiel" class="input"> <span id="Zielausgabe"> 0 </span> Schritte</p>
+                <p>Dein Gewicht:           <input type="range" name="Eingabegewicht" max="200" step="5" id="Eingabegewicht" class="input"> <span id="Gewichtausgabe"> 0 </span> kg</p><br>
+                <p>Schrittlänge:           <input type="range" name="EingabeschrittLange" max="100" step="5" id="EingabeschrittLange" class="input"> <span id="Schrittlangeausgabe"> 0 </span> cm</p><br>
+                <p>Tägliches Schrittziel:  <input type="range" name="EingabeschrittZiel" max="10000" step="10" id="EingabeschrittZiel" class="input"> <span id="Zielausgabe"> 0 </span> Schritte</p>
                 
 
                 <button class="button" onclick="speichern()">Speichern</button>
