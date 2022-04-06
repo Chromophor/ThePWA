@@ -32,6 +32,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
   <li><a href="https://www.pinterest.de/">Pinterest</a></li>
   <li><a href="https://www.google.com/maps/@53.6816548,10.2153181,14z?force=pwa&source=mlpwa">Google Maps Go</a></li>
   <li><a href="https://www.instagram.com/">Instagram Lite</a></li>
+  <li><a href="https://www.bmw.com/en/index.html">BMW</a></li>
   
 
 <h3>Vorteile der PWA</h3>
