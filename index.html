@@ -35,7 +35,7 @@
             setTimeout(function() {
                 window.location.reload(true);
             }, 400);
-            
+
         }
 
         function werteZeigen() {
@@ -56,6 +56,17 @@
             rundengeszw = Number(localStorage.getItem("rundenges"));
             rundengesan.innerHTML = rundengeszw;
         }
+
+        function ausgabe() {    
+        let zielAusgabe = document.querySelector("#EingabeschrittZiel").value;
+        let gewichtAusgabe = document.querySelector("#Eingabegewicht").value;
+        Zielausgabe.innerHTML = zielAusgabe;
+        Gewichtausgabe.innerHTML = gewichtAusgabe;
+        }
+
+        const jetzt = setInterval(function() {
+        ausgabe();
+        }, 100);
 
     </script>
 
