@@ -140,6 +140,7 @@ In unserer Kritik möchten wir auch berücksichtigen, welche Elemente wir uns in
   <li>https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
   <li>https://www.quora.com/What-are-progressive-web-applications-PWAs</li>
   <li>https://pwa.bar/</li>
+  <li>https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
   
   <h3>Quellen während der Projektphase</h3>
   
