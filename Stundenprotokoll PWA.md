@@ -544,3 +544,4 @@ function wasserGetrunken(){
 <li>https://web.dev/codelab-apple-touch-icon/</li>
 <li>https://herwig.de/anleitungen/vuepress/manifest.json.html#manifest-json-anpassen</li>
 <li>https://firt.dev/notes/pwa/</li>
+<li>https://firt.dev/notes/pwa-ios/</li>
