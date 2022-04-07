@@ -542,3 +542,4 @@ function wasserGetrunken(){
 <li>https://www.w3schools.com/charsets/ref_emoji.asp</li>
 <li>https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/typeof</li>
 <li>https://web.dev/codelab-apple-touch-icon/</li>
+<li>https://herwig.de/anleitungen/vuepress/manifest.json.html#manifest-json-anpassen</li>
