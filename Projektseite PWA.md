@@ -108,7 +108,9 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <tr><td>Background Sync API</td> <td>
   Die Background Sync API dient der Hintergrund-Aktualisierung und auch dem Ziel, den Schrittzähler im Hintergrund zu aktualisieren. Auch diese API wurde zum Ende der Projektphase nicht eingesetzt.
                                         </td>       <td>Ja</td>     <td>Ja</td>   <td>Nein!</td>  <td>Nein!</td> </tr>
-  <tr><td>Service Worker API</td>   <td></td>       <td>Ja</td>     <td>Ja</td>   <td>(Ja) </td>  <td>(Ja) </td> </tr>
+  <tr><td>Service Worker API</td>   <td>
+Der Service-Worker wird bei uns eingesetzt, um Daten zu fetchen (offline zu speichern) und den User zur Verfügung zu stellen. Außerdem werden über ihn weitere wichtige Funktionen gesteuert. Nähere Informationen zum Service-Worker gibt es hier.    
+                                         </td>       <td>Ja</td>     <td>Ja</td>   <td>(Ja) </td>  <td>(Ja) </td> </tr>
   <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
   
