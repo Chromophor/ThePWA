@@ -112,8 +112,12 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
   
+  
   <h2 id="kapitel8">8. Kritik</h2>
   <p>Jedes Projekt muss am Ende evaluiert werden. Aus unserer Sich haben wir unser Projekt, die Fittness-PWA, sehr effektiv entwickelt. Effektivität deshalb, weil wir schnell begonnen haben, das Projekt zu entwickeln und es die ganze Zeit vorangetrieben haben. 
+    
+    
+    
   <h2 id="kapitel9">9. Fazit</h2>
   <h2 id="kapitel10">10. Quellen</h2>
   
