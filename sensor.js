@@ -36,7 +36,6 @@ navigator.permissions.query({ name: 'accelerometer' })
       anzahlSchritte = anzahlSchritte + 1;
       localStorage.setItem("Schritte", anzahlSchritte);
       ladeBalken();
-      //Anzahlschritte.innerHTML = anzahlSchritte;
     }
   });
 
@@ -46,7 +45,7 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 
 
-/*
+
 if (navigator.geolocation) {
   var options = {
     enableHighAccuracy: true
@@ -58,7 +57,7 @@ if (navigator.geolocation) {
 
 
 function showPosition(position) {  
-  speed.innerHTML = "Aktuelle Geschwindigkeit: " + position.coords.speed * 3.6 + " km/h";
+  Geschwindigkeit.innerHTML = position.coords.speed * 3.6;
 };
 
 function showError(error) {
@@ -77,7 +76,7 @@ function showError(error) {
           break;
   }
 };
-*/
+
 
 
 /*
