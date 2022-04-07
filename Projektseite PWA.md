@@ -76,7 +76,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   
   
-  <p>Hier Fähigkeiten unserer APP auflisten</p>
+  <p>Hier Fähigkeiten unserer APP auflisten! Design nicht vergessen</p>
   
   
   <h2 id="kapitel5">5. Der Code</h2>
@@ -113,6 +113,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
 </table>
   
   <h2 id="kapitel8">8. Kritik</h2>
+  <p>Jedes Projekt muss am Ende evaluiert werden. Aus unserer Sich haben wir unser Projekt, die Fittness-PWA, sehr effektiv entwickelt. Effektivität deshalb, weil wir schnell begonnen haben, das Projekt zu entwickeln und es die ganze Zeit vorangetrieben haben. 
   <h2 id="kapitel9">9. Fazit</h2>
   <h2 id="kapitel10">10. Quellen</h2>
   
