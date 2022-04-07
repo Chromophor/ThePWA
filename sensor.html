@@ -7,20 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="manifest" href="webmanifest.json"> -->
-    <!-- <script src="index.js"></script> -->
-    <!-- <script src="sensor.js"></script> -->
+    <script src="index.js"></script>
+    <script src="sensor.js"></script>
     
 
 
 
 
-<title>Schrittzähler</title>
-
 <style>
 
     .ladebalken {
     height:33px;
-    width:380px;
+    width: 350px;
     border:3px solid white;
     border-radius: 10px;
     margin:auto;
@@ -30,7 +28,7 @@
 
     .fortschritt {
     height:33px;
-    width:1px; 
+    width: 0px; 
     background-color:rgb(26, 221, 0);
     border-radius: 10px; 
     border:none;
@@ -39,39 +37,39 @@
     .buttonCenter{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 40px;
     }
 
     .oval {
+    display: flex;
     width: 100%;
     height: 550px;
     border-radius: 300px / 100px;
     background-color: 	#4f94cd;
     margin-top: -120px;
-    display: flex;
     }
 
     .oval1 {
+    display: flex;
     width: 100%;
-    height: 300px;
+    height: 200px;
     border-radius: 300px / 100px;
     background: linear-gradient(to bottom, 	#4f94cd, #4f94cd 50%, white);
     opacity: 0.3;
-    margin-top: -300px;
-    display: flex;
+    margin-top: -200px;
     }
     
     .hbox {
     width: 100%;
-    height: 150px;
+    height: 130px;
     margin-top: -130px;
     background-color: 	#4f94cd;
     }
 
     .headline {
     font-size: 60px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     margin-top: -400px;
     }
 
@@ -81,6 +79,30 @@
     justify-content: center;
     display: flex;
     }
+
+    
+
+    .strecke {
+    font-size: 40px;
+    left: 40%;
+    }
+
+    .Ustrecke {
+    font-size: 25px;
+    left: 40%;
+    }
+
+    .geschwindigkeit {
+    font-size: 40px;
+    margin-left: 400%;
+    }
+
+    .Ugeschwindigkeit {
+    font-size: 25px;
+    margin-left: 400%;
+    }
+
+    
 
     
 
@@ -200,18 +222,19 @@
 
 </head>
 
-<body class="body" onload="anzeigen(), checkFirstUse()">
+<body class="body" onload="anzeigen()">
 
 <?php require('allgemein/sidemenu.php'); ?>
 
+<!--
+!--Pupup öffnen--
 
-<!--Pupup öffnen-->
 <button id="myBtn">Schrittziel</button>
 
-  <!-- Popup -->
+  !-- Popup --
 <div id="popup" class="modal">
 
-  <!-- Inhalt -->
+  !-- Inhalt --
   <div class="modal-content" id="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
@@ -230,6 +253,7 @@
   </div>
 
 </div>
+-->
 
 
 
@@ -248,6 +272,16 @@
 <div id="ladebalken" class="ladebalken">
     <div id="fortschritt" class="fortschritt"></div>
 </div>
+
+<section class="nowrap">
+<div>
+    <b class="strecke"><span id="Strecke" >0</span></b><br> <span class="Ustrecke">Meter</span>
+</div>
+
+<div>
+    <b class="geschwindigkeit"><span id="Geschwindigkeit">0 </span></b><br><span class="Ugeschwindigkeit">km/h</span>
+</div>
+</section>
     
 <section class="buttonCenter">
     <input type="button" onclick="addschritt()" value=" Schritt ">
@@ -260,12 +294,15 @@
   var ladevorgang = 0;
   var schritte = Number(localStorage.getItem("Schritte"));
   var ziel = Number(localStorage.getItem("schrittZiel"));
-  var pixel = Number(localStorage.getItem("Pixel"));
+  //var schrittLange = Number(localStorage.getItem("schrittLange"));
+  var schrittLange = 70;
+
+
   console.log(schritte);
   console.log(ziel);
 
 
-function checkFirstUse(){
+/*function checkFirstUse(){
 if(!ziel){
 modal.style.display = "block";
 }else{
@@ -286,36 +323,42 @@ localStorage.setItem("schrittZiel", ziel);
 
 window.location.reload(true);
 
-}
+}*/
 
 
 function anzeigen(){
 ziel = localStorage.getItem("schrittZiel");
-anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
+
+setInterval(function() {
+  anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
+  streckeBerechnen();
+}, 100);
+
 }
 
 
 
-if (window.addEventListener) {
-  window.addEventListener("load", ladeBalken, false); // für alle anderen Browser
+function streckeBerechnen(){
+  var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
+  Strecke.innerHTML = strecke;
 }
-else if (window.attachEvent) {
-  window.attachEvent("onload", ladeBalken);           // für ältere IE
-}
+
+
+
 
 
 function ladeBalken() {
 var schrittZiel = Number(localStorage.getItem("schrittZiel"));
 var schritte = Number(localStorage.getItem("Schritte")); 
-var einSchritt = 380 / schrittZiel;
+var einSchritt = 350 / schrittZiel;
 var schritt = document.getElementById("fortschritt");
 
 erhoehe_pixel = schritte * einSchritt;
 
-if (erhoehe_pixel <= 380) {
+if (erhoehe_pixel <= 350) {
 schritt.style.width = erhoehe_pixel + "px"; 
 }else {
-schritt.style.width = 380 + "px";
+schritt.style.width = 350 + "px";
 }
 }
 
@@ -327,16 +370,22 @@ ladeBalken();
 }
 
 
+if (window.addEventListener) {
+  window.addEventListener("load", ladeBalken, false); // für alle anderen Browser
+}
+else if (window.attachEvent) {
+  window.attachEvent("onload", ladeBalken);           // für ältere IE
+}
 
 
-function ausgabe() {    
+/*function ausgabe() {    
   let zielAusgabe = document.querySelector("#EingabeschrittZiel").value;
   Zielausgabe.innerHTML = zielAusgabe;
 }
 
 const jetzt = setInterval(function() {
     ausgabe();
-}, 100);
+}, 100);*/
 
 
 </script>
@@ -344,7 +393,7 @@ const jetzt = setInterval(function() {
 
 
 
-  <!-- Popup-js -->
+  <!-- Popup-js 
 <script>
     // get Popup
     var modal = document.getElementById("popup");
@@ -372,7 +421,7 @@ const jetzt = setInterval(function() {
       }
     }
 </script>
-
+-->
 
     
 <?php require('allgemein/footer.php'); ?>
