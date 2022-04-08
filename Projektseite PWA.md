@@ -75,6 +75,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
   
+  <p>Unsere Idee zu Beginn des Projektes war es, eine Fitness-APP auf Basis des PWA-Konzeptes zu entwickeln. Diese Idee haben durchweg verfolgt und umgesetzt. So hat unsere APP verschiedene Fähigkeiten, die eine Fitness-APP besitzen sollte. Leider sind entgegen unserer Vision manche Features der APP nicht jedem Betriebssystem und Browser zugänglich. Um unsere APP in Gänze nutzen zu können, sollte man z.B. die Browser Chrome oder Edge nutzen. Das Betriebssystem Android unterstützt unsere APP am besten. Näheres zu der Kompatibilität gibt es <a href="#Kompatibilität">hier</a>.</p>
   
   <p>Hier Fähigkeiten unserer APP auflisten! Design nicht vergessen</p>
   
