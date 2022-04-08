@@ -78,7 +78,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <p>Unsere Idee zu Beginn des Projektes war es, eine Fitness-APP auf Basis des PWA-Konzeptes zu entwickeln. Diese Idee haben durchweg verfolgt und umgesetzt. So hat unsere APP verschiedene Fähigkeiten, die eine Fitness-APP besitzen sollte. Leider sind entgegen unserer Vision manche Features der APP nicht jedem Betriebssystem und Browser zugänglich. Um unsere APP in Gänze nutzen zu können, sollte man z.B. die Browser Chrome oder Edge nutzen. Das Betriebssystem Android unterstützt unsere APP am besten. Näheres zu der Kompatibilität gibt es <a href="#Kompatibilität">hier</a>. Folgende Fähigkeiten bietet unsere APP:</p>
   
   <h3>Design</h3>
-  <p>Wir haben uns für unsere APP ein besonderes Design überlegt, damit die APP nicht nur Funktionen aufweist, sondern auch optisch anspruchsvoll ist.</p>
+  <p>Wir haben uns für unsere APP ein besonderes Design überlegt, damit die APP nicht nur Funktionen aufweist, sondern auch optisch anspruchsvoll ist. Dabei haben wir vor Allem auf abgerundete Felder gesetzt, wie sie im Moment in vielen Design-Varianten vorkommen. Abgerundete Ecken wirken weich und freundlich. Unser Gehirn verbindet mit runderen Formen automatisch auch weichere Eigenschaften wie freundlich oder vertrauenswürdig, weil es diese Formen aus der Natur und unserer Umgebung entlehnt: Weiche Sachen sind oft Rund, spitzen Gegenständen sollte mit Vorsicht begegnet werden. Mit dem Design wollen wir noch mehr Vertrauen des Users erzeugen, damit unsere APP stärker frequentiert wird.</p>
   
   
   <h3>Übersicht</h3>
