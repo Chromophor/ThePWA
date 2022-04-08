@@ -546,3 +546,4 @@ function wasserGetrunken(){
 <li>https://firt.dev/notes/pwa/</li>
 <li>https://firt.dev/notes/pwa-ios/</li>
 <li>https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7</li>
+<li>https://www.w3schools.com/charsets/ref_utf_geometric.asp</li>
