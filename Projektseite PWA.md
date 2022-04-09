@@ -84,6 +84,10 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <h3>Übersicht</h3>
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokales Speichers, wo wir die Daten speichern und abrufen könne, damit wir sie anzeigen können.</p>
   
+  <h3>Schrittzähler</h3>
+  <h3>Individuelles Trainingsprogramm</h3>
+  <h3>Health-Tipps</h3>
+  
   <p>Hier Fähigkeiten unserer APP auflisten! Design nicht vergessen</p>
   
   
