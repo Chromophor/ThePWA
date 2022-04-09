@@ -85,7 +85,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokales Speichers, wo wir die Daten speichern und abrufen könne, damit wir sie anzeigen können.</p>
   
   <h3>Schrittzähler</h3>
-  <p>Unsere APP verfügt über einen Schrittzähler, wobei ein Java-Script-Programm über eine Web-API mit den Handy-Sensoren überprüft, wann ein Schritt getan wird. Dabei wird über die Beschleunigung des Handys in Richtung aller Koordinaten-Achsen gemessen. Liegt diese zwischen 1 m/s^2 und 2 m/s^2 wird ein Schritt gezählt.</p>
+  <p>Unsere APP verfügt über einen Schrittzähler, wobei ein Java-Script-Programm über eine Web-API mit den Handy-Sensoren überprüft, wann ein Schritt getan wird. Dabei wird über die Beschleunigung des Handys in Richtung aller Koordinaten-Achsen gemessen. Liegt diese zwischen 1 m/s^2 und 2 m/s^2 wird ein Schritt gezählt. In unserem Schrittzähler ist eine Übersicht über die Anzahl der Schritte und einem sich füllender Statusleiste gegeben und wird durch eine Ausgabe der aktuellen Geschwindigkeit, Strecke und der verbrannten Kalorien ergänzt.</p>
   
   <h3>Individuelles Trainingsprogramm</h3>
   <h3>Health-Tipps</h3>
