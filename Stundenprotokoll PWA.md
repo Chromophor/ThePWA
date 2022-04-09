@@ -545,7 +545,8 @@ setInterval( function(){
 
 <details><summary>Screenshots vom 06.04.2022</summary>
   
-![Ladebalken3](https://user-images.githubusercontent.com/88386049/162563650-1f2252d7-2081-495a-9fe8-acd4079c799f.PNG)
+![Ladebalken3](https://user-images.githubusercontent.com/88386049/162575191-8e6886c2-c8e0-4d7e-978a-592eca5e568a.PNG)
+
   
 </details>
 
