@@ -93,6 +93,8 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
     <p>Dies ist das Design für die Trink-Übersicht, welches wir in unserer APP aber etwas anders umgesetzt haben.</p>
     
 ![Screenshot 2022-04-09 132837](https://user-images.githubusercontent.com/88386049/162572572-a9d27d4c-8696-4471-b60a-506f8bca80d9.jpg)
+    <p>Dies ist das Design des Pop-Ups, das wir fast genauso umgesetzt haben. Dabei haben wir die Farben leicht geändert und fragen andere Informationen ab. Auch haben wir ein Feld, das grau-transparent ist, damit das Pop-Up stärker in den Fokus gerät. Unser Pop-Up befindet sich nun nur auf der Übersichtsseite und wir auch nur beim ersten Einrichten aufgerufen.</p>
+    
 ![Screenshot 2022-04-09 133634](https://user-images.githubusercontent.com/88386049/162572575-731e51b4-e29d-40a6-a470-bbcdf71d88f7.jpg)
 ![Screenshot 2022-04-09 133658](https://user-images.githubusercontent.com/88386049/162572579-ed9aa490-1678-4bb4-a20c-c49640d37fe0.jpg)
 
