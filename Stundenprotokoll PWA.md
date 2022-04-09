@@ -539,6 +539,16 @@ setInterval( function(){
 }, 1000);
 ```
 
+<p>Außerdem haben wir am Schrittzähler weitergearbeitet. So haben wir der Übersicht eine Anzeige für die Strecke und die Geschwindigkeit ergänzt. Außerdem haben wir einen Play-Button eingefügt.</p>
+
+<details><summary>Screenshots vom 06.04.2022</summary>
+  
+![Ladebalken3](https://user-images.githubusercontent.com/88386049/162563650-1f2252d7-2081-495a-9fe8-acd4079c799f.PNG)
+  
+</details>
+
+
+
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
