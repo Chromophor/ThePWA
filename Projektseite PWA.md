@@ -99,6 +99,7 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
    <p>Wir haben die Einstellungen so gestaltet, dass Zahnräder im Hintergrund die Seite optisch ansprechender wirken lassen sollen. Dabei werden ähnliche Informationen wie beim Pop-Up abgefragt.</p>
     
 ![Screenshot 2022-04-09 133658](https://user-images.githubusercontent.com/88386049/162572579-ed9aa490-1678-4bb4-a20c-c49640d37fe0.jpg)
+    <p>Wie man bereits vielleicht gemerkt hat, sind einige Elemente in unserer App immer wiederkehrend. Diese haben wir mit einer so genannten Master-Seite erreicht, auf der die Menü-Leiste unten und das Side-Menü angegeben sind.</p> 
 
     
   </details>
