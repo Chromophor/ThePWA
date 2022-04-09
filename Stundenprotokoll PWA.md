@@ -541,7 +541,7 @@ setInterval( function(){
 }, 1000);
 ```
 
-<p>Außerdem haben wir am Schrittzähler weitergearbeitet. So haben wir der Übersicht eine Anzeige für die Strecke und die Geschwindigkeit ergänzt. Außerdem haben wir einen Play-Button eingefügt.</p>
+<p>Außerdem haben wir am Schrittzähler weitergearbeitet. So haben wir der Übersicht eine Anzeige für die Strecke, verbrannte Kalorien und die Geschwindigkeit ergänzt. Dabei ist uns bewusst, dass die Anzahl der verbrannten Kalorien für jeden Menschen individuell ist, wir rechnen aber der Einfachheit halber mit einem Mittelwert von 0,035 Kalorien. Außerdem haben wir einen Play-Button eingefügt.</p>
 
 <details><summary>Screenshots vom 06.04.2022</summary>
   
