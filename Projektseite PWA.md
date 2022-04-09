@@ -93,8 +93,11 @@ a^2+b^2=c^2
   </p>
   
   
-  ```math
+  
+```math
+  
 a^2+b^2=c^2
+  
 ```
   
   <h3>Individuelles Trainingsprogramm</h3>
