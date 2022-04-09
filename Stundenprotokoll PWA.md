@@ -514,6 +514,9 @@ function wasserGetrunken(){
   
 </details>
 
+<p id="Stunde30"><b>Freitag 08.04.2022</b><br>
+  Wir haben heute das Problem angegangen, dass wir Werte haben, wie z.B. die Anzahl der Schritte oder der getrunkenen Gläser, die täglich zurückgesetzt werden muss. Dies war bisher noch nicht der Fall und wir haben dafür verschiedene Sachen überlegt. Das Zurücksetzen der Daten wäre kein Problem, wenn wir eine Hintergrundaktualisierung implementiert hätten, da unser Script durchgehend ausgeführt werden würde. Man könnte dann mit einer Abfrage der Zeit die Reset() Funktion genau um 00:00 Uhr ausführen. Die Hintergrundaktualisierung konnten wir aber leider nicht implementieren, weshalb wir uns ein anderes Konzept überlegen mussten. Unsere zweite Idee war es, das Datum bei jedem Öffnen der APP abzufragen und zu überprüfen, ob dies dem lokal gespeichertem Datum.
+
 
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
