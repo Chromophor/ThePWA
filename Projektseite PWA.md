@@ -86,10 +86,12 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
     <p>Dies ist die Entwicklungsumgebung von Affinity-Publisher. Mit diesem Programm haben wir das Design entwickelt.</p> 
     
    ![Screenshot 2022-04-09 132754](https://user-images.githubusercontent.com/88386049/162572567-1e37405e-80be-491c-b2d5-2f142e4f6083.jpg)
-    <p>Dies ist das Design der Übersichtsseite. Die blauen linien dienen der Übersicht der Entwicklung und zeigen an, wo sich ein textfeld befindet.</p>
+    <p>Dies ist das Design der Übersichtsseite. Die blauen linien dienen der Übersicht der Entwicklung und zeigen an, wo sich ein Textfeld befindet.</p>
     
    
  ![Screenshot 2022-04-09 132817](https://user-images.githubusercontent.com/88386049/162572570-bbf6fd7d-2172-4fd3-98ab-ba163dd534dd.jpg)
+    <p>Dies ist das Design für die Trink-Übersicht, welches wir in unserer APP aber etwas anders umgesetzt haben.</p>
+    
 ![Screenshot 2022-04-09 132837](https://user-images.githubusercontent.com/88386049/162572572-a9d27d4c-8696-4471-b60a-506f8bca80d9.jpg)
 ![Screenshot 2022-04-09 133634](https://user-images.githubusercontent.com/88386049/162572575-731e51b4-e29d-40a6-a470-bbcdf71d88f7.jpg)
 ![Screenshot 2022-04-09 133658](https://user-images.githubusercontent.com/88386049/162572579-ed9aa490-1678-4bb4-a20c-c49640d37fe0.jpg)
