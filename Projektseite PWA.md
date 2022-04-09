@@ -92,6 +92,11 @@ a^2+b^2=c^2
 ```
   </p>
   
+  
+  ```math
+a^2+b^2=c^2
+```
+  
   <h3>Individuelles Trainingsprogramm</h3>
   <h3>Health-Tipps</h3>
   <h3>Einstellungen</h3>
