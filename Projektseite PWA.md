@@ -133,7 +133,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   <p>Service-Worker ist ein Element der modernen Webtechnologie und stellt ein Proxy (Kommunikationsschnittstelle) zwischen Server und Webbrowser dar. Service-Worker werden mit Java-Script entwickelt laufen vollständig asynchron und verhindert die Ausführung anderer Scripte, der Hauptlogik der Web-Anwendung nicht. Service-Worker laufen dabei aus Sicherheitsgründen nur über das HTTPS-Protokoll, da veränderte Netzwerkanfragen "Man in the middle"-Angriffe, bei dem sich ein Angreifer in der Kommunikation zwischen User und Server befindet, deutlich leichter machen würden. Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist. Dies stellte sich für uns zu Anfang als Problem dar, welches wir aber umgehen konnten. Stand 10.04.2022 unterstützwen folgende Browser die Service-Worker-Technologie:</p>
   
-  <li>Edge (welches auf Chomium basiert)</li>
+  <li>Microsoft Edge (welches auf Chomium basiert)</li>
+  <li>Google Chrome</li>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
