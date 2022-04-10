@@ -106,7 +106,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   </details>
   
   <h3>Offline-Funktion</h3>
-  <p>Unsere APP kann nach dem ersten Einrichten offline verwenden, obwohl man dadurch keine Updates duch uns erhalten kann. Dennoch wurden beim ersten Einrichten alle Dateien (also Seiten, JS-Dokumente und Icons) heruntergeladen. Außerdem kommuniziert unsere APP nur sehr selten mit unserem Server. Daten wie der User-name oder die Schrittanzahl werden nicht mit dem Server synchronosiert, sondern lediglich lokal gespeichert. Das macht unsere APP auch besonders datenspaarsam, da wir keine Daten über den User sammeln, was bei eigentlich jeder anderen Fitness-APP der Fall ist.</p>
+  <p>Unsere APP kann nach dem ersten Einrichten offline verwenden, obwohl man dadurch keine Updates duch uns erhalten kann. Dennoch wurden beim ersten Einrichten alle Dateien (also Seiten, JS-Dokumente und Icons) heruntergeladen. Außerdem kommuniziert unsere APP nur sehr selten mit unserem Server. Daten wie der User-name oder die Schrittanzahl werden nicht mit dem Server synchronosiert, sondern lediglich lokal gespeichert. Das macht unsere APP auch besonders datensparsam, da wir keine Daten über den User sammeln, was bei eigentlich jeder anderen Fitness-APP der Fall ist.</p>
   
   
   <h3>Übersicht</h3>
