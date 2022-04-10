@@ -106,6 +106,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   </details>
   
   
+  
+  
   <h3>Übersicht</h3>
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokales Speichers, wo wir die Daten speichern und abrufen könne, damit wir sie anzeigen können.</p>
   
