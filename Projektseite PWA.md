@@ -131,7 +131,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h2 id="kapitel5">5. Der Code</h2>
   <h2 id="kapitel6">6. Der Service-Worker</h2>
   
-  <p>Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist.</p>
+  <p>Service-Worker ist ein Element der modernen Webtechnologie
+    Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist.</p>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
