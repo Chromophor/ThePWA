@@ -138,7 +138,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li>Safari (Basic-Support)</li>
   <li>Samsung Internet</li>
   <li>Opera</li>
-  <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</li>
+  <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</a></li>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
