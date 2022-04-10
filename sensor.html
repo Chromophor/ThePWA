@@ -81,25 +81,68 @@
     }
 
     
+    
 
     .strecke {
+    position: relative;
     font-size: 40px;
-    left: 40%;
+    left: 10%;
+    top: -180px;
     }
 
     .Ustrecke {
     font-size: 25px;
-    left: 40%;
+    position: relative;
+    left: 10%;
+    top: -180px;
     }
 
     .geschwindigkeit {
+    position: relative;
     font-size: 40px;
-    margin-left: 400%;
+    left: 80%;
+    top: -255px;
     }
 
     .Ugeschwindigkeit {
+    position: relative;
     font-size: 25px;
-    margin-left: 400%;
+    left: 80%;
+    top: -255px;
+    }
+
+    .kalorien{
+    position: relative;
+    font-size: 40px;
+    left: 40%;
+    top: -290px;
+    }
+
+    .Ukalorien{
+    position: relative;
+    font-size: 25px;
+    left: 40%;
+    top: -290px;
+    }
+
+    
+    
+    .actionButton {
+    position: relative;
+    padding: 8px 21px;
+    font-size: 70px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 200px;
+    top: -230px;
+    }
+
+    .center{
+    justify-content: center;
+    display: flex;
     }
 
     
@@ -273,7 +316,7 @@
     <div id="fortschritt" class="fortschritt"></div>
 </div>
 
-<section class="nowrap">
+<section>
 <div>
     <b class="strecke"><span id="Strecke" >0</span></b><br> <span class="Ustrecke">Meter</span>
 </div>
@@ -281,12 +324,19 @@
 <div>
     <b class="geschwindigkeit"><span id="Geschwindigkeit">0 </span></b><br><span class="Ugeschwindigkeit">km/h</span>
 </div>
+
+<div>
+    <b class="kalorien"><span id="Kalorien">0</span></b><br><span class="Ukalorien">Kalorien</span>
+</div>
 </section>
     
 <section class="buttonCenter">
     <input type="button" onclick="addschritt()" value=" Schritt ">
 </section>
 
+<section class="center">
+<input type="button" class="actionButton" value="&#x25B6;" onclick="pausieren()">
+</section>
     
 <script>
 
@@ -296,6 +346,7 @@
   var ziel = Number(localStorage.getItem("schrittZiel"));
   //var schrittLange = Number(localStorage.getItem("schrittLange"));
   var schrittLange = 70;
+  var Kal = 0.035;
 
 
   console.log(schritte);
@@ -332,6 +383,7 @@ ziel = localStorage.getItem("schrittZiel");
 setInterval(function() {
   anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
   streckeBerechnen();
+  kalorienBerechnen();
 }, 100);
 
 }
@@ -343,6 +395,10 @@ function streckeBerechnen(){
   Strecke.innerHTML = strecke;
 }
 
+function kalorienBerechnen(){
+  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
+  Kalorien.innerHTML = kalorien;
+}
 
 
 
