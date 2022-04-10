@@ -105,7 +105,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
     
   </details>
   
-  
+  <h3>Offline-Funktion</h3>
+  <p>Unsere APP kann nach dem ersten Einrichten offline verwenden, obwohl man dadurch keine Updates duch uns erhalten kann. Dennoch wurden beim ersten Einrichten alle Dateien (also Seiten, JS-Dokumente und Icons) heruntergeladen.</p>
   
   
   <h3>Übersicht</h3>
