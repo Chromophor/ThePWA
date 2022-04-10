@@ -139,8 +139,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li>Samsung Internet</li>
   <li>Opera</li>
   <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</a></li>
-  
-  <p>Ein Service-Worker durchlebt drei Phasen</p>
+  <br>
+  <p>Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der USer erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird.</p>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
