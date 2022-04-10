@@ -70,7 +70,8 @@ Besonders am Amfang war es schwierig, sich in das Konzept der PWA einzuarbeiten.
     
   </details>
 
-<p>Im zweiten Stadium haben wir das Konzept der Fitness-APP entwickelt. Wir haben den Schrittzähler, die Trink-Übersicht und die GUI gestaltet und entwickelt. Dafür brauchten wir nicht mehr auf einen lokalen Server setzen, da wir aufgrund des oben genannten Problemes den Service-Worker auskommentiert haben. Die reine Entwicklung der Funktion der APP konnte also einfach mit VS-Code durchgeführt werden und das Ergebnis war im Browser anzusehen. Immer während des Projektes haben wir unsere aktuellen Dateien auf unseren Server hochgeladen, um diese zu testen.</p>    
+<p>Im zweiten Stadium haben wir das Konzept der Fitness-APP entwickelt. Wir haben den Schrittzähler, die Trink-Übersicht und die GUI gestaltet und entwickelt. Dafür brauchten wir nicht mehr auf einen lokalen Server setzen, da wir aufgrund des oben genannten Problemes den Service-Worker auskommentiert haben. Die reine Entwicklung der Funktion der APP konnte also einfach mit VS-Code durchgeführt werden und das Ergebnis war im Browser anzusehen. Immer während des Projektes haben wir unsere aktuellen Dateien auf unseren Server hochgeladen, um diese zu testen.<br>
+Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B. die Anzahl der getrunkenen Gläser lokal gespeichert wird und auf der Übersichtsseite angezeigt wird. Auch den Schrittzähler haben wir so modifiziert, dass seine Werte lokal gespeichert werden. Abschließend mussten wir, um unsere APP-Logik weiter zuverfolgen, unsere gespeicherten Daten nach einem Tag zurücksetzen, welches wir auch abschließend implementiert hatten.</p>    
   
   
   <h2 id="kapitel4">4. Vorstellung des Projektes</h2>
