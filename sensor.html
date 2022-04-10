@@ -199,8 +199,8 @@
   var ladevorgang = 0;
   var schritte = Number(localStorage.getItem("Schritte"));
   var ziel = Number(localStorage.getItem("schrittZiel"));
-  //var schrittLange = Number(localStorage.getItem("schrittLange"));
-  var schrittLange = 70;
+  var schrittLange = Number(localStorage.getItem("schrittLange"));
+  //var schrittLange = 70;
   var Kal = 0.035;
 
 
@@ -223,11 +223,15 @@ setInterval(function() {
 
 
 function streckeBerechnen(){
+  var schrittLange = Number(localStorage.getItem("schrittLange"));
+  var schritte = Number(localStorage.getItem("Schritte"));
   var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
   Strecke.innerHTML = strecke;
 }
 
 function kalorienBerechnen(){
+  var Kal = 0.035;
+  var schritte = Number(localStorage.getItem("Schritte"));
   var kalorien = (Math.round((Kal * schritte) * 100) / 100);
   Kalorien.innerHTML = kalorien;
 }
