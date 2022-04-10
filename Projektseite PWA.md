@@ -135,6 +135,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   <li>Microsoft Edge (welches auf Chomium basiert)</li>
   <li>Google Chrome</li>
+  <li>Safari in Teilen</li>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
