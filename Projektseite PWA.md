@@ -140,7 +140,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li>Opera</li>
   <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</a></li>
   <br>
-  <p>Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der USer erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er wird dabei zuerst heruntergeladen, anschließend von Browser registriert und anschließend ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen.</p>
+  <p>Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der USer erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er wird dabei zuerst heruntergeladen, anschließend von Browser registriert und anschließend ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen. Dabei zeigt das erste Bild die Übersicht über die Zeit, die der Service-Worker mit Installation (install), Registrierung (Waiting) und aktiver Zeit (active) brauchte.</p>
   
 ![Übersicht-Dev-Tool2](https://user-images.githubusercontent.com/88386049/162621243-f4fe5de1-3386-4063-ba16-c992e317d084.PNG)
 
