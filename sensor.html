@@ -145,122 +145,7 @@
     display: flex;
     }
 
-    
 
-    
-
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  -webkit-animation-name: fadeIn; /* Fade in the background */
-  -webkit-animation-duration: 0.4s;
-  animation-name: fadeIn;
-  animation-duration: 0.4s
-}
-
-/* Modal Content */
-.modal-content {
-  position: fixed;
-  justify-content: center;
-  bottom: 10%;
-  background-color: #52AA8A;
-  border-radius: 10px;
-  width: 60%;
-  left: 20%;
-  right: 20%;
-  -webkit-animation-name: slideIn;
-  -webkit-animation-duration: 0.4s;
-  animation-name: slideIn;
-  animation-duration: 0.4s
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal-header {
-  padding: 2px 16px;
-  background-color: #52aa5e;
-  color: black;
-  border-radius: 10px;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #52AA8A;
-  color: black;
-  border-radius: 10px;
-  font-size: 10px;
-}
-
-.button {
-  border-radius: 8px;
-  padding: 10px 30px;
-  color: black;
-  background-color: #3AAED8;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.input {
-  border-radius: 8px;
-  background-color: lightblue;
-  width: 80px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* Add Animation */
-@-webkit-keyframes slideIn {
-  from {bottom: -300px; opacity: 0} 
-  to {bottom: 10%; opacity: 1}
-}
-
-@keyframes slideIn {
-  from {bottom: -300px; opacity: 0}
-  to {bottom: 10%; opacity: 1}
-}
-
-@-webkit-keyframes slideOut {
-  from {bottom: 10%; opacity: 1} 
-  to {bottom: -300px; opacity: 0}
-}
-
-@keyframes slideOut {
-  from {bottom: 10%; opacity: 1}
-  to {bottom: -300px; opacity: 0}
-}
-
-@-webkit-keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
 </style>
 
 </head>
@@ -268,36 +153,6 @@
 <body class="body" onload="anzeigen()">
 
 <?php require('allgemein/sidemenu.php'); ?>
-
-<!--
-!--Pupup öffnen--
-
-<button id="myBtn">Schrittziel</button>
-
-  !-- Popup --
-<div id="popup" class="modal">
-
-  !-- Inhalt --
-  <div class="modal-content" id="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Wie viele Meilen möchtest du laufen? Lege hier dein Schrittziel fest!</h2>
-    </div>
-    <div class="modal-body">
-
-      <p>Dein Ziel:  <br><input type="range" name="EingabeschrittZiel" max="100" step="10" id="EingabeschrittZiel" class="input"> <span id="Zielausgabe"> 0 </span> Schritte</p>
-
-      <button class="button" onclick="speichern()">Speichern</button>
-
-    </div>
-    <div class="modal-footer">
-      <h3>Wir möchten Dich auf unsere <a href="https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de">Cookies</a> hinweisen. Bitte lies unsere <a href="https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs">AGB</a> und die Datenschutzbestimmungen</h3>
-    </div>
-  </div>
-
-</div>
--->
-
 
 
 <section class="start">
@@ -352,29 +207,6 @@
   console.log(schritte);
   console.log(ziel);
 
-
-/*function checkFirstUse(){
-if(!ziel){
-modal.style.display = "block";
-}else{
-modal.style.display = "none";
-}
-
-}
-
-
-function speichern(){
-//Ziel aus Input-Feld auslesen
-ziel = document.querySelector("#EingabeschrittZiel").value;
-
-//jetzt Ziel lokal speichern
-
-localStorage.setItem("schrittZiel", ziel);
-
-
-window.location.reload(true);
-
-}*/
 
 
 function anzeigen(){
