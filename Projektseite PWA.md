@@ -139,7 +139,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li>Samsung Internet</li>
   <li>Opera</li>
   <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</a></li>
-
+  <br>
   
   Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der User erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er durchläuft dabei den Prozess des Heruntergeladens und wird anschließend von Browser mit der ```ServiceWorker.register()``` Methode registriertregistriert und erst danach ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen. Dabei zeigt die erste Abbildung die Übersicht über die Phasen des Service-Workers und die zweite die Zeit, die der Service-Worker mit Installation (install), Registrierung (waiting) und aktiver Zeit (active) brauchte. Diesem Bild ist auch zu entnehmen, dass in meinem Browser gerade die 64. Version unseres Service-Workers ausgeführt wird. Alle 24 Stunden wird eine neue Version des Service-Workers, sofern eine Internetverbindung besteht, heruntergeladen und aktiviert, um Änderungen der Anwendung anzuzeigen.
   
