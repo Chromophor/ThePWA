@@ -550,7 +550,7 @@ setInterval( function(){
 </details>
 
 <p id="Stunde31"><b>Montag 11.04.2022</b><br>
-  Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt. Dafür haben wir auch auf der Trinkübersicht einen Fortschrittsbalken eingebaut, der dem User die noch nötigen Gläser Wasser anzeigen. Bisher hatten wir die lokal gespeicherten Daten zu dem Gewicht noch nicht verwendet, das hat sich jetzt aber verändert. Wir berechnen jetzt mit dem Gewicht die notwendige Trink-Menge. Dabei ist dies wie bei den Kalorien, nur ein stark verallgemeinerter Wert, der natürlich bei jedem Menschen schwankt. Dennoch rechnen wir mit 40ml pro KG Körpergewicht, welche bei Erwachsenen durch Recherche festgesetzt haben.</p>
+  Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt. Dafür haben wir auch auf der Trinkübersicht einen Fortschrittsbalken eingebaut, der dem User die noch nötigen Gläser Wasser anzeigen. Bisher hatten wir die lokal gespeicherten Daten zu dem Gewicht noch nicht verwendet, das hat sich jetzt aber verändert. Wir berechnen jetzt mit dem Gewicht die notwendige Trink-Menge. Dabei ist dies wie bei den Kalorien, nur ein stark verallgemeinerter Wert, der natürlich bei jedem Menschen schwankt. Dennoch rechnen wir mit 40ml pro KG Körpergewicht, welche bei Erwachsenen durch Recherche festgesetzt haben. Anschließend haben wir versucht, das Wasser-Icon über das Klicken des Buttons zum "Wackeln" zu bringen.</p>
 
 
 <details><summary>Screenshots vom 11.04.2022</summary>
