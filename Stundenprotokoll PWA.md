@@ -547,8 +547,10 @@ setInterval( function(){
   
 ![Ladebalken3](https://user-images.githubusercontent.com/88386049/162575191-8e6886c2-c8e0-4d7e-978a-592eca5e568a.PNG)
 
-  
 </details>
+
+<p id="Stunde31"><b>Montag 11.04.2022</b><br>
+  Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt.</p>
 
 
 
