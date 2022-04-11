@@ -543,7 +543,7 @@ setInterval( function(){
 
 <p>Außerdem haben wir am Schrittzähler weitergearbeitet. So haben wir der Übersicht eine Anzeige für die Strecke, verbrannte Kalorien und die Geschwindigkeit ergänzt. Dabei ist uns bewusst, dass die Anzahl der verbrannten Kalorien für jeden Menschen individuell ist, wir rechnen aber der Einfachheit halber mit einem Mittelwert von 0,035 Kalorien. Außerdem haben wir einen Play-Button eingefügt.</p>
 
-<details><summary>Screenshots vom 06.04.2022</summary>
+<details><summary>Screenshots vom 08.04.2022</summary>
   
 ![Ladebalken3](https://user-images.githubusercontent.com/88386049/162575191-8e6886c2-c8e0-4d7e-978a-592eca5e568a.PNG)
 
@@ -552,6 +552,8 @@ setInterval( function(){
 <p id="Stunde31"><b>Montag 11.04.2022</b><br>
   Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt. Dafür haben wir auch auf der Trinkübersicht einen Fortschrittsbalken eingebaut, der dem User die noch nötigen Gläser Wasser anzeigen. Bisher hatten wir die lokal gespeicherten Daten zu dem Gewicht noch nicht verwendet, das hat sich jetzt aber verändert. Wir berechnen jetzt mit dem Gewicht die notwendige Trink-Menge. Dabei ist dies wie bei den Kalorien, nur ein stark verallgemeinerter Wert, der natürlich bei jedem Menschen schwankt. Dennoch rechnen wir mit 40ml pro KG Körpergewicht, welche bei Erwachsenen durch Recherche festgesetzt haben.</p>
 
+
+<details><summary>
 
 
 <h2 id="kapitel3">3. APIs</h2>
