@@ -555,7 +555,7 @@ setInterval( function(){
 
 <details><summary>Screenshots vom 11.04.2022</summary>
   
-  
+ ![Wasser](https://user-images.githubusercontent.com/88386049/162826446-627c94a7-bbaf-4acb-bedb-00de674fc786.PNG)
   
 </details>
 
