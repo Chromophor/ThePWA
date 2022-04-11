@@ -550,7 +550,7 @@ setInterval( function(){
 </details>
 
 <p id="Stunde31"><b>Montag 11.04.2022</b><br>
-  Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt.</p>
+  Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt. Dafür haben wir auch auf der Trinkübersicht einen Fortschrittsbalken eingebaut, der dem User die noch nötigen Gläser Wasser anzeigen. Bisher hatten wir die lokal gespeicherten Daten zu dem Gewicht</p>
 
 
 
