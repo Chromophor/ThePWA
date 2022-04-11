@@ -594,3 +594,4 @@ setInterval( function(){
 <li>https://www.w3schools.com/howto/howto_css_shake_image.asp</li>
 <li>https://stackoverflow.com/questions/11807286/how-to-make-div-background-color-transparent-in-css</li>
 <li>https://www.t-online.de/gesundheit/id_91272456/wasserbedarf-rechner-so-viel-wasser-brauchen-sie-pro-tag.html</li>
+<li>https://pixabay.com/de/illustrations/aquarell-hintergrund-blau-aquarell-4490904/</li>
