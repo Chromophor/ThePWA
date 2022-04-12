@@ -187,6 +187,7 @@ self.addEventListener('push', e => {
 ```
       
       
+      
     </td><td>Inhalt</td></tr>
     <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
