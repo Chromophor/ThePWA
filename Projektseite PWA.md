@@ -205,10 +205,12 @@ self.addEventListener('push', e => {
 Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft "Sehen Sie sich Ihre Statistiken an! [...]" senden. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber über den Service-Worker gesteuert.
 </td></tr>
 </table>
+
+<details><summary>Screenshots für Code Service-Worker</summary>
   
 ![Übersicht-Dev-Tool3](https://user-images.githubusercontent.com/88386049/163014168-b0f8209f-ef81-4b61-b1b5-d7857c849ece.PNG)
 ![Übersicht-Dev-Tool4](https://user-images.githubusercontent.com/88386049/163015434-00fb4627-2876-4965-9051-84e36c915e21.PNG)
-
+</details>
   
   
   
