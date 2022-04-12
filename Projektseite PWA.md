@@ -142,24 +142,24 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
     <tr><th>Code</th><th>Erklärung</th></tr>
     <tr><td>
     
-    ```
-    self.addEventListener("install", e => {
-    e.waitUntil(
-         caches.open("static").then(cache =>{
-             return cache.addAll([
-               "./", 
-               "./index.js", 
-               "./style.css",
-               "./sensor.js", 
-               "./sensor.php",
-               "./webmanifest.json",
-               "./bilder/icon57.png",
-               "./bilder/icon60.png",
-               "./bilder/icon120.png",
-               "./bilder/icon192.png",
-               "./bilder/icon512.png",
-             ]);
-         })
+```
+self.addEventListener("install", e => {
+e.waitUntil(
+    caches.open("static").then(cache =>{
+         return cache.addAll([
+            "./", 
+            "./index.js", 
+            "./style.css",
+            "./sensor.js", 
+            "./sensor.php",
+            "./webmanifest.json",
+            "./bilder/icon57.png",
+            "./bilder/icon60.png",
+            "./bilder/icon120.png",
+            "./bilder/icon192.png",
+            "./bilder/icon512.png",
+          ]);
+       })
     );
 });
  
