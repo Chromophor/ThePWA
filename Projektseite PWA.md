@@ -146,7 +146,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
 ![Übersicht-Dev-Tool2](https://user-images.githubusercontent.com/88386049/162621243-f4fe5de1-3386-4063-ba16-c992e317d084.PNG)
 
-<p>Der Service-Worker wird bei uns dazu genutzt werden, die APP zu beschleunigen, indem z.B. das Hintergrundbild bereits durch den Service-Worker heruntergeladen wird und lange Ladezeiten dadurch vermieden werden.</p>
+<p>Der Service-Worker wird bei uns dazu genutzt werden, die APP zu beschleunigen, indem z.B. das Hintergrundbild bereits durch den Service-Worker heruntergeladen wird und lange Ladezeiten dadurch vermieden werden. Service-Worker sind generell ereignisgesteuert, das bedeutet, dass sie durch ein Ereigniss, z.B. das Laden einer Seite, getriggert werden. Dabei arbeiten wir mit Event-Listenern, die überprüfen, ob es ein Event gibt.</p>
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
