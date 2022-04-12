@@ -202,7 +202,8 @@ self.addEventListener('push', e => {
 ```
 
 </td><td>
-Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft "Sehen Sie sich Ihre Statistiken an! [...]" senden. Es erlaubt uns auch, ein Icon mit in die Push-Benachrichtigung einzubauen. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber über den Service-Worker ausgelöst.
+  
+Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft ``Sehen Sie sich Ihre Statistiken an! [...]`` senden. Es erlaubt uns auch, ein Icon mit in die Push-Benachrichtigung einzubauen. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber über den Service-Worker ausgelöst.
 </td></tr>
 </table>
 
