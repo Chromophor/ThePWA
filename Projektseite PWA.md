@@ -201,6 +201,9 @@ self.addEventListener('push', e => {
 </td><td>Inhalt</td></tr>
 </table>
   
+![Übersicht-Dev-Tool3](https://user-images.githubusercontent.com/88386049/163014168-b0f8209f-ef81-4b61-b1b5-d7857c849ece.PNG)
+
+  
   
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
