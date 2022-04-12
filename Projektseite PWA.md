@@ -260,11 +260,12 @@ navigator.permissions.query({ name: 'accelerometer' })
 
   acl.start();
 });
+```
 
+</td><td>Inhalt</td></tr>
+<tr><td>
 
-
-
-
+```
 if (navigator.geolocation) {
   var options = {
     enableHighAccuracy: true
@@ -297,9 +298,8 @@ function showError(error) {
   }
 };
 ```
-
+  
 </td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
   
