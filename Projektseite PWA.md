@@ -262,7 +262,9 @@ navigator.permissions.query({ name: 'accelerometer' })
 });
 ```
 
-</td><td>Inhalt</td></tr>
+</td><td>  
+Zuerst wird geprüft, ob der Browser Zugriff auf den Beschleunigungssensor (accelerometer) hat. Ist dies der Fall, wird ``acl`` als neue Beschleunigung definiert, die alle 5 Mili-Sekunden abgerufen wird. Anschließend wird die Beschleunigung in X-Achsen-Richtung, Y-Achsen-Richtung und Z-Achsen-Richtung definiert. Es wird anschließend der Betrag des Beschleunigungsvektors berechnet und in der Variabel ``aGesamt`` gespeichert. Das Erstellen der Formel war ein knifflicher Teil der Arbeit.
+</td></tr>
 <tr><td>
 
 ```javascript
