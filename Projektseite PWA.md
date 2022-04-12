@@ -183,7 +183,7 @@ self.addEventListener('fetch', e => {
 </td><td>Inhalt</td></tr>
 <tr><td>
   
-```
+```javascript
 //Im Moment nur über das Dev-Tool steuerbar!
 self.addEventListener('push', e => {
   e.waitUntil(
