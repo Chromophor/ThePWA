@@ -143,7 +143,9 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <br>
   
   Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der User erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er durchläuft dabei den Prozess des Heruntergeladens und wird anschließend von Browser mit der ```ServiceWorker.register()``` Methode registriertregistriert und erst danach ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen. Dabei zeigt die erste Abbildung die Übersicht über die Phasen des Service-Workers und die zweite die Zeit, die der Service-Worker mit Installation (install), Registrierung (waiting) und aktiver Zeit (active) brauchte. Diesem Bild ist auch zu entnehmen, dass in meinem Browser gerade die 64. Version unseres Service-Workers ausgeführt wird. Alle 24 Stunden wird eine neue Version des Service-Workers, sofern eine Internetverbindung besteht, heruntergeladen und aktiviert, um Änderungen der Anwendung anzuzeigen.
-  
+
+<img width="972" alt="PNG-Bild(1)" src="https://user-images.githubusercontent.com/88386049/163009212-d7f98c48-33cd-4922-a65f-298fbebac988.png">
+
 ![Übersicht-Dev-Tool2](https://user-images.githubusercontent.com/88386049/162621243-f4fe5de1-3386-4063-ba16-c992e317d084.PNG)
 
 <p>Der Service-Worker wird bei uns dazu genutzt werden, die APP zu beschleunigen, indem z.B. das Hintergrundbild bereits durch den Service-Worker heruntergeladen wird und lange Ladezeiten dadurch vermieden werden. Service-Worker sind generell ereignisgesteuert, das bedeutet, dass sie durch ein Ereigniss, z.B. das Laden einer Seite, getriggert werden. Dabei arbeiten wir mit Event-Listenern, die überprüfen, ob es ein Event gibt. Die Service-Worker-Technologie wird sich mit dem Aufstieg der PWAs weiterentwickeln und weitere Funktionen erhalten.</p>
