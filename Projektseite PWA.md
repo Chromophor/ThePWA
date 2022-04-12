@@ -143,6 +143,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
     <tr><td>
     
 ```javascript
+      
 self.addEventListener("install", e => {
 e.waitUntil(
     caches.open("static").then(cache =>{
@@ -187,9 +188,8 @@ self.addEventListener('push', e => {
 ```
       
       
-      
-    </td><td>Inhalt</td></tr>
-    <tr><td>Inhalt</td><td>Inhalt</td></tr>
+</td><td>Inhalt</td></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
   
