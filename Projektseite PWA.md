@@ -219,7 +219,7 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 
 </details>
   
-<h3>Code für den Schrittzähler - JavaScript</3>   
+<h3>Code für den Schrittzähler - JavaScript</h3>   
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
