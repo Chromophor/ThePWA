@@ -142,7 +142,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
     <tr><th>Code</th><th>Erklärung</th></tr>
     <tr><td>
     
-```
+```javascript
 self.addEventListener("install", e => {
 e.waitUntil(
     caches.open("static").then(cache =>{
