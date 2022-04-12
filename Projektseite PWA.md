@@ -209,7 +209,13 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 <details><summary>Screenshots für Code Service-Worker</summary>
   
 ![Übersicht-Dev-Tool3](https://user-images.githubusercontent.com/88386049/163014168-b0f8209f-ef81-4b61-b1b5-d7857c849ece.PNG)
+  <p>Speicher unter static</p>
+  
 ![Übersicht-Dev-Tool4](https://user-images.githubusercontent.com/88386049/163015434-00fb4627-2876-4965-9051-84e36c915e21.PNG)
+  <p>Geloggte Fetch-URLs</p>
+![Push-Benachrichtigung](https://user-images.githubusercontent.com/88386049/163018661-d8fd8ead-ba5c-48fe-9ce6-4c0c9509118d.PNG)
+  <p>Benachrichtigung</p>
+
 </details>
   
   
