@@ -285,7 +285,9 @@ function showPosition(position) {
 };
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+Hier wird überprüft, ob die Geolocation API verfügbar ist und, ob es eine Erlaubnis zum Nutzen dieser gibt. Sollte dies der Fall sein, wird ``navigator.geolocation.watchPosition(showPosition, showError, options);`` mit der untenstehenden ``showPosition(position)`` und in der nächsten Spalte folgenden ``showError(error)`` Funktion ausgeführt. In ``showPosition(position)`` wird außerdem die Geschwindigkeit in km/h berechnet und über innerHTML ausgegeben.
+</td></tr>
 <tr><td>
 
 ```javascript
