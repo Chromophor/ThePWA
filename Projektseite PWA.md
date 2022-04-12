@@ -183,7 +183,7 @@ self.addEventListener('fetch', e => {
 ```
   
 </td><td>
-Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Dateien) den dazugehörige URL in die Console zu speichern und gleichzeitig mit der angeforderten Datei zu Antworten, sie also dem Browser zur Verfügung stellen. Dies ermöglicht es uns, unsere APP auch offline zu verwenden.
+Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Dateien) den dazugehörige URL in die Console zu loggen (Screenshot 2) und gleichzeitig mit der angeforderten Datei zu Antworten, sie also dem Browser zur Verfügung stellen. Dies ermöglicht es uns, unsere APP auch offline zu verwenden.
 </td></tr>
 <tr><td>
   
