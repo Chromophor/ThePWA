@@ -169,7 +169,7 @@ e.waitUntil(
 </td><td>Inhalt</td></tr>
 <tr><td>
 
-```
+```javascript
 self.addEventListener('fetch', e => {
   console.log(`Intercepting fetch request for: ${e.request.url}`);
 
