@@ -144,7 +144,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
       }]
 ```
 
-<p>Bei der Einbindung der Logos hatten wir einige Probleme, da die Logos zuerst nicht gefunden werden konnten, was bedeutete, dass unsere Website zu diesem zeitpunkt nicht installierbar war. Der Grund lag anscheinend in der falschen Benennung einens Ordners, den wir "Icons" genannt hatten. Nachdem wir den Ordner in "Bilder" benannt haben, konnten alle Logos geladen werden und unsere PWA war installierbar. Anschließend haben wir den Service-Worker überarbeitet, sodass die PWA auch offline nutzbar ist. <b>EVT. KONZEPT DER SW. ERLÄUTERN</b></p>
+<p>Bei der Einbindung der Logos hatten wir einige Probleme, da die Logos zuerst nicht gefunden werden konnten, was bedeutete, dass unsere Website zu diesem zeitpunkt nicht installierbar war. Der Grund lag anscheinend in der falschen Benennung einens Ordners, den wir "Icons" genannt hatten. Nachdem wir den Ordner in "Bilder" benannt haben, konnten alle Logos geladen werden und unsere PWA war installierbar. Anschließend haben wir den Service-Worker überarbeitet, sodass die PWA auch offline nutzbar ist (Siehe Code-Erklärung Service-Worker).</p>
 
 <details><summary>Screenshots vom 18.01.2021</summary>
   
