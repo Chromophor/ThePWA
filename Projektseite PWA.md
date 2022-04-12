@@ -265,7 +265,7 @@ navigator.permissions.query({ name: 'accelerometer' })
 </td><td>Inhalt</td></tr>
 <tr><td>
 
-```
+```javascript
 if (navigator.geolocation) {
   var options = {
     enableHighAccuracy: true
