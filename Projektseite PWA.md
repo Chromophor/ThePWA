@@ -132,9 +132,27 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h2 id="kapitel5">5. Der Code</h2>
   
   
-  <tr><th>APIs</th><th>Zweck</th>  <th>Chrome</th> <th>Edge</th> <th>Safari</th> <th>Firefox</th></tr>
-  <tr><td>HTML Geolocation API</td>
-  
+  <table>
+  <thead>
+    <tr>
+      <th>Spalte 1</th>
+      <th>Spalte 2</th>
+      <th>Spalte 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+    </tr>
+    <tr>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+    </tr>
+  </tbody>
+</table>
   
   
   
