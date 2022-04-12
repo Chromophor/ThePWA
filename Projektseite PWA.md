@@ -138,7 +138,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
 
-<h3 id="cSW">Code des Service-Workers</h3>
+<h3 id="cSW">Code des Service-Workers - JavaScript</h3>
 
 <table>
     <tr><th>Code</th><th>Erklärung</th></tr>
@@ -224,7 +224,8 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-  
+<h3>Code für den Schrittzähler - JavaScript</3>  
+
 ```javascript
 navigator.permissions.query({ name: 'accelerometer' })
 .then(result => {
