@@ -117,13 +117,14 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   <h3>Individuelles Trainingsprogramm</h3>
   
+  Als Weitere Funktion haben wir einen Timer für ein individuelles Trainingsprogramm integriert. Hierbei gibt es zwei Regler mit denen man sowohl die Trainingszeit als auch die Pausenzeit einstellen kann. Diese beiden Timer wecheln sich immer ab und sind somit perfekt geeignet für ein Krafttraining mit verschiedenen Übungen. Außerdem haben wir zwei Trainingsvorschläge eingesetzt wo zwei Beispiele für Trainingszeiten bereits eingestellt sind. Zudem gibt es die Möglichkeit das Training zu pausieren. Während des Trainings werden die Runden mitgezählt die man absolviert hat. Die Ergebnisse werden auch in der Übersicht angezeigt. Hierbei wird unterschieden zwischen den Runden, die man heute gemacht und den Runden, die man seit Installation der App durchgeführt hat. Beide Ergebenisse werden local gespeichert und das tägliche Ergebnis immer nachts um 00:00 zurückgesetzt.
     
     
   <h3>Health-Tipps</h3>
   
   
   <h3>Einstellungen</h3>
-  <p>Falls unser User beim Einrichrten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun.</p>
+  <p>Falls unser User beim Einrichrten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
   
   <p>Hier Fähigkeiten unserer APP auflisten! Design nicht vergessen</p>
   
@@ -192,7 +193,8 @@ Am Anfang unseres Projektes sind wir nach kurzer Recherche davon ausgegangen, da
     
   <h2 id="kapitel9">9. Fazit</h2>
   <p>Alles in Allem sind wir aber am Ende unseres Projektes sehr stolz auf unsere PWA, die nach dem letzten Feinschliff auch optisch sehr ansprechend ist. Besonders stolz sind wir aber, dass wir eine so neue Technologie wie die PWA für unser Projekt nutzen konnten, obwohl es zu dieser kaum Informationen im Internet gibt und diese gleichzeitig noch sehr experimentell ist. Da PWAs in Zukunft eine wichtige Rolle auf dem Markt der Mobil-Entwicklung spielen werden, ist dieses Projekt sehr visionär!<br>
-Jetzt am Ende der Projektphase stellt sich für uns die Frage, ob wir das Projekt weitertreiben wollen. Dafür würden wir langfristig einen Platz auf einem Server brauchen. Dennoch ist die Technologie der PWA noch sehr experimentell und man vermutet zwar, dass PWAs in Zukunft eine größere Rolle spielen werden, dies muss aber nicht unbedingt der Fall sein. Dies wäre aber für uns sehr von Vorteil, da wir in diesem Projekt gute Kenntniss über das Thema aufbauen konnten.</p>
+Jetzt am Ende der Projektphase stellt sich für uns die Frage, ob wir das Projekt weitertreiben wollen. Dafür würden wir langfristig einen Platz auf einem Server brauchen. Dennoch ist die Technologie der PWA noch sehr experimentell und man vermutet zwar, dass PWAs in Zukunft eine größere Rolle spielen werden, dies muss aber nicht unbedingt der Fall sein. Dies wäre aber für uns sehr von Vorteil, da wir in diesem Projekt gute Kenntniss über das Thema aufbauen konnten.<br>
+Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemacht hat und wir unsere App auf jeden Fall in Zukunft auch selber nutzen werden!</p>
   
   
   <h2 id="kapitel10">10. Quellen</h2>
