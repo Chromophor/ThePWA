@@ -178,8 +178,12 @@ self.addEventListener('fetch', e => {
     caches.match(e.request).then(cachedResponse => cachedResponse || fetch(e.request))
   );
 });
+```
   
-
+</td><td>Inhalt</td></tr>
+<tr><td>
+  
+```
 //Im Moment nur über das Dev-Tool steuerbar!
 self.addEventListener('push', e => {
   e.waitUntil(
@@ -191,7 +195,7 @@ self.addEventListener('push', e => {
   );
 });
 ```
-  
+
 </td><td>Inhalt</td></tr>
 </table>
   
