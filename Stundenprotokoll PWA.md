@@ -549,7 +549,18 @@ setInterval( function(){
 
 </details>
 
-<p id="Stunde31"><b>Montag 11.04.2022</b><br>
+<p id="Stunde31"><b>Sonntag 10.04.2022</b><br>
+  Wir fragen bei unserer App am Anfang Werte für Name, Gewicht, Schrittlänge und Schrittziel ab. Im Laufe der Verwendung der App kann es jedoch passieren, dass sich einer dieser Werte ändert, also man zum Beispiel sein Schrittziel erhöhen möchte. Um eine solche Änderung möglich zu machen, haben wir eine Einstellungsseite hinzugefügt, in der man alle am Anfang eingegebenen Daten ändern und anpassen kann. Außerdem haben wir weiter auf verschiedenen Seiten am Styling gearbeitet, damit die App am Ende nicht nur funktioniert, sondern auch so aussieht, wie wir es möchten. Die benutzten Farben dienen trotzdem meistens nur für die Veranschaulichung und werden vor Fertigstellung des Projekts noch geändert.</p>
+  
+  
+  <details><summary>Screenshots vom 10.04.2022</summary>
+  
+  ![grafik](https://user-images.githubusercontent.com/88386045/162934321-5de38aec-7cae-4787-8e44-2661dce74748.png)
+
+  </details>
+  
+
+<p id="Stunde32"><b>Montag 11.04.2022</b><br>
   Wir haben heute an dem Design der Trainingsseite und Trinkübersicht gearbeitet. Außerdem haben wir unsere Projektseite weiter geführt. Dafür haben wir auch auf der Trinkübersicht einen Fortschrittsbalken eingebaut, der dem User die noch nötigen Gläser Wasser anzeigen. Bisher hatten wir die lokal gespeicherten Daten zu dem Gewicht noch nicht verwendet, das hat sich jetzt aber verändert. Wir berechnen jetzt mit dem Gewicht die notwendige Trink-Menge. Dabei ist dies wie bei den Kalorien, nur ein stark verallgemeinerter Wert, der natürlich bei jedem Menschen schwankt. Dennoch rechnen wir mit 40ml pro KG Körpergewicht, welche bei Erwachsenen durch Recherche festgesetzt haben. Anschließend haben wir versucht, das Wasser-Icon über das Klicken des Buttons zum "Wackeln" zu bringen.</p>
 
 
