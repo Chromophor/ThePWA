@@ -137,7 +137,9 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
-  
+
+<h3 id="">Code des Service-Workers</3>
+
 <table>
     <tr><th>Code</th><th>Erklärung</th></tr>
     <tr><td>
