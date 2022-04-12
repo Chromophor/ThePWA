@@ -133,9 +133,9 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   
 <table>
-    <tr><th>Code</th><th>Erklärung</th></tr>
-    <tr><td>Inhalt</td><td>Inhalt</td></tr>
-    <tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
 <table>
