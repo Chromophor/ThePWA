@@ -166,7 +166,8 @@ e.waitUntil(
 ```
       
       
-</td><td>In diesem Abschnitt werden alle Dokumente in einem lokalen Speicher hinterlegt. Der lokale Speicher wird beim Laden der Seite geöffnet und ist unter der ID ```static``` im Dev-Tool abrufbar. Dies beschleunigt das Laden der APP, indem bereits Logos und Bilder gespeichert sind und nicht erst heruntergeladen werden muss.</td></tr>
+</td><td>
+In diesem Abschnitt werden alle Dokumente in einem lokalen Speicher hinterlegt. Der lokale Speicher wird beim Laden der Seite geöffnet und ist unter der ID ```static``` im Dev-Tool abrufbar. Dies beschleunigt das Laden der APP, indem bereits Logos und Bilder gespeichert sind und nicht erst heruntergeladen werden muss.</td></tr>
 <tr><td>
 
 ```javascript
