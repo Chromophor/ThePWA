@@ -168,7 +168,7 @@ e.waitUntil(
       
 </td><td>
       
-In diesem Abschnitt werden alle Dokumente in einem lokalen Speicher hinterlegt. Der lokale Speicher wird beim Laden der Seite geöffnet und ist unter der ID ```static``` im Dev-Tool abrufbar. Dies beschleunigt das Laden der APP, indem bereits Logos und Bilder gespeichert sind und nicht erst heruntergeladen werden muss.</td></tr>
+In diesem Abschnitt werden alle Dokumente in einem lokalen Speicher hinterlegt. Der lokale Speicher wird beim Laden der Seite geöffnet und ist unter der ID ```static``` im Dev-Tool abrufbar (siehe Screenshot 1). Dies beschleunigt das Laden der APP, indem bereits Logos und Bilder gespeichert sind und nicht erst heruntergeladen werden muss.</td></tr>
 <tr><td>
 
 ```javascript
@@ -182,7 +182,9 @@ self.addEventListener('fetch', e => {
 });
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Dateien) den dazugehörige URL in die Console zu speichern und gleichzeitig mit der angeforderten Datei zu Antworten, sie also dem Browser zur Verfügung stellen. Dies ermöglicht es uns, unsere APP auch offline zu verwenden.
+</td></tr>
 <tr><td>
   
 ```javascript
