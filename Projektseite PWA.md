@@ -219,12 +219,11 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 
 </details>
   
+<h3>Code für den Schrittzähler - JavaScript</3>   
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
-  
-<h3>Code für den Schrittzähler - JavaScript</3>  
 
 ```javascript
 navigator.permissions.query({ name: 'accelerometer' })
