@@ -570,7 +570,6 @@ setInterval( function(){
   
  ![Übersicht2](https://user-images.githubusercontent.com/88386049/162826899-a5cd1ce8-40ad-43df-aa75-d757c66f3230.PNG)
   <p>Stand der Daten, die noch nicht zurückgesetzt wurden. Datum 11.04.2022. Morgen wird unter den Details die automatisch zurückgesetzte Variante gezeigt.</p>
-
   
 </details>
 
