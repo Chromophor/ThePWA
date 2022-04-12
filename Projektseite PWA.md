@@ -263,7 +263,7 @@ navigator.permissions.query({ name: 'accelerometer' })
 ```
 
 </td><td>  
-Zuerst wird geprüft, ob der Browser Zugriff auf den Beschleunigungssensor (accelerometer) hat. Ist dies der Fall, wird ``acl`` als neue Beschleunigung definiert, die alle 5 Mili-Sekunden abgerufen wird. Anschließend wird die Beschleunigung in X-Achsen-Richtung, Y-Achsen-Richtung und Z-Achsen-Richtung definiert. Es wird anschließend der Betrag des Beschleunigungsvektors berechnet und in der Variabel ``aGesamt`` gespeichert. Das Erstellen der Formel war ein knifflicher Teil der Arbeit.
+Zuerst wird geprüft, ob der Browser Zugriff auf den Beschleunigungssensor (accelerometer) hat. Ist dies der Fall, wird ``acl`` als neue Beschleunigung definiert, die alle 5 Mili-Sekunden abgerufen wird. Anschließend wird die Beschleunigung in X-Achsen-Richtung, Y-Achsen-Richtung und Z-Achsen-Richtung definiert. Es wird anschließend der Betrag des Beschleunigungsvektors berechnet und in der Variabel ``aGesamt`` gespeichert. Das Erstellen der Formel war ein knifflicher Teil der Arbeit. Sollte der Betrag der Beschleunigung größer als 1 m/s^2 und kleiner als 2 m/s^2 sein, wird dies als ein Schritt gewertet und anschließend auch als ein solcher lokal mit ``localSorage()`` gespeichert. Auch die Funktion ``ladeBalken()`` und ``anzeigen()`` wird dabei ausgeführt, die zum einen den Fortschrittsbalken laden soll und zum anderen die Schrittzahl anzeigt.
 </td></tr>
 <tr><td>
 
