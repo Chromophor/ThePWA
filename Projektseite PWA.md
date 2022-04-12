@@ -188,7 +188,6 @@ Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Da
 <tr><td>
   
 ```javascript
-//Im Moment nur über das Dev-Tool steuerbar!
 self.addEventListener('push', e => {
   e.waitUntil(
     self.registration.showNotification('Sehen Sie sich Ihre Statistiken an!', {  
@@ -200,7 +199,9 @@ self.addEventListener('push', e => {
 });
 ```
 
-</td><td>Inhalt</td></tr>
+</td><td>
+Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft "Sehen Sie sich Ihre Statistiken an! [...]" senden. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber über den Service-Worker gesteuert.
+</td></tr>
 </table>
   
 ![Übersicht-Dev-Tool3](https://user-images.githubusercontent.com/88386049/163014168-b0f8209f-ef81-4b61-b1b5-d7857c849ece.PNG)
