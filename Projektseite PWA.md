@@ -162,8 +162,14 @@ e.waitUntil(
        })
     );
 });
- 
+      
+```
+      
+      
+</td><td>Inhalt</td></tr>
+<tr><td>
 
+```
 self.addEventListener('fetch', e => {
   console.log(`Intercepting fetch request for: ${e.request.url}`);
 
@@ -172,6 +178,7 @@ self.addEventListener('fetch', e => {
     caches.match(e.request).then(cachedResponse => cachedResponse || fetch(e.request))
   );
 });
+  
 
 //Im Moment nur über das Dev-Tool steuerbar!
 self.addEventListener('push', e => {
@@ -183,12 +190,9 @@ self.addEventListener('push', e => {
     })
   );
 });
-
 ```
-      
-      
+  
 </td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
   
