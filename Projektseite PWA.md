@@ -224,7 +224,8 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-```
+  
+```javascript
 navigator.permissions.query({ name: 'accelerometer' })
 .then(result => {
   
