@@ -279,7 +279,12 @@ if (navigator.geolocation) {
 function showPosition(position) {  
   Geschwindigkeit.innerHTML = position.coords.speed * 3.6;
 };
+```
+  
+</td><td>Inhalt</td></tr>
+<tr><td>
 
+```javascript
 function showError(error) {
   switch(error.code) {
       case error.PERMISSION_DENIED:
@@ -298,7 +303,7 @@ function showError(error) {
   }
 };
 ```
-  
+
 </td><td>Inhalt</td></tr>
 </table>
   
