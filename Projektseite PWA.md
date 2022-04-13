@@ -327,7 +327,10 @@ var schrittLange = Number(localStorage.getItem("schrittLange"));
 var Kal = 0.035;
 ```
 
-</td><td>Inhalt</td></tr>
+</td><td>
+  
+In diesem Abschnitt werden einige wichtige Variablen, wie z.B. ``schritte``, die localStorage.getItem("Schritte"), in eine Zahl umgewandelt, entspricht, defininiert. Auch werden hier die Kalorien als 0,035 definiert, welche wir noch für spätere Berechnungen benötigen.
+</td></tr>
 <tr><td>
 
 ```javascript
