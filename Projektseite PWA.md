@@ -478,7 +478,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
     
 </details>
   
-<h3>Code des Pop-Ups</h3>
+<h3>Code des Pop-Ups - HTML und JavaScript</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -531,7 +531,20 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
 </td><td>
 Dies ist der HTML-Code für unser Pop-Up zur Anmeldung. Es besteht aus einem Header, der die Begrüßung (Überschrift) enthält, einem Body, der die Inputfelder zum Namen mit einem Texteingagefeld, dem Gewicht, der Schrittlänge und dem Schrittziel mit einem Schiebe-Regler. Im Footer wird auf unsere nicht existenten Datenschutzbestimmungen und Coockies hingewiesen.
 </td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>
+  
+``` 
+function checkFirstUse() {
+   if (!namE) {
+      modal.style.display = "block";
+   } else {
+      modal.style.display = "none";
+   }
+
+ }
+ ```
+
+</td><td>Inhalt</td></tr>
 </table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
