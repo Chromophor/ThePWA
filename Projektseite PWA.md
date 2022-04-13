@@ -111,6 +111,12 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Anmeldund per Pop-Up</h3>
   <p>Bei der Einrichtung unserer APP setzen wir auf ein Pop-Up, welches sich immer beim ersten Öffnen unserer APP zeigt. In dem Pup-Up kann/muss der User bestimmte Daten eingeben, wobei der User direkt angesprochen wird. Er muss seinen Benutzernamen, sein Gewicht, seine Schrittlänge und sein tägliches Schrittziel angeben. Anschließend muss der User den ``Speichern`` Button drücken. Das Pop-Up bewegt sich mit einem CSS-Effekt in den Bildschirm und bewegt sich nach dem Speichern aus dem Bildschirm-Bereich heraus. Anschließend wird die Seite neu geladen und die Übersicht wird mit den eingegebenen Daten angezeigt (siehe Übersicht).</p>
   
+  <details><summary>Screenshots bei der Anmeldung</summary>
+    
+   ![Übersicht1](https://user-images.githubusercontent.com/88386049/163164906-46702af9-5211-4bd1-a498-8bc1b94aea54.PNG)
+ 
+  </details>
+  
   
   <h3>Übersicht</h3>
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokales Speichers, wo wir die Daten speichern und abrufen könne, damit wir sie anzeigen können.</p>
