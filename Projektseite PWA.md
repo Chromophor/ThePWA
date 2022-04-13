@@ -342,7 +342,10 @@ function streckeBerechnen(){
 }
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+  
+Die Funktion ``streckeBerechnen()`` errechnet mit der Anzahl der Schritte und der Schrittlänge die zurückgelegte Strecke. Dabei werden die Schritte und die Schrittlänge aus dem lokalen Speicher entnommen.
+</td></tr>
 <tr><td>
 
 ```javascript
