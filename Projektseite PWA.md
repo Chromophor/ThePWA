@@ -381,7 +381,11 @@ In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von
 </td></tr>
 </table>
 
+  <details><summary>Screenshots Code des Schrittzählers</summary>
   
+  ![Pop-Up](https://user-images.githubusercontent.com/88386049/163163734-ba2b9507-dc83-43a8-8c40-9669e17ba838.PNG)
+      
+  </details>
   
   
   
