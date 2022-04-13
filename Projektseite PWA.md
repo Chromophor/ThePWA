@@ -549,7 +549,7 @@ Diese Funktion wird jedes Mal beim Laden der Seite ausgeführt. Sie überprüft,
 </td></tr>
 <tr><td>
   
-```
+```javascript
 function speichern() {
    //Daten aus Input-Feld auslesen
    name = document.querySelector("#name").value;
@@ -572,7 +572,9 @@ function speichern() {
 }
 ```
 
-</td><td>Inhalt</td></tr>
+</td><td>
+Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen und anschließend lokal mit ``localStorage()`` gespeichert. Das Auslesen der Variablen funktioniert dabei über eine JavaScript-Query, die den Wert des Input-Feldes, unabhängig vom Variablen-Typ (also String bei Name oder Number bei Schrittziel), auslesen kann. Nachdem die Daten ausgelesen und lokal gespeichert sind, gibt es ein Time-Out von 400ms, damit das Pop-Up wieder die Zurück-Animation zeigen kann. Anschließend wird die Seite Neu geladen. Die Variable ``namE`` existiert nun und das Pop-Up öffnet sich nicht nocheinmal.
+</td></tr>
 </table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
