@@ -365,7 +365,9 @@ function displayNotification(argument) {
 }
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nutzen. Der Status, also entweder erlaubt (granted) oder verboten (denied).
+</td></tr>
 </table>
   
   
