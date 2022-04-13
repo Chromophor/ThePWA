@@ -601,6 +601,7 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 
 
 <h2 id="kapitel4">4. Quellen</h2>
+<p>Wir haben in der Entwicklungsphase der APP sehr viel Zeit mit Recherche verbracht, wie man der Menge der Quellen auch ansehen kann. Dies war leider notwendig, da es zu der Technologie der PWAs nur wenig und selten Informationen im Internet gab, die uns in unserem Projekt weitergebracht haben. Daher mussten wir viele unterschiedlichste Quellen nutzen und brauchbare und interessante Dinge zusammentragen.</p>
 
 <li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
 <li>https://developers.google.com/web/fundamentals/codelabs/push-notifications</li>
