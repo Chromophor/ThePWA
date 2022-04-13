@@ -314,7 +314,7 @@ function showError(error) {
 
 </td><td>
   
-Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Problem mit der Geolocation API gibt. Dies lässt sich in verschiedene Szenarien teilen. Entweder die Erlaubnis, die API zu nutzen wird abgelehnt, die Position ist aufgrund einer fehlenden GPS-Fähigkeit nicht erreichbar oder es gab einen zu langen Versuch, die Position zu bestimmen.
+Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Problem mit der Geolocation API gibt. Dies lässt sich in verschiedene Szenarien teilen. Entweder die Erlaubnis, die API zu nutzen wird abgelehnt, die Position ist aufgrund einer fehlenden GPS-Fähigkeit nicht erreichbar oder es gab einen zu langen Versuch, die Position zu bestimmen. Siehe Screenshots.
 </td></tr>
 <tr><td>
 
@@ -380,7 +380,11 @@ setInterval(function() {
 In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von 100ms ausgeführt. In dieser wird die Anzahl der Schritte aktualisiert und gleichzeitig die Funktion ``streckeBerechnen()`` und ``kalorienBerechnen()`` ausgeführt.
 </td></tr>
 </table>
-<br>
+
+  
+  
+  
+  
   
 <h3>Code Index.js - Javascript</h3>
   
