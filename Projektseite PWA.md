@@ -357,7 +357,10 @@ function kalorienBerechnen(){
 }
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+  
+Die Funktion ``kalorienBerechnen()`` errechnet mit der Anzahl der Schritte und der Kontsante ``Kal`` der Kalorien die Anzahl der verbrannten Kalorien. Die Anzahl der Schritte wird dabei wieder aus dem lokalen Speicher entnommen.
+</td></tr>
 <tr><td>
   
 ```javascript
