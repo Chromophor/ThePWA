@@ -588,6 +588,16 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 
 
 <h2 id="kapitel3">3. APIs</h2>
+
+HTML Geolocation API 
+HTML Web Storage API
+Generic Sensor API 
+Push API 
+Background Fetch API 
+Background Sync API 
+Service Worker API
+
+
 <h2 id="kapitel4">4. Quellen</h2>
 
 <li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
