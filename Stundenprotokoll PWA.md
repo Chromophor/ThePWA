@@ -575,7 +575,8 @@ setInterval( function(){
 
 
 <p id="Stunde33"><b>Mittwoch 13.04.2022</b><br>
-  Heute haben wir unser Trainingsprogramm weiterüberarbeitet. Hierbei wollten wir gerne einen individuell einstellbaren Timer und 2 Vorschläge für häufig genutzte Varianten. Deswegen haben wir diese 2 Vorschläge eingebaut, sodass man von der Trainingsseite aus 3 verschiedene Timer Kombinationen Starten kann.</p>
+  Heute haben wir unser Trainingsprogramm weiterüberarbeitet. Hierbei wollten wir gerne einen individuell einstellbaren Timer und 2 Vorschläge für häufig genutzte Varianten. Deswegen haben wir diese 2 Vorschläge eingebaut, sodass man von der Trainingsseite aus 3 verschiedene Timer Kombinationen Starten kann.
+Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch der aktuell eingestellte Wert angezeigt wird, damit man vergleichen kann, ob man etwas ändern möchte.</p>
   
   <details><summary>Screenshots vom 13.04.2022</summary>
   
