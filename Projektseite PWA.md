@@ -344,7 +344,7 @@ function streckeBerechnen(){
   
 </td><td>
   
-Die Funktion ``streckeBerechnen()`` errechnet mit der Anzahl der Schritte und der Schrittlänge die zurückgelegte Strecke. Dabei werden die Schritte und die Schrittlänge aus dem lokalen Speicher entnommen.
+Die Funktion ``streckeBerechnen()`` errechnet mit der Anzahl der Schritte und der Schrittlänge die zurückgelegte Strecke. Dabei werden die Schritte und die Schrittlänge aus dem lokalen Speicher entnommen. Abschließend wird die Strecke im HTML-Dokument angezeigt.
 </td></tr>
 <tr><td>
 
@@ -359,7 +359,7 @@ function kalorienBerechnen(){
   
 </td><td>
   
-Die Funktion ``kalorienBerechnen()`` errechnet mit der Anzahl der Schritte und der Kontsante ``Kal`` der Kalorien die Anzahl der verbrannten Kalorien. Die Anzahl der Schritte wird dabei wieder aus dem lokalen Speicher entnommen.
+Die Funktion ``kalorienBerechnen()`` errechnet mit der Anzahl der Schritte und der Kontsante ``Kal`` der Kalorien die Anzahl der verbrannten Kalorien. Die Anzahl der Schritte wird dabei wieder aus dem lokalen Speicher entnommen. Abschließend werden die Kalorien im HTML-Dokument angezeigt.
 </td></tr>
 <tr><td>
   
@@ -375,7 +375,10 @@ setInterval(function() {
 }
 ```
 
-</td><td>Inhalt</td></tr>
+</td><td>
+  
+In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von 100ms ausgeführt. In dieser wird die Anzahl der Schritte aktualisiert und gleichzeitig die Funktion ``streckeBerechnen()`` und ``kalorienBerechnen()`` ausgeführt.
+</td></tr>
 </table>
   
 <h3>Code Index.js - Javascript</h3>
