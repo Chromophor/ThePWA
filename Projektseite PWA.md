@@ -393,6 +393,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
 <details><summary>Screenshots Code Index.js</summary>
     
 ![Konsole](https://user-images.githubusercontent.com/88386049/163155530-879d6890-ea86-44df-87a5-e8222a8d5e27.PNG)
+![Konsole1](https://user-images.githubusercontent.com/88386049/163156082-7a0c1bb5-dcaa-42e3-abb5-36ba90fe0100.PNG)
     
 </details>
   
