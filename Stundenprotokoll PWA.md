@@ -589,13 +589,13 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 
 <h2 id="kapitel3">3. APIs</h2>
 
-HTML Geolocation API 
-HTML Web Storage API
-Generic Sensor API 
-Push API 
-Background Fetch API 
-Background Sync API 
-Service Worker API
+<li>HTML Geolocation API</li>
+<li>HTML Web Storage API</li>
+<li>Generic Sensor API </li>
+<li>Push API </li>
+<li>Background Fetch API</li> 
+<li>Background Sync API </li>
+<li>Service Worker API</li>
 
 
 <h2 id="kapitel4">4. Quellen</h2>
