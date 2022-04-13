@@ -108,6 +108,9 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Offline-Funktion</h3>
   <p>Unsere APP kann nach dem ersten Einrichten offline verwenden, obwohl man dadurch keine Updates duch uns erhalten kann. Dennoch wurden beim ersten Einrichten alle Dateien (also Seiten, JS-Dokumente und Icons) heruntergeladen. Außerdem kommuniziert unsere APP nur sehr selten mit unserem Server. Daten wie der User-name oder die Schrittanzahl werden nicht mit dem Server synchronosiert, sondern lediglich lokal gespeichert. Das macht unsere APP auch besonders datensparsam, da wir keine Daten über den User sammeln, was bei eigentlich jeder anderen Fitness-APP der Fall ist.</p>
   
+  <h3>Anmelde-Pop-Up</h3>
+  <p>Bei der Einrichtung unserer APP setzen wir auf ein Pop-Up, welches sich immer beim ersten Öffnen unserer APP zeigt. In dem Pup-Up kann/muss der User bestimmte Daten eingeben, wobei der User direkt angesprochen wird. Er muss seinen Benutzernamen, sein Gewicht, seine Schrittlänge und sein tägliches Schrittziel angeben. Anschließend muss der User den ``Speichern`` Button drücken. Das Pop-Up</p>
+  
   
   <h3>Übersicht</h3>
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokales Speichers, wo wir die Daten speichern und abrufen könne, damit wir sie anzeigen können.</p>
