@@ -528,7 +528,9 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
 </div>
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+Dies ist der HTML-Code für unser Pop-Up zur Anmeldung. Es besteht aus einem Header, der die Begrüßung (Überschrift) enthält, einem Body, der die Inputfelder zum Namen mit einem Texteingagefeld, dem Gewicht, der Schrittlänge und dem Schrittziel mit einem Schiebe-Regler. Im Footer wird auf unsere nicht existenten Datenschutzbestimmungen und Coockies hingewiesen.
+</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
