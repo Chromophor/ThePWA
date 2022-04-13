@@ -9,7 +9,7 @@
 <li><a href="#contributors">3. contributors</a></h2></li>
 <li><a href="#languages">4. Languages</a></h2></li>
 
-
+<br>
 <p><b>Stundenprotokoll</b><br>
   In unserem Stundenprotokoll haben wir jede Stunde protokolliert. Anhand des Protokolls kann man die Entwicklung unserer APP von der Idee bis zum fertigen Projekt ablesen.<br><br>
 <b>Projektseite</b><br>
