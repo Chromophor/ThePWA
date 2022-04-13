@@ -486,40 +486,38 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
   
 ```javascript
 <div id="popup" class="modal">
+  <!-- Inhalt -->
+  <div class="modalcontent" id="modal-content">
+      <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2><span>&#128075;</span> Du bist neu hier! Gib uns ein paar Daten, damit diese App funktioniert.</h2>
+      </div>
+      <div class="modal-body">
 
-        <!-- Inhalt -->
-        <div class="modalcontent" id="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h2><span>&#128075;</span> Du bist neu hier! Gib uns ein paar Daten, damit diese App funktioniert.</h2>
-            </div>
-            <div class="modal-body">
-
-                <p>Dein Name:              
-                <input type="text" name="name" id="name" placeholder="Dein Name..." class="input"></p>
-                <p>Dein Gewicht:           
-                <input type="range" name="Eingabegewicht" max="200" step="5" id="Eingabegewicht" class="input">
-                <span id="Gewichtausgabe"> 0 </span> kg</p>
-                <p>Schrittlänge:           
-                <input type="range" name="EingabeschrittLange" max="100" step="5" id="EingabeschrittLange" class="input">
-                <span id="Schrittlangeausgabe"> 0 </span> cm</p>
-                <p>Tägliches Schrittziel:  
-                <input type="range" name="EingabeschrittZiel" max="10000" step="10" id="EingabeschrittZiel" class="input">
-                <span id="Zielausgabe"> 0 </span> Schritte</p>
+       <p>Dein Name:              
+       <input type="text" name="name" id="name" placeholder="Dein Name..." class="input"></p>
+       <p>Dein Gewicht:           
+       <input type="range" name="Eingabegewicht" max="200" step="5" id="Eingabegewicht" class="input">
+       <span id="Gewichtausgabe"> 0 </span> kg</p>
+       <p>Schrittlänge:           
+       <input type="range" name="EingabeschrittLange" max="100" step="5" id="EingabeschrittLange" class="input">
+       <span id="Schrittlangeausgabe"> 0 </span> cm</p>
+       <p>Tägliches Schrittziel:  
+       <input type="range" name="EingabeschrittZiel" max="10000" step="10" id="EingabeschrittZiel" class="input">
+       <span id="Zielausgabe"> 0 </span> Schritte</p>
                 
 
-                <button class="button" onclick="speichern()">Speichern</button>
+       <button class="button" onclick="speichern()">Speichern</button>
 
-            </div>
-            <div class="modal-footer">
-                <h3>Wir möchten Dich auf unsere <a href="https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de">
-            Cookies</a> hinweisen. Bitte lies unsere <a href="https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs">AGB</a> und die
-                    Datenschutzbestimmungen.
-                </h3>
-            </div>
-        </div>
-
-    </div>
+      </div>
+        <div class="modal-footer">
+         <h3>Wir möchten Dich auf unsere <a href="https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de">
+         Cookies</a> hinweisen. Bitte lies unsere <a href="https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs">AGB</a> und die
+         Datenschutzbestimmungen.
+         </h3>
+      </div>
+   </div>
+</div>
 ```
   
 </td><td>Inhalt</td></tr>
