@@ -287,6 +287,7 @@ function showPosition(position) {
 ```
   
 </td><td>
+  
 Hier wird überprüft, ob die Geolocation API verfügbar ist und, ob es eine Erlaubnis zum Nutzen dieser gibt. Sollte dies der Fall sein, wird ``navigator.geolocation.watchPosition(showPosition, showError, options);`` mit der untenstehenden ``showPosition(position)`` und in der nächsten Spalte folgenden ``showError(error)`` Funktion ausgeführt. In ``showPosition(position)`` wird außerdem die Geschwindigkeit in km/h berechnet und über innerHTML ausgegeben.
 </td></tr>
 <tr><td>
@@ -312,6 +313,7 @@ function showError(error) {
 ```
 
 </td><td>
+  
 Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Problem mit der Geolocation API gibt. Dies lässt sich in verschiedene Szenarien teilen. Entweder die Erlaubnis, die API zu nutzen wird abgelehnt, die Position ist aufgrund einer fehlenden GPS-Fähigkeit nicht erreichbar oder es gab einen zu langen Versuch, die Position zu bestimmen.
 </td></tr>
 </table>
