@@ -338,7 +338,7 @@ if ("serviceWorker" in navigator) {
 
 </td><td>
   
-Sollte ein Service-Worker vorhanden sein, dann wird er registriert. Anschließend wird ``SW registered`` in die Konsole und anschließend die Registrierung selber geloggt (siehe Screenshot 1). Falls kein Service-Worker vorhanden ist, wird der Grund des Fehlers in die Konsole geloggt (siehe Screenshot 2). 
+Sollte ein Service-Worker vorhanden sein, dann wird er registriert. Anschließend wird ``SW registered`` in die Konsole und anschließend die Registrierung selber geloggt (siehe Screenshot 1), welche zahlreiche Informationen zum Service-Worker enthält. Falls kein Service-Worker vorhanden ist, wird der Grund des Fehlers in die Konsole geloggt (siehe Screenshot 2). 
 </td></tr>
 <tr><td>
   
