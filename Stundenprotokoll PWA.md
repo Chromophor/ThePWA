@@ -574,6 +574,16 @@ setInterval( function(){
 </details>
 
 
+<p id="Stunde33"><b>Mittwoch 13.04.2022</b><br>
+  Heute haben wir unser Trainingsprogramm weiterüberarbeitet. Hierbei wollten wir gerne einen individuell einstellbaren Timer und 2 Vorschläge für häufig genutzte Varianten. Deswegen haben wir diese 2 Vorschläge eingebaut, sodass man von der Trainingsseite aus 3 verschiedene Timer Kombinationen Starten kann.</p>
+  
+  <details><summary>Screenshots vom 13.04.2022</summary>
+  
+  ![grafik](https://user-images.githubusercontent.com/88386045/163176130-342fb9e0-5658-44ac-82e9-ecc1126dec11.png)
+  
+  </details>
+
+
 <h2 id="kapitel3">3. APIs</h2>
 <h2 id="kapitel4">4. Quellen</h2>
 
