@@ -329,8 +329,32 @@ var Kal = 0.035;
 
 </td><td>Inhalt</td></tr>
 <tr><td>
-  
+
+```javascript
+function streckeBerechnen(){
+  var schrittLange = Number(localStorage.getItem("schrittLange"));
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
+  Strecke.innerHTML = strecke;
+}
 ```
+  
+</td><td>Inhalt</td></tr>
+<tr><td>
+
+```javascript
+function kalorienBerechnen(){
+  var Kal = 0.035;
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
+  Kalorien.innerHTML = kalorien;
+}
+```
+  
+</td><td>Inhalt</td></tr>
+<tr><td>
+  
+```javascript
 function anzeigen(){
 ziel = localStorage.getItem("schrittZiel");
 
@@ -338,24 +362,7 @@ setInterval(function() {
   anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
   streckeBerechnen();
   kalorienBerechnen();
-}, 100);
-
-}
-
-
-
-function streckeBerechnen(){
-  var schrittLange = Number(localStorage.getItem("schrittLange"));
-  var schritte = Number(localStorage.getItem("Schritte"));
-  var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
-  Strecke.innerHTML = strecke;
-}
-
-function kalorienBerechnen(){
-  var Kal = 0.035;
-  var schritte = Number(localStorage.getItem("Schritte"));
-  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
-  Kalorien.innerHTML = kalorien;
+  }, 100);
 }
 ```
 
