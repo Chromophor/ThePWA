@@ -544,7 +544,9 @@ function checkFirstUse() {
  }
  ```
 
-</td><td>Inhalt</td></tr>
+</td><td>
+Diese Funktion wird jedes Mal beim Laden der Seite ausgeführt. Sie überprüft, ob die Variable ``namE`` bereits existiert. Sollte die Variable nicht existieren wird das Pop-Up angezeigt, ansonsten wird es nicht gezeigt. 
+</td></tr>
 </table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
