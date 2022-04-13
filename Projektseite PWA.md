@@ -324,6 +324,21 @@ Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Probl
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
+```
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").then(registration => {
+        console.log("SW registered");
+        console.log(registration);
+    }).catch(error => {
+        console.log("SW registration failed!");
+        console.log(error);
+    });
+}
+```
+
+</td><td>Inhalt</td></tr>
+<tr><td>
+  
 ```javascript
 setInterval( function(){
 
