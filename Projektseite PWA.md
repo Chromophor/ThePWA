@@ -316,6 +316,18 @@ function showError(error) {
   
 Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Problem mit der Geolocation API gibt. Dies lässt sich in verschiedene Szenarien teilen. Entweder die Erlaubnis, die API zu nutzen wird abgelehnt, die Position ist aufgrund einer fehlenden GPS-Fähigkeit nicht erreichbar oder es gab einen zu langen Versuch, die Position zu bestimmen.
 </td></tr>
+<tr><td>
+
+```javascript
+var erhoehe_pixel = 0;
+var ladevorgang = 0;
+var schritte = Number(localStorage.getItem("Schritte"));
+var ziel = Number(localStorage.getItem("schrittZiel"));
+var schrittLange = Number(localStorage.getItem("schrittLange"));
+var Kal = 0.035;
+```
+
+</td><td>Inhalt</td></tr>
 </table>
   
 <h3>Code Index.js - Javascript</h3>
