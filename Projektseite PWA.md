@@ -345,7 +345,9 @@ setInterval( function(){
 }, 1000);
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+Damit unsere APP auch eine gewisse Logik verfolgt, müssen Daten, wie die täglich gezählten Schritte oder die Anzahl der getrunkenen Gläser täglich zurückgesetzt werden. Da wir bisher nicht in der Lage waren, einen Hintergrundsynchronisierung zu implementieren, mussten wir uns auf einem anderen Weg behelfen. Dazu haben wir eine Funktion geschrieben, die in einem Intervall von einer Sekunde ausgeführt wird.  
+</td></tr>
 <tr><td>
   
 ```javascript
