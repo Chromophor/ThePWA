@@ -668,6 +668,7 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   <li>https://pwa.bar/</li>
   <li>https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
   <li>https://www.ionos.de/digitalguide/websites/web-entwicklung/progressive-web-apps-welche-vorteile-bieten-sie/</li>
+  <li>https://developer.mozilla.org/de/docs/Web/JavaScript/Data_structures</li>
   
   <h3>Quellen während der Projektphase</h3>
   
