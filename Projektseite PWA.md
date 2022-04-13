@@ -322,7 +322,30 @@ Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Probl
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>
+  
+```
+setInterval( function(){
+
+  var datum  = new Date();
+  var month    = datum.getMonth();
+  var day      = datum.getDate();
+  var hours    = datum.getHours();
+  var minut    = datum.getMinutes();
+  var second   = datum.getSeconds();
+
+  if (Number(localStorage.getItem("Tag")) != day) {
+    localStorage.setItem("Schritte", 0);
+    localStorage.setItem("Glas", 0);
+    localStorage.setItem("rundenheu", 0);
+
+    //nun aktuelles Datum lokal speichern
+    localStorage.setItem("Tag", day);
+  }
+}, 1000);
+```
+  
+</td><td>Inhalt</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
