@@ -273,7 +273,8 @@ function addschritt() {
 schritte = schritte + 1;
 localStorage.setItem("Schritte", schritte);
 anzahlSchritte.innerHTML = localStorage.getItem("Schritte");
-ladeBalken();    
+ladeBalken();
+displayNotification("Test");
 }
 
 
