@@ -478,6 +478,12 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
     
 </details>
   
+
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+</table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
   
