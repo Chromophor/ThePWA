@@ -388,6 +388,13 @@ function displayNotification(argument) {
 Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nutzen. Der Status, also entweder erlaubt (granted) oder verboten (denied). Anschließend wird die Funktion ``displayNotification(argument)`` definiert, die sich ausführen lässt und dafür sorgt, dass eine Push-Benachrichtigung an den User gesandt wird.
 </td></tr>
 </table>
+
+  
+<details><summary>Screenshots Code Index.js</summary>
+    
+![Konsole](https://user-images.githubusercontent.com/88386049/163155530-879d6890-ea86-44df-87a5-e8222a8d5e27.PNG)
+    
+</details>
   
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
