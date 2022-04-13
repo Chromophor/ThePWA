@@ -533,7 +533,7 @@ Dies ist der HTML-Code für unser Pop-Up zur Anmeldung. Es besteht aus einem Hea
 </td></tr>
 <tr><td>
   
-``` 
+```javascript
 function checkFirstUse() {
    if (!namE) {
       modal.style.display = "block";
