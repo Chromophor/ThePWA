@@ -324,7 +324,7 @@ Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Probl
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-```
+```javascript
 setInterval( function(){
 
   var datum  = new Date();
