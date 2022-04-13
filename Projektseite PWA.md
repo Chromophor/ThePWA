@@ -113,7 +113,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   <details><summary>Screenshots bei der Anmeldung</summary>
     
-   ![Übersicht1](https://user-images.githubusercontent.com/88386049/163164906-46702af9-5211-4bd1-a498-8bc1b94aea54.PNG)
+  ![Übersicht1](https://user-images.githubusercontent.com/88386049/163164906-46702af9-5211-4bd1-a498-8bc1b94aea54.PNG)
  
   </details>
   
