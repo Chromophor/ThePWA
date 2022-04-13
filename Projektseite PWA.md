@@ -490,7 +490,8 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
   <div class="modalcontent" id="modal-content">
       <div class="modal-header">
       <span class="close">&times;</span>
-      <h2><span>&#128075;</span> Du bist neu hier! Gib uns ein paar Daten, damit diese App funktioniert.</h2>
+      <h2><span>&#128075;</span> Du bist neu hier! Gib uns ein paar
+      Daten, damit diese App funktioniert.</h2>
       </div>
       <div class="modal-body">
 
