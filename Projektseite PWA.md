@@ -547,6 +547,32 @@ function checkFirstUse() {
 </td><td>
 Diese Funktion wird jedes Mal beim Laden der Seite ausgeführt. Sie überprüft, ob die Variable ``namE`` bereits existiert. Sollte die Variable nicht existieren wird das Pop-Up angezeigt, ansonsten wird es nicht gezeigt. 
 </td></tr>
+<tr><td>
+  
+```
+function speichern() {
+   //Daten aus Input-Feld auslesen
+   name = document.querySelector("#name").value;
+   gewicht = document.querySelector("#Eingabegewicht").value;
+   ziel = document.querySelector("#EingabeschrittZiel").value;
+   schrittLange = document.querySelector("#EingabeschrittLange").value;
+
+   //jetzt Daten lokal speichern
+
+   localStorage.setItem("name", name);
+   localStorage.setItem("gewicht", gewicht)
+   localStorage.setItem("schrittZiel", ziel);
+   localStorage.setItem("schrittLange", schrittLange);
+
+
+   setTimeout(function() {
+   window.location.reload(true);
+   }, 400);
+
+}
+```
+
+</td><td>Inhalt</td></tr>
 </table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
