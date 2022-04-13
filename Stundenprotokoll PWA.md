@@ -588,6 +588,8 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 
 
 <h2 id="kapitel3">3. APIs</h2>
+<p>In unserem Projekt haben wir keine richtigen Materialien, die wir beim Bau unserer APP benutzt haben. Trotzdem haben wir uns verschiedene Konzepte, die APIs zu Nutzen gemacht, die als Art Material zu verstehen sein könnten. Alle von uns eingesetzten APIs sind hier einmal aufgeführt. Dies dient der Übersicht über die eingesetzten APIs, eine genaue Erklärung der APIs gibt es auf unserer Projektseite.</p>
+
 
 <li>HTML Geolocation API</li>
 <li>HTML Web Storage API</li>
