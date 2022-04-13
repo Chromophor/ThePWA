@@ -582,6 +582,8 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
   
   ![grafik](https://user-images.githubusercontent.com/88386045/163176130-342fb9e0-5658-44ac-82e9-ecc1126dec11.png)
   
+  ![grafik](https://user-images.githubusercontent.com/88386045/163198030-f28fd491-9752-4f0e-9148-f01d4f46e6d2.png)
+  
   </details>
 
 
