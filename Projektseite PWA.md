@@ -324,7 +324,7 @@ Die Funktion ``showError(error)`` wird immer dann ausgeführt, wenn es ein Probl
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-```
+```javascript
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").then(registration => {
         console.log("SW registered");
