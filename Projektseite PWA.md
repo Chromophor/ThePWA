@@ -366,7 +366,8 @@ function displayNotification(argument) {
 ```
   
 </td><td>
-Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nutzen. Der Status, also entweder erlaubt (granted) oder verboten (denied).
+  
+Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nutzen. Der Status, also entweder erlaubt (granted) oder verboten (denied). Anschließend wird die Funktion ``displayNotification(argument)`` definiert, die sich ausführen lässt und dafür sorgt, dass eine Push-Benachrichtigung an den User gesandt wird.
 </td></tr>
 </table>
   
