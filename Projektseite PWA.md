@@ -130,7 +130,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
     
     
   <h3>Health-Tipps</h3>
-  <p></p>
+  <p>Wir schlagen unserem User vor, Sport zu machen und Training durchzuführen. Auch regen wir dazu an, mehr Wasser zu trinken, da dies Gesund ist und viele Menschen leider zu wenig trinken. Deshalb erinnern wir den User durch eine Benachrichtigung daran, genug Wasser zu trinken.</p>
   
   <h3>Einstellungen</h3>
   <p>Falls unser User beim Einrichrten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
