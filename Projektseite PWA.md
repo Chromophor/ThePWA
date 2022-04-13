@@ -380,6 +380,7 @@ setInterval(function() {
 In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von 100ms ausgeführt. In dieser wird die Anzahl der Schritte aktualisiert und gleichzeitig die Funktion ``streckeBerechnen()`` und ``kalorienBerechnen()`` ausgeführt.
 </td></tr>
 </table>
+<br>
   
 <h3>Code Index.js - Javascript</h3>
   
