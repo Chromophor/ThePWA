@@ -484,7 +484,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-```javascript
+```html
 <div id="popup" class="modal">
   <!-- Inhalt -->
   <div class="modalcontent" id="modal-content">
