@@ -336,7 +336,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 </details>
 
 <p id="Stunde18"><b>Samstag 26.02.2022</b><br>
-  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts/Home Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können. Besonders viel Zeit nahm heute das Design des Wasserglases (siehe Screenshots) in Anspruch.</p>
+  Am Wochenende haben wir mit dem Design der PWA weiter gemacht. Wir haben dabei die Übersichts-/ Home-Seite designt, die verschiedene Übersichten über das sportliche Programm zeigen soll. In der nächsten Stunde werden wir gemeinsam absprechen, ob der Designvorschlag passend ist oder noch einmal überarbeitet werden muss. Dies könnten wir uns eventuell bei den Farben vorstellen, die jederzeit wieder geändert werden können. Besonders viel Zeit nahm heute das Design des Wasserglases (siehe Screenshots) in Anspruch.</p>
   
 <details><summary>Screenshots vom 26.02.2022</summary>
   
@@ -359,7 +359,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 </details>
 
 <p id="Stunde19"><b>Dienstag 01.03.2022</b><br></p>
-  Wir haben uns heute mit dem am Samstag erstellten Design beschäftigt und dies zu Beginn der Stunde gemeinsam besprochen. Dabei haben wir uns darauf geeinigt, dass wir dies Design so wie vorgeschlagen umsetzen. An den Farben und den Formen können wir im Nachhinnein immer noch arbeiten. Dafür haben wir mit CSS viele neue Klassen erstellt. Z.B. haben wir den Timer bzw. das  Trainingsprogramm überarbeitet. Anstatt eines Eingabefeldes für Zahlen, was bisher für die User-Interaktion eingesetzt wurde, aber wenig intuitiv ist, durch ein Schiebe-Regler ersetzt. Dieser funktioniert bisher allerdings nur für den Trainingswert. Es ist ein Input-Feld, welches wie folgt aussieht. Wir möchten die eingegebene Zahl aber auch anzeigen, weshalb wir dies mit einer Query auslesen. Der ausgelesene Wert wird einmal pro Sekunde aktualisiert.</p>
+  Wir haben uns heute mit dem am Samstag erstellten Design beschäftigt und dies zu Beginn der Stunde gemeinsam besprochen. Dabei haben wir uns darauf geeinigt, dass wir dies Design sowie vorgeschlagen umsetzen. An den Farben und den Formen können wir im Nachhinein immer noch arbeiten. Dafür haben wir mit CSS viele neue Klassen erstellt. Z.B. haben wir den Timer bzw. das  Trainingsprogramm überarbeitet. Anstatt eines Eingabefeldes für Zahlen, was bisher für die User-Interaktion eingesetzt wurde, aber wenig intuitiv ist, durch einen Schiebe-Regler ersetzt. Dieser funktioniert bisher allerdings nur für den Trainingswert. Es ist ein Input-Feld, welches wie folgt aussieht. Wir möchten die eingegebene Zahl aber auch anzeigen, weshalb wir dies mit einer Query auslesen. Der ausgelesene Wert wird einmal pro Sekunde aktualisiert.</p>
   
 <details><summary>Neues Eingabefeld</summary>
   
