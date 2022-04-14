@@ -233,7 +233,7 @@ Des Weiteren haben wir in dieser Stunde das Menü unserer App weiterentwickelt. 
 
 <p id="Stunde11"><b>Mittwoch 02.02.2022</b><br>
   Heute haben wir an unserem Schrittzähler weitergearbeitet. Dabei haben wir uns dazu entschieden bei der Auswertung der Geschwindigkeit alle drei Achsen zu verwenden, da das Smartphone sonst nur in einer bestimmte Ausrichtung Schritte zählen kann. Hierfür addieren wir die Geschwindigkeiten aller drei Achsen und ziehen dann die Beschleunigung der Erdanziehung ab. Leider ist unser Versuch misslungen, da auf dem Feld die Zahl 5 auch bei absoluter Ruhe angezeigt wird, obwohl 0 Beschleunigung angezeigt werden sollte.<br>
-Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel unterschiedliches Tempo oder auf der Stelle, es aber auch Bewegungen für das Handy gibt die keine Schritte sind, müssen wir uns für einen fertigen Schrittzähler noch genauere Bedingungen überlegen. Zu den genaueren bedingungen zählt die Geschwindigkeit. Mithilfe der Geolocation-API kann sowohl die Geschwindikeit als auch die Längen- und Breitengrade ausgegeben werden. In dieser Stunde sind wir bisher nur dazu gekommen, die Koordinaten auszugeben (siehe Screenshots). Außerdem haben wir unser Menü noch weiter gestaltet und Kleinigkeiten geändert damit das Menü auf allen Bildschirmen gleich aussieht. Bisher waren hier kleine Verschiebungen zu erkennen.</p>
+Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel unterschiedliches Tempo oder auf der Stelle, es aber auch Bewegungen für das Handy gibt die keine Schritte sind, müssen wir uns für einen fertigen Schrittzähler noch genauere Bedingungen überlegen. Zu den genaueren Bedingungen zählt die Geschwindigkeit. Mithilfe der Geolocation-API kann sowohl die Geschwindikeit als auch die Längen- und Breitengrade ausgegeben werden. In dieser Stunde sind wir bisher nur dazu gekommen, die Koordinaten auszugeben (siehe Screenshots). Außerdem haben wir unser Menü noch weiter gestaltet und Kleinigkeiten geändert damit das Menü auf allen Bildschirmen gleich aussieht. Bisher waren hier kleine Verschiebungen zu erkennen.</p>
 
 
 <details><summary>Screenshots vom 02.02.2022</summary>
@@ -264,13 +264,14 @@ Da es aber viele verschiedene Möglichkeiten gibt zu gehen, zum Beispiel untersc
   ```javascript
   var aGesamt = ((acl.x + acl.y + acl.z) - 9,5);
   ```
-  Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``. Behoben haben wir diesen Fehler, indem wir ``9.5`` eingesetzt haben. Anschließend hat unsere Berechnung funktioniert und wurde auf der Website angezeigt. In Absprache mit Ihnen haben sie uns zu der Formel ``Wurzel aus der Beschleunigung der Achsen zum Quadrat`` geraten. Dies ergibt den Betrag bzw. die Länge des Beschleunigungsvektors. In Javascript ausgedrückt ergibt dies:
+  Im Code werden aber keine Zahlen mit Komma akzeptiert und aus ``9,5`` wird ``5``. Behoben haben wir diesen Fehler, indem wir ``9.5`` eingesetzt haben. Anschließend hat unsere Berechnung funktioniert und wurde auf der Website angezeigt. In Absprache mit Ihnen haben sie uns zu der Formel ``Wurzel aus der Beschleunigung der Achsen zum Quadrat`` geraten. Dies ergibt den Betrag bzw. die Länge des Beschleunigungsvektors. In JavaScript ausgedrückt ergibt dies:
+
   ```javascript
   var aGesamt = Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z - 9.5), 2));
   ```
   Mit ```Math.sqrt()``` wird die Wurzel aus einem Wert gezogen und mit ```Math.pow(acl.x, 2)``` wird der Wert der Beschleunigung in X-Achsenrichtung ``acl.x`` hoch der Potenz ``2`` genommen.
 Zusätzlich haben wir heute versucht, das Problem mit der Geolocation API zu beheben. Dazu haben wir die Elemente des Datensatzes, der durch die Geolocation API zurückgegeben wird, einer ``Alert()`` Funktion übergeben. Die Elemente Längen- und Breitengrade, und deren Genauigkeit werden inklusive der Höhe in einem Pop-Up-Feld angezeigt.
-Außerdem haben wir uns darum gekümmert, dass unsere App weitere Funktionen erhält. Hierzu war unsere Idee den Timer den wir bisher hatten durch einen Timer für Intervalltraining zu ersetzen. Hier soll sich ein Timer für das Training mit einem Timer für Pausen abwechseln. Wie lang die jeweiligen Abschnitte sein sollen, kann der Anwender vorher selber auswählen. Am Ende der Doppelstunde funktionierte der Timer allerdings noch nicht so wie geplant und gab verschiedene Fehlermeldungen (z. B. Function is not defined).
+Außerdem haben wir uns darum gekümmert, dass unsere App weitere Funktionen erhält. Hierzu war unsere Idee den Timer den wir bisher hatten durch einen Timer für Intervalltraining zu ersetzen. Hier soll sich ein Timer für das Training mit einem Timer für Pausen abwechseln. Wie lang die jeweiligen Abschnitte sein sollen, kann der Anwender vorher selber auswählen. Am Ende der Doppelstunde funktionierte der Timer allerdings noch nicht so wie geplant und gab verschiedene Fehlermeldungen (z. B. function is not defined).
 
 <details><summary>Screenshots vom 08.02.2022</summary>
   
@@ -282,17 +283,17 @@ Außerdem haben wir uns darum gekümmert, dass unsere App weitere Funktionen erh
 </details>
   
 <p id="Stunde13"><b>Mittwoch 09.02.2022</b><br></p>
-
   Heute haben wir uns erneut mit der Formel zur Berechnung der Beschleunigung beschäftigt. Die Formel der letzten Stunde hat uns leider noch nicht zum Erfolg geführt, weshalb wir die Formel noch einmal abgeändert haben. Dabei mussten wir die Erdbeschleunigung vom totalen Beschleunigungsvektor abziehen. Unsere neue Formel lautet daher:  
+  
 ```javascript
 var aGesamt =  (Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow((acl.z), 2)) - 9.5);
 ```
-Nach kurzer Überlegeung haben wir uns aber für eine andere Formel entschieden, da ansonsten noch keinen korrekten Betrag gebildet haben. Wir haben die Formel daher noch einmal umgeformt und haben diese Formel abschließend hochgeladen:
+Nach kurzer Überlegung haben wir uns aber für eine andere Formel entschieden, da ansonsten noch keinen korrekten Betrag gebildet haben. Wir haben die Formel daher noch einmal umgeformt und haben diese Formel abschließend hochgeladen:
 ```javascript
-var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5 , 2));
+var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5, 2));
 ```
-Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Bescheunigung größer als 1 und kleiner als 2 ist. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird. Das bedeutet aber leider auch, dass der Schrittzähler nicht sehr genau arbeitet, da es bereits genügt, das Smartphone mit der richtigen Beschleunigung (also zwischen 1 und 2) anzuheben, um einen weiteren Schritt in die Statistik aufzunehmen. Dennoch funktioniert der Schrittzähler und wir werden uns einem anderen Modul der APP widmen. Falls wir später noch Zeit haben, können wir den Schrittzähler nocheinmal überarbeiten.
-Außerdem haben wir den Timer für das Intervalltraining weiter verbessert. Allerdings gibt es immernoch verschiedene Feheler, vor allem die Timer richtig nacheinander auszuführen. So läuft der zweite Timer schon während der erste läuft und es muss im richtigen Moment der andere eingeblendet werden. Ein Problem war hier auch die verschiedenen Funktionformen von Javascript mit synchronem und asynchronem Code. Aus diesem Grund mussten wir auch eine erste Lösung wieder verwerfen, die wir mit zwei while-schleifen programmiert haben, da in dieser Schleife erst Werte zurückgegeben werden, wenn die Schleife fertig durchgelaufen ist. Am Ende der Stunde wurde aber schon immerhin Start und Ende richtig angezeigt.
+Mit der Korrekten Formel funktioniert unser Schrittzähler auch schon bereits, zwar nicht besonders zuverlässig, aber er funktioniert. Ein Schritt wird nur gezählt, wenn die gemessene Beschleunigung größer als 1 und kleiner als 2 ist. Die Werte haben wir experimentell mit einer Schrittreihe ermittelt. Das bedeutet, dass ein Schritt immer am Punkt der größten Beschleunigung gezählt wird. Das bedeutet aber leider auch, dass der Schrittzähler nicht sehr genau arbeitet, da es bereits genügt, das Smartphone mit der richtigen Beschleunigung (also zwischen 1 und 2) anzuheben, um einen weiteren Schritt in die Statistik aufzunehmen. Dennoch funktioniert der Schrittzähler und wir werden uns einem anderen Modul der APP widmen. Falls wir später noch Zeit haben, können wir den Schrittzähler noch einmal überarbeiten.
+Außerdem haben wir den Timer für das Intervalltraining weiter verbessert. Allerdings gibt es immer noch verschiedene Fehler, vor allem die Timer richtig nacheinander auszuführen. So läuft der zweite Timer schon während der erste läuft und es muss im richtigen Moment der andere eingeblendet werden. Ein Problem war hier auch die verschiedenen Funktionsformen von JavaScript mit synchronem und asynchronem Code. Aus diesem Grund mussten wir auch eine erste Lösung wieder verwerfen, die wir mit zwei while-schleifen programmiert haben, da in dieser Schleife erst Werte zurückgegeben werden, wenn die Schleife fertig durchgelaufen ist. Am Ende der Stunde wurde aber schon immerhin Start und Ende richtig angezeigt.
 
 <p id="Stunde14"><b>Dienstag 15.02.2022</b><br></p>
 
