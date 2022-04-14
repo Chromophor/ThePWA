@@ -632,7 +632,6 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
   <tr><td>Service Worker API</td>   <td>
 Der Service-Worker wird bei uns eingesetzt, um Daten zu fetchen (offline zu speichern) und den User zur Verfügung zu stellen. Außerdem werden über ihn weitere wichtige Funktionen gesteuert. Nähere Informationen zum Service-Worker gibt es <a href="#kapitel6">hier</a>. Der Service-Worker basiert auf der Web Workers API und beschreibt eine, im Hintergrund ausgeführte, Programmlogik.    
                                          </td>       <td>Ja</td>     <td>Ja</td>   <td>(Ja) </td>  <td>(Ja) </td> </tr>
-  <tr><td>XX</td> <td></td> <td>XX</td> <td>XX</td> <td>XX</td>     <td>XX</td> </tr>
 </table>
   
   
