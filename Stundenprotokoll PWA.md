@@ -372,7 +372,7 @@ In dieser Stunde haben wir weiter an unserem Projekt gearbeitet. Zum Teil haben 
 <p>Außerdem haben wir uns mit der Storage-API weiter beschäftigt. Um dieses neue Feld anzugehen, haben wir eine weitere "Baustelle" eröffnet. Wir haben uns dafür entschieden, dass wir die APP so gestalten, dass die APP den User direkt, mit Namen anspricht. Dafür müssen wir am Anfang, also bei der Einrichtung der APP, den Namen des Users abfragen. Dazu haben wir heute eine Möglichkeit gesucht, um dies umzusetzen. Am Ende der Stunde haben wir eine Möglichkeit gefunden und bereits begonnen, dies umzusetzen. Die Idee ist es, ein Pop-Up-Feld beim Starten zu öffnen, in welches man seinen Namen einträgt.</p>
 
 <p id="Stunde20"><b>Mittwoch 02.03.2022</b><br></p>
-Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen, die bei ihrem Projekt auch mit php arbeiten, wo wir durch unser letztes Projekt schon einige Erfahrungen haben. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentiell und auch das auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert und ausgelöst per Java-Script. Auch ein Input-Feld haben wir bereits auf dem Pop-Up eingebaut. Wir wollen den Namen aber auch speichern, weshalb wir dieses Input-Feld auch auslesen müssen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen. Das Input-Feld hat daher den folgenden Code:</p>
+Heute haben wir das Design weiter umgesetzt und David und Simon nebenbei bei ihren Problemen und Fragen weitergeholfen, die bei ihrem Projekt auch mit php arbeiten, wo wir durch unser letztes Projekt schon einige Erfahrungen haben. Außerdem haben wir uns weiter mit dem Pup-Up-Feld beschäftigt. Ein erster Testlauf konnte bereits heute stattfinden. Das Design des Pop-Up-Feldes ist noch sehr experimentell und auch das Auslösen des Pop-Up-Feldes ist nur zu Testzwecken buttongesteuert. Die Animation und das Aussehen des Pop-Up-Feldes wird per CSS gesteuert und ausgelöst per JavaScript. Auch ein Input-Feld haben wir bereits auf dem Pop-Up eingebaut. Wir wollen den Namen aber auch speichern, weshalb wir dieses Input-Feld auch auslesen müssen. Dabei haben wir uns mit dem gleichen Ansatz wie bei dem Dreh-Regler ausgeholfen. Das Input-Feld hat daher den folgenden Code:</p>
  
 ```HTML
 <p>Dein Name:  <input type="text" name="name" id="name" placeholder="Dein Name..."></p>
@@ -391,8 +391,8 @@ Um das Feld auszulesen, nutzen wir die JSQuery. Bisher sah dies wie folgt aus.
 </details>
 
 <p id="Stunde21"><b>Montag 07.03.2022</b><br></p>
-  Heute war SET-Frei und deshalb sahen wir die Möglichkeit, weiter an unserem Projekt zu arbeiten. Dabei haben wir uns weiter mit dem Modal beschäftigt. In der letzten Stunde haben wir es nur hingekriegt, ein Inputfeld auszulesen. Diesen ausgelesenen Wert haben wir heute weiter verarbeitet, indem er in einer lokalen Datenbank auf dem jeweiligen Gerät gespeichert wird. Dazu mussten wir noch einen weiteren Button hinzufügen, der den gespeicherten Wert zur Überprüfung, ob dies auch wirklich funktioniert, ausgibt. Und wie gewünscht hat dies auch funktioniert. Man kann die Website nach der Eingabe neu laden und der Name ist noch immer gespeichert. Man kann sogar den Browser schließen und der eingegebene Wert (bzw. Name) bleibt gespeichert (siehe Screenshots). Dies ermöglicht es uns, den Namen für direkte User-Interaktion zu verwenden.
-Dafür haben wir zu Beginn in der Funktion, die das Input-Feld ausliest den Namen lokal gespeichert:
+  Heute war SET-Frei und deshalb sahen wir die Möglichkeit, weiter an unserem Projekt zu arbeiten. Dabei haben wir uns weiter mit dem Modal beschäftigt. In der letzten Stunde haben wir es nur hingekriegt, ein Inputfeld auszulesen. Diesen ausgelesenen Wert haben wir heute weiterverarbeitet, indem er in einer lokalen Datenbank auf dem jeweiligen Gerät gespeichert wird. Dazu mussten wir noch einen weiteren Button hinzufügen, der den gespeicherten Wert zur Überprüfung, ob dies auch wirklich funktioniert, ausgibt. Und wie gewünscht hat dies auch funktioniert. Man kann die Website nach der Eingabe neu laden und der Name ist noch immer gespeichert. Man kann sogar den Browser schließen und der eingegebene Wert (bzw. Name) bleibt gespeichert (siehe Screenshots). Dies ermöglicht es uns, den Namen für direkte User-Interaktion zu verwenden.
+Dafür haben wir zu Beginn in der Funktion, die das Input-Feld ausliest, den Namen lokal gespeichert:
   
 ```javascript
 localStorage.setItem("name", name);
@@ -404,7 +404,7 @@ function ausgeben(){
   testausgabe.innerHTML = localStorage.getItem("name");
 } 
 ```
-Nachdem dies funktioniert hatte, haben wir das Design des Modals etwas angepasst und die Button gestylt un die Größe des Modals ebenfalls angepasst. Dazu soll das Modal sich nicht am Bildschirmrand öffnen, sondern sich in der Mitte befinden. Dies ist auf jede Geräte-Größe automatisch anpassbar.
+Nachdem dies funktioniert hatte, haben wir das Design des Pop-Ups etwas angepasst und den Button gestylt sowie die Größe des Pop-Ups angepasst. Dazu soll das Pop-Up sich nicht am Bildschirmrand öffnen, sondern sich in der Mitte befinden. Dies ist auf jede Geräte-Größe automatisch anpassbar.
 
 <details><summary>Screenshots vom 07.03.2022</summary>
   
