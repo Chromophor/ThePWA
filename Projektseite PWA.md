@@ -447,7 +447,7 @@ setInterval( function(){
   
 </td><td>
   
-Damit unsere APP auch eine gewisse Logik verfolgt, müssen Daten, wie die täglich gezählten Schritte oder die Anzahl der getrunkenen Gläser täglich zurückgesetzt werden. Da wir bisher nicht in der Lage waren, einen Hintergrundsynchronisierung zu implementieren, mussten wir uns auf einem anderen Weg behelfen. Dazu haben wir eine Funktion geschrieben, die in einem Intervall von einer Sekunde ausgeführt wird. Dabei wird jedes Mal das Datum neu abgerufen und in der Variable ``datum`` gespeichert. Anschließend gewinnen wir Monat, Tag Stunde etc. von dem Datum und prüfen, ob das Datum ungleich dem lokal gespeicherten Datum ist. Sofern dies der Fall ist, also ein Tag vergangen ist, werden  Die Werte ``Schritte``, ``Glas`` und ``rundenheu`` zurückgesetzt, indem die Variablen den Wert 0 erhält.
+Damit unsere APP auch eine gewisse Logik verfolgt, müssen Daten, wie die täglich gezählten Schritte oder die Anzahl der getrunkenen Gläser täglich zurückgesetzt werden. Da wir bisher nicht in der Lage waren, einen Hintergrundsynchronisierung zu implementieren, mussten wir uns auf einem anderen Weg behelfen. Dazu haben wir eine Funktion geschrieben, die in einem Intervall von einer Sekunde ausgeführt wird. Dabei wird jedes Mal das Datum neu abgerufen und in der Variable ``datum`` gespeichert. Anschließend gewinnen wir Monat, Tag Stunde etc. von dem Datum und prüfen, ob das Datum ungleich dem lokal gespeicherten Datum ist. Sofern dies der Fall ist, also ein Tag vergangen ist, werden  Die Werte ``Schritte``, ``Glas`` und ``rundenheu`` zurückgesetzt, indem die Variablen den Wert 0 erhält. Abschließend wird die Seite neu geladen.
 </td></tr>
 <tr><td>
   
