@@ -37,6 +37,7 @@ setInterval( function(){
 
     //nun aktuelles Datum lokal speichern
     localStorage.setItem("Tag", day);
+    window.location.reload(true);
   }
 }, 1000);
 
