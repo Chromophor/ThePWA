@@ -678,7 +678,9 @@ In diesem Abschnitt wird der Name der APP auf ``ThePWA`` festgelegt, welcher nac
   ],
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+In diesem Abschnitt   
+</td></tr>
 <tr><td>
   
 ```json
