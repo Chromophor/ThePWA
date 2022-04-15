@@ -146,6 +146,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Übersicht:</h3>
   <li>5.1 Code des Service-Workers - JavaScript</li>
   <li>5.2 Code für den Schrittzähler - JavaScript</li>
+  <li>5.3 Code Index.js - Javascript</li>
+  <li>5.4 Code des Pop-Ups - HTML und JavaScript</li>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -405,7 +407,7 @@ In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von
   
   
   
-<h3>Code Index.js - Javascript</h3>
+<h3>5.3 Code Index.js - Javascript</h3>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -485,7 +487,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
     
 </details>
   
-<h3>Code des Pop-Ups - HTML und JavaScript</h3>
+<h3>5.4 Code des Pop-Ups - HTML und JavaScript</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
