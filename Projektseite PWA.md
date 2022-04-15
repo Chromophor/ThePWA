@@ -1101,6 +1101,36 @@ Des Weiteren wird hier das Symbol zum Öffnen des Menüs eingefügt. Wird auf di
 </table>
   
   
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>
+
+```html
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="webmanifest.json">
+<script src="index.js"></script>
+<script>
+    navigator.serviceWorker.register("sw.js");
+</script>
+<title>ThePWA</title>
+```
+  
+</td><td>
+Diese Seite wird am Anfang jeder anderen Seite eingefügt. Hier werden grundlegende Sachen zum Dokument geregelt, wie der verwendete Zeichensatz. Außerdem werden das Stylesheet, das Webmanifest und ein Javascript-dokument (Erklärung siehe Index.js) verlinkt. Am Ende wird zusätzlich der Serviceworker registriert und der Titel der Website im Browsertab definiert.
+</td></tr>
+</table>
+  
+<p>Das Menü an der Unterseite der App funktioniert identisch zu dem Seitenmenü, außer dass es nicht aufklappt. Außerdem haben wir hier statt Text transparente Bilder von Symbolen verwendet, die die Funktion der jeweils verlinkten Seite darstellen.</p>
+  
+<p>Das Stylesheet beinhaltet das Styling für fast alle unsere Seiten. Hier werden sämtliche Farben, Schriftgrößen, Textmarkierungen, Abstände, Effekte und Anordnungen geregelt. Ohne das Stylesheet würde unsere App nur aus verschiedenen Seiten mit untereinanderstehendem Text bestehen.</p>
+  
+  
+
+  
+  
   
   
   
