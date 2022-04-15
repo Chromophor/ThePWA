@@ -589,7 +589,7 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
   
-```  
+```json  
 {
   "name": "ThePWA",
   "short_name": "ThePWA",
@@ -608,7 +608,7 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 </td><td>Inhalt</td></tr>
 <tr><td>
   
-```
+```json
   "icons": [{
           "src": "/bilder/icon512.png",
           "sizes": "512x512",
