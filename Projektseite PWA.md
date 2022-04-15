@@ -606,6 +606,42 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 ```
   
 </td><td>Inhalt</td></tr>
+<tr><td>
+  
+```
+  "icons": [{
+          "src": "/bilder/icon512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      },
+      {
+          "src": "/bilder/icon192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "/bilder/icon120.png",
+          "sizes": "120x120",
+          "type": "image/png"
+      },
+      {
+          "src": "/bilder/icon60.png",
+          "sizes": "60x60",
+          "type": "image/png"
+      },
+      {
+          "src": "/bilder/icon57.png",
+          "sizes": "57x57",
+          "type": "image/png"
+      },
+      {
+          "src": "/bilder/favicon.ico",
+          "sizes": "32x32"
+      }
+  ],
+```
+  
+</td><td>Inhalt</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
