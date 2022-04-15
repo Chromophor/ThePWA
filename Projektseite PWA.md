@@ -179,6 +179,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li><a href="#cSe">5.8 Code der Settings - HTML und Javascript</a></li>
   <li><a href="#cSm">5.9 Code des Sidemenüs - HTML, Javascript und PHP</a></li>
   <li><a href="#cCo">5.10 Code der Config - HTML</a></li>
+  <li><a href="#cUe">5.11 Code der Übersicht - HTML und Javascript</a></li>
 
   
 <table>
@@ -1147,7 +1148,58 @@ Diese Seite wird am Anfang jeder anderen Seite eingefügt. Hier werden grundlege
   
 <p>Das Stylesheet beinhaltet das Styling für fast alle unsere Seiten. Hier werden sämtliche Farben, Schriftgrößen, Textmarkierungen, Abstände, Effekte und Anordnungen geregelt. Ohne das Stylesheet würde unsere App nur aus verschiedenen Seiten mit untereinanderstehendem Text bestehen.</p>
   
+
   
+
+<h3 id="cUe">5.11 Code der Übersicht - HTML und Javascript</h3>
+  
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>
+
+```javascript
+function werteZeigen() {
+      //Name zeigen
+      namE = localStorage.getItem("name");
+      if (String(localStorage.getItem("name")) != "null"){
+        begrueßung.innerHTML = ", " + namE;
+      }
+      //Wasser zeigen
+      wasserzw = Number(localStorage.getItem("Glas"));
+      wassergl.innerHTML = wasserzw;
+      //Schritte zeigen
+      schrittezw = Number(localStorage.getItem("Schritte"));
+      schrittean.innerHTML = schrittezw;
+      //Schrittziel zeigen
+      schrittzielzw = Number(localStorage.getItem("schrittZiel"));
+      schrittzielan.innerHTML = schrittzielzw;
+      schrittzielan1.innerHTML = schrittzielzw;
+      //Runden heu anzeigen
+      rundenheuzw = Number(localStorage.getItem("rundenheu"));
+      rundenheuan.innerHTML = rundenheuzw;
+      //Runden ges anzeigen
+      rundengeszw = Number(localStorage.getItem("rundenges"));
+      rundengesan.innerHTML = rundengeszw;
+}
+```
+  
+</td><td>
+Auf der Startseite unserer Webseite wird eine Übersicht mit verschiedenen Daten angezeigt. Diese Daten sind alle im Localstorage gespeichert. Diese Funktion wird immer mit dem Laden der Webseite einmal aufgerufen und sorgt dafür, dass die Werte an den Stellen in der Übersicht angezeigt werden.
+</td></tr>
+<tr><td>
+
+```html
+<section class="schritte">
+      <p class="u-title">Schritte</p>
+      <p><span id="schrittean"></span>/<span id="schrittzielan"></span></p>
+      <p><span id="schrittzielan1"></span></p>
+</section>
+```
+  
+</td><td>
+Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersicht. An dieser Stelle werden die Werte aus dem Localstorage, die am Anfang geladen werden angezeigt. Der Aufbau ist bei allen Kästenchen ähnlich.
+</td></tr>
+</table>
 
   
   
