@@ -44,7 +44,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   ![Screenshot (5)](https://user-images.githubusercontent.com/88386049/163552158-a7eb0d3f-3285-4012-b1fb-4163f7ee73bb.png)
 
   <h4>Android</h4>
-  <p>Unter Android lässt sich der Browser Chrome sehr gut nutzen. Verfügt man über ein Samsung Handy, so kann man auch den Samsung-Browser nutzen. In Firefox-Mobile wird unsere PWA nicht unterstützt.</p>
+  <p>Unter Android lässt sich der Browser Chrome sehr gut nutzen. Verfügt man über ein Samsung Handy, so kann man auch den Samsung-Browser nutzen. In Firefox-Mobile wird unsere PWA nicht unterstützt.<br><br>
+    <b>1.</b>
   
 
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
