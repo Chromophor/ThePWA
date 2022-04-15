@@ -895,7 +895,8 @@ const timerpause = setInterval(function() {
             let timeleftpause = endpause - new Date().getTime();
 
   
-            if (timeleftpause > 0 && timeleftpause < endpause - endtraining && anhalten === false) {
+            if (timeleftpause > 0 &&
+               timeleftpause < endpause - endtraining && anhalten === false) {
                 let pauseseconds = (timeleftpause / 1000);
                 pauseseconds = (Math.round(pauseseconds)) - 1;
                 timerhenrik.innerHTML = 'Pause: ' + pauseseconds
