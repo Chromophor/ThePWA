@@ -1046,8 +1046,58 @@ Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>
+
+```php
+<?php 
+$page = $_SERVER["REQUEST_URI"];
+?>
+```
+  
+</td><td>
+Dieser Code fragt die URL der momentanen Seite ab und speichert sie in einer Variable. Die URL dient dazu immer die Seite in den Menüs hervorzuheben auf der man sich grade befindet.  
+</td></tr>
+<tr><td>
+
+```html
+<nav class="menu">
+      <ul>
+          <p class="listtitle">ThePWA</p>
+          <li class="drop <?php if (($page == "/index.php") or ($page == "/"))
+              {echo "jetzt";}?>"><a href="index.php">Startseite</a></li>
+          <li class="drop <?php if ($page == "/timer.php") {echo "jetzt";}?>">
+              <a href="timer.php">Training</a></li>
+          <li class="drop <?php if ($page == "/sensor.php") {echo "jetzt";}?>">
+              <a href="sensor.php">Sensor</a></li>
+          <li class="drop <?php if ($page == "/drink.php") {echo "jetzt";}?>">
+              <a href="drink.php">Trinkziel</a></li>
+          <li class="drop <?php if ($page == "/settings.php") {echo "jetzt";}?>">
+              <a href="settings.php">Einstellungen</a></li>
+      </ul>
+</nav>
+```
+  
+</td><td>
+An dieser Stelle ist die Liste für das Menü an der oberen rechten Seite der App. Dort sind die verschiedenen Seiten der App verlinkt. Durch eine if-Abfrage mit einem Vergleich der URL wird festgestellt auf welcher Seite sich der Benutzer befindet und dieser Link farblich hervorgehoben.
+</td></tr>
+<tr><td>
+
+```html
+<section class="klappen">
+      <p class="opener">☰</p>
+</section>
+
+<script>
+      var change = document.querySelector(".opener")
+      change.addEventListener("click", function() {
+          document.querySelector(".menu").classList.toggle("open");
+      })
+</script>
+```
+  
+</td><td>
+Des Weiteren wird hier das Symbol zum Öffnen des Menüs eingefügt. Wird auf diese geklickt ändern sich wieder die Klassen einiger HTML Elemente und das Menü klappt auf.  
+</td></tr>
 </table>
   
   
