@@ -27,11 +27,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <h4>Windows</h4>
   
   <p>Unter Windows lassen sich die Browser Microsoft-Edge und Chrome am Besten verwenden. Nur hier können wir für die Funktion unserer APP garantieren, da die anderen Browser das Konzept einer Progressive-Web-App nicht unterstützen. Folgende Schritte sind zur Installation notwendig:<br><br>
-   1. Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
-   2. In der URL-Leiste tauchen Symbole auf. Das auf dem Bild unten markierte Icon anklicken, es installiert unsere APP. Sollte dies Icon nicht vorhanden sein, dann sollte man die Browser-Version überprüfen und ggf. die neuste Version installieren.</p>
+    <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
+    <b>2.</b> In der URL-Leiste tauchen Symbole auf. Das auf dem Bild unten markierte Icon anklicken, es installiert unsere APP. Sollte dies Icon nicht vorhanden sein, dann sollte man die Browser-Version überprüfen und ggf. die neuste Version installieren.</p>
   
    ![ig](https://user-images.githubusercontent.com/88386049/163550811-1fb395b6-bcc2-49eb-b6a2-5f07e793af64.PNG)
-<p>3. Es öffnet sich ein Dialog-Fenster, wo man unsere PWA über den "Installieren" Button installieren kann. Die dann installierte APP lässt sich problemlos in die Windows-Umgebung integrieren.</p>
+  <p><b>3.</b> Es öffnet sich ein Dialog-Fenster, wo man unsere PWA über den "Installieren" Button installieren kann. Die dann installierte APP lässt sich problemlos in die Windows-Umgebung integrieren.</p>
   
    ![Screenshot (6)](https://user-images.githubusercontent.com/88386049/163551371-9e34d8ce-3413-4f2a-83ab-4a8ffc4ba023.png)
 
