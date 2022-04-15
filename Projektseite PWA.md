@@ -144,7 +144,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h2 id="kapitel5">5. Der Code</h2>
   
   <h3>Übersicht:</h3>
-  <li>5.1 Code des Service-Workers - JavaScript</li>
+  <li><a href="#cSW">5.1 Code des Service-Workers - JavaScript</a></li>
   <li>5.2 Code für den Schrittzähler - JavaScript</li>
   <li>5.3 Code Index.js - Javascript</li>
   <li>5.4 Code des Pop-Ups - HTML und JavaScript</li>
