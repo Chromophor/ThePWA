@@ -759,8 +759,10 @@ Dieser Abschnitt sorgt für die ständige Aktualisierung der Werte der Schiebere
         </section>
 
         <section class="rangenext">
-            <input class="outputrange" type="range" max="90" step="5" name="training" id="t-wert">
-            <input class="outputrange" type="range" max="90" step="5" name="pause" id="p-wert">
+            <input class="outputrange" type="range" max="90"
+                   step="5" name="training" id="t-wert">
+            <input class="outputrange" type="range" max="90"
+                   step="5" name="pause" id="p-wert">
         </section>
 
         <section class="starternext">
