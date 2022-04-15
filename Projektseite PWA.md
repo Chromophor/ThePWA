@@ -613,7 +613,9 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
   "prefer_related_applications": false,
 ```
   
-</td><td>Inhalt</td></tr>
+</td><td>
+In diesem Abschnitt wird der Name der APP auf ``ThePWA`` festgelegt, welcher nach der Installation auf dem Home-Bildschirm angezeigt wird. Außerdem wird die Hintergrundfarbe, die Farbe der Statusleiste oben am Handy (mit ``theme_color`` und die Orientierung, in der die APP angezeigt werden soll (Potrait-Mode und fullscreen), festgelegt. Außerdem wird die Beschreibung der APP (``A PWA to do your sports!``), sowie die Sprache der APP (deutsch) ergänzt.
+</td></tr>
 <tr><td>
   
 ```json
