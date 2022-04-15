@@ -709,6 +709,8 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei
   </details>
   
   
+<h3 id="cT">5.6 Code der Trainingsseite - HTML und Javascript</h3>
+  
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
@@ -775,11 +777,14 @@ Dieser Abschnitt sorgt für die ständige Aktualisierung der Werte der Schiebere
   
   
 </td><td>
-  Dieser Teil ist für das individuelle Trainingsprogramm auf der Trainingsseite. Hier wird der gesamte Output geregelt, also die Schieberegler, die Wertanzeigen dazu und auch der Startenbutton. Die Sections dienen dem Styling mit dem CSS-Flexboxmodell.
+Dieser Teil ist für das individuelle Trainingsprogramm auf der Trainingsseite. Hier wird der gesamte Output geregelt, also die Schieberegler, die Wertanzeigen dazu und auch der Startenbutton. Die Sections dienen dem Styling mit dem CSS-Flexboxmodell.
 Die vorgefertigten Trainings sind gleich aufgebaut und nutzen an den meisten Stellen die gleichen Variablen und Klassen. Der einzige Unterschied ist, dass der Wert schon vorher festgelegt ist und die Schieberegler deswegen fehlen.
 </td></tr>
 </table>
   
+  
+  
+<h3 id="cTr">5.4 Code des Trainingtimers - HTML, JavaScript und PHP</h3>
   
   <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -944,6 +949,9 @@ Durch ein klicken auf einen der Buttons werden die Klassen von einigen HTML Elem
 </table>
   
   
+  
+<h3 id="cSe">5.4 Code der Settings - HTML und JavaScript</h3>
+  
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
@@ -1043,6 +1051,9 @@ Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind
 </td></tr>
 </table>
   
+  
+  
+<h3 id="cSm">5.4 Code des Sidemenüs - HTML, JavaScript und PHP</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -1100,6 +1111,9 @@ Des Weiteren wird hier das Symbol zum Öffnen des Menüs eingefügt. Wird auf di
 </td></tr>
 </table>
   
+  
+  
+<h3 id="cCo">5.4 Code der Config - HTML</h3>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
