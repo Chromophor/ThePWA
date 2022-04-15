@@ -29,6 +29,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <p>Unter Windows lassen sich die Browser Microsoft-Edge und Chrome am Besten verwenden. Nur hier können wir für die Funktion unserer APP garantieren, da die anderen Browser das Konzept einer Progressive-Web-App nicht unterstützen. Folgende Schritte sind zur Installation notwendig:<br><br>
    1. Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
    2. In der URL-Leiste tauchen Symbole auf. Das auf dem Bild unten markierte Icon anklicken, es installiert unsere APP. Sollte dies Icon nicht vorhanden sein, dann sollte man die Browser-Version überprüfen und ggf. die neuste Version installieren.
+   ![ig](https://user-images.githubusercontent.com/88386049/163550811-1fb395b6-bcc2-49eb-b6a2-5f07e793af64.PNG)
+ 
+    
   
 
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
