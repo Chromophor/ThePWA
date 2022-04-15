@@ -145,8 +145,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   
   <h3>Übersicht:</h3>
   <li><a href="#cSW">5.1 Code des Service-Workers - JavaScript</a></li>
-  <li>5.2 Code für den Schrittzähler - JavaScript</li>
-  <li>5.3 Code Index.js - Javascript</li>
+  <li><a href="#cSZ">5.2 Code für den Schrittzähler - JavaScript</a></li>
+  <li><a href="#cIJ">5.3 Code Index.js - Javascript</a></li>
   <li>5.4 Code des Pop-Ups - HTML und JavaScript</li>
   <li>5.5 Code des Webmanifest - Json</li>
   
@@ -239,7 +239,7 @@ Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachr
 
 </details>
   
-<h3>5.2 Code für den Schrittzähler - JavaScript</h3>   
+<h3 id="cSZ">5.2 Code für den Schrittzähler - JavaScript</h3>   
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -408,7 +408,7 @@ In der Funktion ``anzeigen()`` wird eine weitere Funktion in einem Intervall von
   
   
   
-<h3>5.3 Code Index.js - Javascript</h3>
+<h3 id="cIJ">5.3 Code Index.js - Javascript</h3>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
