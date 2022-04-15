@@ -26,8 +26,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   <h4>Windows</h4>
   
-  <p>Unter Windows lassen sich die Browser Microsoft-Edge und Chrome am Besten verwenden. Nur hier können wir für die Funktion unserer APP garantieren, da die anderen Browser das Konzept einer Progressive-Web-App nicht unterstützen. Folgende Schritte sind zur Installation notwendig:<br>
-   1. Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br>
+  <p>Unter Windows lassen sich die Browser Microsoft-Edge und Chrome am Besten verwenden. Nur hier können wir für die Funktion unserer APP garantieren, da die anderen Browser das Konzept einer Progressive-Web-App nicht unterstützen. Folgende Schritte sind zur Installation notwendig:<br><br>
+   1. Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
    2. In der URL-Leiste tauchen Symbole auf.
   
 
