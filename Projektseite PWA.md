@@ -1024,7 +1024,8 @@ Diese Funktionen dienen dazu, die eingestellten Werte der Schieberegler und den 
         
       <section class="change">
           <section class="divider">
-              <p>Dein Name: <br><input type="text" name="name" id="name" placeholder="Dein Name..."                               class="input"></p>
+              <p>Dein Name: <br><input type="text" name="name" id="name"
+                 placeholder="Dein Name..." class="input"></p>
           </section>
           <section class="divider">
               <p>Momentaner Name:<br><span id="namean"></span></p>
