@@ -711,7 +711,20 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>
+  
+```javascript
+function kalorienBerechnen(){
+  var Kal = 0.035;
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
+  Kalorien.innerHTML = kalorien;
+}
+```
+  
+</td><td>
+Erklärung
+</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
