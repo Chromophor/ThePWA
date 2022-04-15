@@ -714,17 +714,76 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei
 <tr><td>
   
 ```javascript
-function kalorienBerechnen(){
-  var Kal = 0.035;
-  var schritte = Number(localStorage.getItem("Schritte"));
-  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
-  Kalorien.innerHTML = kalorien;
-}
+function ausgabe() {    
+        let trwert = document.querySelector("#t-wert").value;
+        trwertausgabe.innerHTML = " " + trwert + " Sekunden";
+        let pawert = document.querySelector("#p-wert").value;
+        pawertausgabe.innerHTML = " " + pawert + " Sekunden";
+        }
+
+const jetzt = setInterval(function() {
+    ausgabe();
+}, 100);
 ```
   
 </td><td>
-Erklärung
+Dieser Abschnitt sorgt für die ständige Aktualisierung der Werte der Schieberegler. Am Anfang haben diese einen Wert. Wenn man den Schieberegler bewegt würde der Wert sich sonst jedoch nicht verändern.
 </td></tr>
+<tr><td>
+  
+```html
+  <section class="ubergang">
+
+        <section class="uberschrift">
+            <h1 class="welches">Individuelles Training</h1>
+        </section>
+        
+        <form class="form" action="training.php" method="post">
+        <section class="next">
+        <section class="together">
+            <section class="front">
+                <p class="output">Training:</p>
+            </section>
+            <section class="middle1">
+            <div class="output" id="trwertausgabe">45</div>
+            </section>
+        </section>
+        <section class="together">
+            <section class="front">
+                <p class="output">Pause:</p>
+            </section>
+            <section class="middle2">
+            <div class="output" id="pawertausgabe">45</div>
+            </section>
+        </section>
+        </section>
+
+        <section class="rangenext">
+            <input class="outputrange" type="range" max="90" step="5" name="training" id="t-wert">
+            <input class="outputrange" type="range" max="90" step="5" name="pause" id="p-wert">
+        </section>
+
+        <section class="starternext">
+        <input class="starter" type="submit" value="Training starten">
+        </section>
+        </form>
+
+    </section>
+```
+  
+  
+</td><td>
+  Dieser Teil ist für das individuelle Trainingsprogramm auf der Trainingsseite. Hier wird der gesamte Output geregelt, also die Schieberegler, die Wertanzeigen dazu und auch der Startenbutton. Die Sections dienen dem Styling mit dem CSS-Flexboxmodell.
+Die vorgefertigten Trainings sind gleich aufgebaut und nutzen an den meisten Stellen die gleichen Variablen und Klassen. Der einzige Unterschied ist, dass der Wert schon vorher festgelegt ist und die Schieberegler deswegen fehlen.
+</td></tr>
+</table>
+  
+  
+  
+  
+  <table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 </table>
   
