@@ -24,7 +24,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   <h3 id="guide">Installations-Guide</h3>
   
-  <h4>Windows</h4>
+  <details><summary>Windows</summary>
   
   <p>Unter Windows lassen sich die Browser Microsoft-Edge und Chrome am Besten verwenden. Nur hier können wir für die Funktion unserer APP garantieren, da die anderen Browser das Konzept einer Progressive-Web-App nicht unterstützen. Folgende Schritte sind zur Installation notwendig:<br><br>
     <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
@@ -42,6 +42,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   ![ig2](https://user-images.githubusercontent.com/88386049/163552142-d9f901b9-8c16-4fb4-9534-25a6afff26b9.PNG)
  
   ![Screenshot (5)](https://user-images.githubusercontent.com/88386049/163552158-a7eb0d3f-3285-4012-b1fb-4163f7ee73bb.png)
+    
+    
+  </details>
 
   <h4>Android</h4>
   <p>Unter Android lässt sich der Browser Chrome sehr gut nutzen. Verfügt man über ein Samsung Handy, so kann man auch den Samsung-Browser nutzen. In Firefox-Mobile wird unsere PWA nicht unterstützt.<br><br>
