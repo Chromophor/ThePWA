@@ -174,6 +174,12 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li><a href="#cIJ">5.3 Code Index.js - Javascript</a></li>
   <li><a href="#cPP">5.4 Code des Pop-Ups - HTML und JavaScript</a></li>
   <li><a href="#cWM">5.5 Code des Webmanifest - Json</a></li>
+  <li><a href="#cT">5.6 Code der Trainingsseite - HTML und Javascript</a></li>
+  <li><a href="#cTr">5.7 Code des Trainingtimers - HTML, Javascript und PHP</a></li>
+  <li><a href="#cSe">5.8 Code der Settings - HTML und Javascript</a></li>
+  <li><a href="#cSm">5.9 Code des Sidemenüs - HTML, Javascript und PHP</a></li>
+  <li><a href="#cCo">5.10 Code der Config - HTML</a></li>
+
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -784,7 +790,7 @@ Die vorgefertigten Trainings sind gleich aufgebaut und nutzen an den meisten Ste
   
   
   
-<h3 id="cTr">5.4 Code des Trainingtimers - HTML, JavaScript und PHP</h3>
+<h3 id="cTr">5.7 Code des Trainingtimers - HTML, JavaScript und PHP</h3>
   
   <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -950,7 +956,7 @@ Durch ein klicken auf einen der Buttons werden die Klassen von einigen HTML Elem
   
   
   
-<h3 id="cSe">5.4 Code der Settings - HTML und JavaScript</h3>
+<h3 id="cSe">5.8 Code der Settings - HTML und JavaScript</h3>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -1053,7 +1059,7 @@ Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind
   
   
   
-<h3 id="cSm">5.4 Code des Sidemenüs - HTML, JavaScript und PHP</h3>
+<h3 id="cSm">5.9 Code des Sidemenüs - HTML, JavaScript und PHP</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -1113,7 +1119,7 @@ Des Weiteren wird hier das Symbol zum Öffnen des Menüs eingefügt. Wird auf di
   
   
   
-<h3 id="cCo">5.4 Code der Config - HTML</h3>
+<h3 id="cCo">5.10 Code der Config - HTML</h3>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
