@@ -944,6 +944,106 @@ Durch ein klicken auf einen der Buttons werden die Klassen von einigen HTML Elem
 </table>
   
   
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>
+
+```javascript
+function speichernname() {
+      let nameneu = document.querySelector("#name").value;
+      if (nameneu != "") {
+          localStorage.setItem("name", nameneu);
+          window.location.reload(true);
+      }
+  }
+  
+function speicherngewicht() {
+      let gewichtneu = document.querySelector("#Eingabegewicht").value;
+      localStorage.setItem("gewicht", gewichtneu);
+      window.location.reload(true);
+}
+
+function speichernschrittlange() {
+      let schrittlangeneu = document.querySelector("#EingabeschrittLange").value;
+      localStorage.setItem("schrittLange", schrittlangeneu);
+      window.location.reload(true);
+}
+
+function speichernschrittziel() {
+      let schrittzielneu = document.querySelector("#EingabeschrittZiel").value;
+      localStorage.setItem("schrittZiel", schrittzielneu);
+      window.location.reload(true);
+}
+```
+  
+</td><td>
+Dies sind die verschiedenen Funktionen, die aufgerufen werden, wenn man auf die jeweiligen Speichernbuttons drückt. Dadurch werden dann die momentan an den Schiebereglern eingestellten Werte oder der neue Name im Localstorage gespeichert. Der Name wird nur gespeichert, wenn das Feld nicht leer ist, da man ansonsten durch erneutes klicken seinen Namen nicht geändert hat, sondern gar keinen Namen mehr hat. Am Ende von jeder Funktion wird einmal die Seite neugeladen, um dem Nutzer zu signalisieren, dass seine Änderung angenommen wurde.  
+</td></tr>
+<tr><td>
+
+```javascript
+function ausgabe() {    
+      let gewichtan = document.querySelector("#Eingabegewicht").value;
+      Gewichtausgabe.innerHTML = gewichtan;
+
+      let schrittlangean = document.querySelector("#EingabeschrittLange").value;
+      Schrittlangeausgabe.innerHTML = schrittlangean;
+
+      let schrittzielan = document.querySelector("#EingabeschrittZiel").value;
+      Zielausgabe.innerHTML = schrittzielan;
+}
+
+const jetzt = setInterval(function() {
+      ausgabe();
+}, 100);
+
+
+function werteZeigen() {
+      //Name zeigen
+      namezw = localStorage.getItem("name");
+      namean.innerHTML = namezw;
+      //Gewicht zeigen
+      gewichtzw = Number(localStorage.getItem("gewicht"));
+      gewichtan.innerHTML = gewichtzw;
+      //Schrittlänge zeigen
+      schrittlangezw = Number(localStorage.getItem("schrittLange"));
+      schrittlangean.innerHTML = schrittlangezw;
+      //Schrittziel zeigen
+      schrittzielzw = Number(localStorage.getItem("schrittZiel"));
+      schrittzielan.innerHTML = schrittzielzw;
+}
+```
+  
+</td><td>
+Diese Funktionen dienen dazu, die eingestellten Werte der Schieberegler und den bisher eingestellten Wert aus dem Localstorage zu entnehmen und anzuzeigen.  
+</td></tr>
+<tr><td>
+
+```html
+<section class="settings">
+        
+      <section class="change">
+          <section class="divider">
+              <p>Dein Name: <br><input type="text" name="name" id="name" placeholder="Dein Name..."                               class="input"></p>
+          </section>
+          <section class="divider">
+              <p>Momentaner Name:<br><span id="namean"></span></p>
+          </section>
+      </section>
+          <section class="save">
+              <button class="speichern" onclick="speichernname()">Speichern</button>
+          </section>
+
+</section>
+```
+
+</td><td>
+Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind von der Grundstruktur alle gleich und geben die Werte und den Text drumherum aus. Außerdem sind hier die Buttons aufgeführt, die die Funktionen zum Speichern auslösen. Die Sections dienen auch hier zum Styling mit dem CSS-Boxmodell.  
+</td></tr>
+</table>
+  
+  
+  
   
   
   <table>
