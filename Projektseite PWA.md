@@ -679,7 +679,7 @@ In diesem Abschnitt wird der Name der APP auf ``ThePWA`` festgelegt, welcher nac
 ```
   
 </td><td>
-In diesem Abschnitt   
+In diesem Abschnitt werden die Icons als Bilder geladen. Dabei 
 </td></tr>
 <tr><td>
   
