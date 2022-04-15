@@ -643,3 +643,4 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 <li>https://www.t-online.de/gesundheit/id_91272456/wasserbedarf-rechner-so-viel-wasser-brauchen-sie-pro-tag.html</li>
 <li>https://pixabay.com/de/illustrations/aquarell-hintergrund-blau-aquarell-4490904/</li>
 <li>https://de.w3docs.com/snippets/css/wie-kann-man-ein-hintergrundbild-hinzufugen.html</li>
+<li>https://www.delftstack.com/de/howto/javascript/javascript-if-statement-multiple-conditions/</li>
