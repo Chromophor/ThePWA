@@ -34,6 +34,7 @@ setInterval( function(){
     localStorage.setItem("Schritte", 0);
     localStorage.setItem("Glas", 0);
     localStorage.setItem("rundenheu", 0);
+    localStorage.setItem("gesendet", false);
 
     //nun aktuelles Datum lokal speichern
     localStorage.setItem("Tag", day);
