@@ -147,8 +147,8 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li><a href="#cSW">5.1 Code des Service-Workers - JavaScript</a></li>
   <li><a href="#cSZ">5.2 Code für den Schrittzähler - JavaScript</a></li>
   <li><a href="#cIJ">5.3 Code Index.js - Javascript</a></li>
-  <li>5.4 Code des Pop-Ups - HTML und JavaScript</li>
-  <li>5.5 Code des Webmanifest - Json</li>
+  <li><a href="#cPP">5.4 Code des Pop-Ups - HTML und JavaScript</a></li>
+  <li><a href="#cWM">5.5 Code des Webmanifest - Json</a></li>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -488,7 +488,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
     
 </details>
   
-<h3>5.4 Code des Pop-Ups - HTML und JavaScript</h3>
+<h3 id="cPP">5.4 Code des Pop-Ups - HTML und JavaScript</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -591,7 +591,7 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 <br>
 
   
-<h3>5.5 Code des Webmanifest - Json</h3>
+<h3 id="cWM">5.5 Code des Webmanifest - Json</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
