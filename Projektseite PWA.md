@@ -583,8 +583,10 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 </td></tr>
 </table>
 <br>
+
   
-  
+<h3>Code des Webmanifest - Json</h3>
+
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>
