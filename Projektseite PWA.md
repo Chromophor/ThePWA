@@ -137,7 +137,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Offline-Funktion</h3>
   <p>Unsere APP kann nach dem ersten Einrichten offline verwenden, obwohl man dadurch keine Updates duch uns erhalten kann. Dennoch wurden beim ersten Einrichten alle Dateien (also Seiten, JS-Dokumente und Icons) heruntergeladen. Außerdem kommuniziert unsere APP nur sehr selten mit unserem Server. Daten wie der User-name oder die Schrittanzahl werden nicht mit dem Server synchronosiert, sondern lediglich lokal gespeichert. Das macht unsere APP auch besonders datensparsam, da wir keine Daten über den User sammeln, was bei eigentlich jeder anderen Fitness-APP der Fall ist.</p>
   
-  <h3>Anmeldund per Pop-Up</h3>
+  <h3>Anmeldung per Pop-Up</h3>
   <p>Bei der Einrichtung unserer APP setzen wir auf ein Pop-Up, welches sich immer beim ersten Öffnen unserer APP zeigt. In dem Pup-Up kann/muss der User bestimmte Daten eingeben, wobei der User direkt angesprochen wird. Er muss seinen Benutzernamen, sein Gewicht, seine Schrittlänge und sein tägliches Schrittziel angeben. Anschließend muss der User den ``Speichern`` Button drücken. Das Pop-Up bewegt sich mit einem CSS-Effekt in den Bildschirm und bewegt sich nach dem Speichern aus dem Bildschirm-Bereich heraus. Anschließend wird die Seite neu geladen und die Übersicht wird mit den eingegebenen Daten angezeigt (siehe Übersicht).</p>
   
   <details><summary>Screenshots bei der Anmeldung</summary>
@@ -164,7 +164,6 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Einstellungen</h3>
   <p>Falls unser User beim Einrichrten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
   
-  <p>Hier Fähigkeiten unserer APP auflisten! Design nicht vergessen</p>
   
   
   <h2 id="kapitel5">5. Der Code</h2>
@@ -708,6 +707,13 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei
   <p>Auch in der Task-Leiste wird unser Logo angezeigt.</p>
   
   </details>
+  
+  
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+</table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
   
