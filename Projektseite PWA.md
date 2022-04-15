@@ -31,6 +31,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
    2. In der URL-Leiste tauchen Symbole auf. Das auf dem Bild unten markierte Icon anklicken, es installiert unsere APP. Sollte dies Icon nicht vorhanden sein, dann sollte man die Browser-Version überprüfen und ggf. die neuste Version installieren.</p>
   
    ![ig](https://user-images.githubusercontent.com/88386049/163550811-1fb395b6-bcc2-49eb-b6a2-5f07e793af64.PNG)
+<p>3. Es öffnet sich ein Dialog-Fenster, wo man unsere PWA über den "Installieren" Button installieren kann. Die dann installierte APP lässt sich problemlos in die Windows-Umgebung integrieren.</p>
+  
+   ![Screenshot (6)](https://user-images.githubusercontent.com/88386049/163551371-9e34d8ce-3413-4f2a-83ab-4a8ffc4ba023.png)
+
  
     
   
