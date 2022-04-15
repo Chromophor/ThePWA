@@ -1,7 +1,7 @@
 # --> ThePWA <--
 <h1>PWA -- Stundenprotokoll</h1>
 
-![grafik](https://user-images.githubusercontent.com/88386045/163566882-a788f926-7cfb-44ca-b505-1b96854aecd8.png)
+
 
 <h3> Inhalt </h3>
 <ul style="list-stlye-type:none">
@@ -586,6 +586,17 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
   ![grafik](https://user-images.githubusercontent.com/88386045/163176130-342fb9e0-5658-44ac-82e9-ecc1126dec11.png)
   
   ![grafik](https://user-images.githubusercontent.com/88386045/163198030-f28fd491-9752-4f0e-9148-f01d4f46e6d2.png)
+  
+  </details>
+ 
+ 
+<p id="Stunde34"><b>Freitag 15.04.2022</b><br>
+  
+  </p>
+  
+  <details><summary></summary>
+ 
+  ![grafik](https://user-images.githubusercontent.com/88386045/163566882-a788f926-7cfb-44ca-b505-1b96854aecd8.png)
   
   </details>
 
