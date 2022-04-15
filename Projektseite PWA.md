@@ -642,7 +642,22 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 ```
   
 </td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>
+  
+```json
+  "scope": "./",
+  "start_url": "./",
+  "features": [
+      "Cross Platform",
+      "fast",
+      "simple"
+  ],
+  "categories": [
+      "utility"
+  ]
+}
+```
+</td><td>Inhalt</td></tr>
 </table>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
