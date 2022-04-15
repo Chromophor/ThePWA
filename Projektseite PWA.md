@@ -38,9 +38,9 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <p><b>4.</b> Die APP öffnet sich bereits in einem separaten Fenster, wo sich ein weiteres Dialog-Fenster öffnet, mit welchem man zulassen kann, wo die APP angeheftet werden soll. Es ist möglich, die APP in die Task-Leiste zu integrieren oder einfach auf dem Desktop anzeigen zu lassen. Nach der abgeschlossenen Installation ist die APP an dem Ort zu finden, wo sie zuvor integriert werden sollte. In unserem Beispiel fügen wir die APP lediglich zum Desktop hinzu. Dort ist anschließend das Logo unserer APP zu sehen und, wenn man mit der Maus länger über dem Logo weilt, zeigt sich die Beschreibung der APP. Das Logo unserer APP ist bei geöffneter APP auch in der Status-Leiste vorzufinden.</p>
   
   ![ig1](https://user-images.githubusercontent.com/88386049/163552134-5f87505e-0423-4dd1-8005-8a1f2f023d6b.PNG)
-  <br>
+ 
   ![ig2](https://user-images.githubusercontent.com/88386049/163552142-d9f901b9-8c16-4fb4-9534-25a6afff26b9.PNG)
-  <br>
+ 
   ![Screenshot (5)](https://user-images.githubusercontent.com/88386049/163552158-a7eb0d3f-3285-4012-b1fb-4163f7ee73bb.png)
 
     
