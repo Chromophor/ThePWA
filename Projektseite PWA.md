@@ -1043,11 +1043,18 @@ Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind
 </td></tr>
 </table>
   
+
+<table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+<tr><td>Inhalt</td><td>Inhalt</td></tr>
+</table>
   
   
   
   
-  <table>
+  
+<table>
 <tr><th>Code</th><th>Erklärung</th></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
 <tr><td>Inhalt</td><td>Inhalt</td></tr>
