@@ -715,14 +715,14 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei
   
 ```javascript
 function ausgabe() {    
-        let trwert = document.querySelector("#t-wert").value;
-        trwertausgabe.innerHTML = " " + trwert + " Sekunden";
-        let pawert = document.querySelector("#p-wert").value;
-        pawertausgabe.innerHTML = " " + pawert + " Sekunden";
-        }
+      let trwert = document.querySelector("#t-wert").value;
+      trwertausgabe.innerHTML = " " + trwert + " Sekunden";
+      let pawert = document.querySelector("#p-wert").value;
+      pawertausgabe.innerHTML = " " + pawert + " Sekunden";
+      }
 
 const jetzt = setInterval(function() {
-    ausgabe();
+  ausgabe();
 }, 100);
 ```
   
@@ -732,51 +732,213 @@ Dieser Abschnitt sorgt für die ständige Aktualisierung der Werte der Schiebere
 <tr><td>
   
 ```html
-  <section class="ubergang">
+<section class="ubergang">
 
-        <section class="uberschrift">
-            <h1 class="welches">Individuelles Training</h1>
-        </section>
-        
-        <form class="form" action="training.php" method="post">
-        <section class="next">
-        <section class="together">
-            <section class="front">
-                <p class="output">Training:</p>
-            </section>
-            <section class="middle1">
-            <div class="output" id="trwertausgabe">45</div>
-            </section>
-        </section>
-        <section class="together">
-            <section class="front">
-                <p class="output">Pause:</p>
-            </section>
-            <section class="middle2">
-            <div class="output" id="pawertausgabe">45</div>
-            </section>
-        </section>
-        </section>
-
-        <section class="rangenext">
-            <input class="outputrange" type="range" max="90"
-                   step="5" name="training" id="t-wert">
-            <input class="outputrange" type="range" max="90"
-                   step="5" name="pause" id="p-wert">
-        </section>
-
-        <section class="starternext">
-        <input class="starter" type="submit" value="Training starten">
-        </section>
-        </form>
-
+    <section class="uberschrift">
+        <h1 class="welches">Individuelles Training</h1>
     </section>
+        
+    <form class="form" action="training.php" method="post">
+    <section class="next">
+    <section class="together">
+        <section class="front">
+            <p class="output">Training:</p>
+        </section>
+        <section class="middle1">
+        <div class="output" id="trwertausgabe">45</div>
+        </section>
+    </section>
+    <section class="together">
+        <section class="front">
+            <p class="output">Pause:</p>
+        </section>
+        <section class="middle2">
+        <div class="output" id="pawertausgabe">45</div>
+        </section>
+    </section>
+    </section>
+
+    <section class="rangenext">
+        <input class="outputrange" type="range" max="90"
+               step="5" name="training" id="t-wert">
+        <input class="outputrange" type="range" max="90"
+               step="5" name="pause" id="p-wert">
+    </section>
+
+    <section class="starternext">
+    <input class="starter" type="submit" value="Training starten">
+    </section>
+    </form>
+
+</section>
 ```
   
   
 </td><td>
   Dieser Teil ist für das individuelle Trainingsprogramm auf der Trainingsseite. Hier wird der gesamte Output geregelt, also die Schieberegler, die Wertanzeigen dazu und auch der Startenbutton. Die Sections dienen dem Styling mit dem CSS-Flexboxmodell.
 Die vorgefertigten Trainings sind gleich aufgebaut und nutzen an den meisten Stellen die gleichen Variablen und Klassen. Der einzige Unterschied ist, dass der Wert schon vorher festgelegt ist und die Schieberegler deswegen fehlen.
+</td></tr>
+</table>
+  
+  
+  <table>
+<tr><th>Code</th><th>Erklärung</th></tr>
+<tr><td>
+  
+```javascript
+<script>
+  let training = Number(<?php echo json_encode($_POST["training"]); ?>);
+  let pause = Number(<?php echo json_encode($_POST["pause"]); ?>);
+</script>
+```
+  
+</td><td>
+An dieser Stelle werden die Werte der Variablen empfangen und damit die Zeiten für Training und Pause. Die Vermittlung der Werte zwischen den Seiten wird mit der POST Funktion von php gemacht. Da Javascript diese Werte jedoch nicht lesen kann, müssen sie mit Json dargestellt werden. Json dient also als Vermittler zwischen den beiden Programmiersprachen.  
+</td></tr>
+<tr><td>
+
+```javascript
+function laufen() {
+
+      starthenrikTimer();
+
+      const warten = setInterval(function() {
+          if (weiter === true) {
+          starthenrikTimer();
+          weiter = false;
+      }
+      }, 100);
+    
+      const stop = setInterval(function() {
+          if (anhalten === true && zuruck === false) {
+              clearInterval(warten);
+              clearInterval(stop);
+          }
+          if (anhalten === true && zuruck === true) {
+              zuruck = false;
+              clearInterval(warten);
+              clearInterval(stop);
+              window.location = "/index.php"
+          }
+      }, 100);
+  }
+
+  const directback = setInterval(function() {
+      if (back === true) {
+          clearInterval(directback);
+          window.location = "/index.php"
+      }
+  }, 100);
+```
+  
+</td><td>
+Nach dem ersten Starten des Timers soll dieser in einer Endlosschleife laufen. Dafür sorgt eine Funktion, die mit einer if-Schleife 10 mal die Sekunde abfragt, ob der Timer am Ende angekommen ist. Außerdem sind die verschiedenen Fälle für das Anhalten und Beenden des Trainings geregelt.  
+</td></tr>
+<tr><td>
+
+```javascript
+function starthenrikTimer() {
+      if (!timerhenrikStarted) {
+          let startTime = new Date().getTime();
+          let trainingszeit = (1000 * training) + 1000;
+          let pausezeit = (1000 * pause) + 1000;
+          let endtraining = startTime + trainingszeit;
+          let endpause = startTime + pausezeit + trainingszeit;
+          timerhenrik.innerHTML = 'Training: ' + training;
+```
+  
+</td><td>
+Dieser Code ist der Anfang des eigentlichen Timers. Die Zeiten wie lange welcher Teil laufen muss, wird über die aktuelle Zeit erfasst. Diese ist in Millisekunden seit dem 1. Januar 1970 angegeben. Auf diesen Wert wird die Dauer des Trainings in Millisekunden aufaddiert. Dadurch bekommt man den Zeitpunkt an dem das Training fertig ist.  
+</td></tr>
+<tr><td>
+
+```javascript
+const timertraining = setInterval(function() {
+
+                let timelefttraining = endtraining - new Date().getTime();
+
+
+                if (timelefttraining >= 0 && anhalten === false) {
+                    let trainingseconds = (timelefttraining / 1000);
+                    trainingseconds = (Math.round(trainingseconds)) - 1;
+                    timerhenrik.innerHTML ='Training: ' + trainingseconds;
+                }
+                else if (anhalten === true) {
+                    timerhenrik.innerHTML = 'Training';
+                    clearInterval(timertraining);
+                    clearInterval(timerpause);
+                    anhalten = false;
+                }
+                else {
+                    runden++;
+                    runde.innerHTML = 'Runden: ' + runden;
+                    rundenspeicherges = Number(localStorage.getItem("rundenges"));
+                    rundenspeicherges = rundenspeicherges + 1;
+                    localStorage.setItem("rundenges", rundenspeicherges);
+                    rundenspeicherheu = Number(localStorage.getItem("rundenheu"));
+                    rundenspeicherheu = rundenspeicherheu + 1;
+                    localStorage.setItem("rundenheu", rundenspeicherheu);
+                    clearInterval(timertraining);
+                }
+            }, 1000); 
+```
+  
+</td><td>
+Durch einfache if-Schleifen in einem Intervall wird hier abgefragt, ob der Wert der momentanen Zeit schon größer ist als der Wert für das Ende des Trainings. Ist dies nicht der Fall wird die Differenz gerundet in Sekunden angegeben. Ist dies der Fall wird der Intervall für das Training beendet.  
+</td></tr>
+<tr><td>
+
+```javascript
+const timerpause = setInterval(function() {
+                        
+
+            let timeleftpause = endpause - new Date().getTime();
+
+  
+            if (timeleftpause > 0 && timeleftpause < endpause - endtraining && anhalten === false) {
+                let pauseseconds = (timeleftpause / 1000);
+                pauseseconds = (Math.round(pauseseconds)) - 1;
+                timerhenrik.innerHTML = 'Pause: ' + pauseseconds
+            } 
+            else if (timeleftpause >= endpause - endtraining && anhalten === false) {
+            }
+            else if (anhalten === true) {
+                timerhenrik.innerHTML = 'Training';
+                clearInterval(timerpause);
+                anhalten = false;
+            }
+            else {
+                clearInterval(timerpause);
+                weiter = true;
+            }
+        }, 1000);
+    }
+}
+```
+  
+</td><td>
+Hier ist der Code für das Intervall des Pause Timers gezeigt. Dieser läuft von Anfang an parallel mit, da auf die aktuelle Uhrzeit am Anfang sowohl die Pausenzeit als auch die Trainingszeit aufaddiert wurde, um die Endzeit der Pause zu erhalten. Der Pausetimer wird durch if-Schleifen erst angezeigt, wenn die Differenz zwischen Endpunkt des Trainings und Endpunkt der Pause größer ist als der Rest des Pausentimers.
+</td></tr>
+<tr><td>
+
+```javascript
+<script>
+    var change = document.querySelector(".trainingstart")
+    change.addEventListener("click", function() {
+        document.querySelector(".trainingstart-box").classList.toggle("startweg");
+        document.querySelector(".trainingende-box").classList.toggle("endeda");
+    })
+
+    var change = document.querySelector(".trainingpause")
+    change.addEventListener("click", function() {
+        document.querySelector(".trainingstart-box.startweg").classList.toggle("startweg");
+        document.querySelector(".trainingende-box.endeda").classList.toggle("endeda");
+    })
+</script>
+```
+  
+</td><td>
+Durch ein klicken auf einen der Buttons werden die Klassen von einigen HTML Elementen geändert. Dadurch ändert sich das Styling und je nach Status des Trainings sieht man die richtigen Buttons. Die anderen befinden sich zu der Zeit außerhalb des angezeigten Bereichs.
 </td></tr>
 </table>
   
