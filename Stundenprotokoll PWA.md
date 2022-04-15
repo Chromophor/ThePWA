@@ -1,5 +1,6 @@
 # --> ThePWA <--
 <h1>PWA -- Stundenprotokoll</h1>
+![grafik](https://user-images.githubusercontent.com/88386045/163566882-a788f926-7cfb-44ca-b505-1b96854aecd8.png)
 
 <h3> Inhalt </h3>
 <ul style="list-stlye-type:none">
