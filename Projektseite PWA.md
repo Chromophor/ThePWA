@@ -148,6 +148,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li>5.2 Code für den Schrittzähler - JavaScript</li>
   <li>5.3 Code Index.js - Javascript</li>
   <li>5.4 Code des Pop-Ups - HTML und JavaScript</li>
+  <li>5.5 Code des Webmanifest - Json</li>
   
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
@@ -590,7 +591,7 @@ Mit der Funktion ``speichern`` werden die Werte aus den Input-Feldern ausgelesen
 <br>
 
   
-<h3>Code des Webmanifest - Json</h3>
+<h3>5.5 Code des Webmanifest - Json</h3>
 
 <table>
 <tr><th>Code</th><th>Erklärung</th></tr>
