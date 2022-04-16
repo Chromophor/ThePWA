@@ -75,11 +75,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
     
     
 
-    
+    <img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677219-e595ef8c-aa2c-4063-812b-6d4778da5f63.png">
     
   </details>
   
-<img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677219-e595ef8c-aa2c-4063-812b-6d4778da5f63.png">
+
   
   
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
