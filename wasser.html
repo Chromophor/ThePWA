@@ -55,10 +55,15 @@ var benötigteGlaser = Math.round(Ziel / 0.2);
 var Glaser = Number(localStorage.getItem("Glas"));
 var nochbenötigteGlaser = benötigteGlaser - Glaser;
 
-if (12 < hour && i == false) {
-  localStorage.setItem("gesendet", true);
+if (!i){
+    localStorage.setItem("gesendet", false);
+}
+
+
+if (12 < hours && i == false) {
+    localStorage.setItem("gesendet", true);
   
-  displayNotification("Du hast heute noch nicht genug getrunken! Du musst noch " + nochbenötigteGlaser + " trinken.");
+    displayNotification("Du hast heute noch nicht genug getrunken! Du musst noch " + nochbenötigteGlaser + " trinken.");
 
 }
 }, 1000);
@@ -85,7 +90,7 @@ if (12 < hour && i == false) {
     }
 
     .hintergrund{
-    background-image:url(drop.jpg);
+    background-image:url(Bilder/drop.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
@@ -185,7 +190,7 @@ if (12 < hour && i == false) {
     <section class="center">
         <div class="wasserFeld">
             <p class="wasserubersicht">Heute hast du <br>schon <b><span id="anzahlGläser"></span> Gläser</b><br> Wasser getrunken.</p>
-            <img src="IconWasser.png" alt="Wasser" class="iconWasser">
+            <img src="Bilder/IconWasser.png" alt="Wasser" class="iconWasser">
 
             <div id="ladebalken" class="ladebalken">
                 <div id="fortschritt" class="fortschritt"></div>
