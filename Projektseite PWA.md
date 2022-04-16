@@ -54,6 +54,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   ![InkedScreenshot_20220415-112344_Samsung Internet_LI](https://user-images.githubusercontent.com/88386049/163676417-32f240e2-3522-48a1-ba3b-9d56b7d21062.jpg)
 
+  <p><b>3.</b> Beim Browser Samsung-Internet folgt nach der Installation der PWA eine Benachrichtigung, die aussagt, dass die APP erfolgreich installiert wurde. Die APP lässt sich nun auf dem Home-Bildschirm finden. Wenn man diese öffnet, kommt ein Lade-Bildschirm mit dem Namen und dem Logo der APP. Die URL-Leiste ist beim öffnen der APP nicht mehr zu sehen und die PWA ähnelt einer nativen APP.</p>
+    
+    
+    
   </details>
   
 
