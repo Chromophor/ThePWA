@@ -44,7 +44,6 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
  
   ![Screenshot (5)](https://user-images.githubusercontent.com/88386049/163552158-a7eb0d3f-3285-4012-b1fb-4163f7ee73bb.png)
     
-    
   </details>
 
   <details><summary><h4>Android</h4></summary>
