@@ -80,7 +80,10 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
 ![PNG-Bild1](https://user-images.githubusercontent.com/88386049/163677517-8e5f4249-66e7-47e7-a960-eb197a602371.jpg)
 
-    
+<p><b>4.</b> Es öffnet sich anschließend ein Dialog-Fenster, in welchem man bestätigen muss, dass die PWA hinzugefügt wird.</p>
+
+![PNG-Bild2](https://user-images.githubusercontent.com/88386049/163677599-ac1db7ee-23b4-4141-b225-734a8d816dd2.jpg)
+
     
   </details>
   
