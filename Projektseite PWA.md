@@ -70,13 +70,12 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
    
   <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
     <b>2.</b> Das "Teilen"-Symbol im Browser auswählen.</p>
-    
-    
-    
-    <img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677350-c933fc2c-555a-4375-97be-6011394a9de6.png">
 
 ![PNG-Bild(2)](https://user-images.githubusercontent.com/88386049/163677405-1e3ac2af-3f6c-4173-aea8-8bc68fa0c6cb.jpg)
 
+    <p><b>3.</b> Nach unten scrollen und "Zum Home-Bildschirm" auswählen. Dies fügt die APP dem Hom-Bildschirm hinzu.
+    
+    ![PNG-Bild1](https://user-images.githubusercontent.com/88386049/163677517-8e5f4249-66e7-47e7-a960-eb197a602371.jpg)
 
     
     
