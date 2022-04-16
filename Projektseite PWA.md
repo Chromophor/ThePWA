@@ -751,7 +751,9 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei haben wir unser I
   ]
 }
 ```
-</td><td>Inhalt</td></tr>
+</td><td>
+Hier wird noch der Scope festgelegt, also der Bereich, wo das Webmanifest geladen wird. Bei uns soll das Webmanifest bei jeder Datei geladen werden, weshalb der Scope "./" festgelegt wird, wodurch das Webmanifest auf jede Datei in dem Ordner angewendet wird. Außerdem speichern wir hier noch ein paar features der APP, die in bestimmten Einstellungen angezeigt werden.
+</td></tr>
 </table>
   
   <details><summary>Screenshots Webmanifest</summary>
