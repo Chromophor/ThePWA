@@ -85,11 +85,15 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 ![PNG-Bild2](https://user-images.githubusercontent.com/88386049/163677599-ac1db7ee-23b4-4141-b225-734a8d816dd2.jpg)
 
     
-<p><b>5.</b> Den browser schließen und die APP befindet sich auf dem Hom-Bildschirm. Ab IOS 15.4 wird auch unser Logo (siehe Screenshots) angezeigt, ansonsten wird nur eine Vorschau der APP im Icon gezeigt.</p>
+<p><b>5.</b> Den Browser schließen und die APP befindet sich nun schon bereits auf dem Home-Bildschirm. Ab IOS 15.4 wird auch unser Logo (siehe Screenshots) angezeigt, ansonsten wird nur eine Vorschau der APP im Icon gezeigt.</p>
     
 ![PNG-Bild4](https://user-images.githubusercontent.com/88386049/163677677-1a0df281-4230-4ce0-8c85-e6cb39f4c1d6.jpg)
 
+<p><b>6.</b> APP öffnen und die geforderten Daten eingeben. Wie man sieht, ist keine URL-Leiste mehr zu sehen, weshalb die APP an eine native erinnert.</p>
     
+![PNG-Bild5](https://user-images.githubusercontent.com/88386049/163677720-5b9b31ee-fbda-4e98-bf61-aa64b325a04b.jpg)
+
+
   </details>
   
 
