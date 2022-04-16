@@ -85,6 +85,11 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 ![PNG-Bild2](https://user-images.githubusercontent.com/88386049/163677599-ac1db7ee-23b4-4141-b225-734a8d816dd2.jpg)
 
     
+<p><b>5.</b> Den browser schließen und die APP befindet sich auf dem Hom-Bildschirm. Ab IOS 15.4 wird auch unser Logo (siehe Screenshots) angezeigt, ansonsten wird nur eine Vorschau der APP im Icon gezeigt.</p>
+    
+![PNG-Bild4](https://user-images.githubusercontent.com/88386049/163677677-1a0df281-4230-4ce0-8c85-e6cb39f4c1d6.jpg)
+
+    
   </details>
   
 
