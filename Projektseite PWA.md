@@ -733,6 +733,7 @@ In diesem Abschnitt wird der Name der APP auf ``ThePWA`` festgelegt, welcher nac
 ```
   
 </td><td>
+  
 In diesem Abschnitt werden die Icons als Bilder geladen. Dabei haben wir unser Icon in den Größen ``512x512``, ``192x192```, ``120x120``, ``60x60``, ``57x57`` und ``32x32`` Pixel abgespeichert, die jeweils andere Funktionen erfüllen. So wird das Logo mit der Größe 32x32 z.B. im Browser in der URL-Leiste angezeigt.
 </td></tr>
 <tr><td>
