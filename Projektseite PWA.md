@@ -73,13 +73,15 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
     
     
     
-    <img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677219-e595ef8c-aa2c-4063-812b-6d4778da5f63.png">
+    
 
     
     
   </details>
   
-
+<img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677219-e595ef8c-aa2c-4063-812b-6d4778da5f63.png">
+  
+  
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
   <p>Eine Progressive-Web-App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Zusammenspiel aus einer responsiven Website und einer App beschrieben werden. PWAs können mit HTML/PHP, CSS und JavaScript erstellt werden, ähnlich wie "normale" Websites. Zur Kommunikation zwischen User (Webclient) und Webserver ist das HTTPS-Protokoll vorgeschrieben, weshalb das Testen der PWA bei uns immer unter Simulation eines lokalen Servers geschehen musste, der das HTTPS-Protokoll verwendet.<br>
 Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Technologie. Da sie häufig nur experimentell unterstützt wird, wird das Konzept der PWA bisher selten angewandt. Es gibt aber bereits große Unternehmen, die auf die Technologie der PWA setzen, weshalb dies vermutlich der nächste Evolutionsschritt der APP-Entwicklung sein wird. Vor allem Google und Meta sind an der Entwicklung dieser Technologie beteiligt.<br><br>
