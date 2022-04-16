@@ -23,6 +23,7 @@ Uns war von Beginn dieses Projektes klar, dass dies kein leichtes Unterfangen se
 Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p><br>
   
   <h3 id="guide">Installations-Guide</h3>
+  <p>Damit die Installation unserer PWA auch gelingt, sind hier Installations-guids für Windows, Android und IOS aufgeführt. Generell lassen sich PWA, sonfern dies unterstützt ist, problemlos installieren.</p>
   
   <details><summary><h4>Windows</h4></summary>
   
