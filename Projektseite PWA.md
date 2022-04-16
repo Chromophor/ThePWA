@@ -48,7 +48,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
 
   <details><summary>Android</summary>
   <p>Unter Android lässt sich der Browser Chrome sehr gut nutzen. Verfügt man über ein Samsung Handy, so kann man auch den Samsung-Browser nutzen. In Firefox-Mobile wird unsere PWA nicht unterstützt.<br><br>
-    <b>1.</b> Im Browser befindet sich ein Button, der einem Download-Symbol ähnelt. Dieses sollte man anwählen, damit sich ein Dialog-Fenster öffnet, mit welchem man mit "Installieren" unsere PWA herunterladen kann.</p>
+    <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
+    <b>2.</b> Im Browser befindet sich ein Button, der einem Download-Symbol ähnelt. Dieses sollte man anwählen, damit sich ein Dialog-Fenster öffnet, mit welchem man mit "Installieren" unsere PWA herunterladen kann.</p>
   
   ![Screenshot_20220415-112344_Samsung Internet](https://user-images.githubusercontent.com/88386049/163676312-56caa26d-62f9-41e0-bb4c-b3a41a5cc239.jpg)
 
