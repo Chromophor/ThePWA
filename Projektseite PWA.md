@@ -76,7 +76,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
     
     <p><b>3.</b> Nach unten scrollen und "Zum Home-Bildschirm" auswählen. Dies fügt die APP dem Hom-Bildschirm hinzu.</p>
     
-    ![PNG-Bild1](https://user-images.githubusercontent.com/88386049/163677517-8e5f4249-66e7-47e7-a960-eb197a602371.jpg)
+
+![PNG-Bild1](https://user-images.githubusercontent.com/88386049/163677517-8e5f4249-66e7-47e7-a960-eb197a602371.jpg)
 
     
     
