@@ -73,7 +73,8 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
     
     
     
-    ![Bild1](https://user-images.githubusercontent.com/88386049/163677280-2826cf47-3c45-4806-94f4-3f0e73a1ada1.png)
+    <img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677350-c933fc2c-555a-4375-97be-6011394a9de6.png">
+
 
 
     
