@@ -66,7 +66,13 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   
   <details><summary><h4>IOS</h4></summary>
+  <p>Unter IOS unterstützen Chrome und Safari das Konzept der PWA nur zu Teilen, weshalb hier manche features leider nicht erhältlich sind.<br>
+   
+  <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
+    <b>2.</b> Das "Teilen"-Symbol im Browser auswählen.</p>
     
+    <img width="810" alt="PNG-Bild(2)" src="https://user-images.githubusercontent.com/88386049/163677219-e595ef8c-aa2c-4063-812b-6d4778da5f63.png">
+
     
     
   </details>
