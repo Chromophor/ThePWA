@@ -51,7 +51,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
     <b>1.</b> Die URL unserer Web-APP im Browser eingeben oder auf diesen <a href="https://henrik.stormarnschueler.de/index.php">Link</a> klicken.<br><br>
     <b>2.</b> Im Browser befindet sich ein Button, der einem Download-Symbol ähnelt. Dieses sollte man anwählen, damit sich ein Dialog-Fenster öffnet, mit welchem man mit "Installieren" unsere PWA herunterladen kann.</p>
   
-  ![Screenshot_20220415-112344_Samsung Internet](https://user-images.githubusercontent.com/88386049/163676312-56caa26d-62f9-41e0-bb4c-b3a41a5cc239.jpg)
+  ![InkedScreenshot_20220415-112344_Samsung Internet_LI](https://user-images.githubusercontent.com/88386049/163676417-32f240e2-3522-48a1-ba3b-9d56b7d21062.jpg)
 
   </details>
   
