@@ -29,6 +29,13 @@ function ladeBalken() {
     var Glaser = Number(localStorage.getItem("Glas")); 
     var einSchritt = 325 / benötigteGlaser;
     var schritt = document.getElementById("fortschritt");
+    var nochbenötigteGlaser = benötigteGlaser - Glaser;
+
+    localStorage.setItem("wasserziel", benötigteGlaser);
+
+    if (nochbenötigteGlaser >= 0){
+        localStorage.setItem("wasserdifferenz", nochbenötigteGlaser);
+    }
 
     erhoehe_pixel = Glaser * einSchritt;
 

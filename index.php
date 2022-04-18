@@ -42,6 +42,19 @@
         }
 
         function werteZeigen() {
+            var Ziel = Number(localStorage.getItem("gewicht")) * 0.04;
+            //var Ziel = 80 * 0.04;
+            var benötigteGlaser = Math.round(Ziel / 0.2);
+            var Glaser = Number(localStorage.getItem("Glas")); 
+            var einSchritt = 325 / benötigteGlaser;
+            var schritt = document.getElementById("fortschritt");
+            var nochbenötigteGlaser = benötigteGlaser - Glaser;
+
+            localStorage.setItem("wasserziel", benötigteGlaser);
+
+            if (nochbenötigteGlaser > 0){
+                localStorage.setItem("wasserdifferenz", nochbenötigteGlaser);
+    }
             //Name zeigen
             namE = localStorage.getItem("name");
             if (String(localStorage.getItem("name")) != "null"){

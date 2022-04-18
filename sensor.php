@@ -223,6 +223,7 @@
 function anzeigen(){
 ziel = localStorage.getItem("schrittZiel");
 
+
 setInterval(function() {
   anzahlSchritte.innerHTML = Number(localStorage.getItem("Schritte"));
   streckeBerechnen();
@@ -248,6 +249,23 @@ function kalorienBerechnen(){
 }
 
 
+function stats(){
+  var schrittLange = Number(localStorage.getItem("schrittLange"));
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
+  var gesamtStrecke = Number(localStorage.getItem("streckeges"));
+  var addGesamtStrecke = gesamtStrecke + (schrittLange/100);
+  localStorage.setItem("streckeges", addGesamtStrecke);
+
+  var Kal = 0.035;
+  var schritte = Number(localStorage.getItem("Schritte"));
+  var kalorien = (Math.round((Kal * schritte) * 100) / 100);
+  var kalorienGesamt = Number(localStorage.getItem("kalorienges"));
+  var addKalorienGesamt = (Math.round((kalorienGesamt + 0.035) * 100) / 100);
+  localStorage.setItem("kalorienheu", kalorien);
+  localStorage.setItem("kalorienges", addKalorienGesamt);
+}
+
 
 
 function ladeBalken() {
@@ -270,6 +288,7 @@ schritte = schritte + 1;
 localStorage.setItem("Schritte", schritte);
 anzahlSchritte.innerHTML = localStorage.getItem("Schritte");
 ladeBalken();
+stats();
 }
 
 

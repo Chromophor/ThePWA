@@ -1,5 +1,3 @@
-
-
 navigator.permissions.query({ name: 'accelerometer' })
 .then(result => {
   
@@ -74,25 +72,18 @@ function showError(error) {
 
 /*
 function getLocation() {
-
   let speed = geolocationCoordinatesInstance.speed
-
   if (navigator.geolocation) {
     
-
   var operator = true;
   speed.innerHTML = "Aktuelle Geschwindigkeit: " + speed + "km/h";
-
   } else {
     speed.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
-
 while(operator = true) {
   getLocation();
 }
-
-
 function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude +
   "<br>Longitude: " + position.coords.longitude;
@@ -106,7 +97,6 @@ function showPosition(position) {
     return;
   }
     let gyroscope = new Gyroscope({frequency: 60});
-
     gyroscope.addEventListener('reading', e => {
     console.log("Lage in X-Achse: " + gyroscope.x);
     console.log("Lage in Y-Achse: " + gyroscope.y);
@@ -114,5 +104,3 @@ function showPosition(position) {
     });
     gyroscope.start();
 });*/
-
-
