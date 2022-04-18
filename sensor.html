@@ -261,7 +261,7 @@ function stats(){
   var schritte = Number(localStorage.getItem("Schritte"));
   var kalorien = (Math.round((Kal * schritte) * 100) / 100);
   var kalorienGesamt = Number(localStorage.getItem("kalorienges"));
-  var addKalorienGesamt = kalorienGesamt + 0.035;
+  var addKalorienGesamt = (Math.round(kalorienGesamt + 0.035) * 100 / 100);
   localStorage.setItem("kalorienheu", kalorien);
   localStorage.setItem("kalorienges", addKalorienGesamt);
 }
