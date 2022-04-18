@@ -1237,27 +1237,41 @@ Diese Seite wird am Anfang jeder anderen Seite eingefügt. Hier werden grundlege
 
 ```javascript
 function werteZeigen() {
-      //Name zeigen
-      namE = localStorage.getItem("name");
-      if (String(localStorage.getItem("name")) != "null"){
-        begrueßung.innerHTML = ", " + namE;
-      }
-      //Wasser zeigen
-      wasserzw = Number(localStorage.getItem("Glas"));
-      wassergl.innerHTML = wasserzw;
-      //Schritte zeigen
-      schrittezw = Number(localStorage.getItem("Schritte"));
-      schrittean.innerHTML = schrittezw;
-      //Schrittziel zeigen
-      schrittzielzw = Number(localStorage.getItem("schrittZiel"));
-      schrittzielan.innerHTML = schrittzielzw;
-      schrittzielan1.innerHTML = schrittzielzw;
-      //Runden heu anzeigen
-      rundenheuzw = Number(localStorage.getItem("rundenheu"));
-      rundenheuan.innerHTML = rundenheuzw;
-      //Runden ges anzeigen
-      rundengeszw = Number(localStorage.getItem("rundenges"));
-      rundengesan.innerHTML = rundengeszw;
+   //Name zeigen
+   namE = localStorage.getItem("name");
+   if (String(localStorage.getItem("name")) != "null"){
+     begrueßung.innerHTML = ", " + namE;
+   }
+   //Wasser Gläser anzeigen
+   wasserzw = Number(localStorage.getItem("Glas"));
+   wassergl.innerHTML = wasserzw;
+   //Wasserziel anzeigen
+   wasserzielzw = Number(localStorage.getItem("wasserziel"));
+   wasserzielan.innerHTML = wasserzielzw;
+   //Wasserdifferenz anzeigen
+   wasserdifferenzzw = Number(localStorage.getItem("wasserdifferenz"));
+   wasserdifferenzan.innerHTML = wasserdifferenzzw;
+   //Schritte anzeigen
+   schrittezw = Number(localStorage.getItem("Schritte"));
+   schrittean.innerHTML = schrittezw;
+   //Schrittziel anzeigen
+   schrittzielzw = Number(localStorage.getItem("schrittZiel"));
+   schrittzielan.innerHTML = schrittzielzw;
+   //Kalorien heute anzeigen
+   kalorienheuzw = Number(localStorage.getItem("kalorienheu"));
+   kalorienheuan.innerHTML = kalorienheuzw;
+   //Runden heute anzeigen
+   rundenheuzw = Number(localStorage.getItem("rundenheu"));
+   rundenheuan.innerHTML = rundenheuzw;
+   //Runden gesamt anzeigen
+   rundengeszw = Number(localStorage.getItem("rundenges"));
+   rundengesan.innerHTML = rundengeszw;
+   //Kalorien gesamt anzeigen
+   kaloriengeszw = Number(localStorage.getItem("kalorienges"));
+   kaloriengesan.innerHTML = kaloriengeszw;
+   //Strecke gesamt anzeigen
+   streckegeszw = Number(localStorage.getItem("streckeges"));
+   streckegesan.innerHTML = streckegeszw;
 }
 ```
   
