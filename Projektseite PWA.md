@@ -1237,41 +1237,54 @@ Diese Seite wird am Anfang jeder anderen Seite eingefügt. Hier werden grundlege
 
 ```javascript
 function werteZeigen() {
-   //Name zeigen
-   namE = localStorage.getItem("name");
-   if (String(localStorage.getItem("name")) != "null"){
-     begrueßung.innerHTML = ", " + namE;
-   }
-   //Wasser Gläser anzeigen
-   wasserzw = Number(localStorage.getItem("Glas"));
-   wassergl.innerHTML = wasserzw;
-   //Wasserziel anzeigen
-   wasserzielzw = Number(localStorage.getItem("wasserziel"));
-   wasserzielan.innerHTML = wasserzielzw;
-   //Wasserdifferenz anzeigen
-   wasserdifferenzzw = Number(localStorage.getItem("wasserdifferenz"));
-   wasserdifferenzan.innerHTML = wasserdifferenzzw;
-   //Schritte anzeigen
-   schrittezw = Number(localStorage.getItem("Schritte"));
-   schrittean.innerHTML = schrittezw;
-   //Schrittziel anzeigen
-   schrittzielzw = Number(localStorage.getItem("schrittZiel"));
-   schrittzielan.innerHTML = schrittzielzw;
-   //Kalorien heute anzeigen
-   kalorienheuzw = Number(localStorage.getItem("kalorienheu"));
-   kalorienheuan.innerHTML = kalorienheuzw;
-   //Runden heute anzeigen
-   rundenheuzw = Number(localStorage.getItem("rundenheu"));
-   rundenheuan.innerHTML = rundenheuzw;
-   //Runden gesamt anzeigen
-   rundengeszw = Number(localStorage.getItem("rundenges"));
-   rundengesan.innerHTML = rundengeszw;
-   //Kalorien gesamt anzeigen
-   kaloriengeszw = Number(localStorage.getItem("kalorienges"));
-   kaloriengesan.innerHTML = kaloriengeszw;
-   //Strecke gesamt anzeigen
-   streckegeszw = Number(localStorage.getItem("streckeges"));
-   streckegesan.innerHTML = streckegeszw;
+    var Ziel = Number(localStorage.getItem("gewicht")) * 0.04;
+    //var Ziel = 80 * 0.04;
+    var benötigteGlaser = Math.round(Ziel / 0.2);
+    var Glaser = Number(localStorage.getItem("Glas")); 
+    var einSchritt = 325 / benötigteGlaser;
+    var schritt = document.getElementById("fortschritt");
+    var nochbenötigteGlaser = benötigteGlaser - Glaser;
+
+    localStorage.setItem("wasserziel", benötigteGlaser);
+
+    if (nochbenötigteGlaser > 0){
+        localStorage.setItem("wasserdifferenz", nochbenötigteGlaser);
+}
+    //Name zeigen
+    namE = localStorage.getItem("name");
+    if (String(localStorage.getItem("name")) != "null"){
+    begrueßung.innerHTML = ", " + namE;
+    }
+    //Wasser Gläser anzeigen
+    wasserzw = Number(localStorage.getItem("Glas"));
+    wassergl.innerHTML = wasserzw;
+    //Wasserziel anzeigen
+    wasserzielzw = Number(localStorage.getItem("wasserziel"));
+    wasserzielan.innerHTML = wasserzielzw;
+    //Wasserdifferenz anzeigen
+    wasserdifferenzzw = Number(localStorage.getItem("wasserdifferenz"));
+    wasserdifferenzan.innerHTML = wasserdifferenzzw;
+    //Schritte anzeigen
+    schrittezw = Number(localStorage.getItem("Schritte"));
+    schrittean.innerHTML = schrittezw;
+    //Schrittziel anzeigen
+    schrittzielzw = Number(localStorage.getItem("schrittZiel"));
+    schrittzielan.innerHTML = schrittzielzw;
+    //Kalorien heute anzeigen
+    kalorienheuzw = Number(localStorage.getItem("kalorienheu"));
+    kalorienheuan.innerHTML = kalorienheuzw;
+    //Runden heute anzeigen
+    rundenheuzw = Number(localStorage.getItem("rundenheu"));
+    rundenheuan.innerHTML = rundenheuzw;
+    //Runden gesamt anzeigen
+    rundengeszw = Number(localStorage.getItem("rundenges"));
+    rundengesan.innerHTML = rundengeszw;
+    //Kalorien gesamt anzeigen
+    kaloriengeszw = Number(localStorage.getItem("kalorienges"));
+    kaloriengesan.innerHTML = kaloriengeszw;
+    //Strecke gesamt anzeigen
+    streckegeszw = Number(localStorage.getItem("streckeges"));
+    streckegesan.innerHTML = streckegeszw;
 }
 ```
   
