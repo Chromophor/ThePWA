@@ -542,10 +542,17 @@ setInterval( function(){
   var minut    = datum.getMinutes();
   var second   = datum.getSeconds();
 
+  var Ziel = Number(localStorage.getItem("gewicht")) * 0.04;
+  //var Ziel = 80 * 0.04;
+  var benötigteGlaser = Math.round(Ziel / 0.2);
+
   if (Number(localStorage.getItem("Tag")) != day) {
     localStorage.setItem("Schritte", 0);
     localStorage.setItem("Glas", 0);
     localStorage.setItem("rundenheu", 0);
+    localStorage.setItem("gesendet", false);
+    localStorage.setItem("kalorienheu", 0);
+    localStorage.setItem("wasserdifferenz", benötigteGlaser);
 
     //nun aktuelles Datum lokal speichern
     localStorage.setItem("Tag", day);
