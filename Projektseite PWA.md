@@ -464,13 +464,17 @@ function kalorienBerechnen(){
   var Kal = 0.035;
   var schritte = Number(localStorage.getItem("Schritte"));
   var kalorien = (Math.round((Kal * schritte) * 100) / 100);
+  var kalorienGesamt = Number(localStorage.getItem("kalorienges"));
+  var addKalorienGesamt = kalorienGesamt + kalorien;
   Kalorien.innerHTML = kalorien;
+  localStorage.setItem("kalorienheu", kalorien);
+  localStorage.setItem("kalorienges", addKalorienGesamt);
 }
 ```
   
 </td><td>
   
-Die Funktion ``kalorienBerechnen()`` errechnet mit der Anzahl der Schritte und der Kontsante ``Kal`` der Kalorien die Anzahl der verbrannten Kalorien. Die Anzahl der Schritte wird dabei wieder aus dem lokalen Speicher entnommen. Abschließend werden die Kalorien im HTML-Dokument angezeigt.
+Die Funktion ``kalorienBerechnen()`` errechnet mit der Anzahl der Schritte und der Kontsante ``Kal`` der Kalorien die Anzahl der verbrannten Kalorien. Die Anzahl der Schritte wird dabei wieder aus dem lokalen Speicher entnommen. Abschließend werden die Kalorien im HTML-Dokument angezeigt und einmal die Kalorien, die heute verbrannt wurden und die Kalorien insgesammt lokal gespeichert.
 </td></tr>
 <tr><td>
   
