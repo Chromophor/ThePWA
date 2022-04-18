@@ -378,7 +378,7 @@ navigator.permissions.query({ name: 'accelerometer' })
 
 </td><td>
   
-Zuerst wird geprüft, ob der Browser Zugriff auf den Beschleunigungssensor (accelerometer) hat. Ist dies der Fall, wird ``acl`` als neue Beschleunigung definiert, die alle 5 Mili-Sekunden abgerufen wird. Anschließend wird die Beschleunigung in X-Achsen-Richtung, Y-Achsen-Richtung und Z-Achsen-Richtung definiert. Es wird anschließend der Betrag des Beschleunigungsvektors berechnet und in der Variabel ``aGesamt`` gespeichert. Das Erstellen der Formel war ein knifflicher Teil der Arbeit. Sollte der Betrag der Beschleunigung größer als 1 m/s^2 und kleiner als 2 m/s^2 sein, wird dies als ein Schritt gewertet und anschließend auch als ein solcher lokal mit ``localSorage()`` gespeichert. Auch die Funktion ``ladeBalken()`` und ``anzeigen()`` wird dabei ausgeführt, die zum einen den Fortschrittsbalken laden soll und zum anderen die Schrittzahl anzeigt.
+Zuerst wird geprüft, ob der Browser Zugriff auf den Beschleunigungssensor (accelerometer) hat. Ist dies der Fall, wird ``acl`` als neue Beschleunigung definiert, die alle 5 Mili-Sekunden abgerufen wird. Anschließend wird die Beschleunigung in X-Achsen-Richtung, Y-Achsen-Richtung und Z-Achsen-Richtung definiert. Es wird anschließend der Betrag des Beschleunigungsvektors berechnet und in der Variable ``aGesamt`` gespeichert. Das Erstellen der Formel war ein knifflicher Teil der Arbeit. Sollte der Betrag der Beschleunigung größer als 1 m/s^2 und kleiner als 2 m/s^2 sein, wird dies als ein Schritt gewertet und anschließend auch als ein solcher lokal mit ``localSorage()`` gespeichert. Auch die Funktion ``ladeBalken()`` und ``anzeigen()`` wird dabei ausgeführt, die zum einen den Fortschrittsbalken laden soll und zum anderen die Schrittzahl anzeigt.
 </td></tr>
 <tr><td>
 
@@ -646,7 +646,7 @@ Mit dieser Funktion wird die Erlaubnis erfragt, die Benachrichtigungs-API zu nut
 ```
   
 </td><td>
-Dies ist der HTML-Code für unser Pop-Up zur Anmeldung. Es besteht aus einem Header, der die Begrüßung (Überschrift) enthält, einem Body, der die Inputfelder zum Namen mit einem Texteingagefeld, dem Gewicht, der Schrittlänge und dem Schrittziel mit einem Schiebe-Regler. Im Footer wird auf unsere nicht existenten Datenschutzbestimmungen und Coockies hingewiesen.
+Dies ist der HTML-Code für unser Pop-Up zur Anmeldung. Es besteht aus einem Header, der die Begrüßung (Überschrift) enthält und einem Body, der die Inputfelder zum Namen mit einem Texteingabefeld, dem Gewicht, der Schrittlänge und dem Schrittziel mit einem Schiebe-Regler enthält. Im Footer wird auf unsere nicht existenten Datenschutzbestimmungen und Coockies hingewiesen.
 </td></tr>
 <tr><td>
   
@@ -761,7 +761,7 @@ In diesem Abschnitt wird der Name der APP auf ``ThePWA`` festgelegt, welcher nac
   
 </td><td>
   
-In diesem Abschnitt werden die Icons als Bilder geladen. Dabei haben wir unser Icon in den Größen ``512x512``, ``192x192```, ``120x120``, ``60x60``, ``57x57`` und ``32x32`` Pixel abgespeichert, die jeweils andere Funktionen erfüllen. So wird das Logo mit der Größe 32x32 z.B. im Browser in der URL-Leiste angezeigt. Die anderen Icons dienen der Darstellung auf dem Hom-Screen, wo jedes Betriebssystem eine andere Größe benötigt. Apple unterstützt seit IOS 15.4 auch die Nutzung eines hier eingestellten Icons. Vorher musste ein extra Apple-Touch-Icon eingebunden werden, auf welches wir verzichtet haben.
+In diesem Abschnitt werden die Icons als Bilder geladen. Dabei haben wir unser Icon in den Größen ``512x512``, ``192x192``, ``120x120``, ``60x60``, ``57x57`` und ``32x32`` Pixel abgespeichert, die jeweils andere Funktionen erfüllen. So wird das Logo mit der Größe 32x32 z.B. im Browser in der URL-Leiste angezeigt. Die anderen Icons dienen der Darstellung auf dem Hom-Screen, wo jedes Betriebssystem eine andere Größe benötigt. Apple unterstützt seit IOS 15.4 auch die Nutzung eines hier eingestellten Icons. Vorher musste ein extra Apple-Touch-Icon eingebunden werden, auf welches wir verzichtet haben.
 </td></tr>
 <tr><td>
   
