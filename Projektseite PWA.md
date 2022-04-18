@@ -229,6 +229,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li><a href="#cSm">5.9 Code des Sidemenüs - HTML, Javascript und PHP</a></li>
   <li><a href="#cCo">5.10 Code der Config - HTML</a></li>
   <li><a href="#cUe">5.11 Code der Übersicht - HTML und Javascript</a></li>
+  <li><a href="#cSs">5.12 Code des Stylesheets - CSS</a></li>
 
 <br>
 
@@ -779,7 +780,7 @@ In diesem Abschnitt werden die Icons als Bilder geladen. Dabei haben wir unser I
 }
 ```
 </td><td>
-Hier wird noch der Scope festgelegt, also der Bereich, wo das Webmanifest geladen wird. Bei uns soll das Webmanifest bei jeder Datei geladen werden, weshalb der Scope "./" festgelegt wird, wodurch das Webmanifest auf jede Datei in dem Ordner angewendet wird. Außerdem speichern wir hier noch ein paar features der APP, die in bestimmten Einstellungen angezeigt werden.
+Hier wird noch der Scope festgelegt, also der Bereich, wo das Webmanifest geladen wird. Bei uns soll das Webmanifest bei jeder Datei geladen werden, weshalb der Scope "./" festgelegt wird, wodurch das Webmanifest auf jede Datei in dem Ordner angewendet wird. Außerdem speichern wir hier noch ein paar Features der APP, die in bestimmten Einstellungen angezeigt werden.
 </td></tr>
 </table>
   
@@ -866,6 +867,7 @@ Dieser Teil ist für das individuelle Trainingsprogramm auf der Trainingsseite. 
 Die vorgefertigten Trainings sind gleich aufgebaut und nutzen an den meisten Stellen die gleichen Variablen und Klassen. Der einzige Unterschied ist, dass der Wert schon vorher festgelegt ist und die Schieberegler deswegen fehlen.
 </td></tr>
 </table>
+<br>
   
   
   
@@ -1032,6 +1034,7 @@ Hier ist der Code für das Intervall des Pause Timers gezeigt. Dieser läuft von
 Durch ein klicken auf einen der Buttons werden die Klassen von einigen HTML Elementen geändert. Dadurch ändert sich das Styling und je nach Status des Trainings sieht man die richtigen Buttons. Die anderen befinden sich zu der Zeit außerhalb des angezeigten Bereichs.
 </td></tr>
 </table>
+<br>
   
   
   
@@ -1135,6 +1138,7 @@ Diese Funktionen dienen dazu, die eingestellten Werte der Schieberegler und den 
 Dies ist ein Beispielcode für die Vier Felder zum Ändern der Werte. Diese sind von der Grundstruktur alle gleich und geben die Werte und den Text drumherum aus. Außerdem sind hier die Buttons aufgeführt, die die Funktionen zum Speichern auslösen. Die Sections dienen auch hier zum Styling mit dem CSS-Boxmodell.  
 </td></tr>
 </table>
+<br>
   
   
   
@@ -1195,6 +1199,7 @@ An dieser Stelle ist die Liste für das Menü an der oberen rechten Seite der Ap
 Des Weiteren wird hier das Symbol zum Öffnen des Menüs eingefügt. Wird auf diese geklickt ändern sich wieder die Klassen einiger HTML Elemente und das Menü klappt auf.  
 </td></tr>
 </table>
+<br>
   
   
   
@@ -1223,8 +1228,9 @@ Diese Seite wird am Anfang jeder anderen Seite eingefügt. Hier werden grundlege
 </table>
   
 <p>Das Menü an der Unterseite der App funktioniert identisch zu dem Seitenmenü, außer dass es nicht aufklappt. Außerdem haben wir hier statt Text transparente Bilder von Symbolen verwendet, die die Funktion der jeweils verlinkten Seite darstellen.</p>
+<br>
   
-<p>Das Stylesheet beinhaltet das Styling für fast alle unsere Seiten. Hier werden sämtliche Farben, Schriftgrößen, Textmarkierungen, Abstände, Effekte und Anordnungen geregelt. Ohne das Stylesheet würde unsere App nur aus verschiedenen Seiten mit untereinanderstehendem Text bestehen.</p>
+
   
 
   
@@ -1305,9 +1311,12 @@ Auf der Startseite unserer Webseite wird eine Übersicht mit verschiedenen Daten
 Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersicht. An dieser Stelle werden die Werte aus dem Localstorage, die am Anfang geladen werden angezeigt. Der Aufbau ist bei allen Kästenchen ähnlich.
 </td></tr>
 </table>
+<br>
 
-  
-  
+
+<h3 id="cSs">5.12 Code des Stylesheets - CSS</h3>
+
+<p>Das Stylesheet beinhaltet das Styling für fast alle unsere Seiten. Hier werden sämtliche Farben, Schriftgrößen, Textmarkierungen, Abstände, Effekte und Anordnungen geregelt. Ohne das Stylesheet würde unsere App nur aus verschiedenen Seiten mit untereinanderstehendem Text bestehen. Da das Stylesheet jedoch mehrere hundert Zeilen lang ist, der Code jedoch häufig ähnlich und nicht sehr speziell ist, haben wir hier keine Erklärungen gemacht.</p>
   
   
 <br>
