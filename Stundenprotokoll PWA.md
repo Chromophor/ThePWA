@@ -581,7 +581,7 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
  
  
 <p id="Stunde34"><b>Freitag 15.04.2022</b><br>
-  Wir haben heute die Trinkübersicht in das Gesamtkunstwerk integriert, wobei ein Problem entstand. Die Abmaße des Stylings der Trinkübersicht war doppelt so groß wie die Abmaße unserer anderen Dokumente waren. Dies lag daran, dass wir sonst mit der Device-Width gearbeitet haben, welche die hälfte der eigentlichen Pixel-Größe ist.
+  Wir haben heute die neu designte Trinkübersicht in das Gesamtkunstwerk integriert, wobei ein Problem entstand. Die Abmaße des Stylings der Trinkübersicht war doppelt so groß wie die Abmaße unserer anderen Dokumente waren. Dies lag daran, dass wir sonst mit der Device-Width gearbeitet haben, welche die Hälfte der eigentlichen Pixel-Größe ist. Deshalb mussten wir alle Pixel-Angaben halbieren. Abschließend gefällt uns die Trinkübersicht aber gut.
   </p>
   
   <details><summary>Screenshots vom 15.04.2022</summary>
