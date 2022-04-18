@@ -593,7 +593,7 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
 <p id="Stunde35"><b>Montag 18.04.2022</b><br></p>
 
 
-  Heute haben wir die Projektseite fertig überarbeitet. Außerdem haben wir die Index.php (Home-Seite) nocheinmal überarbeitet und verbessert. So haben wir eine Kachel, die bisher leer war mit Leben gefüllt. In dieser Kachel zeigen wir nun die Gesamtkalorien und Gesamtstrecke an. Dafür mussten wir kleine Anpassungen in der Sensor.php Datei vornehmen, da wir die Werte Gesamtstrecke und Gesamtkalorien an dieser Stelle berechnen. Zusätzlich haben wir auf der Home-Seite die Anzeige für das Trinkziel überarbeitet, da nun die Anzahl der Gläser auch individuell für jeden ist. Diese wird mit einer ähnlichen Funktion berechnent, wie auf der Trinkzielseite. Da wir zum Wasser-Trinken anregen möchten, zeigen wir ausßerdem die noch zu Trinkende Menge Gläser an.
+  Heute haben wir die Projektseite fertig überarbeitet. Außerdem haben wir die ``Index.php`` (Home-Seite) nocheinmal überarbeitet und verbessert. So haben wir eine Kachel, die bisher leer war mit Leben gefüllt. In dieser Kachel zeigen wir nun die Gesamtkalorien und Gesamtstrecke an. Dafür mussten wir kleine Anpassungen in der ``Sensor.php`` Datei vornehmen, da wir die Werte Gesamtstrecke und Gesamtkalorien an dieser Stelle berechnen. Zusätzlich haben wir auf der Home-Seite die Anzeige für das Trinkziel überarbeitet, da nun die Anzahl der Gläser auch individuell für jeden ist. Diese wird mit einer ähnlichen Funktion berechnent, wie auf der Trinkzielseite. Da wir zum Wasser-Trinken anregen möchten, zeigen wir ausßerdem die noch zu Trinkende Menge Gläser an.
 
 
 <h2 id="kapitel3">3. APIs</h2>
