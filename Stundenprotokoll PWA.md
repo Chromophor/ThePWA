@@ -58,16 +58,6 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   <li><a href="#Stunde32">Montag 11.04.2022</a></li>
   <li><a href="#Stunde33">Mittwoch 13.04.2022</a></li>
   <li><a href="#Stunde34">Freitag 15.04.2022</a></li>
-  <li><a href="#Stunde35">Dienstag 16.11.2022</a></li>
-  <li><a href="#Stunde36">Mittwoch 17.11.2022</a></li>
-  <li><a href="#Stunde37">Donnerstag 18.11.2022</a></li>
-  <li><a href="#Stunde38">Dienstag 23.11.2022</a></li>
-  <li><a href="#Stunde39">Mittwoch 24.11.2022</a></li>
-  <li><a href="#Stunde40">Freitag 26.11.2022</a></li>
-  <li><a href="#Stunde41">Dienstag 30.11.2022</a></li>
-  <li><a href="#Stunde42">Mittwoch 01.12.2022</a></li>
-  <li><a href="#Stunde43">Freiag 03.12.2022</a></li>
-  <li><a href="#Stunde44">Samstag 04.12.2022</a></li>
 </details>
 
 <p id="Stunde1"><b>Dienstag 14.12.2021</b><br>
