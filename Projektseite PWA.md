@@ -211,7 +211,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <p>Wir schlagen unserem User vor, Sport zu machen und Training durchzuführen. Auch regen wir dazu an, mehr Wasser zu trinken, da dies Gesund ist und viele Menschen leider zu wenig trinken. Deshalb erinnern wir den User durch eine Benachrichtigung daran, genug Wasser zu trinken. Unsere Tipps basieren zwar auf verallgemeinerten Aussagen, wie z.B., dass pro Kg Körpergewicht ca. 35ml Wasser getrunken werden oder, dass pro Schritt ca. 0,035 Kalorien verbraucht werden, dennoch bieten diese eine gute Grundlage für einen Überblick.</p>
   
   <h3>Einstellungen</h3>
-  <p>Falls unser User beim Einrichrten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
+  <p>Falls unser User beim Einrichten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
   
   
   
@@ -298,7 +298,7 @@ self.addEventListener('fetch', e => {
 ```
   
 </td><td>
-Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Dateien) den dazugehörige URL in die Console zu loggen (Screenshot 2) und gleichzeitig mit der angeforderten Datei zu Antworten, sie also dem Browser zur Verfügung stellen. Dies ermöglicht es uns, unsere APP auch offline zu verwenden.
+Dieser Abschnitt dient dazu, bei einem eingehenden Fetch-Request (Abrufen der Dateien) die dazugehörige URL in die Konsole zu loggen (Screenshot 2) und gleichzeitig mit der angeforderten Datei zu Antworten, sie also dem Browser zur Verfügung zu stellen. Dies ermöglicht es uns, unsere APP auch offline zu verwenden.
 </td></tr>
 <tr><td>
   
@@ -316,7 +316,7 @@ self.addEventListener('push', e => {
 
 </td><td>
   
-Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft ``Sehen Sie sich Ihre Statistiken an! [...]`` senden. Es erlaubt uns auch, ein Icon mit in die Push-Benachrichtigung einzubauen. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber über den Service-Worker ausgelöst.
+Im Moment können wir über das Dev-Tool mit diesem Abschnitt einen Push-Benachrichtigung mit der Botschaft ``Sehen Sie sich Ihre Statistiken an! [...]`` senden. Es erlaubt uns auch, ein Icon mit in die Push-Benachrichtigung einzubauen. Push-Benachrichtigen sind auch im Code einsetzbar, diese wird aber speziell über den Service-Worker ausgelöst.
 </td></tr>
 </table>
 
@@ -441,7 +441,7 @@ var Kal = 0.035;
 
 </td><td>
   
-In diesem Abschnitt werden einige wichtige Variablen, wie z.B. ``schritte``, die localStorage.getItem("Schritte"), in eine Zahl umgewandelt, entspricht, defininiert. Auch werden hier die Kalorien als 0,035 definiert, welche wir noch für spätere Berechnungen benötigen.
+In diesem Abschnitt werden einige wichtige Variablen, wie z.B. ``schritte``, die localStorage.getItem("Schritte") entspricht, , in eine Zahl umgewandelt defininiert. Auch werden hier die Kalorien als 0,035 definiert, welche wir noch für spätere Berechnungen benötigen.
 </td></tr>
 <tr><td>
 
