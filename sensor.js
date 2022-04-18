@@ -27,6 +27,7 @@ navigator.permissions.query({ name: 'accelerometer' })
       anzahlSchritte = anzahlSchritte + 1;
       localStorage.setItem("Schritte", anzahlSchritte);
       ladeBalken();
+      stats();
       anzeigen();
     }
   });
