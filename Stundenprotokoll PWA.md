@@ -589,6 +589,9 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
   ![grafik](https://user-images.githubusercontent.com/88386045/163566882-a788f926-7cfb-44ca-b505-1b96854aecd8.png)
   
   </details>
+  
+<p id="Stunde35"><b>Montag 18.04.2022</b><br>
+  Heute haben wir die Projektseite fertig überarbeitet. Außerdem haben wir die Indey.php (Home-Seite) nocheinmal überarbeitet und verbessert. So haben wir eine Kachel, die bisher leer war mit Leben gefüllt. In dieser Kachel zeigen wir nun die Gesamtkalorien und Gesamtstrecke an. Dafür mussten wir kleine Anpassungen in der Sensor.php Datei vornehmen, da wir die Werte Gesamtstrecke und Gesamtkalorien an dieser Stelle berechnen. Zus
 
 
 <h2 id="kapitel3">3. APIs</h2>
