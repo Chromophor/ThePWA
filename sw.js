@@ -28,9 +28,9 @@ self.addEventListener("install", e => {
                "./bilder/IconHome.png",
                "./bilder/IconTimer.png",
                "./bilder/IconWasser.png",
-               "./drop.jpg",
-               "./sportback.jpg",
-               "./watercolor.jpg"
+               "./bilder/drop.jpg",
+               "./bilder/sportback.jpg",
+               "./bilder/watercolor.jpg"
              ]);
          })
     );
@@ -71,7 +71,7 @@ navigator.serviceWorker.ready.then(registration => {
 }
 
 
-navigator.serviceWorker.ready.then(registration => {
+/*navigator.serviceWorker.ready.then(registration => {
   if ('BackgroundFetchManager' in window) {
     registration.backgroundFetch.fetch('offline-songs', [
       'songs/Katy_Perry/Firework.mp3',
@@ -81,13 +81,12 @@ navigator.serviceWorker.ready.then(registration => {
       title: 'Songs für Offlinewiedergabe speichern…'
     });
   }
-});
+});*/
 
 
 
 
 /*  Hintergrund-sync-API
-
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js');
   navigator.serviceWorker.ready.then(registration => {
@@ -96,13 +95,9 @@ if ('serviceWorker' in navigator) {
     }
   });
 }
-
-
 self.addEventListener('sync', event => {
   if (event.tag === 'IDSchrittzähler') {
-
     console.log("Funktioniert!");
-
       event.waitUntil();
   }
 });

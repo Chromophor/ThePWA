@@ -2,10 +2,18 @@ html {
     box-sizing: border-box;
 }
 
-.body {
+body {
     background-color: lightgray;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
+
+.hintergrund {
+    background-repeat: no-repeat;
+}
+
+
+/*SIDEMENÜ*/
 
 nav ul {
     display: block;
@@ -52,7 +60,7 @@ nav ul a:after {
     transition: left 0.25s ease-in 0s;
 }
 
-.clap {
+.klappen {
     color: white;
     position: fixed;
     background-color: rgba( 0, 0, 0, .9);
@@ -75,6 +83,12 @@ nav ul a:after {
     /*padding-left: 43.4667px;*/
 }
 
+.jetzt {
+    /*gleiches Styling wie bei momentan Footer*/
+    background-color: darkgray;
+    border-radius: 0px 10px 10px 0px;
+}
+
 .listtitle {
     color: white;
     text-align: center;
@@ -91,14 +105,38 @@ nav ul a:after {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .link {
-        margin-bottom: 20px;
+@media screen and (width: 414px) {
+    .footerplace.i11 {
+        padding-bottom: 10px;
+        background-color: darkgray;
+        border-radius: 10px 10px 0px 0px;
     }
 }
 
+@media screen and (max-width: 10000px) {
+    .trainingstart-box {
+        display: grid !important;
+        margin-top: 104.6px !important;
+    }
+    .trainingende-box.endeda {
+        display: grid;
+        margin-top: 104.6px !important;
+    }
+    .trainingpause, .trainingstart {
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .trainingende {
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+}
+
+
+/*FOOTER*/
+
 .menu-neu {
-    background-color: #314151;
+    background-color: gray;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -114,7 +152,7 @@ nav ul a:after {
     margin: 0;
 }
 
-.test2 {
+.footerplace {
     width: 100px;
     text-align: center;
 }
@@ -131,8 +169,17 @@ nav ul a:after {
 }
 
 .momentan {
-    background-color: gray;
+    background-color: darkgray;
+    border-radius: 10px 10px 0px 0px;
 }
+
+.iconfooter {
+    width: 25px;
+    height: 25px;
+}
+
+
+/*TITLE*/
 
 .start {
     display: flex;
@@ -140,9 +187,24 @@ nav ul a:after {
 }
 
 .title {
-    text-decoration: underline;
+    background-color: lightgray;
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
     font-size: 32px;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title1 {
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .werte {
@@ -151,31 +213,554 @@ nav ul a:after {
     font-size: 20px;
 }
 
-.timer-box {
-    display: grid;
+
+/*ÜBERSICHT*/
+
+.ubersicht {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.u-title {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.u-text {
+    margin: 0px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.u-textwa {
+    margin: 0px;
+    margin-right: 5px;
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    font-size: 23px;
+}
+
+.schritte {
+    width: calc((100% - 124px) / 2);
+    text-align: center;
+    font-size: 25px;
+    background-color: #314151;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    color: white;
+}
+
+.wasser {
+    width: calc((100% - 124px) / 2);
+    text-align: center;
+    font-size: 25px;
+    background-color: #314151;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.glas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.glassbild {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.trainingrunden {
+    width: calc((100% - 124px) / 2);
+    text-align: center;
+    font-size: 25px;
+    background-color: #314151;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.t-heute {
+    display: flex;
     justify-content: center;
 }
 
-.timer {
-    margin-top: 10px;
-    font-size: 60px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
+.stats {
+    width: calc((100% - 124px) / 2);
+    text-align: center;
+    font-size: 25px;
+    background-color: #314151;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
 }
+
+
+/*TIMER-ALT*/
+
 
 .button {
     font-size: 60px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    background-color: #33cc99;
     border: none;
     color: white;
-    padding: 10px 15px;
     text-decoration: none;
     font-size: 26px;
     text-align: center;
     cursor: pointer;
     border-radius: 8px;
     max-width: 1000px;
+    margin-top: 75px;
+    padding: 10px 30px;
+    background-color: #3AAED8;
+}
+
+.ubergang1 {
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    background-color: #6497b1;
+    border-radius: 50px;
+    max-width: 850px;
+}
+
+.ubergang {
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    background-color: #6497b1;
+    border-radius: 50px;
+    max-width: 850px;
+}
+
+.uberschrift {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.welches {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.next {
+    display: flex;
+}
+
+.together {
+    display: flex;
+    justify-content: space-around;
+    width: 175px;
+}
+
+.front {
+    text-align: start;
+    width: calc(100%/3);
+}
+
+.middle1 {
+    text-align: end;
+    width: calc(100%/3*2);
+}
+
+.middle2 {
+    text-align: start;
+    width: calc(100%/3*2);
+}
+
+.output {
+    margin: 0;
+    padding: 10px;
+}
+
+.rangenext {
+    display: flex;
+    justify-content: space-around;
+}
+
+.outputrange {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.starternext {
+    display: flex;
+    justify-content: center;
+}
+
+.starter {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 30px;
+    background-color: #3AAED8;
+}
+
+.vorschlag {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    padding-bottom: 15px;
+}
+
+.buffer {
+    height: 100px;
+}
+
+
+/*INTERVALL_TIMER*/
+
+.intervall {
+    margin-top: 100px;
+}
+
+.timerinterval-box {
+    display: grid;
+    justify-content: center;
+}
+
+.timerinterval,
+.timerhenrik {
+    font-size: 60px;
+    margin: 0;
+    padding: 20px;
+}
+
+.runden-box {
+    display: grid;
+    justify-content: center;
+}
+
+.runden {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+}
+
+.trainingstart-box {
+    font-size: 60px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 213.6px;
+}
+
+.trainingstart {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.trainingstart:active {
+    background-color: gray;
+}
+
+.trainingstart-box.startweg {
+    position: fixed;
+    top: -1000px;
+}
+
+.trainingende-box {
+    position: fixed;
+    top: -1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.trainingpause, .trainingstart {
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.trainingpause:active {
+    background-color: gray;
+}
+
+.trainingende {
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.trainingende:active {
+    background-color: gray;
+}
+
+.trainingende-box.endeda {
+    font-size: 60px;
+    position: static;
+    margin: 0;
+    margin-top: 213.6px;
+}
+
+
+/* TRINKZIEL */
+
+.info-box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info {
+    font-size: 23px;
+    margin-top: 0;
+}
+
+
+/* ANMELDUNG */
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    -webkit-animation-name: fadeIn;
+    /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+
+/* Modal Content */
+
+.modalcontent {
+    position: fixed;
+    justify-content: center;
+    bottom: 20%;
+    background-color: #52AA8A;
+    border-radius: 10px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #52aa5e;
+    color: black;
+    border-radius: 10px;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #52AA8A;
+    color: black;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.input {
+    border-radius: 8px;
+    background-color: lightblue;
+    width: 80px;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes slideIn {
+    from {
+        bottom: -600px;
+        opacity: 0
+    }
+    to {
+        bottom: 20%;
+        opacity: 1
+    }
+}
+
+@keyframes slideIn {
+    from {
+        bottom: -600px;
+        opacity: 0
+    }
+    to {
+        bottom: 20%;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes slideOut {
+    from {
+        bottom: 20%;
+        opacity: 1
+    }
+    to {
+        bottom: -600px;
+        opacity: 0
+    }
+}
+
+@keyframes slideOut {
+    from {
+        bottom: 20%;
+        opacity: 1
+    }
+    to {
+        bottom: -600px;
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.modalcontent.fadeaway {
+    bottom: -600px;
+    transition: bottom 0.4s ease-in 0s;
+}
+
+
+/*DRINK*/
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.wasserubersicht {
+    text-align: center;
+}
+
+
+/*SETTINGS*/
+
+.settings {
+    background-color: #6497b1;
+    padding: 10px 0px;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 50px;
     margin-top: 25px;
 }
+
+.change {
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.divider {
+    margin-left: 25px;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speichern {
+    font-size: 17.5px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 7.5px 22.5px;
+    background-color: #3AAED8;
+}
+
+.awert{
+    display: flex;
+    justify-content: center;
+}
+

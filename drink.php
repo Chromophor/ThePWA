@@ -103,7 +103,6 @@ if (12 < hours && i == false) {
     }
 
     .wasserFeld{
-    border: 1px solid red;
     background-color: #25758d;
     border-radius: 15px;
     height: 250px;
@@ -120,9 +119,8 @@ if (12 < hours && i == false) {
     
     .wasserubersicht{
         font-size: 22.5px;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-left: 5px;
-        border: 1px solid red;
         background-color: #25758d;
         border-radius: 15px;
         width: 215px;
@@ -145,7 +143,7 @@ if (12 < hours && i == false) {
     .iconWasser{
         width: 150px;
         height: 150px;
-        margin-top: -185px;
+        margin-top: -170px;
         margin-left: 200px;
     }
 
@@ -198,6 +196,9 @@ if (12 < hours && i == false) {
     </section>
     <section class="center">
         <button class="button" onclick="wasserGetrunken()">Wasser getrunken!</button>
+    </section>
+
+    <section class="buffer">
     </section>
 
 

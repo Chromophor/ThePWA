@@ -6,15 +6,15 @@ $page = $_SERVER["REQUEST_URI"];
     <nav class="menu">
         <ul>
             <p class="listtitle">ThePWA</p>
-            <li class="drop <?php if (($page == "/index.php") or ($page == "/")) {echo "momentan";}?>"><a href="index.php">Startseite</a></li>
-            <li class="drop <?php if ($page == "/timer.php") {echo "momentan";}?>"><a href="timer.php">Timer</a></li>
-            <li class="drop <?php if ($page == "/all.php") {echo "momentan";}?>"><a href="all.php">All</a></li>
-            <li class="drop <?php if ($page == "/platzhalter.php") {echo "momentan";}?>"><a href="#">Platzhalter</a></li>
-            <li class="drop <?php if ($page == "/platzhalter.php") {echo "momentan";}?>"><a href="#">Platzhalter</a></li>
+            <li class="drop <?php if (($page == "/index.php") or ($page == "/")) {echo "jetzt";}?>"><a href="index.php">Startseite</a></li>
+            <li class="drop <?php if ($page == "/timer.php") {echo "jetzt";}?>"><a href="timer.php">Training</a></li>
+            <li class="drop <?php if ($page == "/sensor.php") {echo "jetzt";}?>"><a href="sensor.php">Schrittzähler</a></li>
+            <li class="drop <?php if ($page == "/drink.php") {echo "jetzt";}?>"><a href="drink.php">Trinkziel</a></li>
+            <li class="drop <?php if ($page == "/settings.php") {echo "jetzt";}?>"><a href="settings.php">Einstellungen</a></li>
         </ul>
     </nav>
 
-    <section class="clap">
+    <section class="klappen">
         <p class="opener">☰</p>
     </section>
 

@@ -2,40 +2,125 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="webmanifest.json">
-    <script src="index.js"></script>
-    <script src="sensor.js"></script>
-    <script>
-    </script>
-    <title>ThePWA</title>
+    
+<?php require("allgemein/config.php"); ?>
+
 </head>
 
-<body class="body">
+<body>
+
+<script>
+
+function ausgabe() {    
+        let trwert = document.querySelector("#t-wert").value;
+        trwertausgabe.innerHTML = " " + trwert + " Sekunden";
+        let pawert = document.querySelector("#p-wert").value;
+        pawertausgabe.innerHTML = " " + pawert + " Sekunden";
+        }
+
+const jetzt = setInterval(function() {
+    ausgabe();
+}, 100);
+    
+</script>
 
     <?php require('allgemein/sidemenu.php'); ?>
 
     <section class="start">
-        <h1 class="title">Timer</h1>
+        <h1 class="title">Training</h1>
     </section>
 
-    <section class="timer-box">
-        <div class="timer" id="timer">
-            05 : 00
-        </div>
+    <section class="ubergang1">
 
-        <div class="button" onclick="startTimer()">
-            Timer starten
-        </div>
+        <section class="uberschrift">
+            <h1 class="welches">Individuelles Training</h1>
+        </section>
+        
+        <form class="form" action="training.php" method="post">
+        <section class="next">
+        <section class="together">
+            <section class="front">
+                <p class="output">Training:</p>
+            </section>
+            <section class="middle1">
+            <div class="output" id="trwertausgabe">45</div>
+            </section>
+        </section>
+        <section class="together">
+            <section class="front">
+                <p class="output">Pause:</p>
+            </section>
+            <section class="middle2">
+            <div class="output" id="pawertausgabe">45</div>
+            </section>
+        </section>
+        </section>
+
+        <section class="rangenext">
+            <input class="outputrange" type="range" max="90" step="5" name="training" id="t-wert">
+            <input class="outputrange" type="range" max="90" step="5" name="pause" id="p-wert">
+        </section>
+
+        <section class="starternext">
+        <input class="starter" type="submit" value="Training starten">
+        </section>
+        </form>
+
     </section>
 
+
+    <section class="ubergang">
+
+        <section class="uberschrift">
+            <h1 class="welches">Vorschlag 1</h1>
+        </section>
+
+        <form class="form" action="training.php" method="post">
+        
+        <section class="vorschlag">
+            <p class="tvorschlag">Training: 30 Sekunden</p>
+            <p class="pvorschlag">Pause: 15 Sekunden</p>
+        </section>
+
+            <input class="outputvorschlag" type="hidden" name="training" value="30">
+            <input class="outputvorschlag" type="hidden" name="pause" value="15">
+
+        <section class="starternext">
+            <input class="starter" type="submit" value="Training starten">
+        </section>
+        </form>
+
+    </section>
+
+
+    <section class="ubergang">
+
+        <section class="uberschrift">
+            <h1 class="welches">Vorschlag 2</h1>
+        </section>
+
+        <form class="form" action="training.php" method="post">
+        
+        <section class="vorschlag">
+            <p class="tvorschlag">Training: 45 Sekunden</p>
+            <p class="pvorschlag">Pause: 15 Sekunden</p>
+        </section>
+
+            <input class="outputvorschlag" type="hidden" name="training" value="45">
+            <input class="outputvorschlag" type="hidden" name="pause" value="15">
+
+        <section class="starternext">
+            <input class="starter" type="submit" value="Training starten">
+        </section>
+        </form>
+
+    </section>
+
+
+    <section class="buffer">
+    </section>
 
 <?php require('allgemein/footer.php'); ?>
-
-
 
 </body>
 
