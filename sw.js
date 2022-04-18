@@ -3,16 +3,34 @@ self.addEventListener("install", e => {
          caches.open("static").then(cache =>{
              return cache.addAll([
                "./", 
-               "./index.js", 
+               "./index.js",
+               "./index.php",
                "./style.css",
                "./sensor.js", 
                "./sensor.php",
+               "./drink.php",
+               "./settings.php",
+               "./timer.php",
+               "./training.php",
                "./webmanifest.json",
+               "./favicon.ico",
+
+               "./allgemein/config.php",
+               "./allgemein/footer.php",
+               "./allgemein/sidemenu.php",
+
                "./bilder/icon57.png",
                "./bilder/icon60.png",
                "./bilder/icon120.png",
                "./bilder/icon192.png",
                "./bilder/icon512.png",
+               "./bilder/IconSchritte.png",
+               "./bilder/IconHome.png",
+               "./bilder/IconTimer.png",
+               "./bilder/IconWasser.png",
+               "./drop.jpg",
+               "./sportback.jpg",
+               "./watercolor.jpg"
              ]);
          })
     );
