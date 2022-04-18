@@ -22,15 +22,6 @@ navigator.permissions.query({ name: 'accelerometer' })
     const BeschleunigungZ = acl.z;
     var aGesamt = Math.sqrt(Math.pow(  Math.sqrt(Math.pow(acl.x, 2) + Math.pow(acl.y, 2) + Math.pow(acl.z, 2)) - 9.5 , 2));
     
-    
-    
-
-
-    
-  
-    /*if(aGesamt < aMin){
-      aMin = aGesamt;
-    }*/
 
     if(aGesamt > 1 && aGesamt < 2){
       anzahlSchritte = anzahlSchritte + 1;
@@ -64,16 +55,16 @@ function showPosition(position) {
 function showError(error) {
   switch(error.code) {
       case error.PERMISSION_DENIED:
-          alert('Sie haben die Abfrage ihrer Position untersagt.');
+          console.log('Sie haben die Abfrage ihrer Position untersagt.');
           break;
       case error.POSITION_UNAVAILABLE:
-          alert('Es sind keine Positionsdaten verfügbar.');
+          console.log('Es sind keine Positionsdaten verfügbar.');
           break;
       case error.TIMEOUT:
-          alert('Das Timeout für die Ortsanfrage wurde überschritten.');
+          console.log('Das Timeout für die Ortsanfrage wurde überschritten.');
           break;
       default:
-          alert('Es ist ein unbekannter Fehler aufgetreten (#' + error.code + ': ' + error.message + ')');
+          console.log('Es ist ein unbekannter Fehler aufgetreten (#' + error.code + ': ' + error.message + ')');
           break;
   }
 };
