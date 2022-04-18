@@ -23,7 +23,7 @@ Uns war von Beginn dieses Projektes klar, dass dies kein leichtes Unterfangen se
 Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p><br>
   
   <h3 id="guide">Installations-Guide</h3>
-  <p>Damit die Installation unserer PWA auch gelingt, sind hier Installations-guids für Windows, Android und IOS aufgeführt. Generell lassen sich PWA, sonfern dies unterstützt ist, problemlos installieren.</p>
+  <p>Damit die Installation unserer PWA auch gelingt, sind hier Installations-guids für Windows, Android und IOS aufgeführt. Generell lassen sich PWA, sofern dies unterstützt ist, problemlos installieren.</p>
   
   <details><summary><h4>Windows</h4></summary>
   
@@ -118,7 +118,7 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
 <li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheint eine Funktion zum Installieren (siehe <a href="#guide">Installations-Guide</a>).</li>
 
 
-<li><b>Push Notifications:</b> Push Notifications sind ebenfalls von nativen Apps bekannt. Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
+<li><b>Push Notifications:</b> Push Notification sind ebenfalls von nativen Apps bekannt. Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
   
 
 <li><b>Offline-Funktionalität:</b> Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen.</li>
