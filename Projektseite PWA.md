@@ -449,13 +449,16 @@ function streckeBerechnen(){
   var schrittLange = Number(localStorage.getItem("schrittLange"));
   var schritte = Number(localStorage.getItem("Schritte"));
   var strecke = (Math.round(((schrittLange / 100) * schritte)* 100) / 100);
+  var gesamtStrecke = Number(localStorage.getItem("streckeges"));
+  var addGesamtStrecke = gesamtStrecke + strecke;
   Strecke.innerHTML = strecke;
+  localStorage.setItem("streckeges", addGesamtStrecke);
 }
 ```
   
 </td><td>
   
-Die Funktion ``streckeBerechnen()`` errechnet mit der Anzahl der Schritte und der Schrittlänge die zurückgelegte Strecke. Dabei werden die Schritte und die Schrittlänge aus dem lokalen Speicher entnommen. Abschließend wird die Strecke im HTML-Dokument angezeigt.
+Die Funktion ``streckeBerechnen()`` errechnet mit der Anzahl der Schritte und der Schrittlänge die zurückgelegte Strecke. Dabei werden die Schritte und die Schrittlänge aus dem lokalen Speicher entnommen. Abschließend wird die Strecke im HTML-Dokument angezeigt. Hier wird auch die Gesamt-Strecke berechnet, die man zurückgelegt hat.
 </td></tr>
 <tr><td>
 
