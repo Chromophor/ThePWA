@@ -229,12 +229,7 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <li><a href="#cCo">5.10 Code der Config - HTML</a></li>
   <li><a href="#cUe">5.11 Code der Übersicht - HTML und Javascript</a></li>
 
-  
-<table>
-<tr><th>Code</th><th>Erklärung</th></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
-</table>
+<br>
 
 <h3 id="cSW">5.1 Code des Service-Workers - JavaScript</h3>
 
@@ -1274,12 +1269,7 @@ Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersich
   
   
   
-  
-<table>
-<tr><th>Code</th><th>Erklärung</th></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
-<tr><td>Inhalt</td><td>Inhalt</td></tr>
-</table>
+<br>
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
   
