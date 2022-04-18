@@ -408,17 +408,16 @@ Hier wird überprüft, ob die Geolocation API verfügbar ist und, ob es eine Erl
 function showError(error) {
   switch(error.code) {
       case error.PERMISSION_DENIED:
-          alert('Sie haben die Abfrage ihrer Position untersagt.');
+          console.log('Sie haben die Abfrage ihrer Position untersagt.');
           break;
       case error.POSITION_UNAVAILABLE:
-          alert('Es sind keine Positionsdaten verfügbar.');
+          console.log('Es sind keine Positionsdaten verfügbar.');
           break;
       case error.TIMEOUT:
-          alert('Das Timeout für die Ortsanfrage wurde überschritten.');
+          console.log('Das Timeout für die Ortsanfrage wurde überschritten.');
           break;
       default:
-          alert('Es ist ein unbekannter Fehler aufgetreten (#' + 
-                                 error.code + ': ' + error.message + ')');
+          console.log('Es ist ein unbekannter Fehler aufgetreten (#' + error.code + ': ' + error.message + ')');
           break;
   }
 };
