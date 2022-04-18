@@ -584,7 +584,7 @@ Außerdem haben wir die Einstellungen überarbeitet, sodass einem nun immer auch
   Wir haben heute die Trinkübersicht in das Gesamtkunstwerk integriert, wobei ein Problem entstand. Die Abmaße des Stylings der Trinkübersicht war doppelt so groß wie die Abmaße unserer anderen Dokumente waren. Dies lag daran, dass wir sonst mit der Device-Width gearbeitet haben, welche die hälfte der eigentlichen Pixel-Größe ist.
   </p>
   
-  <details><summary></summary>
+  <details><summary>Screenshots vom 15.04.2022</summary>
  
   ![grafik](https://user-images.githubusercontent.com/88386045/163566882-a788f926-7cfb-44ca-b505-1b96854aecd8.png)
   
