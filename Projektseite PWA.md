@@ -217,6 +217,14 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Individuelles Trainingsprogramm</h3>
   
 <p>Als Weitere Funktion haben wir einen Timer für ein individuelles Trainingsprogramm integriert. Hierbei gibt es zwei Regler mit denen man sowohl die Trainingszeit als auch die Pausenzeit einstellen kann. Diese beiden Timer wechseln sich immer ab und sind somit perfekt geeignet für ein Krafttraining mit verschiedenen Übungen. Außerdem haben wir zusätzlich zwei Trainingsvorschläge eingesetzt, wo zwei Beispiele für Trainingszeiten bereits eingestellt sind. Zudem gibt es die Möglichkeit das Training zu pausieren. Während des Trainings werden die Runden mitgezählt, die man absolviert hat. Die Ergebnisse werden auch in der Übersicht angezeigt. Hierbei wird unterschieden zwischen den Runden, die man heute gemacht und den Runden, die man seit Installation der App durchgeführt hat. Beide Ergebnisse werden lokal gespeichert und das tägliche Ergebnis immer nachts um 00:00 zurückgesetzt.</p>
+
+  <details><summary>Screenshots des Trainingsprogrammes</summary>
+    
+  ![fertig3](https://user-images.githubusercontent.com/88386049/163937186-d55f431a-abc4-4e22-8e39-4e1149c76e06.PNG)
+  
+  ![fertig4](https://user-images.githubusercontent.com/88386049/163937195-9543298a-80ad-492a-bd9b-fa27cb1a7089.PNG)
+ 
+  </details>
     
     
   <h3>Health-Tipps</h3>
