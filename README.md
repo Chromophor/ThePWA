@@ -31,7 +31,7 @@
   ``HTML``</li>
 <li>
   
-  ``JavaScript``</li>
+  ``JavaScript`` 12,8%</li>
 <li>
   
   ``CSS`` 20,8%</li>
