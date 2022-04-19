@@ -208,6 +208,12 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Schrittzähler</h3>
   <p>Unsere APP verfügt über einen Schrittzähler, wobei ein Java-Script-Programm über eine Web-API mit den Handy-Sensoren überprüft, wann ein Schritt getan wird. Dabei wird über die Beschleunigung des Handys in Richtung aller Koordinaten-Achsen gemessen. Liegt diese zwischen 1 m/s^2 und 2 m/s^2 wird ein Schritt gezählt. In unserem Schrittzähler ist eine Übersicht über die Anzahl der Schritte und einem sich füllender Statusleiste gegeben und wird durch eine Ausgabe der aktuellen Geschwindigkeit, Strecke und der verbrannten Kalorien ergänzt.</p>
   
+  <details><summary>Screenshots des Schrittzählers</summary>
+    
+  ![fertig2](https://user-images.githubusercontent.com/88386049/163936779-a3e2275c-bd90-456e-8901-db7779e9bfd6.PNG)
+ 
+  </details>
+  
   <h3>Individuelles Trainingsprogramm</h3>
   
 <p>Als Weitere Funktion haben wir einen Timer für ein individuelles Trainingsprogramm integriert. Hierbei gibt es zwei Regler mit denen man sowohl die Trainingszeit als auch die Pausenzeit einstellen kann. Diese beiden Timer wechseln sich immer ab und sind somit perfekt geeignet für ein Krafttraining mit verschiedenen Übungen. Außerdem haben wir zusätzlich zwei Trainingsvorschläge eingesetzt, wo zwei Beispiele für Trainingszeiten bereits eingestellt sind. Zudem gibt es die Möglichkeit das Training zu pausieren. Während des Trainings werden die Runden mitgezählt, die man absolviert hat. Die Ergebnisse werden auch in der Übersicht angezeigt. Hierbei wird unterschieden zwischen den Runden, die man heute gemacht und den Runden, die man seit Installation der App durchgeführt hat. Beide Ergebnisse werden lokal gespeichert und das tägliche Ergebnis immer nachts um 00:00 zurückgesetzt.</p>
