@@ -28,7 +28,7 @@
   ``PHP`` 60,3%</li>
 <li>
   
-  ``HTML``</li>
+  ``HTML`` 5,6%</li>
 <li>
   
   ``JavaScript`` 12,8%</li>
