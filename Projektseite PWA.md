@@ -241,6 +241,12 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Einstellungen</h3>
   <p>Falls unser User beim Einrichten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
   
+  <details><summary>Screenshots des Trainingsprogrammes</summary>
+    
+  ![fertig7](https://user-images.githubusercontent.com/88386049/163937680-7028ac7a-a95a-4e32-8d41-140e82e7afe1.PNG)
+ 
+  </details>
+  
   
   
   <h2 id="kapitel5">5. Der Code</h2>
