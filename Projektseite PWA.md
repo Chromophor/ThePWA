@@ -133,8 +133,14 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
 <li><b>Performance:</b> PWAs sind schneller als übliche Web-Apps und benötigen meistens weniger Speicherplatz als native APPs. So ist die PWA von Pinterest gerade einmal 150KB groß, wohingegen die IOS-APP ganze 56MB groß ist. Davon kann die User Experience profitieren. Außerdem kann eine PWA den Web-Traffic nutzen, was bedeutet, dass sie über die URL verlinkbar ist und in Suchmaschinen als Suchergebnis angezeigt werden kann.
   
 <h3>Lighthouse-Bericht</h3>
-<p>Wenn man eine PWA entwickelt hat, bietet das DevTool die Möglichkeit die APP mit Hilfe eines sogenannten "Lighthouse-Tools" die Funktion der PWA zu überprüfen. Dabei wird die Installierbarkeit anhand des Service-Workers und des Webmanifests geprüft.</p>
+<p>Wenn man eine PWA entwickelt hat, bietet das DevTool die Möglichkeit die APP mit Hilfe eines sogenannten "Lighthouse-Tools" die Funktion der PWA zu überprüfen. Dabei wird die Installierbarkeit anhand des Service-Workers und des Webmanifests und einige PWA-Optimierungen geprüft.</p>
   
+  <details><summary>Unser Lighthouse-Bericht</summary>
+    
+   ![Lighthouse](https://user-images.githubusercontent.com/88386049/163938009-964d0d2a-86d8-497a-97a1-3141c73612d5.PNG)
+    
+  </details>
+
   
   <h2 id="kapitel3">3. Projektentwicklung</h2>
 <p>In der ersten Stunde unseres Projektes haben wir uns überlegt, welches Projekt für uns geeignet sein könnte. Wir wollten ein Projekt beginnen, dass unsere Programmier-Kenntnisse fordert und fördert. Zu Beginn standen mehrere Ideen im Raum. So standen wir vor der Auswahl zwischen Programmen zur Erstellung eines Sitzplanes, für schulische Zwecke, einer Einkaufliste, eines Kalenders, verschiedener Minispiele und der Entwicklung einer Lern-App. Wir haben uns abschließend dafür entschieden, eine Fitness-App zu entwickeln. Anschließend stand die Frage im Raum, welche Technologie wir zur Erstellung der App nutzen wollen. Wir hätten eine native App entwickeln können, obwohl wir dafür die Sprachen der spezifischen Entwicklungsumgebung hätten lernen müssen. Da wir uns beide bereits mit der Web-Entwicklung (HTML, PHP, CSS und JavaScript) auskannten und wir schonmal im Internet etwas von dem Konzept der PWA gelesen hatten, stand für uns sehr schnell fest, dass wir eine Fitness-PWA entwickeln wollten. Dass dies aufgrund der neuen und experimentellen Technologie nicht einfach werden würde, war uns bereits am Anfang bewusst.<br>
