@@ -199,6 +199,12 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Übersicht</h3>
   <p>Unsere APP bietet auf der Hauptseite (Homeseite) eine Übersicht über alle Trainingsvorgänge und Erfolge seit Nutzung der APP. Wir geben den Fortschritt des Users mit Hilfe der Nutzung des lokalen Speichers an, wo wir die, im Pop-Up abgefragte Daten und erreichte Schrittzahl speichern und abrufen könne, damit wir sie anzeigen können. Angezeigt werden die Anzahl der Schritte, sowie das Schrittziel, eine Übersicht über die getrunkenen Gläser und eine Übersicht über die durchgeführten Trainingsrunden.</p>
   
+  <details><summary>Screenshots der Übersicht</summary>
+    
+  ![fertig1](https://user-images.githubusercontent.com/88386049/163936707-c279ba8a-d216-4404-8be4-cd20762119ba.PNG)
+ 
+  </details>
+  
   <h3>Schrittzähler</h3>
   <p>Unsere APP verfügt über einen Schrittzähler, wobei ein Java-Script-Programm über eine Web-API mit den Handy-Sensoren überprüft, wann ein Schritt getan wird. Dabei wird über die Beschleunigung des Handys in Richtung aller Koordinaten-Achsen gemessen. Liegt diese zwischen 1 m/s^2 und 2 m/s^2 wird ein Schritt gezählt. In unserem Schrittzähler ist eine Übersicht über die Anzahl der Schritte und einem sich füllender Statusleiste gegeben und wird durch eine Ausgabe der aktuellen Geschwindigkeit, Strecke und der verbrannten Kalorien ergänzt.</p>
   
