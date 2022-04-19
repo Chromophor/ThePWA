@@ -230,6 +230,14 @@ Im dritten Stadium haben wir unsere GUI interaktiv gemacht, indem Werte, wie z.B
   <h3>Health-Tipps</h3>
   <p>Wir schlagen unserem User vor, Sport zu machen und Training durchzuführen. Auch regen wir dazu an, mehr Wasser zu trinken, da dies Gesund ist und viele Menschen leider zu wenig trinken. Deshalb erinnern wir den User durch eine Benachrichtigung daran, genug Wasser zu trinken. Unsere Tipps basieren zwar auf verallgemeinerten Aussagen, wie z.B., dass pro Kg Körpergewicht ca. 35ml Wasser getrunken werden oder, dass pro Schritt ca. 0,035 Kalorien verbraucht werden, dennoch bieten diese eine gute Grundlage für einen Überblick.</p>
   
+  <details><summary>Screenshots der Health-Tipps</summary>
+    
+  ![fertig5](https://user-images.githubusercontent.com/88386049/163937391-686cc1ae-c485-4e54-9eda-ed8389f2b232.PNG)
+  
+  ![fertig6](https://user-images.githubusercontent.com/88386049/163937602-02434173-8790-4264-be80-52a037b8cd18.PNG)
+
+  </details>
+  
   <h3>Einstellungen</h3>
   <p>Falls unser User beim Einrichten der APP einen Fehler gemacht hat, oder sich seine Ansprüche geändert haben, wie z.B., wenn man sich ein höheres tägliches Schrittziel setzten möchte, kann man dies nachträglich in den Einstellungen tun. Die Einstellungen sind so gestaltet, dass man jeden Wert einzeln ändern kann und einem angezeigt wird, welcher Wert vorher eingestellt war.</p>
   
