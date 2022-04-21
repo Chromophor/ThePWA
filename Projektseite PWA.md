@@ -1436,20 +1436,20 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   <li>[2] https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
   <li>[3] https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>[4] https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
-  <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
-  <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
-  <li>https://www.w3schools.com/html/html5_geolocation.asp</li>
-  <li>https://www.w3schools.com/html/html5_webstorage.asp</li>
-  <li>https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs</li>
-  <li>https://developer.mozilla.org/de/docs/Web/API/Push_API</li>
-  <li>https://www.w3.org/TR/push-api/</li>
-  <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
-  <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
+  <li>[5] https://www.w3schools.com/html/html5_geolocation.asp</li>
+  <li>[6] https://www.w3schools.com/html/html5_webstorage.asp</li>
+  <li>[7] https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
+  <li>[8] https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs</li>
+  <li>[9] https://www.w3.org/TR/push-api/</li>
+  <li>[10] https://developer.mozilla.org/de/docs/Web/API/Push_API</li>
+  <li>[11] https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API</li>
+  <li>[12] https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
+  <li>[13] https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
+  <li>[14] https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
   <li>https://androidmag.de/report/10-trends-der-app-entwicklung-die-man-2022-im-auge-behalten-sollte/</li>
   <li>https://www.pwabuilder.com/</li>
   <li>https://www.quora.com/What-are-progressive-web-applications-PWAs</li>
   <li>https://pwa.bar/</li>
-  <li>https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
   <li>https://www.ionos.de/digitalguide/websites/web-entwicklung/progressive-web-apps-welche-vorteile-bieten-sie/</li>
   <li>https://developer.mozilla.org/de/docs/Web/JavaScript/Data_structures</li>
   
