@@ -1455,6 +1455,48 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   
   <h3>Quellen während der Projektphase</h3>
   
+  <p>Wir haben in der Entwicklungsphase der APP sehr viel Zeit mit Recherche verbracht, wie man der Menge der Quellen auch ansehen kann. Dies war leider notwendig, da es zu der Technologie der PWAs nur wenig und selten Informationen im Internet gab, die uns in unserem Projekt weitergebracht haben. Daher mussten wir viele unterschiedlichste Quellen nutzen und brauchbare und interessante Dinge zusammentragen.</p>
+
+<li>https://developers.google.com/web/fundamentals/primers/service-workers</li>
+<li>https://developers.google.com/web/fundamentals/codelabs/push-notifications</li>
+<li>https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications</li>
+<li>https://w3c.github.io/sensors/#sensor-onreading</li>
+<li>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</li>
+<li>https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates-speed</li>
+<li>https://web.dev/add-manifest/#icons</li>
+<li>https://www.w3.org/TR/geolocation/</li>
+<li>https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
+<li>https://wicg.github.io/background-fetch/#background-fetch-event</li>
+<li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-2-Background-Fetch-API-4681556.html</li>
+<li>https://docs.microsoft.com/de-de/microsoft-edge/progressive-web-apps-chromium/how-to/background-syncs</li>
+<li>https://www.heise.de/developer/artikel/Hintergrund-Synchronisation-fuer-PWAs-Teil-1-Background-Sync-API-4676538.html#:~:text=Die%20Background%20Sync%20API%20m%C3%B6chte%20Progressive%20Web%20Apps,Nachricht%20verfassen%2C%20absenden%20und%20das%20Smartphone%20wieder%20wegpacken.</li>
+<li>https://developers.google.com/web/updates/2015/12/background-sync#progressive_enhancement</li>
+<li>https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/</li>
+<li>https://coolors.co/388659-52aa5e-52aa8a-3aaed8-2bd9fe</li>
+<li>https://www.coder-welten.de/javascript/ladebalken-mit-fortschrittsanzeige.htm</li>
+<li>https://www.farb-tabelle.de/de/rgb2hex.htm?q=SteelBlue3</li>
+<li>https://www.html-seminar.de/css-flexbox.htm</li>
+<li>https://t3n.de/news/css-geometrische-figuren-reinem-358616/</li>
+<li>https://codepen.io/jensgro/pen/gagXQo</li>
+<li>https://www.w3schools.com/charsets/ref_emoji.asp</li>
+<li>https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/typeof</li>
+<li>https://web.dev/codelab-apple-touch-icon/</li>
+<li>https://herwig.de/anleitungen/vuepress/manifest.json.html#manifest-json-anpassen</li>
+<li>https://firt.dev/notes/pwa/</li>
+<li>https://firt.dev/notes/pwa-ios/</li>
+<li>https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7</li>
+<li>https://www.w3schools.com/charsets/ref_utf_geometric.asp</li>
+<li>https://pixabay.com/de/photos/rennstrecke-zahlen-nebel-sportplatz-1201014/</li>
+<li>https://wicg.github.io/background-sync/spec/PeriodicBackgroundSync-index.html</li>
+<li>https://www.coder-welten.de/javascript/ladebalken-mit-fortschrittsanzeige.htm</li>
+<li>https://www.bing.com/images/search?view=detailV2&ccid=%2b5%2bdv6u%2f&id=FCB760A075441B7C21B714AD71EB2E68D6C1737D&thid=OIP.-5-dv6u_P-1gNBgqgs2iMAHaNK&mediaurl=https3a%2%2fimage.winudf.com%2fv2%2fimage1%2fcGVkb21ldGVyLnN0ZXBjb3VudGVyLmNhbG9yaWVidXJuZXIucGVkb21ldGVyZm9yd2Fsa2luZ19zY3JlZW5fZGUtREVfMl8xNTU2Mzg3NjQ3XzA1OA%2fscreen2.jpg%3ffakeurl%3d1%26type%3d.jpgcdnurl=https3a%2f2fth.bing.com%2fth%2fid%2fR.fb9f9dbfabbf3fed6034182a82cda230%3frik%3dfXPB1mgu63GtFA%26pid%3dImgRaw%26r%3d0&exph=1280&expw=720&q=schrittz%c3%a4hler+app&simid=608013218678178517&FORM=IRPRST&ck=D48C59347569E2371EB0D0582D956825&selectedIndex=10&ajaxhist=0&ajaxserp=0</li>
+<li>https://github.com/WICG/background-sync/blob/main/explainers/sync-explainer.md</li>
+<li>https://www.w3schools.com/howto/howto_css_shake_image.asp</li>
+<li>https://stackoverflow.com/questions/11807286/how-to-make-div-background-color-transparent-in-css</li>
+<li>https://www.t-online.de/gesundheit/id_91272456/wasserbedarf-rechner-so-viel-wasser-brauchen-sie-pro-tag.html</li>
+<li>https://pixabay.com/de/illustrations/aquarell-hintergrund-blau-aquarell-4490904/</li>
+<li>https://de.w3docs.com/snippets/css/wie-kann-man-ein-hintergrundbild-hinzufugen.html</li>
+<li>https://www.delftstack.com/de/howto/javascript/javascript-if-statement-multiple-conditions/</li>
   
   
   <h2 id="kapitel11">11. Eigenständigkeitserklärung</h2>
