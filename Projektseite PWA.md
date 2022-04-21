@@ -458,7 +458,8 @@ function showError(error) {
           console.log('Das Timeout für die Ortsanfrage wurde überschritten.');
           break;
       default:
-          console.log('Es ist ein unbekannter Fehler aufgetreten (#' + error.code + ': ' + error.message + ')');
+          console.log('Es ist ein unbekannter Fehler
+            aufgetreten (#' + error.code + ': ' + error.message + ')');
           break;
   }
 };
