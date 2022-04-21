@@ -16,7 +16,7 @@
 <li><a href="#kapitel11">11. Eigenständigkeitserklärung</a></li>
 <br>
   <h2 id="kapitell">1. Einleitung</h2>
-<p>Mehr und mehr Menschen nutzen das Smartphone, um auf das Internet zuzugreifen. In Deutschland betraf der Anteil der Internetnutzer via Smartphone schon im Jahr 2014 etwa 69 % aller Internetnutzer und heute im Jahr 2022 vermutlich schon deutlich mehr. Verständlich, da das Smartphone ein mobiler Gegenstand ist, der immer mitgeführt werden kann. Nicht ohne Grund ist die Entwicklung mobiler Apps ein Wachstumsmarkt. Mobile Apps generierten 2019 mehr als die Hälfte des weltweiten Internet-Datenaufkommens und bis 2022 sollen die Umsätze in den App Stores auf 157 Milliarden Dollar steigen. Um Kenntnis von diesem Wachstumsmarkt zu erlangen, haben wir uns in unserem Projekt damit beschäftigt, eine Fitness-App zu entwickeln, die dem Zeitgeist des Fitness-Health-Lifestyle folgen soll und auch auf dem Markt möglichst realistische Chancen hätte.<br><br>
+<p>"Mehr und mehr Menschen nutzen das Smartphone, um auf das Internet zuzugreifen. In Deutschland betraf der Anteil der Internetnutzer via Smartphone schon im Jahr 2014 etwa 69 % aller Internetnutzer" [1] und heute im Jahr 2022 vermutlich schon deutlich mehr. Verständlich, da das Smartphone ein mobiler Gegenstand ist, der immer mitgeführt werden kann. Nicht ohne Grund ist die Entwicklung mobiler Apps ein Wachstumsmarkt. "Mobile Apps generierten 2019 mehr als die Hälfte des weltweiten Internet-Datenaufkommens und bis 2022 sollen die Umsätze in den App Stores auf 157 Milliarden Dollar steigen" [2]. Um Kenntnis von diesem Wachstumsmarkt zu erlangen, haben wir uns in unserem Projekt damit beschäftigt, eine Fitness-App zu entwickeln, die dem Zeitgeist des Fitness-Health-Lifestyle folgen soll und auch auf dem Markt möglichst realistische Chancen hätte.<br><br>
 Uns war von Beginn dieses Projektes klar, dass dies kein leichtes Unterfangen sein würde, da wir uns entschieden haben eine <a href="#kapitel2">Progressive-Web-App (PWA)</a> zu entwickeln. Die Technologie der PWA ist aber erst wenige Jahre alt (wurden erstmals ca. 2015-2016 entwickelt), weshalb vieles noch sehr experimentell ist und es wenig Quellen und Informationen dazu gibt. Dennoch basiert die Technologie auf uns bereits bekannten Sprachen: JavaScript, CSS, PHP und HTML.</p>
   
 <p>Das Projekt haben wir in unserem <a href="Stundenprotokoll PWA.md">Stundenprotokoll</a> dokumentiert. Hier ist jede Unterrichtsstunde mit einem Beitrag und einer dazugehörigen Erläuterung aufgeführt.<br><br>Zur besseren Übersicht gelangt man hier zum <a href="README.md">README.md</a>, wo alle Projektbeiträge zentral verknüpft sind.<br><br>
@@ -1432,6 +1432,8 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   <h2 id="kapitel10">10. Quellen</h2>
   
   <h3>Quellen für Inhalte der Projektseite</h3>
+  <li>[1] https://de.wikipedia.org/wiki/Progressive_Web_App</li>
+  <li>[2] https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
   <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
@@ -1445,8 +1447,6 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API</li>
   <li>https://androidmag.de/report/10-trends-der-app-entwicklung-die-man-2022-im-auge-behalten-sollte/</li>
   <li>https://www.pwabuilder.com/</li>
-  <li>https://de.wikipedia.org/wiki/Progressive_Web_App</li>
-  <li>https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
   <li>https://www.quora.com/What-are-progressive-web-applications-PWAs</li>
   <li>https://pwa.bar/</li>
   <li>https://testpalette.de/schrittzaehler-wie-genau-funktioniert-das-zaehlen-von-schritten/</li>
