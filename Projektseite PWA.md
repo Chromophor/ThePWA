@@ -1363,7 +1363,7 @@ Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersich
   
   <h2 id="kapitel6">6. Der Service-Worker</h2>
   
-  <p>Service-Worker ist ein Element der modernen Webtechnologie und stellt ein Proxy (Kommunikationsschnittstelle) zwischen Server und Webbrowser dar. Service-Worker werden mit Java-Script entwickelt laufen vollständig asynchron und verhindert die Ausführung anderer Scripte, der Hauptlogik der Web-Anwendung nicht. Service-Worker laufen dabei aus Sicherheitsgründen nur über das HTTPS-Protokoll, da veränderte Netzwerkanfragen "Man in the middle"- Angriffe, bei dem sich ein Angreifer in der Kommunikation zwischen User und Server befindet, deutlich leichter machen würden. Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist. Dies stellte sich für uns zu Anfang als Problem dar, welches wir aber umgehen konnten. Stand 10.04.2022 unterstützen folgende Browser die Service-Worker-Technologie:</p>
+  <p>Service-Worker ist ein Element der modernen Webtechnologie und stellt ein Proxy (Kommunikationsschnittstelle) zwischen Server und Webbrowser dar. Service-Worker werden mit Java-Script entwickelt laufen vollständig asynchron und verhindert die Ausführung anderer Scripte, der Hauptlogik der Web-Anwendung nicht. Service-Worker laufen dabei aus Sicherheitsgründen nur über das HTTPS-Protokoll, da veränderte Netzwerkanfragen "Man in the middle"- Angriffe, bei dem sich ein Angreifer in der Kommunikation zwischen User und Server befindet, deutlich leichter machen würden [<a href="kapitel10">3</a>]. Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist. Dies stellte sich für uns zu Anfang als Problem dar, welches wir aber umgehen konnten. Stand 10.04.2022 unterstützen folgende Browser die Service-Worker-Technologie:</p>
   
   <li>Microsoft Edge (basiert auf Chomium)</li>
   <li>Google Chrome</li>
@@ -1373,7 +1373,7 @@ Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersich
   <li><a href="https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API#browser-kompatibilit%C3%A4t">Weitere Informationen</a></li>
   <br>
   
-  Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der User erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er durchläuft dabei den Prozess des Herunterladens und wird anschließend von Browser mit der ```ServiceWorker.register()``` Methode registriert und erst danach ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen. Dabei zeigt die erste Abbildung die Übersicht über die Phasen des Service-Workers und die zweite die Zeit, die der Service-Worker mit Installation (install), Registrierung (waiting) und aktiver Zeit (active) brauchte. Diesem Bild ist auch zu entnehmen, dass in meinem Browser gerade die 64. Version unseres Service-Workers ausgeführt wird. Alle 24 Stunden wird eine neue Version des Service-Workers, sofern eine Internetverbindung besteht, heruntergeladen und aktiviert, um Änderungen der Anwendung anzuzeigen.
+  Ein Service-Worker durchlebt drei Phasen. Er wird sofort heruntergeladen, sobald der User erstmals eine von Service-Workern kontrollierte Seite aufruft. Bei uns wird der Service-Worker auf allen Webseiten eingebunden, weshalb er immer bei jedem Besuch unserer APP installiert wird. Er durchläuft dabei den Prozess des Herunterladens und wird anschließend von Browser mit der ```ServiceWorker.register()``` Methode registriert und erst danach ausgeführt, wie dies die untenstehenden Abbildungen verdeutlichen. Dabei zeigt die erste Abbildung die Übersicht über die Phasen des Service-Workers und die zweite die Zeit, die der Service-Worker mit Installation (install), Registrierung (waiting) und aktiver Zeit (active) brauchte. Diesem Bild ist auch zu entnehmen, dass in meinem Browser gerade die 64. Version unseres Service-Workers ausgeführt wird. Alle 24 Stunden wird eine neue Version des Service-Workers, sofern eine Internetverbindung besteht, heruntergeladen und aktiviert, um Änderungen der Anwendung anzuzeigen [<a href="kapitel10">3</a>].
 
 <img width="972" alt="PNG-Bild(1)" src="https://user-images.githubusercontent.com/88386049/163009212-d7f98c48-33cd-4922-a65f-298fbebac988.png">
 
@@ -1383,7 +1383,7 @@ Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersich
   
   
   <h2 id="kapitel7">7. Die APIs</h2>
-  <p>Die Abkürzung API steht für „Application Programming Interface“ und ist eine Programmierschnittstelle. Mit dieser API-Schnittstelle zur Anwendungsprogrammierung können zwei Anwendungen, die voneinander unabhängig sind, problemlos interagieren und Daten austauschen. Anders ausgedrückt: Eine Programmierschnittstelle dient als „Brücke“ zwischen zwei Programmen, über die Daten hin und her gesendet werden. Wir haben bei unserem Projekt vor allem Web-APIs verwendet, die eine Schnittstelle zwischen dem Browser und z.B. den Sensoren des Handys ermöglicht.</p>
+  <p>Die Abkürzung API steht für „Application Programming Interface“ und ist eine Programmierschnittstelle. Mit dieser API-Schnittstelle zur Anwendungsprogrammierung können zwei Anwendungen, die voneinander unabhängig sind, problemlos interagieren und Daten austauschen. Anders ausgedrückt: Eine Programmierschnittstelle dient als „Brücke“ zwischen zwei Programmen, über die Daten hin und her gesendet werden [<a href="kapitel10">4</a>]. Wir haben bei unserem Projekt vor allem Web-APIs verwendet, die eine Schnittstelle zwischen dem Browser und z.B. den Sensoren des Handys ermöglicht.</p>
                                   
  
 <h3 id="Kompatibilität">Kompatibilität</h3>  
@@ -1434,10 +1434,10 @@ Abschließend kann man jedoch sagen, dass uns das Projekt sehr viel Spaß gemach
   <h3>Quellen für Inhalte der Projektseite</h3>
   <li>[1] https://de.wikipedia.org/wiki/Progressive_Web_App</li>
   <li>[2] https://de.wikipedia.org/wiki/Mobile-App-Entwicklung</li>
-  <li>https://www.w3.org/TR/service-workers/#service-worker-concept</li>
+  <li>[3] https://www.w3.org/TR/service-workers/#service-worker-concept</li>
+  <li>[4] https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Accelerometer</li>
   <li>https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API</li>
-  <li>https://act.com/de/wie-wichtig-ist-eine-api-fur-ihr-unternehmen/</li>
   <li>https://www.w3schools.com/html/html5_geolocation.asp</li>
   <li>https://www.w3schools.com/html/html5_webstorage.asp</li>
   <li>https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs</li>
