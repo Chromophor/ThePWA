@@ -16,7 +16,7 @@
 <li><a href="#kapitel11">11. Eigenständigkeitserklärung</a></li>
 <br>
   <h2 id="kapitell">1. Einleitung</h2>
-<p>"Mehr und mehr Menschen nutzen das Smartphone, um auf das Internet zuzugreifen. In Deutschland betraf der Anteil der Internetnutzer via Smartphone schon im Jahr 2014 etwa 69 % aller Internetnutzer" [1] und heute im Jahr 2022 vermutlich schon deutlich mehr. Verständlich, da das Smartphone ein mobiler Gegenstand ist, der immer mitgeführt werden kann. Nicht ohne Grund ist die Entwicklung mobiler Apps ein Wachstumsmarkt. "Mobile Apps generierten 2019 mehr als die Hälfte des weltweiten Internet-Datenaufkommens und bis 2022 sollen die Umsätze in den App Stores auf 157 Milliarden Dollar steigen" [2]. Um Kenntnis von diesem Wachstumsmarkt zu erlangen, haben wir uns in unserem Projekt damit beschäftigt, eine Fitness-App zu entwickeln, die dem Zeitgeist des Fitness-Health-Lifestyle folgen soll und auch auf dem Markt möglichst realistische Chancen hätte.<br><br>
+<p>"Mehr und mehr Menschen nutzen das Smartphone, um auf das Internet zuzugreifen. In Deutschland betraf der Anteil der Internetnutzer via Smartphone schon im Jahr 2014 etwa 69 % aller Internetnutzer" [<a href="kapitel10">1</a>] und heute im Jahr 2022 vermutlich schon deutlich mehr. Verständlich, da das Smartphone ein mobiler Gegenstand ist, der immer mitgeführt werden kann. Nicht ohne Grund ist die Entwicklung mobiler Apps ein Wachstumsmarkt. "Mobile Apps generierten 2019 mehr als die Hälfte des weltweiten Internet-Datenaufkommens und bis 2022 sollen die Umsätze in den App Stores auf 157 Milliarden Dollar steigen" [<a href="kapitel10">2</a>]. Um Kenntnis von diesem Wachstumsmarkt zu erlangen, haben wir uns in unserem Projekt damit beschäftigt, eine Fitness-App zu entwickeln, die dem Zeitgeist des Fitness-Health-Lifestyle folgen soll und auch auf dem Markt möglichst realistische Chancen hätte.<br><br>
 Uns war von Beginn dieses Projektes klar, dass dies kein leichtes Unterfangen sein würde, da wir uns entschieden haben eine <a href="#kapitel2">Progressive-Web-App (PWA)</a> zu entwickeln. Die Technologie der PWA ist aber erst wenige Jahre alt (wurden erstmals ca. 2015-2016 entwickelt), weshalb vieles noch sehr experimentell ist und es wenig Quellen und Informationen dazu gibt. Dennoch basiert die Technologie auf uns bereits bekannten Sprachen: JavaScript, CSS, PHP und HTML.</p>
   
 <p>Das Projekt haben wir in unserem <a href="Stundenprotokoll PWA.md">Stundenprotokoll</a> dokumentiert. Hier ist jede Unterrichtsstunde mit einem Beitrag und einer dazugehörigen Erläuterung aufgeführt.<br><br>Zur besseren Übersicht gelangt man hier zum <a href="README.md">README.md</a>, wo alle Projektbeiträge zentral verknüpft sind.<br><br>
@@ -100,7 +100,7 @@ Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> ka
   
   
   <h2 id="kapitel2">2. Progressive-Web-App</h2>
-  <p>"Eine Progressive-Web-App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Zusammenspiel aus einer responsiven Website und einer App beschrieben werden. PWAs können mit HTML/PHP, CSS und JavaScript erstellt werden" [1], ähnlich wie "normale" Websites. "Zur Kommunikation zwischen User (Webclient) und Webserver ist das HTTPS-Protokoll vorgeschrieben" [1], weshalb das Testen der PWA bei uns immer unter Simulation eines lokalen Servers geschehen musste, der das HTTPS-Protokoll verwendet.<br>
+  <p>"Eine Progressive-Web-App (PWA) ist eine Website, die zahlreiche Merkmale besitzt, die bislang nativen Apps vorbehalten waren. Sie kann daher auch als Zusammenspiel aus einer responsiven Website und einer App beschrieben werden. PWAs können mit HTML/PHP, CSS und JavaScript erstellt werden" [<a href="kapitel10">1</a>], ähnlich wie "normale" Websites. "Zur Kommunikation zwischen User (Webclient) und Webserver ist das HTTPS-Protokoll vorgeschrieben" [<a href="kapitel10">1</a>], weshalb das Testen der PWA bei uns immer unter Simulation eines lokalen Servers geschehen musste, der das HTTPS-Protokoll verwendet.<br>
 Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Technologie. Da sie häufig nur experimentell unterstützt wird, wird das Konzept der PWA bisher selten angewandt. Es gibt aber bereits große Unternehmen, die auf die Technologie der PWA setzen, weshalb dies vermutlich der nächste Evolutionsschritt der APP-Entwicklung sein wird. Vor allem Google und Meta sind an der Entwicklung dieser Technologie beteiligt.<br><br>
 <b>Beispiele für ausgereifte PWAs sind:</b><br></p>
   <li><a href="https://www.pinterest.de/">Pinterest</a></li>
@@ -115,18 +115,18 @@ Bei PWAs handelt es sich noch um verhältnismäßig neue und futuristische Techn
 
 <h3>Vorteile von Progressive-Web-Apps</h3>
 
-<li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. "Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheint eine Funktion zum Installieren" [1] (siehe <a href="#guide">Installations-Guide</a>).</li>
+<li><b>Add-To-Homescreen/Installierbarkeit:</b> Die App kann "heruntergeladen" werden und erscheint damit auf dem Homescreen. "Die Web-Manifest-Datei erzeugt dabei ein Icon. Im Browser erscheint entweder eine Benachrichtigung zur Installationsbereitschaft (auf mobilen Geräten) oder im Browser-Menü oder der URL-Zeile erscheint eine Funktion zum Installieren" [<a href="kapitel10">1</a>] (siehe <a href="#guide">Installations-Guide</a>).</li>
 
 
-<li><b>Push Notifications:</b> "Push Notification sind ebenfalls von nativen Apps bekannt." [1] Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
+<li><b>Push Notifications:</b> "Push Notification sind ebenfalls von nativen Apps bekannt." [<a href="kapitel10">1</a>] Wir können damit dem Nutzer rückmelden, wenn er noch Wasser zu trinken hat.</li>
   
 
-<li><b>Offline-Funktionalität:</b> "Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen." [1]</li>
+<li><b>Offline-Funktionalität:</b> "Über den Service Worker stehen durch eine Caching-Funktion einmal online vom Server abgerufene Inhalte auch offline zur Verfügung. Auch dieses Merkmal erinnert an native Apps, die keine Internetverbindung voraussetzen." [<a href="kapitel10">1</a>]</li>
   
 
 <li><b>Verfügbarkeit:</b> Statt für Android, IOS, Windows, Mac-OS und das Web eine APP zu entwickeln und implementieren, mussten wir nur unsere eine PWA entwickeln. Sie funktioniert in Grundsätzen unter allen Betriebssystemen (Android, IOS, Windows und Mac-OS, auch wenn diese das Konzept PWA unterschiedlich gut unterstützen). Einschränkungen gibt es vor allem beim Betriebssystem IOS und bei bestimmten Browser. Mehr zur Verfügbarkeit gibt es unter dem Punkt <a href="#kapitel7">API</a>.</li>
 
-<li><b>Hardwarezugriff:</b> "PWAs bieten die Möglichkeit, verschiedene Funktionen zu implementieren, die eigentlich auch nur nativen APPs vorbehalten sind. Es kann auf Sensorik Daten und Kameras zugegriffen werden oder Pushnotification erstellt werden." [1]</li>
+<li><b>Hardwarezugriff:</b> "PWAs bieten die Möglichkeit, verschiedene Funktionen zu implementieren, die eigentlich auch nur nativen APPs vorbehalten sind. Es kann auf Sensorik Daten und Kameras zugegriffen werden oder Pushnotification erstellt werden." [<a href="kapitel10">1</a>]</li>
   
 <li><b>Veröffentlichung:</b> PWAs können im Google Play Store und Microsoft Store relativ einfach veröffentlicht werden. Möchte man die PWA in eine native APP umformen, so bieten zb. die Dienstleister <a href="https://appmaker.xyz/pwa-to-apk">APP-Maker</a> an, die PWA in eine APK umzuwandeln.</li>
 
