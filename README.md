@@ -18,8 +18,8 @@
   Auf unserer eigenen <a href="https://henrik.stormarnschueler.de/">Website</a> kann die PWA angesehen und heruntergeladen werden.</p>
 
 <h2 id="contributors">contributors:</h2>
-<b>@Obeliks003</b> alias Henrik Bormann<br>
-<b>@TheMoonlandingV2</b> alias Thorben Heinz<br>
+<b>@Obeliks003</b><br>
+<b>@TheMoonlandingV2</b>br>
 
 <h2 id="languages">languages</h2>
 
