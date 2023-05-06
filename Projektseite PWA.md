@@ -1366,7 +1366,7 @@ Der Code an dieser Stelle ist beispielhaft für die vier Kästchen der Übersich
   
   <p>Service-Worker ist ein Element der modernen Webtechnologie und stellt ein Proxy (Kommunikationsschnittstelle) zwischen Server und Webbrowser dar. Service-Worker werden mit Java-Script entwickelt laufen vollständig asynchron und verhindert die Ausführung anderer Scripte, der Hauptlogik der Web-Anwendung nicht. Service-Worker laufen dabei aus Sicherheitsgründen nur über das HTTPS-Protokoll, da veränderte Netzwerkanfragen "Man in the middle"- Angriffe, bei dem sich ein Angreifer in der Kommunikation zwischen User und Server befindet, deutlich leichter machen würden [<a href="#kapitel10">3</a>]. Die Service-Worker-Technologie ist noch experimentell, d.h., dass sie noch nicht in jedem Browser implementiert ist. Dies stellte sich für uns zu Anfang als Problem dar, welches wir aber umgehen konnten. Stand 10.04.2022 unterstützen folgende Browser die Service-Worker-Technologie:</p>
   
-  <li>Microsoft Edge (basiert auf Chomium)</li>
+  <li>Microsoft Edge (basiert auf Chromium)</li>
   <li>Google Chrome</li>
   <li>Safari (Basic-Support)</li>
   <li>Samsung Internet</li>
